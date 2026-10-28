@@ -1,0 +1,21 @@
+Update my existing Peloton · Cycling League Site WITHOUT replacing or rebuilding it.
+
+We have an external free automatic cycling-data scraper hosted in a GitHub public repository. It runs twice a day and produces a static JSON file (not a paid cycling API) conforming to schema_version 1.
+
+PUBLIC_FEED_URL = PASTE_MY_ACTUAL_GITHUB_RAW_JSON_URL_HERE
+
+Please integrate this feed into the existing race calendar, start-list selection and administrator data status screen.
+
+Requirements:
+1. Fetch the public URL on load and refresh periodically while the race screen is open. Display the last successful sync timestamp and any warning or unavailable status.
+2. Match existing race records by exact id, or by normalised race name + year. Never duplicate existing races just because a new external record appears.
+3. For race start lists, only trust startlist.status === 'published' AND startlist.edition_year === race.year. Other statuses must show as pending, stale or unavailable, without inventing riders.
+4. Show each rider's name, bib and team. Riders become selectable in the existing draft when the correct edition is published.
+5. Do NOT delete any pick or change the draft order if a rider disappears from a new source snapshot. Flag those selections to the admin for review.
+6. If stage_status === 'published', display stages and rest days from the stages[] objects, and use race_days[] as the real race days. Do not create a stage for rest days.
+7. Do not auto-overwrite the site's manually confirmed draft deadline using date_candidate when date_status is 'change_requires_review'.
+8. When public feed is unavailable, keep the last verified race data stored in Peloton's existing database, or clearly label cached data as stale. Do not overwrite with an empty list.
+9. Add a per-race admin status row: official source URL, startlist status, source edition year, number of riders, last checked, last successful update, stage status and warning.
+10. Preserve ALL existing authentication, members, league standings, scoring, one-day snake draft, Velogames and Grand Tour top-10 logic.
+
+There is a working example of the JSON structure and a simple front-end adapter in the downloadable scraper package. Do not infer new database fields that do not exist; map to the current schema. Implement only necessary changes. Preview and test with both 2027 race records before publishing.
