@@ -1,29 +1,242 @@
 {
   "schema_version": 1,
-  "generated_at": null,
-  "note": "Initial safe placeholder. The first successful GitHub Action will replace this file with checked source results.",
+  "generated_at": "2026-10-28T20:28:12Z",
   "races": [
     {
       "id": "paris-roubaix-2027",
       "name": "Paris-Roubaix",
       "year": 2027,
       "type": "one_day",
+      "organiser": "ASO",
       "start_date": "2027-04-11",
-      "race_days": ["2027-04-11"],
+      "race_days": [
+        "2027-04-11"
+      ],
       "website": "https://www.paris-roubaix.fr/en",
-      "startlist": {"status": "not_checked", "riders": []}
+      "date_source_checked_at": "2026-10-28T20:28:12Z",
+      "date_candidate": "2027-04-11",
+      "date_status": "confirmed_by_official_page",
+      "startlist": {
+        "status": "not_published",
+        "riders": [],
+        "checked_at": "2026-10-28T20:28:12Z",
+        "warning": "https://www.paris-roubaix.fr/en/riders: Source contains 2026 riders, not 2027 | https://www.paris-roubaix.fr/fr/coureurs: Source contains 2026 riders, not 2027",
+        "source_edition_year": 2026
+      }
     },
     {
       "id": "tour-de-france-2027",
       "name": "Tour de France",
       "year": 2027,
       "type": "grand_tour",
+      "organiser": "ASO",
       "start_date": "2027-07-02",
-      "end_date": "2027-07-25",
-      "race_days": [],
+      "race_days": [
+        "2027-07-02",
+        "2027-07-03",
+        "2027-07-04",
+        "2027-07-06",
+        "2027-07-07",
+        "2027-07-08",
+        "2027-07-09",
+        "2027-07-10",
+        "2027-07-11",
+        "2027-07-13",
+        "2027-07-14",
+        "2027-07-15",
+        "2027-07-16",
+        "2027-07-17",
+        "2027-07-18",
+        "2027-07-20",
+        "2027-07-21",
+        "2027-07-22",
+        "2027-07-23",
+        "2027-07-24",
+        "2027-07-25"
+      ],
       "website": "https://www.letour.fr/en",
-      "stage_status": "not_checked",
-      "startlist": {"status": "not_checked", "riders": []}
+      "date_source_checked_at": "2026-10-28T20:28:12Z",
+      "date_status": "retained_from_calendar",
+      "stages": [
+        {
+          "kind": "stage",
+          "number": 1,
+          "date": "2027-07-02",
+          "profile": "Flat",
+          "route": "Édimbourg > Carlisle"
+        },
+        {
+          "kind": "stage",
+          "number": 2,
+          "date": "2027-07-03",
+          "profile": "Hilly",
+          "route": "Keswick > Liverpool"
+        },
+        {
+          "kind": "stage",
+          "number": 3,
+          "date": "2027-07-04",
+          "profile": "Hilly",
+          "route": "Welshpool > Cardiff"
+        },
+        {
+          "kind": "rest",
+          "number": null,
+          "date": "2027-07-05",
+          "profile": "Rest Day",
+          "route": "Cherbourg-en-Cotentin"
+        },
+        {
+          "kind": "stage",
+          "number": 4,
+          "date": "2027-07-06",
+          "profile": "Hilly",
+          "route": "Cherbourg-en-Cotentin > Cherbourg-en-Cotentin"
+        },
+        {
+          "kind": "stage",
+          "number": 5,
+          "date": "2027-07-07",
+          "profile": "Hilly",
+          "route": "Pontorson > Plumelec"
+        },
+        {
+          "kind": "stage",
+          "number": 6,
+          "date": "2027-07-08",
+          "profile": "Hilly",
+          "route": "Vannes > Angers"
+        },
+        {
+          "kind": "stage",
+          "number": 7,
+          "date": "2027-07-09",
+          "profile": "Individual time-trial",
+          "route": "Blois > Chambord"
+        },
+        {
+          "kind": "stage",
+          "number": 8,
+          "date": "2027-07-10",
+          "profile": "Hilly",
+          "route": "Bourges > Le Creusot"
+        },
+        {
+          "kind": "stage",
+          "number": 9,
+          "date": "2027-07-11",
+          "profile": "Mountain",
+          "route": "Villars-les-Dombes Parc des Oiseaux > Grand Colombier"
+        },
+        {
+          "kind": "rest",
+          "number": null,
+          "date": "2027-07-12",
+          "profile": "Rest Day",
+          "route": "Haute-savoie"
+        },
+        {
+          "kind": "stage",
+          "number": 10,
+          "date": "2027-07-13",
+          "profile": "Mountain",
+          "route": "Annecy > Sallanches"
+        },
+        {
+          "kind": "stage",
+          "number": 11,
+          "date": "2027-07-14",
+          "profile": "Mountain",
+          "route": "Cluses > Les Saisies"
+        },
+        {
+          "kind": "stage",
+          "number": 12,
+          "date": "2027-07-15",
+          "profile": "Flat",
+          "route": "Chambéry > Valence"
+        },
+        {
+          "kind": "stage",
+          "number": 13,
+          "date": "2027-07-16",
+          "profile": "Flat",
+          "route": "Aubenas > Montpellier"
+        },
+        {
+          "kind": "stage",
+          "number": 14,
+          "date": "2027-07-17",
+          "profile": "Mountain",
+          "route": "Montpellier > Mende"
+        },
+        {
+          "kind": "stage",
+          "number": 15,
+          "date": "2027-07-18",
+          "profile": "Hilly",
+          "route": "Rodez > Albi"
+        },
+        {
+          "kind": "rest",
+          "number": null,
+          "date": "2027-07-19",
+          "profile": "Rest Day",
+          "route": "Toulouse"
+        },
+        {
+          "kind": "stage",
+          "number": 16,
+          "date": "2027-07-20",
+          "profile": "Individual time-trial",
+          "route": "Toulouse > Toulouse"
+        },
+        {
+          "kind": "stage",
+          "number": 17,
+          "date": "2027-07-21",
+          "profile": "Flat",
+          "route": "Muret > Pau"
+        },
+        {
+          "kind": "stage",
+          "number": 18,
+          "date": "2027-07-22",
+          "profile": "Mountain",
+          "route": "Pau > Saint-Lary-Soulan Col du Portet"
+        },
+        {
+          "kind": "stage",
+          "number": 19,
+          "date": "2027-07-23",
+          "profile": "Mountain",
+          "route": "Hasparren > Laruns"
+        },
+        {
+          "kind": "stage",
+          "number": 20,
+          "date": "2027-07-24",
+          "profile": "Flat",
+          "route": "Maubourguet > Libourne"
+        },
+        {
+          "kind": "stage",
+          "number": 21,
+          "date": "2027-07-25",
+          "profile": "Flat",
+          "route": "Saint-Quentin-en-Yvelines > Paris Champs-Élysées"
+        }
+      ],
+      "end_date": "2027-07-25",
+      "stage_status": "published",
+      "stage_checked_at": "2026-10-28T20:28:12Z",
+      "stage_source_url": "https://www.letour.fr/en/overall-route",
+      "startlist": {
+        "status": "not_published",
+        "riders": [],
+        "checked_at": "2026-10-28T20:28:12Z",
+        "warning": "https://www.letour.fr/en/riders: Roster edition not explicitly identified"
+      }
     }
   ]
 }
