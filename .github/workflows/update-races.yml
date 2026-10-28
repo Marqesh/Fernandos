@@ -1,0 +1,67 @@
+name: Peloton - Update official race data
+
+on:
+  schedule:
+    # Twice a day, UTC. The Python script checks each race only when due.
+    - cron: '23 7,19 * * *'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Re-check all active sources immediately (first run/testing)'
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: peloton-race-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install packages
+        run: python -m pip install -r requirements.txt
+
+      - name: Run offline quality tests
+        run: python -m pytest -q
+
+      - name: Scrape official race pages
+        shell: bash
+        env:
+          RUN_FORCE: ${{ inputs.force || 'false' }}
+        run: |
+          if [ "$RUN_FORCE" = "true" ]; then
+            python scraper.py --force
+          else
+            python scraper.py
+          fi
+
+      - name: Save public JSON feed
+        shell: bash
+        run: |
+          git config user.name 'peloton-data-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/latest.json
+          if git diff --staged --quiet; then
+            echo 'No feed changes'
+          else
+            git commit -m 'Update official cycling data'
+            git push
+          fi
+
+      - name: Raise automated alert if upcoming race data is missing
+        run: python monitor.py data/latest.json
