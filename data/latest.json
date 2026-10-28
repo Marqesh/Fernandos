@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "generated_at": null,
+  "note": "Initial safe placeholder. The first successful GitHub Action will replace this file with checked source results.",
+  "races": [
+    {
+      "id": "paris-roubaix-2027",
+      "name": "Paris-Roubaix",
+      "year": 2027,
+      "type": "one_day",
+      "start_date": "2027-04-11",
+      "race_days": ["2027-04-11"],
+      "website": "https://www.paris-roubaix.fr/en",
+      "startlist": {"status": "not_checked", "riders": []}
+    },
+    {
+      "id": "tour-de-france-2027",
+      "name": "Tour de France",
+      "year": 2027,
+      "type": "grand_tour",
+      "start_date": "2027-07-02",
+      "end_date": "2027-07-25",
+      "race_days": [],
+      "website": "https://www.letour.fr/en",
+      "stage_status": "not_checked",
+      "startlist": {"status": "not_checked", "riders": []}
+    }
+  ]
+}
