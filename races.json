@@ -1,0 +1,55 @@
+{
+  "races": [
+    {
+      "id": "paris-roubaix-2027",
+      "name": "Paris-Roubaix",
+      "year": 2027,
+      "type": "one_day",
+      "start_date": "2027-04-11",
+      "date_format": "mdy",
+      "organiser": "ASO",
+      "website": "https://www.paris-roubaix.fr/en",
+      "startlist_urls": [
+        "https://www.paris-roubaix.fr/en/riders",
+        "https://www.paris-roubaix.fr/fr/coureurs"
+      ],
+      "min_riders": 10,
+      "enabled": true
+    },
+    {
+      "id": "tour-de-france-2027",
+      "name": "Tour de France",
+      "year": 2027,
+      "type": "grand_tour",
+      "start_date": "2027-07-02",
+      "end_date": "2027-07-25",
+      "date_format": "mdy",
+      "organiser": "ASO",
+      "website": "https://www.letour.fr/en",
+      "startlist_urls": [
+        "https://www.letour.fr/en/riders"
+      ],
+      "stage_urls": [
+        "https://www.letour.fr/en/overall-route"
+      ],
+      "expected_stages": 21,
+      "min_riders": 10,
+      "enabled": true
+    },
+    {
+      "id": "paris-roubaix-2026-archive-test",
+      "name": "Paris-Roubaix (historical test)",
+      "year": 2026,
+      "type": "one_day",
+      "start_date": "2026-04-12",
+      "date_format": "mdy",
+      "organiser": "ASO",
+      "website": "https://www.paris-roubaix.fr/en",
+      "startlist_urls": [
+        "https://www.paris-roubaix.fr/en/riders"
+      ],
+      "min_riders": 10,
+      "enabled": false
+    }
+  ]
+}
