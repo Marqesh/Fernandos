@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "generated_at": "2026-10-29T19:37:49Z",
+  "generated_at": "2026-10-29T19:53:36Z",
   "races": [
     {
       "race_id": "figueira-champions-classic-2026",
@@ -10,7 +10,7 @@
         {
           "url": "https://figueirachampionsclassic.com/",
           "verification": "homepage_verified",
-          "checked_at": "2026-10-29T19:36:30Z",
+          "checked_at": "2026-10-29T19:52:25Z",
           "format": "html",
           "bytes": 30667,
           "final_url": "https://figueirachampionsclassic.com/",
@@ -31,7 +31,7 @@
         {
           "url": "https://www.theuaetour.com/teams/",
           "verification": "teams_page_verified",
-          "checked_at": "2026-10-29T19:36:33Z",
+          "checked_at": "2026-10-29T19:52:27Z",
           "format": "html",
           "bytes": 103112,
           "final_url": "https://www.theuaetour.com/teams/",
@@ -45,7 +45,7 @@
         {
           "url": "https://www.theuaetour.com/teams/xds-astana-team-2/?lang=ar",
           "verification": "teams_page_verified",
-          "checked_at": "2026-10-29T19:36:33Z",
+          "checked_at": "2026-10-29T19:52:27Z",
           "format": "html",
           "bytes": 71471,
           "final_url": "https://www.theuaetour.com/teams/xds-astana-team-2/?lang=ar",
@@ -66,7 +66,7 @@
         {
           "url": "https://voltaaoalgarve.com/",
           "verification": "homepage_candidate",
-          "checked_at": "2026-10-29T19:36:36Z",
+          "checked_at": "2026-10-29T19:52:31Z",
           "validation": "error",
           "reason": "SSLError: HTTPSConnectionPool(host='voltaaoalgarve.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERT"
         }
@@ -80,7 +80,7 @@
         {
           "url": "https://www.omloophetnieuwsblad.be/en/race/men-elite/riders",
           "verification": "roster_candidate",
-          "checked_at": "2026-10-29T19:36:37Z",
+          "checked_at": "2026-10-29T19:52:32Z",
           "validation": "error",
           "reason": "HTTPError: 404 Client Error: Not Found for url: https://www.omloophetnieuwsblad.be/en/race/men-elite/riders"
         }
@@ -94,7 +94,7 @@
         {
           "url": "https://www.kuurne-brussel-kuurne.be/",
           "verification": "homepage_candidate",
-          "checked_at": "2026-10-29T19:36:39Z",
+          "checked_at": "2026-10-29T19:52:34Z",
           "format": "html",
           "bytes": 195399,
           "final_url": "https://kuurne-brussel-kuurne.be/",
@@ -115,7 +115,7 @@
         {
           "url": "https://www.strade-bianche.it/en/riders/",
           "verification": "roster_candidate",
-          "checked_at": "2026-10-29T19:36:43Z",
+          "checked_at": "2026-10-29T19:52:38Z",
           "validation": "error",
           "reason": "HTTPError: 404 Client Error: Not Found for url: https://www.strade-bianche.it/en/liveblog/riders-in-the-chasing-group/"
         }
@@ -129,7 +129,7 @@
         {
           "url": "https://www.paris-nice.fr/en/riders",
           "verification": "roster_verified",
-          "checked_at": "2026-10-29T19:36:49Z",
+          "checked_at": "2026-10-29T19:52:42Z",
           "format": "html",
           "bytes": 138640,
           "final_url": "https://www.paris-nice.fr/en/riders",
@@ -150,7 +150,7 @@
         {
           "url": "https://www.tirrenoadriatico.it/en/riders/",
           "verification": "roster_candidate",
-          "checked_at": "2026-10-29T19:36:50Z",
+          "checked_at": "2026-10-29T19:52:43Z",
           "validation": "error",
           "reason": "HTTPError: 404 Client Error: Not Found for url: https://www.tirrenoadriatico.it/en/liveblog/riders-are-now-approaching-the-climb-towards-capodarco/"
         }
@@ -164,7 +164,7 @@
         {
           "url": "https://www.milanosanremo.it/en/riders/",
           "verification": "roster_candidate",
-          "checked_at": "2026-10-29T19:36:57Z",
+          "checked_at": "2026-10-29T19:52:47Z",
           "validation": "error",
           "reason": "HTTPError: 404 Client Error: Not Found for url: https://www.milanosanremo.it/en/riders/"
         }
@@ -178,7 +178,7 @@
         {
           "url": "https://www.voltacatalunya.cat/en/riders",
           "verification": "roster_verified",
-          "checked_at": "2026-10-29T19:37:01Z",
+          "checked_at": "2026-10-29T19:52:51Z",
           "format": "html",
           "bytes": 133883,
           "final_url": "https://www.voltacatalunya.cat/en/riders",
@@ -199,7 +199,7 @@
         {
           "url": "https://www.e3saxoclassic.be/en/",
           "verification": "homepage_candidate",
-          "checked_at": "2026-10-29T19:37:02Z",
+          "checked_at": "2026-10-29T19:52:52Z",
           "format": "html",
           "bytes": 67987,
           "final_url": "https://www.e3saxoclassic.be/",
@@ -220,7 +220,7 @@
         {
           "url": "https://www.rondevanvlaanderen.be/en/race/men-elite/participants",
           "verification": "roster_candidate",
-          "checked_at": "2026-10-29T19:37:04Z",
+          "checked_at": "2026-10-29T19:52:54Z",
           "validation": "error",
           "reason": "HTTPError: 404 Client Error: Not Found for url: https://www.rondevanvlaanderen.be/en/race/men-elite/participants"
         }
@@ -234,7 +234,7 @@
         {
           "url": "https://itzulia.eus/en/teams-2026/",
           "verification": "roster_verified",
-          "checked_at": "2026-10-29T19:37:06Z",
+          "checked_at": "2026-10-29T19:52:56Z",
           "format": "html",
           "bytes": 482551,
           "final_url": "https://itzulia.eus/en/teams-2026/",
@@ -255,7 +255,7 @@
         {
           "url": "https://www.paris-roubaix.fr/en/riders",
           "verification": "roster_verified",
-          "checked_at": "2026-10-29T19:37:07Z",
+          "checked_at": "2026-10-29T19:52:56Z",
           "format": "html",
           "bytes": 144365,
           "final_url": "https://www.paris-roubaix.fr/en/riders",
@@ -276,7 +276,7 @@
         {
           "url": "https://www.amstelgoldrace.nl/",
           "verification": "homepage_candidate",
-          "checked_at": "2026-10-29T19:37:08Z",
+          "checked_at": "2026-10-29T19:52:57Z",
           "format": "html",
           "bytes": 142493,
           "final_url": "https://www.amstelgoldrace.nl/nl",
@@ -297,7 +297,7 @@
         {
           "url": "https://www.fleche-wallonne.be/en/riders",
           "verification": "roster_candidate",
-          "checked_at": "2026-10-29T19:37:09Z",
+          "checked_at": "2026-10-29T19:52:59Z",
           "validation": "error",
           "reason": "ConnectionError: HTTPSConnectionPool(host='www.fleche-wallonne.be', port=443): Max retries exceeded with url: /en/riders (Caused by NameResolutionError(\"HTTPSConnectio"
         }
@@ -311,7 +311,7 @@
         {
           "url": "https://www.liege-bastogne-liege.be/en/riders",
           "verification": "roster_candidate",
-          "checked_at": "2026-10-29T19:37:10Z",
+          "checked_at": "2026-10-29T19:53:00Z",
           "format": "html",
           "bytes": 145206,
           "final_url": "https://www.liege-bastogne-liege.be/en/riders",
@@ -332,7 +332,7 @@
         {
           "url": "https://www.tourderomandie.ch/en/",
           "verification": "homepage_candidate",
-          "checked_at": "2026-10-29T19:37:12Z",
+          "checked_at": "2026-10-29T19:53:01Z",
           "format": "html",
           "bytes": 216558,
           "final_url": "https://www.tourderomandie.ch/en/",
@@ -346,7 +346,7 @@
         {
           "url": "https://www.tourderomandie.ch/en/the-riders/",
           "verification": "homepage_candidate",
-          "checked_at": "2026-10-29T19:37:12Z",
+          "checked_at": "2026-10-29T19:53:01Z",
           "format": "html",
           "bytes": 155267,
           "final_url": "https://www.tourderomandie.ch/en/the-riders/",
@@ -367,7 +367,7 @@
         {
           "url": "https://www.giroditalia.it/en/riders/",
           "verification": "roster_candidate",
-          "checked_at": "2026-10-29T19:37:18Z",
+          "checked_at": "2026-10-29T19:53:07Z",
           "validation": "error",
           "reason": "HTTPError: 404 Client Error: Not Found for url: https://www.giroditalia.it/en/riders/"
         }
@@ -381,7 +381,7 @@
         {
           "url": "https://www.tourauvergnerhonealpes.fr/en/riders",
           "verification": "roster_candidate",
-          "checked_at": "2026-10-29T19:37:20Z",
+          "checked_at": "2026-10-29T19:53:09Z",
           "validation": "error",
           "reason": "SSLError: HTTPSConnectionPool(host='www.tourauvergnerhonealpes.fr', port=443): Max retries exceeded with url: /en/riders (Caused by SSLError(SSLError(1, '[SSL: "
         }
@@ -395,9 +395,9 @@
         {
           "url": "https://www.tourdesuisse.ch/en/media/documents/",
           "verification": "pdf_index_verified",
-          "checked_at": "2026-10-29T19:37:21Z",
+          "checked_at": "2026-10-29T19:53:11Z",
           "format": "html",
-          "bytes": 295776,
+          "bytes": 295766,
           "final_url": "https://www.tourdesuisse.ch/en/media/documents/",
           "title": "Documents | Tour de Suisse",
           "method": "embedded_json",
@@ -409,9 +409,9 @@
         {
           "url": "https://www.tourdesuisse.ch/en/teams/",
           "verification": "pdf_index_verified",
-          "checked_at": "2026-10-29T19:37:21Z",
+          "checked_at": "2026-10-29T19:53:11Z",
           "format": "html",
-          "bytes": 157487,
+          "bytes": 157394,
           "final_url": "https://www.tourdesuisse.ch/en/teams/",
           "title": "Teams | Tour de Suisse",
           "method": "embedded_json",
@@ -423,7 +423,7 @@
         {
           "url": "https://www.tourdesuisse.ch/wp-content/uploads/01_TDS_Partants-Men.pdf",
           "verification": "pdf_index_verified",
-          "checked_at": "2026-10-29T19:37:21Z",
+          "checked_at": "2026-10-29T19:53:11Z",
           "format": "pdf",
           "bytes": 326802,
           "final_url": "https://www.tourdesuisse.ch/wp-content/uploads/01_TDS_Partants-Men.pdf",
@@ -463,7 +463,7 @@
         {
           "url": "https://www.tourdesuisse.ch/wp-content/uploads/Start-List-TdS-Men-4.pdf",
           "verification": "pdf_index_verified",
-          "checked_at": "2026-10-29T19:37:21Z",
+          "checked_at": "2026-10-29T19:53:11Z",
           "format": "pdf",
           "bytes": 341433,
           "final_url": "https://www.tourdesuisse.ch/wp-content/uploads/Start-List-TdS-Men-4.pdf",
@@ -510,7 +510,7 @@
         {
           "url": "https://www.letour.fr/en/riders",
           "verification": "roster_candidate",
-          "checked_at": "2026-10-29T19:37:28Z",
+          "checked_at": "2026-10-29T19:53:17Z",
           "format": "html",
           "bytes": 97064,
           "final_url": "https://www.letour.fr/en/riders",
@@ -524,7 +524,7 @@
         {
           "url": "https://www.letour.fr/en/riders#2026-edition",
           "verification": "roster_candidate",
-          "checked_at": "2026-10-29T19:37:28Z",
+          "checked_at": "2026-10-29T19:53:17Z",
           "format": "html",
           "bytes": 97064,
           "final_url": "https://www.letour.fr/en/riders#2026-edition",
@@ -538,7 +538,7 @@
         {
           "url": "https://www.letour.fr/en/riders#tour-culture",
           "verification": "roster_candidate",
-          "checked_at": "2026-10-29T19:37:28Z",
+          "checked_at": "2026-10-29T19:53:17Z",
           "format": "html",
           "bytes": 97064,
           "final_url": "https://www.letour.fr/en/riders#tour-culture",
@@ -559,7 +559,7 @@
         {
           "url": "https://klasikoa.eus/es/equipos-2026/",
           "verification": "teams_page_verified",
-          "checked_at": "2026-10-29T19:37:31Z",
+          "checked_at": "2026-10-29T19:53:20Z",
           "format": "html",
           "bytes": 553270,
           "final_url": "https://klasikoa.eus/es/equipos-2026/",
@@ -580,7 +580,7 @@
         {
           "url": "https://www.tourdepologne.pl/en/",
           "verification": "homepage_candidate",
-          "checked_at": "2026-10-29T19:37:32Z",
+          "checked_at": "2026-10-29T19:53:20Z",
           "format": "html",
           "bytes": 206221,
           "final_url": "https://www.tourdepologne.pl/en/",
@@ -594,7 +594,7 @@
         {
           "url": "https://www.tourdepologne.pl/en/uci-world-tour-teams/",
           "verification": "homepage_candidate",
-          "checked_at": "2026-10-29T19:37:32Z",
+          "checked_at": "2026-10-29T19:53:20Z",
           "format": "html",
           "bytes": 110819,
           "final_url": "https://www.tourdepologne.pl/en/uci-world-tour-teams/",
@@ -615,7 +615,7 @@
         {
           "url": "https://www.lavuelta.es/en/riders",
           "verification": "roster_candidate",
-          "checked_at": "2026-10-29T19:37:35Z",
+          "checked_at": "2026-10-29T19:53:23Z",
           "format": "html",
           "bytes": 149119,
           "final_url": "https://www.lavuelta.es/en/riders",
@@ -636,9 +636,9 @@
         {
           "url": "https://gpcqm.ca/en/",
           "verification": "homepage_candidate",
-          "checked_at": "2026-10-29T19:37:36Z",
+          "checked_at": "2026-10-29T19:53:24Z",
           "format": "html",
-          "bytes": 202797,
+          "bytes": 202799,
           "final_url": "https://gpcqm.ca/en/",
           "title": "Grands Prix Cyclistes | Québec et Montréal 2026 | UCI World Tour",
           "method": "embedded_json",
@@ -657,7 +657,7 @@
         {
           "url": "https://www.uci.org/competition-hub/2026-uci-road-world-championships/14QBdFX8GqbCHUPE234D0Q",
           "verification": "race_filter_required",
-          "checked_at": "2026-10-29T19:37:37Z",
+          "checked_at": "2026-10-29T19:53:25Z",
           "format": "html",
           "bytes": 101854,
           "final_url": "https://www.uci.org/competition-hub/2026-uci-road-world-championships/14QBdFX8GqbCHUPE234D0Q",
@@ -678,7 +678,7 @@
         {
           "url": "https://www.uci.org/competition-hub/2026-uci-road-world-championships/14QBdFX8GqbCHUPE234D0Q",
           "verification": "race_filter_required",
-          "checked_at": "2026-10-29T19:37:41Z",
+          "checked_at": "2026-10-29T19:53:27Z",
           "format": "html",
           "bytes": 101854,
           "final_url": "https://www.uci.org/competition-hub/2026-uci-road-world-championships/14QBdFX8GqbCHUPE234D0Q",
@@ -699,7 +699,7 @@
         {
           "url": "https://www.uec.ch/en/event/281/2026-uec-road-european-championships",
           "verification": "pdf_index_verified",
-          "checked_at": "2026-10-29T19:37:41Z",
+          "checked_at": "2026-10-29T19:53:28Z",
           "format": "html",
           "bytes": 37004,
           "final_url": "https://www.uec.ch/en/event/281/2026-uec-road-european-championships",
@@ -713,7 +713,7 @@
         {
           "url": "https://www.uec.ch/resources/2026%20Events/road%20lubiana/liste/start/Men%20Elite%20Road%20Race%2C%20Start%20List%20-%20grouped%20by%20team.pdf",
           "verification": "pdf_index_verified",
-          "checked_at": "2026-10-29T19:37:41Z",
+          "checked_at": "2026-10-29T19:53:28Z",
           "format": "pdf",
           "bytes": 419701,
           "final_url": "https://www.uec.ch/resources/2026%20Events/road%20lubiana/liste/start/Men%20Elite%20Road%20Race%2C%20Start%20List%20-%20grouped%20by%20team.pdf",
@@ -760,7 +760,7 @@
         {
           "url": "https://www.ilombardia.it/en/news/il-lombardia-2026-the-entry-list-has-been-announced/",
           "verification": "entry_list_link_verified",
-          "checked_at": "2026-10-29T19:37:46Z",
+          "checked_at": "2026-10-29T19:53:33Z",
           "format": "html",
           "bytes": 105604,
           "final_url": "https://www.ilombardia.it/en/news/il-lombardia-2026-the-entry-list-has-been-announced/",
