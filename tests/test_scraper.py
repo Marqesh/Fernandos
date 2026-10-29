@@ -9,7 +9,17 @@ from scraper import (choose_roster, parse_page_date, scrape_race, validate_roste
 FIXTURE = Path(__file__).parent / "fixtures"
 CONFIG = Path(__file__).parent.parent / "races.json"
 RACE_2027 = json.loads(CONFIG.read_text(encoding="utf-8"))["races"][0]
-RACE_2026 = next(x for x in json.loads(CONFIG.read_text(encoding="utf-8"))["races"] if x["year"] == 2026)
+# Historical test fixture is intentionally separate from the 2027 production calendar.
+# Never reintroduce a 2026 race into races.json only to satisfy a test.
+RACE_2026 = {
+    **copy.deepcopy(RACE_2027),
+    "id": "paris-roubaix-2026-test-fixture",
+    "year": 2026,
+    "start_date": "2026-04-12",
+    "startlist_urls": ["https://www.paris-roubaix.fr/en/riders"],
+    "min_riders": 10,
+}
+
 NOW = dt.datetime(2026, 10, 28, 18, 0, tzinfo=dt.timezone.utc)
 
 
