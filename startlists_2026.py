@@ -22,6 +22,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from scraper import choose_roster, validate_roster, norm_key, normalize
+from pdf_adapters import parse_uec_men_elite_rr, parse_tds_startlist
 
 AGENT = "PelotonLeaguePublicPageReader/2.0 (noncommercial cycling league; public pages only)"
 USER_HEADERS = {"User-Agent": AGENT, "Accept": "text/html,application/pdf;q=0.9,*/*;q=0.5"}
@@ -176,6 +177,16 @@ def parse_pdf_roster(binary:bytes, race:dict, source_url:str)->tuple[list[dict],
                 return [],year,'pdf_wrong_category',{'pages':len(doc),'year_candidates':sorted(years)}
             if race['organiser_family']=='uci' and not all(x in prefix for x in ('men','elite')):
                 return [],year,'pdf_wrong_category',{'pages':len(doc),'year_candidates':sorted(years)}
+        # Organiser-specific adapters handle layouts that generic country-code
+        # extraction cannot understand (two-column UEC and TDS UCI-ID sheets).
+        if race.get('organiser_family') == 'uec' and race.get('key') == 'european-championships-me-rr':
+            special, special_meta = parse_uec_men_elite_rr(doc)
+            if special:
+                return special, year, 'uec_visual_columns', special_meta
+        if race.get('key') == 'tour-de-suisse':
+            special, special_meta = parse_tds_startlist(doc)
+            if special:
+                return special, year, 'tds_startlist', special_meta
         strategies=pdf_lines(doc)
         candidates={method:pdf_riders(lines) for method,lines in strategies.items()}
         method=max(candidates,key=lambda x:len(candidates[x]))
