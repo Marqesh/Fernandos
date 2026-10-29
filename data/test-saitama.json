@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-29T11:47:24Z",
+  "generated_at": "2026-10-29T11:50:29Z",
   "races": [
     {
       "id": "saitama-criterium-2026-test",
@@ -13,7 +13,7 @@
         "2026-11-15"
       ],
       "website": "https://saitama-criterium.jp/",
-      "date_source_checked_at": "2026-10-29T11:47:24Z",
+      "date_source_checked_at": "2026-10-29T11:50:29Z",
       "date_status": "retained_from_calendar",
       "startlist": {
         "status": "published",
@@ -21,8 +21,8 @@
         "source_edition_year": 2026,
         "method": "saitama_bilingual_cards",
         "source_url": "https://saitama-criterium.jp/crtm2026/team/team-cyclist-fa/",
-        "checked_at": "2026-10-29T11:47:24Z",
-        "last_success_at": "2026-10-29T11:47:24Z",
+        "checked_at": "2026-10-29T11:50:29Z",
+        "last_success_at": "2026-10-29T11:50:29Z",
         "riders": [
           {
             "bib": null,
@@ -91,7 +91,11 @@
           }
         ],
         "count": 13,
-        "completeness": "provisional"
+        "completeness": "provisional",
+        "changes": {
+          "added": [],
+          "removed": []
+        }
       }
     }
   ]
