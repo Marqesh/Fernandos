@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "event_id": "europe-road-men-elite-2026-test",
+  "event": "2026 UEC European Championships Road Race Men Elite",
+  "edition_year": 2026,
+  "race_date": "2026-10-04",
+  "source": "https://www.domestiquecycling.com/en/cycling-races/europe-rr-men/2026/startlist/",
+  "checked_at": "2026-10-29T14:22:50.044067+00:00",
+  "status": "unavailable",
+  "riders": [],
+  "http_status": 200,
+  "warning": "ValueError: Insufficient verified riders: 0 in 0 teams"
+}
