@@ -1,0 +1,48 @@
+name: Peloton - Watch 2027 startlists
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 8 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: peloton-watch-2027
+  cancel-in-progress: false
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Regression tests
+        run: python -m pytest -q
+      - name: Inspect official 2027 sources for all 30 races
+        run: python watch_2027.py --delay 1.0
+      - name: Verify year isolation
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path('data/watch-2027.json').read_text())
+          assert len(d['races']) == 30
+          assert all(r['year']==2027 for r in d['races'])
+          assert all(r['startlist'].get('edition_year') in (None,2027) for r in d['races'])
+          print('Confirmed',sum(r['startlist']['status']=='published' for r in d['races']))
+          PY
+      - name: Save isolated watchlist data
+        run: |
+          git config user.name peloton-data-bot
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git fetch origin main
+          git reset --mixed origin/main
+          git add data/watch-2027.json data/watch-2027-diagnostics.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh 2027 official startlist watch [skip ci]'
+            git push
+          fi
