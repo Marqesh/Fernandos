@@ -35,21 +35,6 @@
       "expected_stages": 21,
       "min_riders": 10,
       "enabled": true
-    },
-    {
-      "id": "paris-roubaix-2026-archive-test",
-      "name": "Paris-Roubaix (historical test)",
-      "year": 2026,
-      "type": "one_day",
-      "start_date": "2026-04-12",
-      "date_format": "mdy",
-      "organiser": "ASO",
-      "website": "https://www.paris-roubaix.fr/en",
-      "startlist_urls": [
-        "https://www.paris-roubaix.fr/en/riders"
-      ],
-      "min_riders": 10,
-      "enabled": false
     }
   ]
 }
