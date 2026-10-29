@@ -1,6 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": null,
-  "note": "Independent test feed; run Saitama GitHub workflow to populate",
-  "races": []
+  "generated_at": "2026-10-29T10:55:39Z",
+  "races": [
+    {
+      "id": "saitama-criterium-2026-test",
+      "name": "Tour de France Saitama Criterium (test only)",
+      "year": 2026,
+      "type": "one_day",
+      "organiser": "Saitama Criterium Organising Committee / ASO",
+      "start_date": "2026-11-15",
+      "race_days": [
+        "2026-11-15"
+      ],
+      "website": "https://saitama-criterium.jp/",
+      "date_source_checked_at": "2026-10-29T10:55:39Z",
+      "date_status": "retained_from_calendar",
+      "startlist": {
+        "status": "not_published",
+        "riders": [],
+        "checked_at": "2026-10-29T10:55:39Z",
+        "warning": "https://saitama-criterium.jp/crtm2026/team/team-cyclist-fa/: Only 0 plausible riders (minimum 5)"
+      }
+    }
+  ]
 }

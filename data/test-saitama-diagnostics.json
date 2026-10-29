@@ -1,0 +1,113 @@
+{
+  "checked_at": "2026-10-29T10:55:37.086723+00:00",
+  "source_url": "https://saitama-criterium.jp/crtm2026/team/team-cyclist-fa/",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "final_host": "saitama-criterium.jp",
+  "page_title": "①出場チーム・選手（海外） | 2026 ツール・ド・フランス さいたまクリテリウム 公式サイト",
+  "heading_samples": [
+    {
+      "tag": "h1",
+      "text": "TEAM 出場チーム・選手"
+    },
+    {
+      "tag": "h1",
+      "text": "出場チーム・選手（海外）"
+    },
+    {
+      "tag": "h1",
+      "text": "XDS Astana Team XDS・アスタナ チーム カザフスタン"
+    },
+    {
+      "tag": "h1",
+      "text": "スー・ハオユー Haoyu SU 初出場"
+    },
+    {
+      "tag": "h1",
+      "text": "Uno-X Mobility ウノエックス・モビリティ ノルウェー"
+    },
+    {
+      "tag": "h1",
+      "text": "トースタイン・トレーエン Torstein TRÆEN 初出場"
+    },
+    {
+      "tag": "h1",
+      "text": "フレドリク・ドゥヴァーシュネス Fredrik DVERSNES LAVIK 初出場"
+    },
+    {
+      "tag": "h1",
+      "text": "アンネシュ・スコーシェス Anders SKAARSETH 初出場"
+    },
+    {
+      "tag": "h1",
+      "text": "UAE Team Emirates – XRG UAEチームエミレーツ・XRG UAE"
+    },
+    {
+      "tag": "h1",
+      "text": "ブランドン・マクナルティ Brandon MCNULTY 初出場"
+    },
+    {
+      "tag": "h1",
+      "text": "エネア・サンビネッロ Enea SAMBINELLO 初出場"
+    },
+    {
+      "tag": "h1",
+      "text": "Netcompany INEOS Cycling Team ネットカンパニー・イネオス・サイクリング・チーム イギリス"
+    },
+    {
+      "tag": "h1",
+      "text": "オスカー・オンリー Oscar ONLEY 2大会ぶり 2回目"
+    },
+    {
+      "tag": "h1",
+      "text": "Team Jayco AlUla チーム ジェイコ・アルウラー オーストラリア"
+    },
+    {
+      "tag": "h1",
+      "text": "マイケル・マシューズ Michael MATTHEWS 初出場"
+    },
+    {
+      "tag": "h1",
+      "text": "マウロ・シュミット Mauro SCHMID 初出場"
+    },
+    {
+      "tag": "h1",
+      "text": "フェリックス・エンゲルハート Felix ENGELHARDT 初出場"
+    },
+    {
+      "tag": "h1",
+      "text": "Decathlon CMA CGM Team デカトロン・CMA CGM チーム フランス"
+    },
+    {
+      "tag": "h1",
+      "text": "ポール・セクサス Paul SEIXAS 初出場"
+    },
+    {
+      "tag": "h1",
+      "text": "ニコラ・プロドム Nicolas PRODHOMME 初出場"
+    },
+    {
+      "tag": "h1",
+      "text": "ラスムス・ピーダスン Rasmus Søjberg PEDERSEN 初出場"
+    },
+    {
+      "tag": "h1",
+      "text": "Tour de France Criterium Special Guests ツール・ド・フランス クリテリウム スペシャルゲスト"
+    },
+    {
+      "tag": "h1",
+      "text": "新城 幸也 Yukiya ARASHIRO 12大会連続 12回目"
+    },
+    {
+      "tag": "h1",
+      "text": "ヴァランタン・パレパントル Valentin PARET PEINTRE 2大会連続 2回目"
+    },
+    {
+      "tag": "h1",
+      "text": "エミリアン・ジャクラン Emilien JACQUELIN 初出場"
+    }
+  ],
+  "parsed_year": 2026,
+  "parsed_rider_count": 0,
+  "parsed_rider_examples": []
+}
