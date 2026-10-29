@@ -90,7 +90,7 @@ def parse_uec_men_elite_rr(document):
 def parse_tds_startlist(document):
     """Tour de Suisse PDF: team-code headings, bib/name and eleven-digit UCI ID."""
     first = normalized(document[0].get_text('text')) if len(document) else ''
-    if not re.search(r'(?i)\btour de suisse\b', first) or not re.search(r'(?i)\bstarters?\s+list\b', first):
+    if not re.search(r'(?i)\btour de suisse\b', first) or not re.search(r'(?i)\bstart(?:er|ers|ing)?\s+list\b', first):
         return [], {'reason': 'tds_wrong_document_or_not_starters_list', 'team_count': 0}
     strategies = {
         'tds_full_text': [
