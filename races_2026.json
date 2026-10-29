@@ -1,36 +1,691 @@
 {
+  "schema_version": 2,
+  "season": 2026,
+  "data_scope": "startlists_only",
+  "source": "League 2026 calendar supplied by user, with independent organiser source candidates",
   "races": [
     {
+      "id": "figueira-champions-classic-2026",
+      "key": "figueira-champions-classic",
+      "name": "Figueira Champions Classic",
+      "year": 2026,
+      "type": "one_day",
+      "start_date": "2026-02-14",
+      "organiser_family": "independent",
+      "website": "https://figueirachampionsclassic.com/",
+      "startlist_sources": [
+        {
+          "url": "https://figueirachampionsclassic.com/",
+          "kind": "official_page",
+          "verification": "homepage_verified"
+        }
+      ],
+      "source_verification": "homepage_verified",
+      "min_riders": 55,
+      "min_teams": 10,
+      "enabled": true,
+      "historical": true
+    },
+    {
+      "id": "uae-tour-2026",
+      "key": "uae-tour",
+      "name": "UAE Tour",
+      "year": 2026,
+      "type": "stage_race",
+      "start_date": "2026-02-16",
+      "organiser_family": "rcs",
+      "website": "https://www.theuaetour.com/",
+      "startlist_sources": [
+        {
+          "url": "https://www.theuaetour.com/teams/",
+          "kind": "official_page",
+          "verification": "teams_page_verified"
+        }
+      ],
+      "source_verification": "teams_page_verified",
+      "min_riders": 55,
+      "min_teams": 10,
+      "enabled": true,
+      "historical": true,
+      "end_date": "2026-02-22"
+    },
+    {
+      "id": "volta-ao-algarve-2026",
+      "key": "volta-ao-algarve",
+      "name": "Volta ao Algarve",
+      "year": 2026,
+      "type": "stage_race",
+      "start_date": "2026-02-18",
+      "organiser_family": "fpc",
+      "website": "https://voltaaoalgarve.com/",
+      "startlist_sources": [
+        {
+          "url": "https://voltaaoalgarve.com/",
+          "kind": "official_page",
+          "verification": "homepage_candidate"
+        }
+      ],
+      "source_verification": "homepage_candidate",
+      "min_riders": 55,
+      "min_teams": 10,
+      "enabled": true,
+      "historical": true,
+      "end_date": "2026-02-22"
+    },
+    {
+      "id": "omloop-het-nieuwsblad-2026",
+      "key": "omloop-het-nieuwsblad",
+      "name": "Omloop Het Nieuwsblad",
+      "year": 2026,
+      "type": "one_day",
+      "start_date": "2026-02-28",
+      "organiser_family": "flanders",
+      "website": "https://www.omloophetnieuwsblad.be/",
+      "startlist_sources": [
+        {
+          "url": "https://www.omloophetnieuwsblad.be/en/race/men-elite/riders",
+          "kind": "official_page",
+          "verification": "roster_candidate"
+        }
+      ],
+      "source_verification": "roster_candidate",
+      "min_riders": 55,
+      "min_teams": 10,
+      "enabled": true,
+      "historical": true
+    },
+    {
+      "id": "kuurne-brussel-kuurne-2026",
+      "key": "kuurne-brussel-kuurne",
+      "name": "Kuurne–Brussels–Kuurne",
+      "year": 2026,
+      "type": "one_day",
+      "start_date": "2026-03-01",
+      "organiser_family": "independent",
+      "website": "https://www.kuurne-brussel-kuurne.be/",
+      "startlist_sources": [
+        {
+          "url": "https://www.kuurne-brussel-kuurne.be/",
+          "kind": "official_page",
+          "verification": "homepage_candidate"
+        }
+      ],
+      "source_verification": "homepage_candidate",
+      "min_riders": 55,
+      "min_teams": 10,
+      "enabled": true,
+      "historical": true
+    },
+    {
+      "id": "strade-bianche-2026",
+      "key": "strade-bianche",
+      "name": "Strade Bianche",
+      "year": 2026,
+      "type": "one_day",
+      "start_date": "2026-03-07",
+      "organiser_family": "rcs",
+      "website": "https://www.strade-bianche.it/en/",
+      "startlist_sources": [
+        {
+          "url": "https://www.strade-bianche.it/en/riders/",
+          "kind": "official_page",
+          "verification": "roster_candidate"
+        }
+      ],
+      "source_verification": "roster_candidate",
+      "min_riders": 55,
+      "min_teams": 10,
+      "enabled": true,
+      "historical": true
+    },
+    {
+      "id": "paris-nice-2026",
+      "key": "paris-nice",
+      "name": "Paris–Nice",
+      "year": 2026,
+      "type": "stage_race",
+      "start_date": "2026-03-08",
+      "organiser_family": "aso",
+      "website": "https://www.paris-nice.fr/en",
+      "startlist_sources": [
+        {
+          "url": "https://www.paris-nice.fr/en/riders",
+          "kind": "official_page",
+          "verification": "roster_verified"
+        }
+      ],
+      "source_verification": "roster_verified",
+      "min_riders": 55,
+      "min_teams": 10,
+      "enabled": true,
+      "historical": true,
+      "end_date": "2026-03-15"
+    },
+    {
+      "id": "tirreno-adriatico-2026",
+      "key": "tirreno-adriatico",
+      "name": "Tirreno–Adriatico",
+      "year": 2026,
+      "type": "stage_race",
+      "start_date": "2026-03-09",
+      "organiser_family": "rcs",
+      "website": "https://www.tirrenoadriatico.it/en/",
+      "startlist_sources": [
+        {
+          "url": "https://www.tirrenoadriatico.it/en/riders/",
+          "kind": "official_page",
+          "verification": "roster_candidate"
+        }
+      ],
+      "source_verification": "roster_candidate",
+      "min_riders": 55,
+      "min_teams": 10,
+      "enabled": true,
+      "historical": true,
+      "end_date": "2026-03-15"
+    },
+    {
+      "id": "milano-sanremo-2026",
+      "key": "milano-sanremo",
+      "name": "Milano–Sanremo",
+      "year": 2026,
+      "type": "one_day",
+      "start_date": "2026-03-21",
+      "organiser_family": "rcs",
+      "website": "https://www.milanosanremo.it/en/",
+      "startlist_sources": [
+        {
+          "url": "https://www.milanosanremo.it/en/riders/",
+          "kind": "official_page",
+          "verification": "roster_candidate"
+        }
+      ],
+      "source_verification": "roster_candidate",
+      "min_riders": 55,
+      "min_teams": 10,
+      "enabled": true,
+      "historical": true
+    },
+    {
+      "id": "volta-a-catalunya-2026",
+      "key": "volta-a-catalunya",
+      "name": "Volta a Catalunya",
+      "year": 2026,
+      "type": "stage_race",
+      "start_date": "2026-03-23",
+      "organiser_family": "aso",
+      "website": "https://www.voltacatalunya.cat/en",
+      "startlist_sources": [
+        {
+          "url": "https://www.voltacatalunya.cat/en/riders",
+          "kind": "official_page",
+          "verification": "roster_verified"
+        }
+      ],
+      "source_verification": "roster_verified",
+      "min_riders": 55,
+      "min_teams": 10,
+      "enabled": true,
+      "historical": true,
+      "end_date": "2026-03-29"
+    },
+    {
+      "id": "e3-saxo-classic-2026",
+      "key": "e3-saxo-classic",
+      "name": "E3 Saxo Classic",
+      "year": 2026,
+      "type": "one_day",
+      "start_date": "2026-03-27",
+      "organiser_family": "independent",
+      "website": "https://www.e3saxoclassic.be/en/",
+      "startlist_sources": [
+        {
+          "url": "https://www.e3saxoclassic.be/en/",
+          "kind": "official_page",
+          "verification": "homepage_candidate"
+        }
+      ],
+      "source_verification": "homepage_candidate",
+      "min_riders": 55,
+      "min_teams": 10,
+      "enabled": true,
+      "historical": true
+    },
+    {
+      "id": "ronde-van-vlaanderen-2026",
+      "key": "ronde-van-vlaanderen",
+      "name": "Ronde van Vlaanderen",
+      "year": 2026,
+      "type": "one_day",
+      "start_date": "2026-04-05",
+      "organiser_family": "flanders",
+      "website": "https://www.rondevanvlaanderen.be/en/",
+      "startlist_sources": [
+        {
+          "url": "https://www.rondevanvlaanderen.be/en/race/men-elite/participants",
+          "kind": "official_page",
+          "verification": "roster_candidate"
+        }
+      ],
+      "source_verification": "roster_candidate",
+      "min_riders": 55,
+      "min_teams": 10,
+      "enabled": true,
+      "historical": true
+    },
+    {
+      "id": "itzulia-basque-country-2026",
+      "key": "itzulia-basque-country",
+      "name": "Itzulia Basque Country",
+      "year": 2026,
+      "type": "stage_race",
+      "start_date": "2026-04-06",
+      "organiser_family": "itzulia",
+      "website": "https://itzulia.eus/en/",
+      "startlist_sources": [
+        {
+          "url": "https://itzulia.eus/en/teams-2026/",
+          "kind": "official_page",
+          "verification": "roster_verified"
+        }
+      ],
+      "source_verification": "roster_verified",
+      "min_riders": 55,
+      "min_teams": 10,
+      "enabled": true,
+      "historical": true,
+      "end_date": "2026-04-11",
+      "roster_adapter": "heading_table"
+    },
+    {
       "id": "paris-roubaix-2026",
-      "name": "Paris-Roubaix",
+      "key": "paris-roubaix",
+      "name": "Paris–Roubaix",
       "year": 2026,
       "type": "one_day",
       "start_date": "2026-04-12",
-      "date_format": "mdy",
-      "organiser": "ASO",
+      "organiser_family": "aso",
       "website": "https://www.paris-roubaix.fr/en",
-      "startlist_urls": [
-        "https://www.paris-roubaix.fr/en/riders",
-        "https://www.paris-roubaix.fr/fr/coureurs"
+      "startlist_sources": [
+        {
+          "url": "https://www.paris-roubaix.fr/en/riders",
+          "kind": "official_page",
+          "verification": "roster_verified"
+        }
       ],
-      "min_riders": 10,
-      "enabled": true
+      "source_verification": "roster_verified",
+      "min_riders": 55,
+      "min_teams": 10,
+      "enabled": true,
+      "historical": true
+    },
+    {
+      "id": "amstel-gold-race-2026",
+      "key": "amstel-gold-race",
+      "name": "Amstel Gold Race",
+      "year": 2026,
+      "type": "one_day",
+      "start_date": "2026-04-19",
+      "organiser_family": "independent",
+      "website": "https://www.amstelgoldrace.nl/",
+      "startlist_sources": [
+        {
+          "url": "https://www.amstelgoldrace.nl/",
+          "kind": "official_page",
+          "verification": "homepage_candidate"
+        }
+      ],
+      "source_verification": "homepage_candidate",
+      "min_riders": 55,
+      "min_teams": 10,
+      "enabled": true,
+      "historical": true
+    },
+    {
+      "id": "la-fleche-wallonne-2026",
+      "key": "la-fleche-wallonne",
+      "name": "La Flèche Wallonne",
+      "year": 2026,
+      "type": "one_day",
+      "start_date": "2026-04-22",
+      "organiser_family": "aso",
+      "website": "https://www.fleche-wallonne.be/en",
+      "startlist_sources": [
+        {
+          "url": "https://www.fleche-wallonne.be/en/riders",
+          "kind": "official_page",
+          "verification": "roster_candidate"
+        }
+      ],
+      "source_verification": "roster_candidate",
+      "min_riders": 55,
+      "min_teams": 10,
+      "enabled": true,
+      "historical": true
+    },
+    {
+      "id": "liege-bastogne-liege-2026",
+      "key": "liege-bastogne-liege",
+      "name": "Liège–Bastogne–Liège",
+      "year": 2026,
+      "type": "one_day",
+      "start_date": "2026-04-26",
+      "organiser_family": "aso",
+      "website": "https://www.liege-bastogne-liege.be/en",
+      "startlist_sources": [
+        {
+          "url": "https://www.liege-bastogne-liege.be/en/riders",
+          "kind": "official_page",
+          "verification": "roster_candidate"
+        }
+      ],
+      "source_verification": "roster_candidate",
+      "min_riders": 55,
+      "min_teams": 10,
+      "enabled": true,
+      "historical": true
+    },
+    {
+      "id": "tour-de-romandie-2026",
+      "key": "tour-de-romandie",
+      "name": "Tour de Romandie",
+      "year": 2026,
+      "type": "stage_race",
+      "start_date": "2026-04-28",
+      "organiser_family": "independent",
+      "website": "https://www.tourderomandie.ch/en/",
+      "startlist_sources": [
+        {
+          "url": "https://www.tourderomandie.ch/en/",
+          "kind": "official_page",
+          "verification": "homepage_candidate"
+        }
+      ],
+      "source_verification": "homepage_candidate",
+      "min_riders": 55,
+      "min_teams": 10,
+      "enabled": true,
+      "historical": true,
+      "end_date": "2026-05-03"
+    },
+    {
+      "id": "giro-ditalia-2026",
+      "key": "giro-ditalia",
+      "name": "Giro d’Italia",
+      "year": 2026,
+      "type": "grand_tour",
+      "start_date": "2026-05-08",
+      "organiser_family": "rcs",
+      "website": "https://www.giroditalia.it/en/",
+      "startlist_sources": [
+        {
+          "url": "https://www.giroditalia.it/en/riders/",
+          "kind": "official_page",
+          "verification": "roster_candidate"
+        }
+      ],
+      "source_verification": "roster_candidate",
+      "min_riders": 55,
+      "min_teams": 10,
+      "enabled": true,
+      "historical": true,
+      "end_date": "2026-05-31"
+    },
+    {
+      "id": "tour-auvergne-rhone-alpes-2026",
+      "key": "tour-auvergne-rhone-alpes",
+      "name": "Tour Auvergne–Rhône–Alpes (formerly Critérium du Dauphiné)",
+      "year": 2026,
+      "type": "stage_race",
+      "start_date": "2026-06-07",
+      "organiser_family": "aso",
+      "website": "https://www.tourauvergnerhonealpes.fr/en",
+      "startlist_sources": [
+        {
+          "url": "https://www.tourauvergnerhonealpes.fr/en/riders",
+          "kind": "official_page",
+          "verification": "roster_candidate"
+        }
+      ],
+      "source_verification": "roster_candidate",
+      "min_riders": 55,
+      "min_teams": 10,
+      "enabled": true,
+      "historical": true,
+      "end_date": "2026-06-14"
+    },
+    {
+      "id": "tour-de-suisse-2026",
+      "key": "tour-de-suisse",
+      "name": "Tour de Suisse",
+      "year": 2026,
+      "type": "stage_race",
+      "start_date": "2026-06-17",
+      "organiser_family": "independent",
+      "website": "https://www.tourdesuisse.ch/en/",
+      "startlist_sources": [
+        {
+          "url": "https://www.tourdesuisse.ch/en/media/documents/",
+          "kind": "official_page",
+          "verification": "pdf_index_verified"
+        }
+      ],
+      "source_verification": "pdf_index_verified",
+      "min_riders": 55,
+      "min_teams": 10,
+      "enabled": true,
+      "historical": true,
+      "end_date": "2026-06-21",
+      "document_match": "PDF Startlist Men"
     },
     {
       "id": "tour-de-france-2026",
+      "key": "tour-de-france",
       "name": "Tour de France",
       "year": 2026,
       "type": "grand_tour",
       "start_date": "2026-07-04",
-      "end_date": "2026-07-26",
-      "date_format": "mdy",
-      "organiser": "ASO",
+      "organiser_family": "aso",
       "website": "https://www.letour.fr/en",
-      "startlist_urls": [
-        "https://www.letour.fr/en/riders"
+      "startlist_sources": [
+        {
+          "url": "https://www.letour.fr/en/riders",
+          "kind": "official_page",
+          "verification": "roster_candidate"
+        }
       ],
-      "min_riders": 10,
-      "enabled": true
+      "source_verification": "roster_candidate",
+      "min_riders": 55,
+      "min_teams": 10,
+      "enabled": true,
+      "historical": true,
+      "end_date": "2026-07-26"
+    },
+    {
+      "id": "clasica-san-sebastian-2026",
+      "key": "clasica-san-sebastian",
+      "name": "Donostia San Sebastián Klasikoa",
+      "year": 2026,
+      "type": "one_day",
+      "start_date": "2026-08-01",
+      "organiser_family": "itzulia",
+      "website": "https://klasikoa.eus/en/",
+      "startlist_sources": [
+        {
+          "url": "https://klasikoa.eus/es/equipos-2026/",
+          "kind": "official_page",
+          "verification": "teams_page_verified"
+        }
+      ],
+      "source_verification": "teams_page_verified",
+      "min_riders": 55,
+      "min_teams": 10,
+      "enabled": true,
+      "historical": true,
+      "roster_adapter": "heading_table"
+    },
+    {
+      "id": "tour-de-pologne-2026",
+      "key": "tour-de-pologne",
+      "name": "Tour de Pologne",
+      "year": 2026,
+      "type": "stage_race",
+      "start_date": "2026-08-03",
+      "organiser_family": "independent",
+      "website": "https://www.tourdepologne.pl/en/",
+      "startlist_sources": [
+        {
+          "url": "https://www.tourdepologne.pl/en/",
+          "kind": "official_page",
+          "verification": "homepage_candidate"
+        }
+      ],
+      "source_verification": "homepage_candidate",
+      "min_riders": 55,
+      "min_teams": 10,
+      "enabled": true,
+      "historical": true,
+      "end_date": "2026-08-09"
+    },
+    {
+      "id": "la-vuelta-2026",
+      "key": "la-vuelta",
+      "name": "La Vuelta",
+      "year": 2026,
+      "type": "grand_tour",
+      "start_date": "2026-08-22",
+      "organiser_family": "aso",
+      "website": "https://www.lavuelta.es/en",
+      "startlist_sources": [
+        {
+          "url": "https://www.lavuelta.es/en/riders",
+          "kind": "official_page",
+          "verification": "roster_candidate"
+        }
+      ],
+      "source_verification": "roster_candidate",
+      "min_riders": 55,
+      "min_teams": 10,
+      "enabled": true,
+      "historical": true,
+      "end_date": "2026-09-13"
+    },
+    {
+      "id": "gp-montreal-2026",
+      "key": "gp-montreal",
+      "name": "Grand Prix Cycliste de Montréal",
+      "year": 2026,
+      "type": "one_day",
+      "start_date": "2026-09-13",
+      "organiser_family": "independent",
+      "website": "https://gpcqm.ca/en/",
+      "startlist_sources": [
+        {
+          "url": "https://gpcqm.ca/en/",
+          "kind": "official_page",
+          "verification": "homepage_candidate"
+        }
+      ],
+      "source_verification": "homepage_candidate",
+      "min_riders": 55,
+      "min_teams": 10,
+      "enabled": true,
+      "historical": true
+    },
+    {
+      "id": "worlds-men-elite-itt-2026",
+      "key": "worlds-men-elite-itt",
+      "name": "UCI World Championships — Men Elite Individual Time Trial",
+      "year": 2026,
+      "type": "championship_tt",
+      "start_date": "2026-09-20",
+      "organiser_family": "uci",
+      "website": "https://www.uci.org/competition-hub/2026-uci-road-world-championships/14QBdFX8GqbCHUPE234D0Q",
+      "startlist_sources": [
+        {
+          "url": "https://www.uci.org/competition-hub/2026-uci-road-world-championships/14QBdFX8GqbCHUPE234D0Q",
+          "kind": "official_page",
+          "verification": "race_filter_required"
+        }
+      ],
+      "source_verification": "race_filter_required",
+      "min_riders": 40,
+      "min_teams": 8,
+      "enabled": true,
+      "historical": true,
+      "national_teams": true,
+      "document_match": "Men Elite Individual Time Trial"
+    },
+    {
+      "id": "worlds-men-elite-rr-2026",
+      "key": "worlds-men-elite-rr",
+      "name": "UCI World Championships — Men Elite Road Race",
+      "year": 2026,
+      "type": "one_day",
+      "start_date": "2026-09-27",
+      "organiser_family": "uci",
+      "website": "https://www.uci.org/competition-hub/2026-uci-road-world-championships/14QBdFX8GqbCHUPE234D0Q",
+      "startlist_sources": [
+        {
+          "url": "https://www.uci.org/competition-hub/2026-uci-road-world-championships/14QBdFX8GqbCHUPE234D0Q",
+          "kind": "official_page",
+          "verification": "race_filter_required"
+        }
+      ],
+      "source_verification": "race_filter_required",
+      "min_riders": 40,
+      "min_teams": 8,
+      "enabled": true,
+      "historical": true,
+      "national_teams": true,
+      "document_match": "Men Elite Road Race"
+    },
+    {
+      "id": "european-championships-me-rr-2026",
+      "key": "european-championships-me-rr",
+      "name": "UEC European Championships — Men Elite Road Race",
+      "year": 2026,
+      "type": "one_day",
+      "start_date": "2026-10-04",
+      "organiser_family": "uec",
+      "website": "https://www.uec.ch/en/event/281/2026-uec-road-european-championships",
+      "startlist_sources": [
+        {
+          "url": "https://www.uec.ch/en/event/281/2026-uec-road-european-championships",
+          "kind": "official_page",
+          "verification": "pdf_index_verified"
+        }
+      ],
+      "source_verification": "pdf_index_verified",
+      "min_riders": 40,
+      "min_teams": 8,
+      "enabled": true,
+      "historical": true,
+      "national_teams": true,
+      "document_match": "Road Race Men Elite"
+    },
+    {
+      "id": "il-lombardia-2026",
+      "key": "il-lombardia",
+      "name": "Il Lombardia",
+      "year": 2026,
+      "type": "one_day",
+      "start_date": "2026-10-10",
+      "organiser_family": "rcs",
+      "website": "https://www.ilombardia.it/en/",
+      "startlist_sources": [
+        {
+          "url": "https://www.ilombardia.it/en/news/il-lombardia-2026-the-entry-list-has-been-announced/",
+          "kind": "official_page",
+          "verification": "entry_list_link_verified"
+        }
+      ],
+      "source_verification": "entry_list_link_verified",
+      "min_riders": 55,
+      "min_teams": 10,
+      "enabled": true,
+      "historical": true,
+      "document_match": "entry list"
     }
   ]
 }
