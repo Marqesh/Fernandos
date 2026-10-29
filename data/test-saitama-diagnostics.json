@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-29T10:55:37.086723+00:00",
+  "checked_at": "2026-10-29T11:47:23.004413+00:00",
   "source_url": "https://saitama-criterium.jp/crtm2026/team/team-cyclist-fa/",
   "http_status": 200,
   "content_type": "text/html; charset=UTF-8",
@@ -108,6 +108,32 @@
     }
   ],
   "parsed_year": 2026,
-  "parsed_rider_count": 0,
-  "parsed_rider_examples": []
+  "parsed_rider_count": 13,
+  "parsed_rider_examples": [
+    {
+      "bib": null,
+      "name": "Haoyu SU",
+      "team": "XDS Astana Team XDS"
+    },
+    {
+      "bib": null,
+      "name": "Torstein TRÆEN",
+      "team": "Uno-X Mobility"
+    },
+    {
+      "bib": null,
+      "name": "Fredrik DVERSNES LAVIK",
+      "team": "Uno-X Mobility"
+    },
+    {
+      "bib": null,
+      "name": "Anders SKAARSETH",
+      "team": "Uno-X Mobility"
+    },
+    {
+      "bib": null,
+      "name": "Brandon MCNULTY",
+      "team": "UAE Team Emirates – XRG UAE"
+    }
+  ]
 }
