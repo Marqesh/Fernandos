@@ -209,7 +209,48 @@ def parse_json_records(soup: BeautifulSoup) -> list[dict[str, Any]]:
     return riders
 
 
-def choose_roster(html: str) -> dict[str, Any]:
+# The Saitama 2026 organiser publishes rider cards rather than numbered lists.
+# Preserve missing bibs as null; never invent bib numbers.
+SAITAMA_NAME_RE = re.compile(
+    r"([A-Z][a-zÀ-ÿ'’.-]+(?:\s+[A-Z][a-zÀ-ÿ'’.-]+){0,3}\s+[A-ZÀ-Ÿ][A-ZÀ-Ÿ'’.-]{1,22})(?=$|[^A-Za-zÀ-ÿ])"
+)
+SAITAMA_JAPANESE_RE = re.compile(r"[\u3040-\u30ff\u3400-\u9fff]")
+
+
+def parse_saitama_teams(html: str) -> dict[str, Any]:
+    """Parse Saitama provisional bilingual rider cards using semantic headings."""
+    soup = BeautifulSoup(html, "html.parser")
+    heading_text = " ".join(x.get_text(" ", strip=True) for x in soup.select("title,h1"))
+    year_in_title = re.search(r"(?<!\d)(20\d{2})(?!\d)", heading_text)
+    edition = int(year_in_title.group(1)) if (year_in_title and
+                  any(word in heading_text.lower() for word in ("saitama", "さいたま", "クリテリウム"))) else None
+    riders = []
+    team = None
+    for heading in soup.select("h2,h3,h4,h5,h6"):
+        line = normalize(heading.get_text(" ", strip=True))
+        if not line or len(line) > 165:
+            continue
+        matching = SAITAMA_NAME_RE.search(line)
+        if matching and SAITAMA_JAPANESE_RE.search(line[:matching.start()]):
+            name = normalize(matching.group(1))
+            if team and plausible_name(name):
+                riders.append({"bib": None, "name": name, "team": team})
+            continue
+        if SAITAMA_JAPANESE_RE.search(line) and re.match(r"^[A-Za-z]", line):
+            latin = re.match(r"^([A-Za-z][A-Za-z0-9&./+()'’ -]{3,85})", line)
+            if latin:
+                proposed = normalize(latin.group(1))
+                if not re.search(r"(?i)^(?:the race|news|pick up|overview|course|event|contact)", proposed) and len(proposed.split()) >= 2:
+                    team = proposed
+        elif (heading.name in ("h2", "h3") and not SAITAMA_JAPANESE_RE.search(line)
+              and 4 <= len(line) <= 85 and re.search(r"(?i)\bteam\b|\bcycling\b", line)):
+            team = line
+    return {"edition_year": edition, "method": "saitama_bilingual_cards", "riders": riders}
+
+
+def choose_roster(html: str, adapter: str | None = None) -> dict[str, Any]:
+    if adapter == "saitama":
+        return parse_saitama_teams(html)
     soup = BeautifulSoup(html, "html.parser")
     edition = find_roster_year(soup)
     strategies = {
@@ -231,9 +272,11 @@ def validate_roster(extracted: dict[str, Any], race: dict[str, Any], prev: dict[
     riders = extracted["riders"]
     if len(riders) < int(race.get("min_riders", 10)):
         return False, f"Only {len(riders)} plausible riders (minimum {race.get('min_riders', 10)})"
-    bibs = [r["bib"] for r in riders]
+    bibs = [r.get("bib") for r in riders if r.get("bib") is not None]
     if len(bibs) != len(set(bibs)):
         return False, "Repeated bib numbers in extracted riders"
+    if any(r.get("bib") is None for r in riders) and not race.get("allow_missing_bib"):
+        return False, "Riders missing bib numbers"
     names = [norm_key(r["name"]) for r in riders]
     if len(names) != len(set(names)):
         return False, "Repeated rider names"
@@ -507,7 +550,7 @@ def scrape_race(race: dict[str, Any], previous: dict[str, Any] | None,
     for url in race.get("startlist_urls", []):
         try:
             page = getter(url)
-            extracted = choose_roster(page)
+            extracted = choose_roster(page, adapter=race.get("roster_adapter"))
             valid, reason = validate_roster(extracted, race, old_roster)
             if valid:
                 result["startlist"] = {
@@ -515,6 +558,7 @@ def scrape_race(race: dict[str, Any], previous: dict[str, Any] | None,
                     "source_edition_year": race["year"], "method": extracted["method"],
                     "source_url": url, "checked_at": checked, "last_success_at": checked,
                     "riders": extracted["riders"], "count": len(extracted["riders"]),
+                    "completeness": "provisional" if race.get("provisional_roster") else "not_confirmed_final",
                 }
                 old_riders = {norm_key(r["name"]) for r in old_roster.get("riders", [])}
                 new_riders = {norm_key(r["name"]) for r in extracted["riders"]}
