@@ -55,6 +55,11 @@ jobs:
         run: |
           git config user.name 'peloton-data-bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          # A queued manual run can start from an older dispatch SHA. Move the
+          # local index to the latest remote commit WITHOUT overwriting the
+          # generated working-tree JSON files, then commit only our reports.
+          git fetch origin main
+          git reset --mixed origin/main
           git add data/history-2026.json data/history-2026-diagnostics.json
           if ! git diff --staged --quiet; then
             git commit -m 'Update 2026 historical startlist diagnostics [skip ci]'
