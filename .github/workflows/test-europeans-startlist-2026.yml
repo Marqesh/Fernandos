@@ -1,0 +1,37 @@
+name: Peloton - Test 2026 Slovenia Men Elite Startlist
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - name: Extract historical startlist only
+        id: startlist
+        continue-on-error: true
+        run: python europeans_2026_startlist.py
+      - name: Save isolated test file
+        run: |
+          git config user.name 'peloton-data-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/test-europeans-2026-startlist.json
+          if ! git diff --staged --quiet; then
+            git commit -m 'Update isolated 2026 Men Elite startlist test [skip ci]'
+            git push
+          fi
+      - name: Verify extraction
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=json.loads(Path("data/test-europeans-2026-startlist.json").read_text())
+          print(p["status"],len(p.get("riders",[])),p.get("warning",""))
+          assert p["status"]=="published" and len(p["riders"])>=80
+          PY
