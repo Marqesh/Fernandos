@@ -212,21 +212,21 @@ def parse_json_records(soup: BeautifulSoup) -> list[dict[str, Any]]:
 # The Saitama 2026 organiser publishes rider cards rather than numbered lists.
 # Preserve missing bibs as null; never invent bib numbers.
 SAITAMA_NAME_RE = re.compile(
-    r"([A-Z][a-zÀ-ÿ'’.-]+(?:\s+[A-Z][a-zÀ-ÿ'’.-]+){0,3}\s+[A-ZÀ-Ÿ][A-ZÀ-Ÿ'’.-]{1,22})(?=$|[^A-Za-zÀ-ÿ])"
+    r"(?<![A-Za-zÀ-ÿ])([A-Z][a-zÀ-ÿ'’.-]+(?:\s+[A-Z][a-zÀ-ÿ'’.-]+){0,2}\s+[A-ZÀ-Ÿ][A-ZÀ-Ÿ'’.-]{1,22}(?:\s+[A-ZÀ-Ÿ][A-ZÀ-Ÿ'’.-]{1,22}){0,2})(?![A-Za-zÀ-ÿ])"
 )
 SAITAMA_JAPANESE_RE = re.compile(r"[\u3040-\u30ff\u3400-\u9fff]")
 
 
 def parse_saitama_teams(html: str) -> dict[str, Any]:
-    """Parse Saitama provisional bilingual rider cards using semantic headings."""
+    """Parse bilingual team and rider headings, avoiding special guest entries."""
     soup = BeautifulSoup(html, "html.parser")
-    heading_text = " ".join(x.get_text(" ", strip=True) for x in soup.select("title,h1"))
-    year_in_title = re.search(r"(?<!\d)(20\d{2})(?!\d)", heading_text)
+    title = soup.title.get_text(" ", strip=True) if soup.title else ""
+    year_in_title = re.search(r"(?<!\d)(20\d{2})(?!\d)", title)
     edition = int(year_in_title.group(1)) if (year_in_title and
-                  any(word in heading_text.lower() for word in ("saitama", "さいたま", "クリテリウム"))) else None
+                  any(word in title.lower() for word in ("saitama", "さいたま", "クリテリウム"))) else None
     riders = []
     team = None
-    for heading in soup.select("h2,h3,h4,h5,h6"):
+    for heading in soup.select("h1,h2,h3,h4,h5,h6"):
         line = normalize(heading.get_text(" ", strip=True))
         if not line or len(line) > 165:
             continue
@@ -236,14 +236,15 @@ def parse_saitama_teams(html: str) -> dict[str, Any]:
             if team and plausible_name(name):
                 riders.append({"bib": None, "name": name, "team": team})
             continue
-        if SAITAMA_JAPANESE_RE.search(line) and re.match(r"^[A-Za-z]", line):
-            latin = re.match(r"^([A-Za-z][A-Za-z0-9&./+()'’ -]{3,85})", line)
-            if latin:
-                proposed = normalize(latin.group(1))
-                if not re.search(r"(?i)^(?:the race|news|pick up|overview|course|event|contact)", proposed) and len(proposed.split()) >= 2:
-                    team = proposed
-        elif (heading.name in ("h2", "h3") and not SAITAMA_JAPANESE_RE.search(line)
-              and 4 <= len(line) <= 85 and re.search(r"(?i)\bteam\b|\bcycling\b", line)):
+        japan = SAITAMA_JAPANESE_RE.search(line)
+        if japan and line[0].isascii() and line[0].isalpha():
+            proposed = normalize(line[:japan.start()].strip(" -–—|・"))
+            if (len(proposed) >= 5 and len(proposed.split()) >= 2 and
+                not re.search(r"(?i)^(?:team\s*$|the race|news|pick up|overview|course|event|contact)", proposed)):
+                team = None if re.search(r"(?i)\bspecial guests?\b", proposed) else proposed
+            continue
+        if (heading.name in ("h2", "h3") and not japan and
+              4 <= len(line) <= 85 and re.search(r"(?i)\bteam\b|\bcycling\b", line)):
             team = line
     return {"edition_year": edition, "method": "saitama_bilingual_cards", "riders": riders}
 
