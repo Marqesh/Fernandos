@@ -1,0 +1,6449 @@
+{
+  "schema_version": 1,
+  "season": 2026,
+  "generated_at": "2026-10-29T19:37:49Z",
+  "scope": "historical_startlists_only",
+  "races": [
+    {
+      "id": "figueira-champions-classic-2026",
+      "name": "Figueira Champions Classic",
+      "year": 2026,
+      "type": "one_day",
+      "start_date": "2026-02-14",
+      "website": "https://figueirachampionsclassic.com/",
+      "key": "figueira-champions-classic",
+      "organiser_family": "independent",
+      "startlist": {
+        "status": "unavailable",
+        "riders": [],
+        "checked_at": "2026-10-29T19:36:30Z",
+        "warning": "No validated correct-edition 2026 start list found",
+        "count": 0
+      }
+    },
+    {
+      "id": "uae-tour-2026",
+      "name": "UAE Tour",
+      "year": 2026,
+      "type": "stage_race",
+      "start_date": "2026-02-16",
+      "end_date": "2026-02-22",
+      "website": "https://www.theuaetour.com/",
+      "key": "uae-tour",
+      "organiser_family": "rcs",
+      "startlist": {
+        "status": "unavailable",
+        "riders": [],
+        "checked_at": "2026-10-29T19:36:33Z",
+        "warning": "No validated correct-edition 2026 start list found",
+        "count": 0
+      }
+    },
+    {
+      "id": "volta-ao-algarve-2026",
+      "name": "Volta ao Algarve",
+      "year": 2026,
+      "type": "stage_race",
+      "start_date": "2026-02-18",
+      "end_date": "2026-02-22",
+      "website": "https://voltaaoalgarve.com/",
+      "key": "volta-ao-algarve",
+      "organiser_family": "fpc",
+      "startlist": {
+        "status": "unavailable",
+        "riders": [],
+        "checked_at": "2026-10-29T19:36:36Z",
+        "warning": "No validated correct-edition 2026 start list found",
+        "count": 0
+      }
+    },
+    {
+      "id": "omloop-het-nieuwsblad-2026",
+      "name": "Omloop Het Nieuwsblad",
+      "year": 2026,
+      "type": "one_day",
+      "start_date": "2026-02-28",
+      "website": "https://www.omloophetnieuwsblad.be/",
+      "key": "omloop-het-nieuwsblad",
+      "organiser_family": "flanders",
+      "startlist": {
+        "status": "unavailable",
+        "riders": [],
+        "checked_at": "2026-10-29T19:36:37Z",
+        "warning": "No validated correct-edition 2026 start list found",
+        "count": 0
+      }
+    },
+    {
+      "id": "kuurne-brussel-kuurne-2026",
+      "name": "Kuurne–Brussels–Kuurne",
+      "year": 2026,
+      "type": "one_day",
+      "start_date": "2026-03-01",
+      "website": "https://www.kuurne-brussel-kuurne.be/",
+      "key": "kuurne-brussel-kuurne",
+      "organiser_family": "independent",
+      "startlist": {
+        "status": "unavailable",
+        "riders": [],
+        "checked_at": "2026-10-29T19:36:39Z",
+        "warning": "No validated correct-edition 2026 start list found",
+        "count": 0
+      }
+    },
+    {
+      "id": "strade-bianche-2026",
+      "name": "Strade Bianche",
+      "year": 2026,
+      "type": "one_day",
+      "start_date": "2026-03-07",
+      "website": "https://www.strade-bianche.it/en/",
+      "key": "strade-bianche",
+      "organiser_family": "rcs",
+      "startlist": {
+        "status": "unavailable",
+        "riders": [],
+        "checked_at": "2026-10-29T19:36:43Z",
+        "warning": "No validated correct-edition 2026 start list found",
+        "count": 0
+      }
+    },
+    {
+      "id": "paris-nice-2026",
+      "name": "Paris–Nice",
+      "year": 2026,
+      "type": "stage_race",
+      "start_date": "2026-03-08",
+      "end_date": "2026-03-15",
+      "website": "https://www.paris-nice.fr/en",
+      "key": "paris-nice",
+      "organiser_family": "aso",
+      "startlist": {
+        "status": "published",
+        "edition_year": 2026,
+        "source_url": "https://www.paris-nice.fr/en/riders",
+        "checked_at": "2026-10-29T19:36:49Z",
+        "riders": [
+          {
+            "bib": 1,
+            "name": "JONAS VINGEGAARD",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 2,
+            "name": "EDOARDO AFFINI",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 3,
+            "name": "BRUNO ARMIRAIL",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 4,
+            "name": "VICTOR CAMPENAERTS",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 5,
+            "name": "WILCO KELDERMAN",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 6,
+            "name": "DAVIDE PIGANZOLI",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 7,
+            "name": "AXEL ZINGLE",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 11,
+            "name": "DANIEL FELIPE MARTINEZ POVEDA",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 12,
+            "name": "NICO DENZ",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 13,
+            "name": "LAURENCE PITHIE",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 14,
+            "name": "CALLUM THORNLEY",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 15,
+            "name": "TIM VAN DIJKE",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 16,
+            "name": "MICK VAN DIJKE",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 17,
+            "name": "ALEKSANDR VLASOV",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 21,
+            "name": "OSCAR ONLEY",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 22,
+            "name": "DORIAN GODON",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 23,
+            "name": "MICHAL KWIATKOWSKI",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 24,
+            "name": "CARLOS RODRIGUEZ",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 25,
+            "name": "JOSHUA TARLING",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 26,
+            "name": "KÉVIN VAUQUELIN",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 27,
+            "name": "SAMUEL WATSON",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 31,
+            "name": "BRANDON MCNULTY",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 32,
+            "name": "IVO OLIVEIRA",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 33,
+            "name": "IGOR ARRIETA",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 34,
+            "name": "RUNE HERREGODTS",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 35,
+            "name": "NILS POLITT",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 36,
+            "name": "PAVEL SIVAKOV",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 37,
+            "name": "MARC SOLER",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 41,
+            "name": "JUAN AYUSO",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 42,
+            "name": "JULIEN BERNARD",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 43,
+            "name": "LENNARD KÄMNA",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 44,
+            "name": "SOREN KRAGH ANDERSEN",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 45,
+            "name": "TOMS SKUJINS",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 46,
+            "name": "JAKOB SÖDERQVIST",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 47,
+            "name": "MATHIAS VACEK",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 51,
+            "name": "LENNY MARTINEZ",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 52,
+            "name": "NIKIAS ARNDT",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 53,
+            "name": "PHIL BAUHAUS",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 54,
+            "name": "DAMIANO CARUSO",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 55,
+            "name": "KAMIL GRADEK",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 56,
+            "name": "MATHIJS PAASSCHENS",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 57,
+            "name": "ROBERT STANNARD",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 61,
+            "name": "DAVID GAUDU",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 62,
+            "name": "RÉMI CAVAGNA",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 63,
+            "name": "EWEN COSTIOU",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 64,
+            "name": "JOHAN JACOBS",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 65,
+            "name": "RUDY MOLARD",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 66,
+            "name": "QUENTIN PACHER",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 67,
+            "name": "CLÉMENT RUSSO",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 71,
+            "name": "IVAN ROMEO ABAD",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 72,
+            "name": "ORLUIS ALBERTO AULAR SANABRIA",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 73,
+            "name": "PABLO CASTRILLO ZAPATER",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 74,
+            "name": "JEFFERSON CEPEDA",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 75,
+            "name": "RAUL GARCIA PIERNA",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 76,
+            "name": "MICHEL HEßMANN",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 77,
+            "name": "LORENZO MILESI",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 81,
+            "name": "VALENTIN PARET PEINTRE",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 82,
+            "name": "STEFF CRAS",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 83,
+            "name": "PASCAL EENKHOORN",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 84,
+            "name": "CASPER PEDERSEN",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 85,
+            "name": "JASPER STUYVEN",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 86,
+            "name": "FABIO VAN DEN BOSSCHE",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 87,
+            "name": "BERT VAN LERBERGHE",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 91,
+            "name": "BINIAM GIRMAY",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 92,
+            "name": "LEWIS ASKEY",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 93,
+            "name": "GUILLAUME BOIVIN",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 94,
+            "name": "MATIS LOUVEL",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 95,
+            "name": "RYAN MULLEN",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 96,
+            "name": "RILEY SHEEHAN",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 97,
+            "name": "TOM VAN ASBROECK",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 101,
+            "name": "NICOLAS PRODHOMME",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 102,
+            "name": "STEFAN BISSEGGER",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 103,
+            "name": "CEES BOL",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 104,
+            "name": "ANDREW OSCAR CHAMBERLAIN",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 105,
+            "name": "SANDER DE PESTEL",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 106,
+            "name": "DAAN HOOLE",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 107,
+            "name": "CALLUM SCOTSON",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 111,
+            "name": "PASCAL ACKERMANN",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 112,
+            "name": "ROBERT DONALDSON",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 113,
+            "name": "LUKE DURBRIDGE",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 114,
+            "name": "PATRICK GAMPER",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 115,
+            "name": "LUKA MEZGEC",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 116,
+            "name": "KELLAND O’BRIEN",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 117,
+            "name": "JASHA SÜTTERLIN",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 121,
+            "name": "HAROLD TEJADA",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 122,
+            "name": "NICOLA CONCI",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 123,
+            "name": "YEVGENIY FEDOROV",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 124,
+            "name": "MAX KANTER",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 125,
+            "name": "MIKE TEUNISSEN",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 126,
+            "name": "DARREN VAN BEKKUM",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 127,
+            "name": "NICOLYA VINOKUROV",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 131,
+            "name": "MILAN FRETIN",
+            "team": "COFIDIS"
+          },
+          {
+            "bib": 132,
+            "name": "PIET ALLEGAERT",
+            "team": "COFIDIS"
+          },
+          {
+            "bib": 133,
+            "name": "BRYAN COQUARD",
+            "team": "COFIDIS"
+          },
+          {
+            "bib": 134,
+            "name": "ION IZAGIRRE",
+            "team": "COFIDIS"
+          },
+          {
+            "bib": 135,
+            "name": "ALEX KIRSCH",
+            "team": "COFIDIS"
+          },
+          {
+            "bib": 136,
+            "name": "LOUIS ROULAND",
+            "team": "COFIDIS"
+          },
+          {
+            "bib": 137,
+            "name": "BENJAMIN THOMAS",
+            "team": "COFIDIS"
+          },
+          {
+            "bib": 141,
+            "name": "MATHYS RONDEL",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 142,
+            "name": "WILLIAM BARTA",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 143,
+            "name": "MARCO HALLER",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 144,
+            "name": "PETR KELEMEN",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 145,
+            "name": "ARTHUR KLUCKERS",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 146,
+            "name": "RICK PLUIMERS",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 147,
+            "name": "MATTEO TRENTIN",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 151,
+            "name": "GUILLERMO JUAN MARTINEZ HUERTAS",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 152,
+            "name": "TIMO DE JONG",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 153,
+            "name": "CHRISTOPHER HAMILTON",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 154,
+            "name": "NIKLAS MÄRKL",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 155,
+            "name": "TIM NABERMAN",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 156,
+            "name": "TIMO ROOSEN",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 157,
+            "name": "CASPER CORNELIS VAN UDEN",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 161,
+            "name": "LUKE LAMPERTI",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 162,
+            "name": "KASPER ASGREEN",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 163,
+            "name": "ALEX BAUDIN",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 164,
+            "name": "ALASTAIR MACKELLAR",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 165,
+            "name": "GEORG STEINHAUSER",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 166,
+            "name": "MARIJN VAN DEN BERG",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 167,
+            "name": "MAX WALKER",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 171,
+            "name": "ANDREAS LEKNESSUND",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 172,
+            "name": "SVEN ERIK BYSTROM",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 173,
+            "name": "STIAN EDVARDSEN-FREDHEIM",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 174,
+            "name": "BLUME WILLIAM LEVY",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 175,
+            "name": "SAKARIAS KOLLER LØLAND",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 176,
+            "name": "RASMUS TILLER",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 177,
+            "name": "TORSTEIN TRÆEN",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 181,
+            "name": "EDWARD DUNBAR",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 182,
+            "name": "FABIO CHRISTEN",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 183,
+            "name": "AIME DE GENDT",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 184,
+            "name": "DAVID DE LA CRUZ",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 185,
+            "name": "FREDERIK FRISON",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 186,
+            "name": "EMMANUEL HOUCOU",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 187,
+            "name": "NICKOLAS ZUKOWSKY",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 191,
+            "name": "ANTHONY TURGIS",
+            "team": "TOTALENERGIES"
+          },
+          {
+            "bib": 192,
+            "name": "FLORIAN DAUPHIN",
+            "team": "TOTALENERGIES"
+          },
+          {
+            "bib": 193,
+            "name": "JORIS DELBOVE",
+            "team": "TOTALENERGIES"
+          },
+          {
+            "bib": 194,
+            "name": "ALEXANDRE DELETTRE",
+            "team": "TOTALENERGIES"
+          },
+          {
+            "bib": 195,
+            "name": "SANDY DUJARDIN",
+            "team": "TOTALENERGIES"
+          },
+          {
+            "bib": 196,
+            "name": "MATHIS LE BERRE",
+            "team": "TOTALENERGIES"
+          },
+          {
+            "bib": 197,
+            "name": "MATTEO VERCHER",
+            "team": "TOTALENERGIES"
+          },
+          {
+            "bib": 201,
+            "name": "JENSEN PLOWRIGHT",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 202,
+            "name": "MAURICE BALLERSTEDT",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 203,
+            "name": "RAMSES DEBRUYNE",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 204,
+            "name": "SIMON DEHAIRS",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 205,
+            "name": "LINDSAY DE VYLDER",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 206,
+            "name": "JONAS GEENS",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 207,
+            "name": "TIM MARSMAN",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 211,
+            "name": "MILAN MENTEN",
+            "team": "LOTTO INTERMARCHE"
+          },
+          {
+            "bib": 212,
+            "name": "VITO BRAET",
+            "team": "LOTTO INTERMARCHE"
+          },
+          {
+            "bib": 213,
+            "name": "JOSHUA GIDDINGS",
+            "team": "LOTTO INTERMARCHE"
+          },
+          {
+            "bib": 214,
+            "name": "SÉBASTIEN GRIGNARD",
+            "team": "LOTTO INTERMARCHE"
+          },
+          {
+            "bib": 215,
+            "name": "JONAS RUTSCH",
+            "team": "LOTTO INTERMARCHE"
+          },
+          {
+            "bib": 216,
+            "name": "LUCA VAN BOVEN",
+            "team": "LOTTO INTERMARCHE"
+          },
+          {
+            "bib": 217,
+            "name": "ROEL VAN SINTMAARTENSDIJK",
+            "team": "LOTTO INTERMARCHE"
+          }
+        ],
+        "count": 154,
+        "method": "semantic_html",
+        "completeness": "archived_startlist_not_verified_final"
+      }
+    },
+    {
+      "id": "tirreno-adriatico-2026",
+      "name": "Tirreno–Adriatico",
+      "year": 2026,
+      "type": "stage_race",
+      "start_date": "2026-03-09",
+      "end_date": "2026-03-15",
+      "website": "https://www.tirrenoadriatico.it/en/",
+      "key": "tirreno-adriatico",
+      "organiser_family": "rcs",
+      "startlist": {
+        "status": "unavailable",
+        "riders": [],
+        "checked_at": "2026-10-29T19:36:50Z",
+        "warning": "No validated correct-edition 2026 start list found",
+        "count": 0
+      }
+    },
+    {
+      "id": "milano-sanremo-2026",
+      "name": "Milano–Sanremo",
+      "year": 2026,
+      "type": "one_day",
+      "start_date": "2026-03-21",
+      "website": "https://www.milanosanremo.it/en/",
+      "key": "milano-sanremo",
+      "organiser_family": "rcs",
+      "startlist": {
+        "status": "unavailable",
+        "riders": [],
+        "checked_at": "2026-10-29T19:36:57Z",
+        "warning": "No validated correct-edition 2026 start list found",
+        "count": 0
+      }
+    },
+    {
+      "id": "volta-a-catalunya-2026",
+      "name": "Volta a Catalunya",
+      "year": 2026,
+      "type": "stage_race",
+      "start_date": "2026-03-23",
+      "end_date": "2026-03-29",
+      "website": "https://www.voltacatalunya.cat/en",
+      "key": "volta-a-catalunya",
+      "organiser_family": "aso",
+      "startlist": {
+        "status": "published",
+        "edition_year": 2026,
+        "source_url": "https://www.voltacatalunya.cat/en/riders",
+        "checked_at": "2026-10-29T19:37:01Z",
+        "riders": [
+          {
+            "bib": 1,
+            "name": "REMCO EVENEPOEL",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 2,
+            "name": "FLORIAN LIPOWITZ",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 3,
+            "name": "JAI HINDLEY",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 4,
+            "name": "LUKE TUCKWELL",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 5,
+            "name": "NICO DENZ",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 6,
+            "name": "MATTIA CATTANEO",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 7,
+            "name": "FREDERIK WANDAHL",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 11,
+            "name": "JOAO PEDRO GONÇALVES ALMEIDA",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 12,
+            "name": "JAY VINE",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 13,
+            "name": "BRANDON MCNULTY",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 14,
+            "name": "MARC SOLER",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 15,
+            "name": "IVO OLIVEIRA",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 16,
+            "name": "FILIPPO BARONCINI",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 17,
+            "name": "ADRIA PERICAS CAPDEVILA",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 21,
+            "name": "JONAS VINGEGAARD HANSEN",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 22,
+            "name": "SEPP KUSS",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 23,
+            "name": "DAVIDE PIGANZOLI",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 24,
+            "name": "BRUNO ARMIRAIL",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 25,
+            "name": "JØRGEN NORDHAGEN",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 26,
+            "name": "BART LEMMEN",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 27,
+            "name": "MENNO HUISING",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 31,
+            "name": "CARLOS VERONA QUINTANILLA",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 32,
+            "name": "GIULIO CICCONE",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 33,
+            "name": "MATTIAS SKJELMOSE",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 34,
+            "name": "DEREK GEE",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 35,
+            "name": "TAO GEOGHEGAN HART",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 36,
+            "name": "SAM OOMEN",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 37,
+            "name": "JACOPO MOSCA",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 41,
+            "name": "LORENZO FORTUNATO",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 42,
+            "name": "HAROLD MARTIN LOPEZ GRANIZO",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 43,
+            "name": "GUILLERMO THOMAS SILVA COUSSAN",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 44,
+            "name": "CRISTIAN RODRIGUEZ MARTIN",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 45,
+            "name": "HENOK MULUEBERHAN",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 46,
+            "name": "HAOYU SU",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 47,
+            "name": "ANTON KUZMIN",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 51,
+            "name": "MIKEL LANDA MEANA",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 52,
+            "name": "FILIPPO ZANA",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 53,
+            "name": "JUNIOR LECERF",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 54,
+            "name": "ALBERTO DAINESE",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 55,
+            "name": "ANDREA RACCAGNI NOVIERO",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 56,
+            "name": "VALENTIN PARET PEINTRE",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 57,
+            "name": "PASCAL EENKHOORN",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 61,
+            "name": "FELIX GALL",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 62,
+            "name": "MATTHEW RICCITELLO",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 63,
+            "name": "LÉO BISIAUX",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 64,
+            "name": "NOA ISIDORE",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 65,
+            "name": "JOHANNES STAUNE-MITTET",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 66,
+            "name": "ANTOINE L'HOTE",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 67,
+            "name": "CALLUM SCOTSON",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 71,
+            "name": "EDGAR OSCAR ONLEY",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 72,
+            "name": "DORIAN GODON",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 73,
+            "name": "VICTOR LANGELLOTTI",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 74,
+            "name": "CARLOS RODRIGUEZ CANO",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 75,
+            "name": "EMBRET SVESTAD-BÅRDSENG",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 76,
+            "name": "BOB JUNGELS",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 77,
+            "name": "LAURENS DE PLUS",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 81,
+            "name": "FRANCESCO BUSATTO",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 82,
+            "name": "HENRI UHLIG",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 83,
+            "name": "GAL GLIVAR",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 84,
+            "name": "RAMSES DEBRUYNE",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 85,
+            "name": "SENNA REMIJN",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 86,
+            "name": "LUCA VERGALLITO",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 87,
+            "name": "JOHAN PRICE PEJTERSEN",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 91,
+            "name": "LENNY MARTINEZ",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 92,
+            "name": "SANTIAGO BUITRAGO SANCHEZ",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 93,
+            "name": "AFONSO EULÁLIO",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 94,
+            "name": "JAKOB OMRZEL",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 95,
+            "name": "MATEVŽ GOVEKAR",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 96,
+            "name": "RAINER KEPPLINGER",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 97,
+            "name": "NIKIAS ARNDT",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 101,
+            "name": "ANDREAS LEKNESSUND",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 102,
+            "name": "CORT MAGNUS NIELSEN",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 103,
+            "name": "ANTHON CHARMIG",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 104,
+            "name": "ANDERS SKAARSETH",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 105,
+            "name": "TOBIAS SVARRE",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 106,
+            "name": "JONAS HEM HVIDEBERG",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 107,
+            "name": "URIANSTAD MARTIN BUGGE",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 111,
+            "name": "RICHARD CARAPAZ",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 112,
+            "name": "GEORG STEINHAUSER",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 113,
+            "name": "MARKEL BELOKI FERNANDEZ",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 114,
+            "name": "MICHAEL SHEA LEONARD",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 115,
+            "name": "ALFRED BRUCE NOAH HOBBS",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 116,
+            "name": "ALEXANDER JEFFERSON CEPEDA",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 117,
+            "name": "DARREN RAFFERTY",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 121,
+            "name": "ETHAN VERNON",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 122,
+            "name": "BRADY GILMORE",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 123,
+            "name": "JAKE STEWART",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 124,
+            "name": "PIER-ANDRÉ CÔTÉ",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 125,
+            "name": "GEORGE BENNETT",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 126,
+            "name": "ALEXEY LUTSENKO",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 127,
+            "name": "JAN HIRT",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 131,
+            "name": "ENRIC MAS NICOLAU",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 132,
+            "name": "CIAN UIJTDEBROEKS",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 133,
+            "name": "EINER AUGUSTO RUBIO REYES",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 134,
+            "name": "JUAN PEDRO LOPEZ PEREZ",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 135,
+            "name": "NAIRO QUINTANA",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 136,
+            "name": "PAVEL NOVÁK",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 137,
+            "name": "MICHEL HEßMANN",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 141,
+            "name": "BEN O'CONNOR",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 142,
+            "name": "PAUL DOUBLE",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 143,
+            "name": "FELIX ENGELHARDT",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 144,
+            "name": "RUDY PORTER",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 145,
+            "name": "PATRICK GAMPER",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 146,
+            "name": "JUUL CHRISTOPHER JENSEN",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 147,
+            "name": "KOEN BOUWMAN",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 151,
+            "name": "GUILLAUME MARTIN GUYONNET",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 152,
+            "name": "MAXIME DECOMBLE",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 153,
+            "name": "DAVID GAUDU",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 154,
+            "name": "BRIEUC ROLLAND",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 155,
+            "name": "RUDY MOLARD",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 156,
+            "name": "LORENZO GERMANI",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 157,
+            "name": "JOSHUA KENCH",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 161,
+            "name": "SIMONE GUALDI",
+            "team": "LOTTO INTERMARCHÉ"
+          },
+          {
+            "bib": 162,
+            "name": "MATHIEU KOCKELMANN",
+            "team": "LOTTO INTERMARCHÉ"
+          },
+          {
+            "bib": 163,
+            "name": "TOON AERTS",
+            "team": "LOTTO INTERMARCHÉ"
+          },
+          {
+            "bib": 164,
+            "name": "LUKE MATTHEW FOX",
+            "team": "LOTTO INTERMARCHÉ"
+          },
+          {
+            "bib": 165,
+            "name": "REUBEN THOMPSON",
+            "team": "LOTTO INTERMARCHÉ"
+          },
+          {
+            "bib": 166,
+            "name": "LIAM SLOCK",
+            "team": "LOTTO INTERMARCHÉ"
+          },
+          {
+            "bib": 167,
+            "name": "BAPTISTE VEISTROFFER",
+            "team": "LOTTO INTERMARCHÉ"
+          },
+          {
+            "bib": 171,
+            "name": "THOMAS PIDCOCK",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 172,
+            "name": "SAM BENNETT",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 173,
+            "name": "DAMIEN CRAIG HOWSON",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 174,
+            "name": "DAVID GONZALEZ LOPEZ",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 175,
+            "name": "HARM VANHOUCKE",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 176,
+            "name": "MARCEL CAMPRUBI PIJUAN",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 177,
+            "name": "DAVID DE LA CRUZ MELGAREJO",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 181,
+            "name": "ABEL BALDERSTONE ROUMENS",
+            "team": "CAJA RURAL-SEGUROS RGA"
+          },
+          {
+            "bib": 182,
+            "name": "JAN CASTELLON RIBALTA",
+            "team": "CAJA RURAL-SEGUROS RGA"
+          },
+          {
+            "bib": 183,
+            "name": "SEBASTIAN BERWICK",
+            "team": "CAJA RURAL-SEGUROS RGA"
+          },
+          {
+            "bib": 184,
+            "name": "JAUME GUARDEÑO ROMA",
+            "team": "CAJA RURAL-SEGUROS RGA"
+          },
+          {
+            "bib": 185,
+            "name": "JOSE FELIX PARRA CUERDA",
+            "team": "CAJA RURAL-SEGUROS RGA"
+          },
+          {
+            "bib": 186,
+            "name": "JULEN ARRIOLA-BENGOA BEITIA",
+            "team": "CAJA RURAL-SEGUROS RGA"
+          },
+          {
+            "bib": 187,
+            "name": "SERGI DARDER GARI",
+            "team": "CAJA RURAL-SEGUROS RGA"
+          },
+          {
+            "bib": 191,
+            "name": "URKO BERRADE FERNANDEZ",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 192,
+            "name": "IVAN RAMIRO SOSA CUERVO",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 193,
+            "name": "JORGE GUTIERREZ GONZALEZ",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 194,
+            "name": "MATS WENZEL",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 195,
+            "name": "DIEGO URIARTE BELZUNEGI",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 196,
+            "name": "PABLO CARRASCOSA MILLER",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 197,
+            "name": "HUGO AZNAR VIJUESCA",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 201,
+            "name": "JON AGIRRE EGAÑA",
+            "team": "EUSKALTEL-EUSKADI"
+          },
+          {
+            "bib": 202,
+            "name": "MIKEL BIZKARRA ETXEGIBEL",
+            "team": "EUSKALTEL-EUSKADI"
+          },
+          {
+            "bib": 203,
+            "name": "YAGO AGUIRRE SUBIJANA",
+            "team": "EUSKALTEL-EUSKADI"
+          },
+          {
+            "bib": 204,
+            "name": "JOKIN MURGUIALDAY",
+            "team": "EUSKALTEL-EUSKADI"
+          },
+          {
+            "bib": 205,
+            "name": "SAMUEL FERNANDEZ HERES",
+            "team": "EUSKALTEL-EUSKADI"
+          },
+          {
+            "bib": 206,
+            "name": "DANNY VAN DER TUUK",
+            "team": "EUSKALTEL-EUSKADI"
+          },
+          {
+            "bib": 207,
+            "name": "UNAI AZNAR VIJUESCA",
+            "team": "EUSKALTEL-EUSKADI"
+          },
+          {
+            "bib": 211,
+            "name": "SERGIO GEOVANI CHUMIL GONZALEZ",
+            "team": "BURGOS-BURPELLET-BH"
+          },
+          {
+            "bib": 212,
+            "name": "JOSE MANUEL DIAZ GALLEGO",
+            "team": "BURGOS-BURPELLET-BH"
+          },
+          {
+            "bib": 213,
+            "name": "MERHAWI KUDUS",
+            "team": "BURGOS-BURPELLET-BH"
+          },
+          {
+            "bib": 214,
+            "name": "JESUS HERRADA",
+            "team": "BURGOS-BURPELLET-BH"
+          },
+          {
+            "bib": 215,
+            "name": "JOSE LUIS FAURA ASENSIO",
+            "team": "BURGOS-BURPELLET-BH"
+          },
+          {
+            "bib": 216,
+            "name": "MARIO APARICIO MUÑOZ",
+            "team": "BURGOS-BURPELLET-BH"
+          },
+          {
+            "bib": 217,
+            "name": "JOSH BURNETT",
+            "team": "BURGOS-BURPELLET-BH"
+          },
+          {
+            "bib": 221,
+            "name": "STEFAN DE BOD",
+            "team": "MODERN ADVENTURE PRO CYCLING"
+          },
+          {
+            "bib": 222,
+            "name": "BYRON MUNTON",
+            "team": "MODERN ADVENTURE PRO CYCLING"
+          },
+          {
+            "bib": 223,
+            "name": "RILEY PICKRELL",
+            "team": "MODERN ADVENTURE PRO CYCLING"
+          },
+          {
+            "bib": 224,
+            "name": "MARK STEWART",
+            "team": "MODERN ADVENTURE PRO CYCLING"
+          },
+          {
+            "bib": 225,
+            "name": "KIERAN HAUG",
+            "team": "MODERN ADVENTURE PRO CYCLING"
+          },
+          {
+            "bib": 226,
+            "name": "TYLER STITES",
+            "team": "MODERN ADVENTURE PRO CYCLING"
+          },
+          {
+            "bib": 227,
+            "name": "SAMUEL FLOREZ GARCES",
+            "team": "MODERN ADVENTURE PRO CYCLING"
+          }
+        ],
+        "count": 161,
+        "method": "semantic_html",
+        "completeness": "archived_startlist_not_verified_final"
+      }
+    },
+    {
+      "id": "e3-saxo-classic-2026",
+      "name": "E3 Saxo Classic",
+      "year": 2026,
+      "type": "one_day",
+      "start_date": "2026-03-27",
+      "website": "https://www.e3saxoclassic.be/en/",
+      "key": "e3-saxo-classic",
+      "organiser_family": "independent",
+      "startlist": {
+        "status": "unavailable",
+        "riders": [],
+        "checked_at": "2026-10-29T19:37:02Z",
+        "warning": "No validated correct-edition 2026 start list found",
+        "count": 0
+      }
+    },
+    {
+      "id": "ronde-van-vlaanderen-2026",
+      "name": "Ronde van Vlaanderen",
+      "year": 2026,
+      "type": "one_day",
+      "start_date": "2026-04-05",
+      "website": "https://www.rondevanvlaanderen.be/en/",
+      "key": "ronde-van-vlaanderen",
+      "organiser_family": "flanders",
+      "startlist": {
+        "status": "unavailable",
+        "riders": [],
+        "checked_at": "2026-10-29T19:37:04Z",
+        "warning": "No validated correct-edition 2026 start list found",
+        "count": 0
+      }
+    },
+    {
+      "id": "itzulia-basque-country-2026",
+      "name": "Itzulia Basque Country",
+      "year": 2026,
+      "type": "stage_race",
+      "start_date": "2026-04-06",
+      "end_date": "2026-04-11",
+      "website": "https://itzulia.eus/en/",
+      "key": "itzulia-basque-country",
+      "organiser_family": "itzulia",
+      "startlist": {
+        "status": "published",
+        "edition_year": 2026,
+        "source_url": "https://itzulia.eus/en/teams-2026/",
+        "checked_at": "2026-10-29T19:37:06Z",
+        "riders": [
+          {
+            "bib": 1,
+            "name": "LANDA MEANA, Mikel",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 2,
+            "name": "BASTIAENS, Ayco",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 3,
+            "name": "CRAS, Steff",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 4,
+            "name": "VANSEVENANT, Mauri",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 5,
+            "name": "SVRČEK, Martin",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 6,
+            "name": "VAN WILDER, Ilan",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 7,
+            "name": "HAYTER, Ethan Edward",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 11,
+            "name": "CHAMPOUSSIN, Clément",
+            "team": "XDS ASTANA"
+          },
+          {
+            "bib": 12,
+            "name": "FORTUNATO, Lorenzo",
+            "team": "XDS ASTANA"
+          },
+          {
+            "bib": 13,
+            "name": "HIGUITA GARCIA, Sergio Andres",
+            "team": "XDS ASTANA"
+          },
+          {
+            "bib": 14,
+            "name": "TEJADA CANACUE, Harold Alfonso",
+            "team": "XDS ASTANA"
+          },
+          {
+            "bib": 15,
+            "name": "CONCI, Nicola",
+            "team": "XDS ASTANA"
+          },
+          {
+            "bib": 16,
+            "name": "SCARONI, Christian",
+            "team": "XDS ASTANA"
+          },
+          {
+            "bib": 17,
+            "name": "VELASCO, Simone",
+            "team": "XDS ASTANA"
+          },
+          {
+            "bib": 21,
+            "name": "MARTIN GUYONNET, Guillaume",
+            "team": "GROUPAMA – FDJ UNITED"
+          },
+          {
+            "bib": 22,
+            "name": "BRAZ AFONSO, Clément",
+            "team": "GROUPAMA – FDJ UNITED"
+          },
+          {
+            "bib": 23,
+            "name": "DECOMBLE, Maxime",
+            "team": "GROUPAMA – FDJ UNITED"
+          },
+          {
+            "bib": 24,
+            "name": "GENIETS, Kévin",
+            "team": "GROUPAMA – FDJ UNITED"
+          },
+          {
+            "bib": 25,
+            "name": "PACHER, Quentin",
+            "team": "GROUPAMA – FDJ UNITED"
+          },
+          {
+            "bib": 26,
+            "name": "PALENI, Enzo",
+            "team": "GROUPAMA – FDJ UNITED"
+          },
+          {
+            "bib": 27,
+            "name": "ROCHAS, Rémy",
+            "team": "GROUPAMA – FDJ UNITED"
+          },
+          {
+            "bib": 31,
+            "name": "DEL TORO ROMERO, Isaac",
+            "team": "UAE EMIRATES XRG"
+          },
+          {
+            "bib": 32,
+            "name": "MCNULTY, Brandon",
+            "team": "UAE EMIRATES XRG"
+          },
+          {
+            "bib": 33,
+            "name": "ARRIETA LIZARRAGA, Igor",
+            "team": "UAE EMIRATES XRG"
+          },
+          {
+            "bib": 34,
+            "name": "GROSSSCHARTNER, Felix",
+            "team": "UAE EMIRATES XRG"
+          },
+          {
+            "bib": 35,
+            "name": "NOVAK, Domen",
+            "team": "UAE EMIRATES XRG"
+          },
+          {
+            "bib": 36,
+            "name": "PERICAS CAPDEVILA, Adria",
+            "team": "UAE EMIRATES XRG"
+          },
+          {
+            "bib": 37,
+            "name": "SOLER, Marc",
+            "team": "UAE EMIRATES XRG"
+          },
+          {
+            "bib": 41,
+            "name": "AYUSO PESQUERA, Juan",
+            "team": "LIDL – TREK"
+          },
+          {
+            "bib": 42,
+            "name": "MOLLEMA, Bauke",
+            "team": "LIDL – TREK"
+          },
+          {
+            "bib": 43,
+            "name": "BAGIOLI, Andrea",
+            "team": "LIDL – TREK"
+          },
+          {
+            "bib": 44,
+            "name": "BERNARD, Julien",
+            "team": "LIDL – TREK"
+          },
+          {
+            "bib": 45,
+            "name": "VERONA QUINTANILLA, Carlos",
+            "team": "LIDL – TREK"
+          },
+          {
+            "bib": 46,
+            "name": "SKJELMOSE, Mattias",
+            "team": "LIDL – TREK"
+          },
+          {
+            "bib": 47,
+            "name": "SIMMONS, Quinn",
+            "team": "LIDL – TREK"
+          },
+          {
+            "bib": 51,
+            "name": "ROGLIČ, Primož",
+            "team": "RED BULL – BORA – HANSGROHE"
+          },
+          {
+            "bib": 52,
+            "name": "ETXEBERRIA ANSALAS, Haimar",
+            "team": "RED BULL – BORA – HANSGROHE"
+          },
+          {
+            "bib": 53,
+            "name": "LIPOWITZ, Florian",
+            "team": "RED BULL – BORA – HANSGROHE"
+          },
+          {
+            "bib": 54,
+            "name": "FISHER-BLACK, Finn Lachlan Fox",
+            "team": "RED BULL – BORA – HANSGROHE"
+          },
+          {
+            "bib": 55,
+            "name": "MOSCON, Gianni",
+            "team": "RED BULL – BORA – HANSGROHE"
+          },
+          {
+            "bib": 56,
+            "name": "TUCKWELL, Luke",
+            "team": "RED BULL – BORA – HANSGROHE"
+          },
+          {
+            "bib": 57,
+            "name": "HERZOG, Emil",
+            "team": "RED BULL – BORA – HANSGROHE"
+          },
+          {
+            "bib": 61,
+            "name": "SEIXAS, Paul",
+            "team": "DECATHLON CMA CGM"
+          },
+          {
+            "bib": 62,
+            "name": "RICCITELLO, Matthew",
+            "team": "DECATHLON CMA CGM"
+          },
+          {
+            "bib": 63,
+            "name": "BISIAUX, Léo",
+            "team": "DECATHLON CMA CGM"
+          },
+          {
+            "bib": 64,
+            "name": "LABROSSE, Jordan",
+            "team": "DECATHLON CMA CGM"
+          },
+          {
+            "bib": 65,
+            "name": "PRODHOMME, Nicolas",
+            "team": "DECATHLON CMA CGM"
+          },
+          {
+            "bib": 66,
+            "name": "STAUNE-MITTET, Johannes",
+            "team": "DECATHLON CMA CGM"
+          },
+          {
+            "bib": 67,
+            "name": "PARET PEINTRE, Aurélien",
+            "team": "DECATHLON CMA CGM"
+          },
+          {
+            "bib": 71,
+            "name": "OKAMIKA BENGOETXEA, Ander",
+            "team": "BURGOS BURPELLET BH"
+          },
+          {
+            "bib": 72,
+            "name": "QUARTUCCI, Lorenzo",
+            "team": "BURGOS BURPELLET BH"
+          },
+          {
+            "bib": 73,
+            "name": "FAURA ASENSIO, Jose Luis",
+            "team": "BURGOS BURPELLET BH"
+          },
+          {
+            "bib": 74,
+            "name": "FERNANDEZ RODRIGUEZ, Sinuhe",
+            "team": "BURGOS BURPELLET BH"
+          },
+          {
+            "bib": 75,
+            "name": "GARCIA PIERNA, Carlos",
+            "team": "BURGOS BURPELLET BH"
+          },
+          {
+            "bib": 76,
+            "name": "DIAZ GALLEGO, Jose Manuel",
+            "team": "BURGOS BURPELLET BH"
+          },
+          {
+            "bib": 77,
+            "name": "FAJARDO TOLEDO, Adrian",
+            "team": "BURGOS BURPELLET BH"
+          },
+          {
+            "bib": 81,
+            "name": "ELOSEGUI MOMEÑE, Iñigo",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 82,
+            "name": "COBO CAYON, Ivan",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 83,
+            "name": "GIMENO FERRER, Nil",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 84,
+            "name": "IRIBAR JAUREGI, Unai",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 85,
+            "name": "RAMOS MURILLO, Unai",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 86,
+            "name": "GUTIERREZ GONZALEZ, Jorge",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 87,
+            "name": "RUIZ SEDANO, Ibon",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 91,
+            "name": "UIJTDEBROEKS, Cian",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 92,
+            "name": "ARCAS, Jorge",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 93,
+            "name": "LOPEZ PEREZ, Juan Pedro",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 94,
+            "name": "GARCIA PIERNA, Raul",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 95,
+            "name": "TESFATSION, Natnael",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 96,
+            "name": "ADRIA OLIVERAS, Roger",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 97,
+            "name": "ROMO OLIVER, Javier",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 101,
+            "name": "VAN DEN BROEK, Frank",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 102,
+            "name": "DINHAM, Matthew",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 103,
+            "name": "FAURE PROST, Alexy",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 104,
+            "name": "KNOX, James",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 105,
+            "name": "KOERDT, Bjoern",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 106,
+            "name": "MARTINEZ, Guillermo Juan",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 107,
+            "name": "GAFFURI, Mattia",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 111,
+            "name": "BILBAO LOPEZ DE ARMENTIA, Pello",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 112,
+            "name": "ERMAKOV, Roman",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 113,
+            "name": "KEPPLINGER, Rainer",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 114,
+            "name": "BRUTTOMESSO, Alberto",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 115,
+            "name": "STOCKWELL, Thomas Oliver",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 116,
+            "name": "TIBERI, Antonio",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 117,
+            "name": "VALTER, Attila",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 121,
+            "name": "HOULE, Hugo",
+            "team": "ALPECIN PREMIER TECH"
+          },
+          {
+            "bib": 122,
+            "name": "DEBRUYNE, Ramses",
+            "team": "ALPECIN PREMIER TECH"
+          },
+          {
+            "bib": 123,
+            "name": "BELMANS, Lennert",
+            "team": "ALPECIN PREMIER TECH"
+          },
+          {
+            "bib": 124,
+            "name": "VERSTRYNGE, Emiel",
+            "team": "ALPECIN PREMIER TECH"
+          },
+          {
+            "bib": 125,
+            "name": "DOCKX, Aaron",
+            "team": "ALPECIN PREMIER TECH"
+          },
+          {
+            "bib": 126,
+            "name": "GLIVAR, Gal",
+            "team": "ALPECIN PREMIER TECH"
+          },
+          {
+            "bib": 127,
+            "name": "VERGALLITO, Luca",
+            "team": "ALPECIN PREMIER TECH"
+          },
+          {
+            "bib": 131,
+            "name": "ALAPHILIPPE, Julian",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 132,
+            "name": "WEISS, Fabian",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 133,
+            "name": "BRENNER, Marco",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 134,
+            "name": "ERIKSSON, Jacob",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 135,
+            "name": "VOISARD, Yannis",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 136,
+            "name": "WILKSCH, Hannes",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 137,
+            "name": "WIRTGEN, Luc",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 141,
+            "name": "IZAGUIRRE INSAUSTI, Ion",
+            "team": "TEAM COFIDIS"
+          },
+          {
+            "bib": 142,
+            "name": "ARANBURU DEVA, Alex",
+            "team": "TEAM COFIDIS"
+          },
+          {
+            "bib": 143,
+            "name": "BUCHMANN, Emanuel",
+            "team": "TEAM COFIDIS"
+          },
+          {
+            "bib": 144,
+            "name": "MEEHAN, Jamie",
+            "team": "TEAM COFIDIS"
+          },
+          {
+            "bib": 145,
+            "name": "JOALLAND, Yael",
+            "team": "TEAM COFIDIS"
+          },
+          {
+            "bib": 146,
+            "name": "MAAS, Jan",
+            "team": "TEAM COFIDIS"
+          },
+          {
+            "bib": 147,
+            "name": "OURSELIN, Paul",
+            "team": "TEAM COFIDIS"
+          },
+          {
+            "bib": 151,
+            "name": "BARCELO ARAGON, Fernando",
+            "team": "CAJA RURAL SEGUROS RGA"
+          },
+          {
+            "bib": 152,
+            "name": "CASTELLON RIBALTA, Jan",
+            "team": "CAJA RURAL SEGUROS RGA"
+          },
+          {
+            "bib": 153,
+            "name": "FERNANDEZ GARCIA, Samuel",
+            "team": "CAJA RURAL SEGUROS RGA"
+          },
+          {
+            "bib": 154,
+            "name": "MOLENAAR, Alex",
+            "team": "CAJA RURAL SEGUROS RGA"
+          },
+          {
+            "bib": 155,
+            "name": "ARRIOLA-BENGOA BEITIA, Julen",
+            "team": "CAJA RURAL SEGUROS RGA"
+          },
+          {
+            "bib": 156,
+            "name": "BOU COMPANY, Joan",
+            "team": "CAJA RURAL SEGUROS RGA"
+          },
+          {
+            "bib": 157,
+            "name": "LOPEZ CUESTA, Joseba",
+            "team": "CAJA RURAL SEGUROS RGA"
+          },
+          {
+            "bib": 161,
+            "name": "UGARTE LARREA, Gari",
+            "team": "EUSKALTEL EUSKADI"
+          },
+          {
+            "bib": 162,
+            "name": "BIZKARRA ETXEGIBEL, Mikel",
+            "team": "EUSKALTEL EUSKADI"
+          },
+          {
+            "bib": 163,
+            "name": "JUARISTI ARRIETA, Txomin",
+            "team": "EUSKALTEL EUSKADI"
+          },
+          {
+            "bib": 164,
+            "name": "LASTRA MARTINEZ, Jonathan",
+            "team": "EUSKALTEL EUSKADI"
+          },
+          {
+            "bib": 165,
+            "name": "ALUSTIZA GOENAGA, Nicolas",
+            "team": "EUSKALTEL EUSKADI"
+          },
+          {
+            "bib": 166,
+            "name": "MARTIN SANZ, Gotzon",
+            "team": "EUSKALTEL EUSKADI"
+          },
+          {
+            "bib": 167,
+            "name": "MINTEGI CLAVER, Iker",
+            "team": "EUSKALTEL EUSKADI"
+          },
+          {
+            "bib": 171,
+            "name": "HEALY, Ben",
+            "team": "EF EDUCATION- EASYPOST"
+          },
+          {
+            "bib": 172,
+            "name": "BELOKI FERNANDEZ, Markel",
+            "team": "EF EDUCATION- EASYPOST"
+          },
+          {
+            "bib": 173,
+            "name": "SHAW, James",
+            "team": "EF EDUCATION- EASYPOST"
+          },
+          {
+            "bib": 174,
+            "name": "NERURKAR, Lukas",
+            "team": "EF EDUCATION- EASYPOST"
+          },
+          {
+            "bib": 175,
+            "name": "VAN DER LEE, Jardi Christiaan",
+            "team": "EF EDUCATION- EASYPOST"
+          },
+          {
+            "bib": 176,
+            "name": "BAUDIN, Alex",
+            "team": "EF EDUCATION- EASYPOST"
+          },
+          {
+            "bib": 177,
+            "name": "LEONARD, Michael Shea",
+            "team": "EF EDUCATION- EASYPOST"
+          },
+          {
+            "bib": 181,
+            "name": "AUGUST, Andrew",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 182,
+            "name": "HAMILTON, Wade Lucas",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 183,
+            "name": "VAUQUELIN, Kévin",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 184,
+            "name": "LANGELLOTTI, Victor",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 185,
+            "name": "LAURANCE, Axel",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 186,
+            "name": "HANSEN, Peter",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 187,
+            "name": "RIVERA VARGAS, Brandon",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 191,
+            "name": "ARMIRAIL, Bruno",
+            "team": "TEAM VISMA LEASE A BIKE"
+          },
+          {
+            "bib": 192,
+            "name": "GRAAT, Tijmen",
+            "team": "TEAM VISMA LEASE A BIKE"
+          },
+          {
+            "bib": 193,
+            "name": "HUISING, Menno",
+            "team": "TEAM VISMA LEASE A BIKE"
+          },
+          {
+            "bib": 194,
+            "name": "TULETT, Ben",
+            "team": "TEAM VISMA LEASE A BIKE"
+          },
+          {
+            "bib": 195,
+            "name": "KRUIJSWIJK, Steven",
+            "team": "TEAM VISMA LEASE A BIKE"
+          },
+          {
+            "bib": 196,
+            "name": "REX, Tim",
+            "team": "TEAM VISMA LEASE A BIKE"
+          },
+          {
+            "bib": 197,
+            "name": "FIORELLI, Filippo",
+            "team": "TEAM VISMA LEASE A BIKE"
+          },
+          {
+            "bib": 201,
+            "name": "NIELSEN, Cort Magnus",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 202,
+            "name": "JOHANNESSEN, Tobias Halland",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 203,
+            "name": "JOHANNESSEN, Anders Halland",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 204,
+            "name": "KRON, Andreas",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 205,
+            "name": "KULSET, Johannes",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 206,
+            "name": "TJØTTA, Martin",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 207,
+            "name": "TRÆEN, Torstein",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 211,
+            "name": "KOCKELMANN, Mathieu",
+            "team": "LOTTO-INTERMARCHÉ"
+          },
+          {
+            "bib": 212,
+            "name": "FOX, Luke Matthew",
+            "team": "LOTTO-INTERMARCHÉ"
+          },
+          {
+            "bib": 213,
+            "name": "ØRN-KRISTOFF, Felix",
+            "team": "LOTTO-INTERMARCHÉ"
+          },
+          {
+            "bib": 214,
+            "name": "ORINS, Robin",
+            "team": "LOTTO-INTERMARCHÉ"
+          },
+          {
+            "bib": 215,
+            "name": "THOMPSON, Reuben",
+            "team": "LOTTO-INTERMARCHÉ"
+          },
+          {
+            "bib": 216,
+            "name": "VEISTROFFER, Baptiste",
+            "team": "LOTTO-INTERMARCHÉ"
+          },
+          {
+            "bib": 217,
+            "name": "ZIMMERMANN, Georg",
+            "team": "LOTTO-INTERMARCHÉ"
+          }
+        ],
+        "count": 154,
+        "method": "heading_table",
+        "completeness": "archived_startlist_not_verified_final"
+      }
+    },
+    {
+      "id": "paris-roubaix-2026",
+      "name": "Paris–Roubaix",
+      "year": 2026,
+      "type": "one_day",
+      "start_date": "2026-04-12",
+      "website": "https://www.paris-roubaix.fr/en",
+      "key": "paris-roubaix",
+      "organiser_family": "aso",
+      "startlist": {
+        "status": "published",
+        "edition_year": 2026,
+        "source_url": "https://www.paris-roubaix.fr/en/riders",
+        "checked_at": "2026-10-29T19:37:07Z",
+        "riders": [
+          {
+            "bib": 1,
+            "name": "MATHIEU VAN DER POEL",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 2,
+            "name": "TIBOR DEL GROSSO",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 3,
+            "name": "SILVAN DILLIER",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 4,
+            "name": "JASPER PHILIPSEN",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 5,
+            "name": "EDWARD PLANCKAERT",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 6,
+            "name": "JONAS RICKAERT",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 7,
+            "name": "FLORIAN SENECHAL",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 11,
+            "name": "TADEJ POGACAR",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 12,
+            "name": "MIKKEL NORSGAARD BJERG",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 13,
+            "name": "JUAN SEBASTIAN MOLANO",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 14,
+            "name": "RUI OLIVEIRA",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 15,
+            "name": "NILS POLITT",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 16,
+            "name": "ANTÓNIO TOMAS MORGADO",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 17,
+            "name": "FLORIAN VERMEERSCH",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 21,
+            "name": "MADS PEDERSEN",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 22,
+            "name": "JONATHAN MILAN",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 23,
+            "name": "SUNEKÆR MATHIAS NORSGAARD",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 24,
+            "name": "JAKOB SÖDERQVIST",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 25,
+            "name": "EDWARD THEUNS",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 26,
+            "name": "MATHIAS VACEK",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 27,
+            "name": "MAX WALSCHEID",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 31,
+            "name": "WOUT VAN AERT",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 32,
+            "name": "EDOARDO AFFINI",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 33,
+            "name": "JAMES MATTHEW BRENNAN",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 34,
+            "name": "OWAIN DOULL",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 35,
+            "name": "PER STRAND HAGENES",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 36,
+            "name": "CHRISTOPHE LAPORTE",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 37,
+            "name": "PIETRO MATTIO",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 41,
+            "name": "STEFAN BISSEGGER",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 42,
+            "name": "CEES BOL",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 43,
+            "name": "SANDER DE PESTEL",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 44,
+            "name": "STAN DEWULF",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 45,
+            "name": "DAAN HOOLE",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 46,
+            "name": "OLIVER NAESEN",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 47,
+            "name": "SØJBERG RASMUS PEDERSEN",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 51,
+            "name": "ARNAUD DE LIE",
+            "team": "LOTTO INTERMARCHE"
+          },
+          {
+            "bib": 52,
+            "name": "TOON AERTS",
+            "team": "LOTTO INTERMARCHE"
+          },
+          {
+            "bib": 53,
+            "name": "HUUB ARTZ",
+            "team": "LOTTO INTERMARCHE"
+          },
+          {
+            "bib": 54,
+            "name": "CEDRIC BEULLENS",
+            "team": "LOTTO INTERMARCHE"
+          },
+          {
+            "bib": 55,
+            "name": "JOSHUA GIDDINGS",
+            "team": "LOTTO INTERMARCHE"
+          },
+          {
+            "bib": 56,
+            "name": "MATYS GRISEL",
+            "team": "LOTTO INTERMARCHE"
+          },
+          {
+            "bib": 57,
+            "name": "JONAS RUTSCH",
+            "team": "LOTTO INTERMARCHE"
+          },
+          {
+            "bib": 61,
+            "name": "FILIPPO GANNA",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 62,
+            "name": "KIM ALEXANDER HEIDUK",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 63,
+            "name": "ARTEM SHMIDT",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 64,
+            "name": "CONNOR SWIFT",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 65,
+            "name": "JOSHUA TARLING",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 66,
+            "name": "BEN TURNER",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 67,
+            "name": "SAM WELSFORD",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 71,
+            "name": "DYLAN VAN BAARLE",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 72,
+            "name": "YVES LAMPAERT",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 73,
+            "name": "TIM MERLIER",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 74,
+            "name": "JASPER STUYVEN",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 75,
+            "name": "DRIES VAN GESTEL",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 76,
+            "name": "BERT VAN LERBERGHE",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 77,
+            "name": "JONATHAN VERVENNE",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 81,
+            "name": "JOHN DEGENKOLB",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 82,
+            "name": "FRITS BIESTERBOS",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 83,
+            "name": "PAVEL BITTNER",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 85,
+            "name": "DILLON CORKERY",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 86,
+            "name": "NIKLAS MÄRKL",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 87,
+            "name": "HENRI FRANÇOIS RENARD HAQUIN",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 88,
+            "name": "JULIUS VAN DEN BERG",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 91,
+            "name": "GIANNI VERMEERSCH",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 92,
+            "name": "ARNE MARIT",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 93,
+            "name": "JORDI MEEUS",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 94,
+            "name": "LAURENCE PITHIE",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 95,
+            "name": "CALLUM THORNLEY",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 96,
+            "name": "TIM VAN DIJKE",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 97,
+            "name": "MICK VAN DIJKE",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 101,
+            "name": "MATEJ MOHORIC",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 102,
+            "name": "PHIL BAUHAUS",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 103,
+            "name": "ALESSANDRO BORGO",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 104,
+            "name": "ŽAK ERŽEN",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 105,
+            "name": "MATEVŽ GOVEKAR",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 106,
+            "name": "KAMIL GRADEK",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 107,
+            "name": "ALEC SEGAERT",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 111,
+            "name": "THIBAUD GRUEL",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 112,
+            "name": "CYRIL BARTHE",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 113,
+            "name": "TITOUAN FONTAINE",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 114,
+            "name": "AXEL HUENS",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 115,
+            "name": "JOHAN JACOBS",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 116,
+            "name": "CLÉMENT RUSSO",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 117,
+            "name": "BASTIEN TRONCHON",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 121,
+            "name": "JONAS ABRAHAMSEN",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 122,
+            "name": "SVEN ERIK BYSTROM",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 123,
+            "name": "STORM INGEBRIGTSEN",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 124,
+            "name": "BLUME WILLIAM LEVY",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 125,
+            "name": "ERIK NORDSAETER RESELL",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 126,
+            "name": "RASMUS TILLER",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 127,
+            "name": "SOREN WAERENSKJOLD",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 131,
+            "name": "ALEXIS RENARD",
+            "team": "COFIDIS"
+          },
+          {
+            "bib": 132,
+            "name": "STANISLAW ANIOLKOWSKI",
+            "team": "COFIDIS"
+          },
+          {
+            "bib": 133,
+            "name": "CAMILLE CHARRET",
+            "team": "COFIDIS"
+          },
+          {
+            "bib": 134,
+            "name": "CLEMENT IZQUIERDO",
+            "team": "COFIDIS"
+          },
+          {
+            "bib": 135,
+            "name": "HUGO PAGE",
+            "team": "COFIDIS"
+          },
+          {
+            "bib": 136,
+            "name": "DYLAN TEUNS",
+            "team": "COFIDIS"
+          },
+          {
+            "bib": 137,
+            "name": "BENJAMIN THOMAS",
+            "team": "COFIDIS"
+          },
+          {
+            "bib": 141,
+            "name": "MIKE TEUNISSEN",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 142,
+            "name": "DAVIDE BALLERINI",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 143,
+            "name": "YEVGENIY FEDOROV",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 144,
+            "name": "AARON MURRAY GATE",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 145,
+            "name": "ARJEN LIVYNS",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 146,
+            "name": "ALESSANDRO ROMELE",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 147,
+            "name": "GLEB SYRITSA",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 151,
+            "name": "KASPER ASGREEN",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 152,
+            "name": "LUKE LAMPERTI",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 153,
+            "name": "ALASTAIR MACKELLAR",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 154,
+            "name": "MADIS MIHKELS",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 155,
+            "name": "MATTHIAS SCHWARZBACHER",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 156,
+            "name": "COLBY SIMMONS",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 157,
+            "name": "MAX WALKER",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 161,
+            "name": "BINIAM GIRMAY",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 162,
+            "name": "LEWIS ASKEY",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 163,
+            "name": "GUILLAUME BOIVIN",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 164,
+            "name": "MATIS LOUVEL",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 165,
+            "name": "RYAN MULLEN",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 166,
+            "name": "RILEY SHEEHAN",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 167,
+            "name": "TOM VAN ASBROECK",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 171,
+            "name": "ANTHONY TURGIS",
+            "team": "TOTALENERGIES"
+          },
+          {
+            "bib": 172,
+            "name": "RAYAN BOULAHOITE",
+            "team": "TOTALENERGIES"
+          },
+          {
+            "bib": 173,
+            "name": "ALEXYS BRUNEL",
+            "team": "TOTALENERGIES"
+          },
+          {
+            "bib": 174,
+            "name": "FLORIAN DAUPHIN",
+            "team": "TOTALENERGIES"
+          },
+          {
+            "bib": 175,
+            "name": "SANDY DUJARDIN",
+            "team": "TOTALENERGIES"
+          },
+          {
+            "bib": 176,
+            "name": "THOMAS GACHIGNARD",
+            "team": "TOTALENERGIES"
+          },
+          {
+            "bib": 177,
+            "name": "SAMUEL LEROUX",
+            "team": "TOTALENERGIES"
+          },
+          {
+            "bib": 181,
+            "name": "LUKE DURBRIDGE",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 182,
+            "name": "DRIES DE BONDT",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 183,
+            "name": "DRIES DE POOTER",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 184,
+            "name": "ROBERT DONALDSON",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 185,
+            "name": "HAMISH MCKENZIE",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 186,
+            "name": "KELLAND O’BRIEN",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 187,
+            "name": "JASHA SÜTTERLIN",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 191,
+            "name": "IVAN GARCIA CORTINA",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 192,
+            "name": "JON BARRENETXEA GOLZARRI",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 193,
+            "name": "FILIP MACIEJUK",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 194,
+            "name": "LORENZO MILESI",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 195,
+            "name": "PAVEL NOVÁK",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 196,
+            "name": "GONZALO SERRANO RODRIGUEZ",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 197,
+            "name": "ALBERT TORRES BARCELO",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 201,
+            "name": "AIME DE GENDT",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 202,
+            "name": "FREDERIK FRISON",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 203,
+            "name": "EMILS LIEPINS",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 204,
+            "name": "KAMIL MALECKI",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 205,
+            "name": "BRENT VAN MOER",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 206,
+            "name": "FRED WRIGHT",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 207,
+            "name": "NICKOLAS ZUKOWSKY",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 211,
+            "name": "MARCO HALLER",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 212,
+            "name": "PETR KELEMEN",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 213,
+            "name": "SEBASTIAN KOLZE CHANGIZI",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 214,
+            "name": "FABIAN LIENHARD",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 215,
+            "name": "MARIUS MAYRHOFER",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 216,
+            "name": "AIVARAS MIKUTIS",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 217,
+            "name": "LUCA MOZZATO",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 221,
+            "name": "LUKÁŠ KUBIŠ",
+            "team": "UNIBET ROSE ROCKETS"
+          },
+          {
+            "bib": 222,
+            "name": "RONAN AUGE",
+            "team": "UNIBET ROSE ROCKETS"
+          },
+          {
+            "bib": 223,
+            "name": "JOREN BLOEM",
+            "team": "UNIBET ROSE ROCKETS"
+          },
+          {
+            "bib": 224,
+            "name": "CORNELIUS TOMAS KOPECKÝ",
+            "team": "UNIBET ROSE ROCKETS"
+          },
+          {
+            "bib": 225,
+            "name": "CASPER MATYÁŠ KOPECKÝ",
+            "team": "UNIBET ROSE ROCKETS"
+          },
+          {
+            "bib": 226,
+            "name": "NIKLAS LARSEN",
+            "team": "UNIBET ROSE ROCKETS"
+          },
+          {
+            "bib": 227,
+            "name": "MARTIJN RASENBERG",
+            "team": "UNIBET ROSE ROCKETS"
+          },
+          {
+            "bib": 231,
+            "name": "ROBIN CARPENTER",
+            "team": "MODERN ADVENTURE PRO CYCLING"
+          },
+          {
+            "bib": 232,
+            "name": "EZRA CAUDELL",
+            "team": "MODERN ADVENTURE PRO CYCLING"
+          },
+          {
+            "bib": 233,
+            "name": "SEAN CHRISTIAN",
+            "team": "MODERN ADVENTURE PRO CYCLING"
+          },
+          {
+            "bib": 234,
+            "name": "COLE KESSLER",
+            "team": "MODERN ADVENTURE PRO CYCLING"
+          },
+          {
+            "bib": 235,
+            "name": "BEN OLIVER",
+            "team": "MODERN ADVENTURE PRO CYCLING"
+          },
+          {
+            "bib": 236,
+            "name": "RILEY PICKRELL",
+            "team": "MODERN ADVENTURE PRO CYCLING"
+          },
+          {
+            "bib": 237,
+            "name": "MARK STEWART",
+            "team": "MODERN ADVENTURE PRO CYCLING"
+          },
+          {
+            "bib": 241,
+            "name": "MICHIEL LAMBRECHT",
+            "team": "TEAM FLANDERS - BALOISE"
+          },
+          {
+            "bib": 242,
+            "name": "BREM DEMAN",
+            "team": "TEAM FLANDERS - BALOISE"
+          },
+          {
+            "bib": 243,
+            "name": "FERRE Geeraerts",
+            "team": "TEAM FLANDERS - BALOISE"
+          },
+          {
+            "bib": 244,
+            "name": "JULES HESTERS",
+            "team": "TEAM FLANDERS - BALOISE"
+          },
+          {
+            "bib": 245,
+            "name": "LEANDER VAN HAUTEGEM",
+            "team": "TEAM FLANDERS - BALOISE"
+          },
+          {
+            "bib": 246,
+            "name": "NOAH VANDENBRANDEN",
+            "team": "TEAM FLANDERS - BALOISE"
+          },
+          {
+            "bib": 247,
+            "name": "VICTOR VERCOUILLIE",
+            "team": "TEAM FLANDERS - BALOISE"
+          }
+        ],
+        "count": 175,
+        "method": "semantic_html",
+        "completeness": "archived_startlist_not_verified_final"
+      }
+    },
+    {
+      "id": "amstel-gold-race-2026",
+      "name": "Amstel Gold Race",
+      "year": 2026,
+      "type": "one_day",
+      "start_date": "2026-04-19",
+      "website": "https://www.amstelgoldrace.nl/",
+      "key": "amstel-gold-race",
+      "organiser_family": "independent",
+      "startlist": {
+        "status": "unavailable",
+        "riders": [],
+        "checked_at": "2026-10-29T19:37:08Z",
+        "warning": "No validated correct-edition 2026 start list found",
+        "count": 0
+      }
+    },
+    {
+      "id": "la-fleche-wallonne-2026",
+      "name": "La Flèche Wallonne",
+      "year": 2026,
+      "type": "one_day",
+      "start_date": "2026-04-22",
+      "website": "https://www.fleche-wallonne.be/en",
+      "key": "la-fleche-wallonne",
+      "organiser_family": "aso",
+      "startlist": {
+        "status": "unavailable",
+        "riders": [],
+        "checked_at": "2026-10-29T19:37:09Z",
+        "warning": "No validated correct-edition 2026 start list found",
+        "count": 0
+      }
+    },
+    {
+      "id": "liege-bastogne-liege-2026",
+      "name": "Liège–Bastogne–Liège",
+      "year": 2026,
+      "type": "one_day",
+      "start_date": "2026-04-26",
+      "website": "https://www.liege-bastogne-liege.be/en",
+      "key": "liege-bastogne-liege",
+      "organiser_family": "aso",
+      "startlist": {
+        "status": "published",
+        "edition_year": 2026,
+        "source_url": "https://www.liege-bastogne-liege.be/en/riders",
+        "checked_at": "2026-10-29T19:37:10Z",
+        "riders": [
+          {
+            "bib": 1,
+            "name": "TADEJ POGACAR",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 2,
+            "name": "BENOIT COSNEFROY",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 3,
+            "name": "RUNE HERREGODTS",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 4,
+            "name": "VEGARD STAKE LAENGEN",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 5,
+            "name": "DOMEN NOVAK",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 6,
+            "name": "PAVEL SIVAKOV",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 7,
+            "name": "TIM WELLENS",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 11,
+            "name": "REMCO EVENEPOEL",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 12,
+            "name": "NICO DENZ",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 13,
+            "name": "HAIMAR EXTEBERRIA",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 14,
+            "name": "FINN FISHER - BLACK",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 15,
+            "name": "JAI HINDLEY",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 16,
+            "name": "DANIEL FELIPE MARTINEZ POVEDA",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 17,
+            "name": "JAN TRATNIK",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 21,
+            "name": "PAUL SEIXAS",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 22,
+            "name": "LÉO BISIAUX",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 23,
+            "name": "STAN DEWULF",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 24,
+            "name": "JORDAN LABROSSE",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 25,
+            "name": "PAUL LAPEIRA",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 26,
+            "name": "ANTOINE L'HOTE",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 27,
+            "name": "NICOLAS PRODHOMME",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 31,
+            "name": "MATTIAS SKJELMOSE",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 32,
+            "name": "JULIEN BERNARD",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 33,
+            "name": "GIULIO CICCONE",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 34,
+            "name": "PATRICK KONRAD",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 35,
+            "name": "JACOPO MOSCA",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 36,
+            "name": "MATTEO SOBRERO",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 37,
+            "name": "CARLOS VERONA",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 41,
+            "name": "BEN TULETT",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 42,
+            "name": "OWAIN DOULL",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 43,
+            "name": "FILIPPO FIORELLI",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 44,
+            "name": "MENNO HUISING",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 45,
+            "name": "STEVEN KRUIJSWIJK",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 46,
+            "name": "PIETRO MATTIO",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 47,
+            "name": "TIM REX",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 51,
+            "name": "MAURO SCHMID",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 52,
+            "name": "ALESSANDRO COVI",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 53,
+            "name": "ANDERS FOLDAGER",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 54,
+            "name": "ALAN HATHERLY",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 55,
+            "name": "ASBJØRN HELLEMOSE",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 56,
+            "name": "BEN O'CONNOR",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 57,
+            "name": "ANDREA VENDRAME",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 61,
+            "name": "TOM PIDCOCK",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 62,
+            "name": "XABIER AZPARREN IRURZUN",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 63,
+            "name": "SJOERD BAX",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 64,
+            "name": "MARCEL CAMPRUBI PIJUAN",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 65,
+            "name": "XANDRO MAURISSE",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 66,
+            "name": "CHRISTOPHER HARPER",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 67,
+            "name": "QUINTEN HERMANS",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 71,
+            "name": "ALEX BAUDIN",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 72,
+            "name": "FRØLICH MIKKEL HONORÉ",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 73,
+            "name": "MICHAEL SHEA LEONARD",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 74,
+            "name": "LUKAS NERURKAR",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 75,
+            "name": "JAMES SHAW",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 76,
+            "name": "JARDI CHRISTIAAN VAN DER LEE",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 77,
+            "name": "MAX WALKER",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 81,
+            "name": "ION IZAGIRRE",
+            "team": "COFIDIS"
+          },
+          {
+            "bib": 82,
+            "name": "YAEL JOALLAND",
+            "team": "COFIDIS"
+          },
+          {
+            "bib": 83,
+            "name": "JAN MAAS",
+            "team": "COFIDIS"
+          },
+          {
+            "bib": 84,
+            "name": "SAM MAISONOBE",
+            "team": "COFIDIS"
+          },
+          {
+            "bib": 85,
+            "name": "PAUL OURSELIN",
+            "team": "COFIDIS"
+          },
+          {
+            "bib": 86,
+            "name": "LOUIS ROULAND",
+            "team": "COFIDIS"
+          },
+          {
+            "bib": 87,
+            "name": "DYLAN TEUNS",
+            "team": "COFIDIS"
+          },
+          {
+            "bib": 91,
+            "name": "SANTIAGO BUITRAGO",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 92,
+            "name": "PELLO BILBAO",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 93,
+            "name": "AFONSO EULÁLIO",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 94,
+            "name": "FRAN MIHOLJEVIĆ",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 95,
+            "name": "PAU MIQUEL DELGADO",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 96,
+            "name": "MATHIJS PAASSCHENS",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 97,
+            "name": "ANTONIO TIBERI",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 101,
+            "name": "ROMAIN GREGOIRE",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 102,
+            "name": "EWEN COSTIOU",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 103,
+            "name": "KÉVIN GENIETS",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 104,
+            "name": "GUILLAUME MARTIN GUYONNET",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 105,
+            "name": "RUDY MOLARD",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 106,
+            "name": "QUENTIN PACHER",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 107,
+            "name": "ENZO PALENI",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 111,
+            "name": "KÉVIN VAUQUELIN",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 112,
+            "name": "EGAN BERNAL",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 113,
+            "name": "LAURENS DE PLUS",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 114,
+            "name": "JACK HAIG",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 115,
+            "name": "BOB JUNGELS",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 116,
+            "name": "AXEL LAURANCE",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 117,
+            "name": "BRANDON SMITH RIVERA VARGAS",
+            "team": "INEOS GRENADIERS"
+          },
+          {
+            "bib": 121,
+            "name": "CLÉMENT CHAMPOUSSIN",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 122,
+            "name": "NICOLA CONCI",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 123,
+            "name": "ANTON KUZMIN",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 124,
+            "name": "CHRISTIAN SCARONI",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 125,
+            "name": "DAVIDE TONEATTI",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 126,
+            "name": "DIEGO ULISSI",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 127,
+            "name": "SIMONE VELASCO",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 131,
+            "name": "TOBIAS JOHANNESSEN",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 132,
+            "name": "ANTHON CHARMIG",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 133,
+            "name": "MAGNUS CORT NIELSEN",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 134,
+            "name": "ANDERS JOHANNESSEN",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 135,
+            "name": "ALEXANDER KAMP",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 136,
+            "name": "ANDREAS KRON",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 137,
+            "name": "ANDREAS LEKNESSUND",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 141,
+            "name": "CIAN UIJTDEBROEKS",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 142,
+            "name": "ROGER ADRIA",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 143,
+            "name": "DAVIDE FORMOLO",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 144,
+            "name": "RAUL GARCIA PIERNA",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 145,
+            "name": "PAVEL NOVÁK",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 146,
+            "name": "IVAN ROMEO ABAD",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 147,
+            "name": "NATNAEL TESFAZION",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 151,
+            "name": "MARCO BRENNER",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 152,
+            "name": "ROBIN DONZÉ",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 153,
+            "name": "JOEL SUTER",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 154,
+            "name": "ROLAND THALMANN",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 155,
+            "name": "LAWRENCE WARBASSE",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 156,
+            "name": "FABIAN WEISS",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 157,
+            "name": "HANNES WILKSCH",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 161,
+            "name": "MAXIMILIAN SCHACHMANN",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 162,
+            "name": "STEFF CRAS",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 163,
+            "name": "PASCAL EENKHOORN",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 164,
+            "name": "DYLAN VAN BAARLE",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 165,
+            "name": "MAURI VANSEVENANT",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 166,
+            "name": "LOUIS VERVAEKE",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 167,
+            "name": "FILIPPO ZANA",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 171,
+            "name": "GEORGE BENNETT",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 172,
+            "name": "MARCO FRIGO",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 173,
+            "name": "BRADY GILMORE",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 174,
+            "name": "PAU MARTI SORIANO",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 175,
+            "name": "KRISTS NEILANDS",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 176,
+            "name": "ALESSANDRO PINARELLO",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 177,
+            "name": "NICHOLAS SCHULTZ",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 181,
+            "name": "FERNANDO BARCELO ARAGON",
+            "team": "CAJA RURAL-SEGUROS RGA"
+          },
+          {
+            "bib": 182,
+            "name": "JOAN BOU COMPANY",
+            "team": "CAJA RURAL-SEGUROS RGA"
+          },
+          {
+            "bib": 183,
+            "name": "JOSEBA LOPEZ CUESTA",
+            "team": "CAJA RURAL-SEGUROS RGA"
+          },
+          {
+            "bib": 184,
+            "name": "ALEX MOLENAAR",
+            "team": "CAJA RURAL-SEGUROS RGA"
+          },
+          {
+            "bib": 185,
+            "name": "JOEL NICOLAU BELTRAN",
+            "team": "CAJA RURAL-SEGUROS RGA"
+          },
+          {
+            "bib": 186,
+            "name": "JAKUB OTRUBA",
+            "team": "CAJA RURAL-SEGUROS RGA"
+          },
+          {
+            "bib": 187,
+            "name": "EDUARD PRADES REVERTER",
+            "team": "CAJA RURAL-SEGUROS RGA"
+          },
+          {
+            "bib": 191,
+            "name": "LENNERT VAN EETVELT",
+            "team": "LOTTO INTERMARCHE"
+          },
+          {
+            "bib": 192,
+            "name": "ROBIN ORINS",
+            "team": "LOTTO INTERMARCHE"
+          },
+          {
+            "bib": 193,
+            "name": "LORENZO ROTA",
+            "team": "LOTTO INTERMARCHE"
+          },
+          {
+            "bib": 194,
+            "name": "REUBEN THOMPSON",
+            "team": "LOTTO INTERMARCHE"
+          },
+          {
+            "bib": 195,
+            "name": "LUCA VAN BOVEN",
+            "team": "LOTTO INTERMARCHE"
+          },
+          {
+            "bib": 196,
+            "name": "BAPTISTE VEISTROFFER",
+            "team": "LOTTO INTERMARCHE"
+          },
+          {
+            "bib": 197,
+            "name": "GEORG ZIMMERMANN",
+            "team": "LOTTO INTERMARCHE"
+          },
+          {
+            "bib": 201,
+            "name": "FRANK VAN DEN BROEK",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 202,
+            "name": "MATTHEW DINHAM",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 203,
+            "name": "BJOERN KOERDT",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 204,
+            "name": "ALEXY FAURE PROST",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 205,
+            "name": "CHRISTOPHER HAMILTON",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 206,
+            "name": "JAMES KNOX",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 207,
+            "name": "GIJS LEEMREIZE",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 211,
+            "name": "EMIEL VERSTRYNGE",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 212,
+            "name": "TOBIAS BAYER",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 213,
+            "name": "FRANCESCO BUSATTO",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 214,
+            "name": "RAMSES DEBRUYNE",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 215,
+            "name": "AARON DOCKX",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 216,
+            "name": "GAL GLIVAR",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 217,
+            "name": "HUGO HOULE",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 221,
+            "name": "ALEXANDRE DELETTRE",
+            "team": "TOTALENERGIES"
+          },
+          {
+            "bib": 222,
+            "name": "MATHIEU BURGAUDEAU",
+            "team": "TOTALENERGIES"
+          },
+          {
+            "bib": 223,
+            "name": "JORIS DELBOVE",
+            "team": "TOTALENERGIES"
+          },
+          {
+            "bib": 224,
+            "name": "THIBAULT GUERNALEC",
+            "team": "TOTALENERGIES"
+          },
+          {
+            "bib": 225,
+            "name": "ALAN JOUSSEAUME",
+            "team": "TOTALENERGIES"
+          },
+          {
+            "bib": 226,
+            "name": "MATHIS LE BERRE",
+            "team": "TOTALENERGIES"
+          },
+          {
+            "bib": 227,
+            "name": "MATTEO VERCHER",
+            "team": "TOTALENERGIES"
+          },
+          {
+            "bib": 231,
+            "name": "MATS WENZEL",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 232,
+            "name": "PABLO CARRASCOSA MILLER",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 233,
+            "name": "IÑIGO ELOSEGUI MOMEÑE",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 234,
+            "name": "UNAI IRIBAR JAUREGI",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 235,
+            "name": "CESAR PEREZ LOPEZ",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 236,
+            "name": "MIKEL RETEGI GOÑI",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 237,
+            "name": "DIEGO URIARTE BELZUNEGI",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 241,
+            "name": "JESUS HERRADA",
+            "team": "BURGOS-BURPELLET-BH"
+          },
+          {
+            "bib": 242,
+            "name": "CLEMENT ALLENO",
+            "team": "BURGOS-BURPELLET-BH"
+          },
+          {
+            "bib": 243,
+            "name": "JOSH BURNETT",
+            "team": "BURGOS-BURPELLET-BH"
+          },
+          {
+            "bib": 244,
+            "name": "ANTONIO ERIC FAGUNDEZ LIMA",
+            "team": "BURGOS-BURPELLET-BH"
+          },
+          {
+            "bib": 245,
+            "name": "LORENZO QUARTUCCI",
+            "team": "BURGOS-BURPELLET-BH"
+          },
+          {
+            "bib": 246,
+            "name": "MARTIN REY VAZQUEZ",
+            "team": "BURGOS-BURPELLET-BH"
+          },
+          {
+            "bib": 247,
+            "name": "JAMBALJAMTS SAINBAYAR",
+            "team": "BURGOS-BURPELLET-BH"
+          }
+        ],
+        "count": 175,
+        "method": "semantic_html",
+        "completeness": "archived_startlist_not_verified_final"
+      }
+    },
+    {
+      "id": "tour-de-romandie-2026",
+      "name": "Tour de Romandie",
+      "year": 2026,
+      "type": "stage_race",
+      "start_date": "2026-04-28",
+      "end_date": "2026-05-03",
+      "website": "https://www.tourderomandie.ch/en/",
+      "key": "tour-de-romandie",
+      "organiser_family": "independent",
+      "startlist": {
+        "status": "unavailable",
+        "riders": [],
+        "checked_at": "2026-10-29T19:37:12Z",
+        "warning": "No validated correct-edition 2026 start list found",
+        "count": 0
+      }
+    },
+    {
+      "id": "giro-ditalia-2026",
+      "name": "Giro d’Italia",
+      "year": 2026,
+      "type": "grand_tour",
+      "start_date": "2026-05-08",
+      "end_date": "2026-05-31",
+      "website": "https://www.giroditalia.it/en/",
+      "key": "giro-ditalia",
+      "organiser_family": "rcs",
+      "startlist": {
+        "status": "unavailable",
+        "riders": [],
+        "checked_at": "2026-10-29T19:37:18Z",
+        "warning": "No validated correct-edition 2026 start list found",
+        "count": 0
+      }
+    },
+    {
+      "id": "tour-auvergne-rhone-alpes-2026",
+      "name": "Tour Auvergne–Rhône–Alpes (formerly Critérium du Dauphiné)",
+      "year": 2026,
+      "type": "stage_race",
+      "start_date": "2026-06-07",
+      "end_date": "2026-06-14",
+      "website": "https://www.tourauvergnerhonealpes.fr/en",
+      "key": "tour-auvergne-rhone-alpes",
+      "organiser_family": "aso",
+      "startlist": {
+        "status": "unavailable",
+        "riders": [],
+        "checked_at": "2026-10-29T19:37:20Z",
+        "warning": "No validated correct-edition 2026 start list found",
+        "count": 0
+      }
+    },
+    {
+      "id": "tour-de-suisse-2026",
+      "name": "Tour de Suisse",
+      "year": 2026,
+      "type": "stage_race",
+      "start_date": "2026-06-17",
+      "end_date": "2026-06-21",
+      "website": "https://www.tourdesuisse.ch/en/",
+      "key": "tour-de-suisse",
+      "organiser_family": "independent",
+      "startlist": {
+        "status": "unavailable",
+        "riders": [],
+        "checked_at": "2026-10-29T19:37:21Z",
+        "warning": "No validated correct-edition 2026 start list found",
+        "count": 0
+      }
+    },
+    {
+      "id": "tour-de-france-2026",
+      "name": "Tour de France",
+      "year": 2026,
+      "type": "grand_tour",
+      "start_date": "2026-07-04",
+      "end_date": "2026-07-26",
+      "website": "https://www.letour.fr/en",
+      "key": "tour-de-france",
+      "organiser_family": "aso",
+      "startlist": {
+        "status": "unavailable",
+        "riders": [],
+        "checked_at": "2026-10-29T19:37:28Z",
+        "warning": "No validated correct-edition 2026 start list found",
+        "count": 0
+      }
+    },
+    {
+      "id": "clasica-san-sebastian-2026",
+      "name": "Donostia San Sebastián Klasikoa",
+      "year": 2026,
+      "type": "one_day",
+      "start_date": "2026-08-01",
+      "website": "https://klasikoa.eus/en/",
+      "key": "clasica-san-sebastian",
+      "organiser_family": "itzulia",
+      "startlist": {
+        "status": "published",
+        "edition_year": 2026,
+        "source_url": "https://klasikoa.eus/es/equipos-2026/",
+        "checked_at": "2026-10-29T19:37:31Z",
+        "riders": [
+          {
+            "bib": 1,
+            "name": "CICCONE Giulio",
+            "team": "LIDL – TREK"
+          },
+          {
+            "bib": 2,
+            "name": "BERNARD Julien",
+            "team": "LIDL – TREK"
+          },
+          {
+            "bib": 3,
+            "name": "GEE Derek",
+            "team": "LIDL – TREK"
+          },
+          {
+            "bib": 4,
+            "name": "SKUJINS Toms",
+            "team": "LIDL – TREK"
+          },
+          {
+            "bib": 5,
+            "name": "MOLLEMA Bauke",
+            "team": "LIDL – TREK"
+          },
+          {
+            "bib": 6,
+            "name": "KONRAD Patrick",
+            "team": "LIDL – TREK"
+          },
+          {
+            "bib": 7,
+            "name": "OOMEN Sam",
+            "team": "LIDL – TREK"
+          },
+          {
+            "bib": 11,
+            "name": "JORGENSON Matteo",
+            "team": "TEAM VISMA LEASE A BIKE"
+          },
+          {
+            "bib": 12,
+            "name": "CAMPENAERTS Victor",
+            "team": "TEAM VISMA LEASE A BIKE"
+          },
+          {
+            "bib": 13,
+            "name": "TULETT Ben",
+            "team": "TEAM VISMA LEASE A BIKE"
+          },
+          {
+            "bib": 14,
+            "name": "BARRE Louis",
+            "team": "TEAM VISMA LEASE A BIKE"
+          },
+          {
+            "bib": 15,
+            "name": "LEMMEN Bart",
+            "team": "TEAM VISMA LEASE A BIKE"
+          },
+          {
+            "bib": 16,
+            "name": "REX Tim",
+            "team": "TEAM VISMA LEASE A BIKE"
+          },
+          {
+            "bib": 17,
+            "name": "KRUIJSWIJK Steven",
+            "team": "TEAM VISMA LEASE A BIKE"
+          },
+          {
+            "bib": 21,
+            "name": "EVENEPOEL Remco",
+            "team": "RED BULL – BORA – HANSGROHE"
+          },
+          {
+            "bib": 22,
+            "name": "ETXEBERRIA Haimar",
+            "team": "RED BULL – BORA – HANSGROHE"
+          },
+          {
+            "bib": 23,
+            "name": "HERZOG Emil",
+            "team": "RED BULL – BORA – HANSGROHE"
+          },
+          {
+            "bib": 24,
+            "name": "MARTINEZ Daniel Felipe",
+            "team": "RED BULL – BORA – HANSGROHE"
+          },
+          {
+            "bib": 25,
+            "name": "MOSCON Gianni",
+            "team": "RED BULL – BORA – HANSGROHE"
+          },
+          {
+            "bib": 26,
+            "name": "PELLIZZARI Giulio",
+            "team": "RED BULL – BORA – HANSGROHE"
+          },
+          {
+            "bib": 27,
+            "name": "VAN GILS Maxim",
+            "team": "RED BULL – BORA – HANSGROHE"
+          },
+          {
+            "bib": 31,
+            "name": "CARAPAZ Richard",
+            "team": "EF EDUCATION- EASYPOST"
+          },
+          {
+            "bib": 32,
+            "name": "HEALY Ben",
+            "team": "EF EDUCATION- EASYPOST"
+          },
+          {
+            "bib": 33,
+            "name": "QUINN Sean",
+            "team": "EF EDUCATION- EASYPOST"
+          },
+          {
+            "bib": 34,
+            "name": "SHAW James",
+            "team": "EF EDUCATION- EASYPOST"
+          },
+          {
+            "bib": 35,
+            "name": "RAFFERTY Darren",
+            "team": "EF EDUCATION- EASYPOST"
+          },
+          {
+            "bib": 36,
+            "name": "LEONARD Michael Shea",
+            "team": "EF EDUCATION- EASYPOST"
+          },
+          {
+            "bib": 37,
+            "name": "SCHWARZBACHER Matthias",
+            "team": "EF EDUCATION- EASYPOST"
+          },
+          {
+            "bib": 41,
+            "name": "ARRIETA Igor",
+            "team": "UAE EMIRATES XRG"
+          },
+          {
+            "bib": 42,
+            "name": "CHRISTEN Jan",
+            "team": "UAE EMIRATES XRG"
+          },
+          {
+            "bib": 43,
+            "name": "COSNEFROY Benoit",
+            "team": "UAE EMIRATES XRG"
+          },
+          {
+            "bib": 44,
+            "name": "NARVAEZ Manuel Jhonatan",
+            "team": "UAE EMIRATES XRG"
+          },
+          {
+            "bib": 45,
+            "name": "SIVAKOV Pavel",
+            "team": "UAE EMIRATES XRG"
+          },
+          {
+            "bib": 46,
+            "name": "VERMAERKE Kevin",
+            "team": "UAE EMIRATES XRG"
+          },
+          {
+            "bib": 47,
+            "name": "VINE Jay",
+            "team": "UAE EMIRATES XRG"
+          },
+          {
+            "bib": 51,
+            "name": "COVI Alessandro",
+            "team": "Team Jayco AlUla"
+          },
+          {
+            "bib": 52,
+            "name": "DOUBLE Paul",
+            "team": "Team Jayco AlUla"
+          },
+          {
+            "bib": 53,
+            "name": "HELLEMOSE Asbjørn",
+            "team": "Team Jayco AlUla"
+          },
+          {
+            "bib": 54,
+            "name": "MCKENZIE Hamish",
+            "team": "Team Jayco AlUla"
+          },
+          {
+            "bib": 55,
+            "name": "PICKERING Xavier Finlay",
+            "team": "Team Jayco AlUla"
+          },
+          {
+            "bib": 56,
+            "name": "PLAPP Lucas",
+            "team": "Team Jayco AlUla"
+          },
+          {
+            "bib": 57,
+            "name": "SCHMID Mauro",
+            "team": "Team Jayco AlUla"
+          },
+          {
+            "bib": 61,
+            "name": "BERRADE Urko",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 62,
+            "name": "URIARTE Diego",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 63,
+            "name": "ELOSEGUI Iñigo",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 64,
+            "name": "WENZEL Mats",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 65,
+            "name": "GUTIERREZ Jorge",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 66,
+            "name": "IRIBAR Unai",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 67,
+            "name": "RUIZ Ibon",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 71,
+            "name": "SCARONI Christian",
+            "team": "XDS ASTANA"
+          },
+          {
+            "bib": 72,
+            "name": "KUZMIN Anton",
+            "team": "XDS ASTANA"
+          },
+          {
+            "bib": 73,
+            "name": "CHAMPOUSSIN Clément",
+            "team": "XDS ASTANA"
+          },
+          {
+            "bib": 74,
+            "name": "SILVA Guillermo",
+            "team": "XDS ASTANA"
+          },
+          {
+            "bib": 75,
+            "name": "SCHRETTL Marco",
+            "team": "XDS ASTANA"
+          },
+          {
+            "bib": 76,
+            "name": "TONEATTI Davide",
+            "team": "XDS ASTANA"
+          },
+          {
+            "bib": 77,
+            "name": "FEDOROV Yevgeniy",
+            "team": "XDS ASTANA"
+          },
+          {
+            "bib": 81,
+            "name": "KULSET Johannes",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 82,
+            "name": "TJØTTA Martin",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 83,
+            "name": "BYSTRØM Sven Erik",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 84,
+            "name": "HOELGAARD Markus",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 85,
+            "name": "HOLTER Ådne",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 86,
+            "name": "HVIDEBERG Jonas Hem",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 87,
+            "name": "RESELL Erik Nordsaeter",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 91,
+            "name": "GALL Felix",
+            "team": "DECATHLON CMA CGM"
+          },
+          {
+            "bib": 92,
+            "name": "DE PESTEL Sander",
+            "team": "DECATHLON CMA CGM"
+          },
+          {
+            "bib": 93,
+            "name": "BISIAUX Léo",
+            "team": "DECATHLON CMA CGM"
+          },
+          {
+            "bib": 94,
+            "name": "L’HOTE Antoine",
+            "team": "DECATHLON CMA CGM"
+          },
+          {
+            "bib": 95,
+            "name": "LABROSSE Jordan",
+            "team": "DECATHLON CMA CGM"
+          },
+          {
+            "bib": 96,
+            "name": "NAESEN Oliver",
+            "team": "DECATHLON CMA CGM"
+          },
+          {
+            "bib": 97,
+            "name": "SCOTSON Callum",
+            "team": "DECATHLON CMA CGM"
+          },
+          {
+            "bib": 101,
+            "name": "IZAGUIRRE Ion",
+            "team": "TEAM COFIDIS"
+          },
+          {
+            "bib": 102,
+            "name": "ROULAND Louis",
+            "team": "TEAM COFIDIS"
+          },
+          {
+            "bib": 103,
+            "name": "FERRON Valentin",
+            "team": "TEAM COFIDIS"
+          },
+          {
+            "bib": 104,
+            "name": "ARANBURU Alex",
+            "team": "TEAM COFIDIS"
+          },
+          {
+            "bib": 105,
+            "name": "OURSELIN Paul",
+            "team": "TEAM COFIDIS"
+          },
+          {
+            "bib": 106,
+            "name": "SAMITIER Sergio",
+            "team": "TEAM COFIDIS"
+          },
+          {
+            "bib": 107,
+            "name": "TEUNS Dylan",
+            "team": "TEAM COFIDIS"
+          },
+          {
+            "bib": 111,
+            "name": "KNOX James",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 112,
+            "name": "DHONDT Robbe",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 113,
+            "name": "FAURE PROST Alexy",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 114,
+            "name": "GAFFURI Mattia",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 115,
+            "name": "KOERDT Bjoern",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 116,
+            "name": "LEEMREIZE Gijs",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 117,
+            "name": "MARTINEZ Guillermo",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 121,
+            "name": "GAUDU David",
+            "team": "GROUPAMA – FDJ UNITED"
+          },
+          {
+            "bib": 122,
+            "name": "ROLLAND Brieuc",
+            "team": "GROUPAMA – FDJ UNITED"
+          },
+          {
+            "bib": 123,
+            "name": "BRAZ AFONSO Clément",
+            "team": "GROUPAMA – FDJ UNITED"
+          },
+          {
+            "bib": 124,
+            "name": "KENCH Joshua",
+            "team": "GROUPAMA – FDJ UNITED"
+          },
+          {
+            "bib": 125,
+            "name": "LE GAC Olivier",
+            "team": "GROUPAMA – FDJ UNITED"
+          },
+          {
+            "bib": 126,
+            "name": "PACHER Quentin",
+            "team": "GROUPAMA – FDJ UNITED"
+          },
+          {
+            "bib": 127,
+            "name": "ROCHAS Rémy",
+            "team": "GROUPAMA – FDJ UNITED"
+          },
+          {
+            "bib": 131,
+            "name": "HIRSCHI Marc",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 132,
+            "name": "DONZÉ Robin",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 133,
+            "name": "JASCH Lennart",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 134,
+            "name": "RONDEL Mathys",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 135,
+            "name": "THALMANN Roland",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 136,
+            "name": "WILKSCH Hannes",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 137,
+            "name": "WIRTGEN Luc",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 141,
+            "name": "LANDA Mikel",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 142,
+            "name": "VANSEVENANT Mauri",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 143,
+            "name": "SVRČEK Martin",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 144,
+            "name": "ZANA Filippo",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 145,
+            "name": "DAINESE Alberto",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 146,
+            "name": "GAROFOLI Gianmarco",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 147,
+            "name": "VAN BAARLE Dylan",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 151,
+            "name": "BAYER Tobias",
+            "team": "ALPECIN PREMIER TECH"
+          },
+          {
+            "bib": 152,
+            "name": "VERSTRYNGE Emiel",
+            "team": "ALPECIN PREMIER TECH"
+          },
+          {
+            "bib": 153,
+            "name": "GOGL Michael",
+            "team": "ALPECIN PREMIER TECH"
+          },
+          {
+            "bib": 154,
+            "name": "DEBRUYNE Ramses",
+            "team": "ALPECIN PREMIER TECH"
+          },
+          {
+            "bib": 155,
+            "name": "HOULE Hugo",
+            "team": "ALPECIN PREMIER TECH"
+          },
+          {
+            "bib": 156,
+            "name": "BUSATTO Francesco",
+            "team": "ALPECIN PREMIER TECH"
+          },
+          {
+            "bib": 157,
+            "name": "GLIVAR Gal",
+            "team": "ALPECIN PREMIER TECH"
+          },
+          {
+            "bib": 161,
+            "name": "MAS Enric",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 162,
+            "name": "LOPEZ Juan Pedro",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 163,
+            "name": "FORMOLO Davide",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 164,
+            "name": "PESCADOR Fernando Diego",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 165,
+            "name": "QUINTANA Nairo",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 166,
+            "name": "NOVÁK Pavel",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 167,
+            "name": "ROMO Javier",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 171,
+            "name": "FAGUNDEZ Antonio",
+            "team": "BURGOS BURPELLET BH"
+          },
+          {
+            "bib": 172,
+            "name": "DE LA CALLE Hugo",
+            "team": "BURGOS BURPELLET BH"
+          },
+          {
+            "bib": 173,
+            "name": "QUARTUCCI Lorenzo",
+            "team": "BURGOS BURPELLET BH"
+          },
+          {
+            "bib": 174,
+            "name": "ALVAREZ Rodrigo",
+            "team": "BURGOS BURPELLET BH"
+          },
+          {
+            "bib": 175,
+            "name": "CAVIA Daniel",
+            "team": "BURGOS BURPELLET BH"
+          },
+          {
+            "bib": 176,
+            "name": "REY Martin",
+            "team": "BURGOS BURPELLET BH"
+          },
+          {
+            "bib": 177,
+            "name": "GARCIA Carlos",
+            "team": "BURGOS BURPELLET BH"
+          },
+          {
+            "bib": 181,
+            "name": "DE PLUS Laurens",
+            "team": "Netcompany INEOS Cycling Team"
+          },
+          {
+            "bib": 182,
+            "name": "HAIG Jack",
+            "team": "Netcompany INEOS Cycling Team"
+          },
+          {
+            "bib": 183,
+            "name": "HAMILTON Lucas",
+            "team": "Netcompany INEOS Cycling Team"
+          },
+          {
+            "bib": 184,
+            "name": "JUNGELS Bob",
+            "team": "Netcompany INEOS Cycling Team"
+          },
+          {
+            "bib": 185,
+            "name": "RIVERA Brandon",
+            "team": "Netcompany INEOS Cycling Team"
+          },
+          {
+            "bib": 186,
+            "name": "RODRIGUEZ Carlos",
+            "team": "Netcompany INEOS Cycling Team"
+          },
+          {
+            "bib": 187,
+            "name": "RODRIGUEZ Oscar",
+            "team": "Netcompany INEOS Cycling Team"
+          },
+          {
+            "bib": 191,
+            "name": "BILBAO Pello",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 192,
+            "name": "EULÁLIO Afonso",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 193,
+            "name": "MIQUEL Pau",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 194,
+            "name": "MIHOLJEVIĆ Fran",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 195,
+            "name": "OMRZEL Jakob",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 196,
+            "name": "PAASSCHENS Mathijs",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 197,
+            "name": "VALTER Attila",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 201,
+            "name": "VAN EETVELT Lennert",
+            "team": "LOTTO-INTERMARCHÉ"
+          },
+          {
+            "bib": 202,
+            "name": "CRAPS Lars",
+            "team": "LOTTO-INTERMARCHÉ"
+          },
+          {
+            "bib": 203,
+            "name": "GUALDI Simone",
+            "team": "LOTTO-INTERMARCHÉ"
+          },
+          {
+            "bib": 204,
+            "name": "ROTA Lorenzo",
+            "team": "LOTTO-INTERMARCHÉ"
+          },
+          {
+            "bib": 205,
+            "name": "THOMPSON Reuben",
+            "team": "LOTTO-INTERMARCHÉ"
+          },
+          {
+            "bib": 206,
+            "name": "VAN BOVEN Luca",
+            "team": "LOTTO-INTERMARCHÉ"
+          },
+          {
+            "bib": 207,
+            "name": "WIDAR Jarno",
+            "team": "LOTTO-INTERMARCHÉ"
+          },
+          {
+            "bib": 211,
+            "name": "LASTRA Jonathan",
+            "team": "EUSKALTEL EUSKADI"
+          },
+          {
+            "bib": 212,
+            "name": "BIZKARRA Mikel",
+            "team": "EUSKALTEL EUSKADI"
+          },
+          {
+            "bib": 213,
+            "name": "AGIRRE Jon",
+            "team": "EUSKALTEL EUSKADI"
+          },
+          {
+            "bib": 214,
+            "name": "ALUSTIZA Nicolas",
+            "team": "EUSKALTEL EUSKADI"
+          },
+          {
+            "bib": 215,
+            "name": "ISASA Xabier",
+            "team": "EUSKALTEL EUSKADI"
+          },
+          {
+            "bib": 216,
+            "name": "MURGUIALDAY Jokin",
+            "team": "EUSKALTEL EUSKADI"
+          },
+          {
+            "bib": 217,
+            "name": "JUARISTI Txomin",
+            "team": "EUSKALTEL EUSKADI"
+          },
+          {
+            "bib": 221,
+            "name": "BENNETT George",
+            "team": "NSN Cycling Team"
+          },
+          {
+            "bib": 222,
+            "name": "BLACKMORE Peter",
+            "team": "NSN Cycling Team"
+          },
+          {
+            "bib": 223,
+            "name": "FRIGO Marco",
+            "team": "NSN Cycling Team"
+          },
+          {
+            "bib": 224,
+            "name": "HIRT Jan",
+            "team": "NSN Cycling Team"
+          },
+          {
+            "bib": 225,
+            "name": "KRETSCHY Moritz",
+            "team": "NSN Cycling Team"
+          },
+          {
+            "bib": 226,
+            "name": "PINARELLO Alessandro",
+            "team": "NSN Cycling Team"
+          },
+          {
+            "bib": 227,
+            "name": "TENE Rotem",
+            "team": "NSN Cycling Team"
+          },
+          {
+            "bib": 231,
+            "name": "AZPARREN Xabier Mikel",
+            "team": "Pinarello-Q36.5 Pro Cycling Team"
+          },
+          {
+            "bib": 232,
+            "name": "CAMPRUBI Marcel",
+            "team": "Pinarello-Q36.5 Pro Cycling Team"
+          },
+          {
+            "bib": 233,
+            "name": "VANHOUCKE Harm",
+            "team": "Pinarello-Q36.5 Pro Cycling Team"
+          },
+          {
+            "bib": 234,
+            "name": "HERMANS Quinten",
+            "team": "Pinarello-Q36.5 Pro Cycling Team"
+          },
+          {
+            "bib": 235,
+            "name": "MEURISSE Xandro",
+            "team": "Pinarello-Q36.5 Pro Cycling Team"
+          },
+          {
+            "bib": 236,
+            "name": "DUNBAR Edward",
+            "team": "Pinarello-Q36.5 Pro Cycling Team"
+          },
+          {
+            "bib": 237,
+            "name": "ZUKOWSKY Nickolas",
+            "team": "Pinarello-Q36.5 Pro Cycling Team"
+          },
+          {
+            "bib": 241,
+            "name": "NICOLAU Joel",
+            "team": "CAJA RURAL SEGUROS RGA"
+          },
+          {
+            "bib": 242,
+            "name": "BOU Joan",
+            "team": "CAJA RURAL SEGUROS RGA"
+          },
+          {
+            "bib": 243,
+            "name": "CASTELLON Jan",
+            "team": "CAJA RURAL SEGUROS RGA"
+          },
+          {
+            "bib": 244,
+            "name": "DIAZ Alex",
+            "team": "CAJA RURAL SEGUROS RGA"
+          },
+          {
+            "bib": 245,
+            "name": "ARRIOLA-BENGOA Julen",
+            "team": "CAJA RURAL SEGUROS RGA"
+          },
+          {
+            "bib": 246,
+            "name": "LOPEZ Joseba",
+            "team": "CAJA RURAL SEGUROS RGA"
+          },
+          {
+            "bib": 247,
+            "name": "SORARRAIN Gorka",
+            "team": "CAJA RURAL SEGUROS RGA"
+          }
+        ],
+        "count": 175,
+        "method": "heading_table",
+        "completeness": "archived_startlist_not_verified_final"
+      }
+    },
+    {
+      "id": "tour-de-pologne-2026",
+      "name": "Tour de Pologne",
+      "year": 2026,
+      "type": "stage_race",
+      "start_date": "2026-08-03",
+      "end_date": "2026-08-09",
+      "website": "https://www.tourdepologne.pl/en/",
+      "key": "tour-de-pologne",
+      "organiser_family": "independent",
+      "startlist": {
+        "status": "unavailable",
+        "riders": [],
+        "checked_at": "2026-10-29T19:37:32Z",
+        "warning": "No validated correct-edition 2026 start list found",
+        "count": 0
+      }
+    },
+    {
+      "id": "la-vuelta-2026",
+      "name": "La Vuelta",
+      "year": 2026,
+      "type": "grand_tour",
+      "start_date": "2026-08-22",
+      "end_date": "2026-09-13",
+      "website": "https://www.lavuelta.es/en",
+      "key": "la-vuelta",
+      "organiser_family": "aso",
+      "startlist": {
+        "status": "published",
+        "edition_year": 2026,
+        "source_url": "https://www.lavuelta.es/en/riders",
+        "checked_at": "2026-10-29T19:37:35Z",
+        "riders": [
+          {
+            "bib": 1,
+            "name": "PRIMOZ ROGLIC",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 2,
+            "name": "FINN FISHER - BLACK",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 3,
+            "name": "JORDI MEEUS",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 4,
+            "name": "GIANNI MOSCON",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 5,
+            "name": "CALLUM THORNLEY",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 6,
+            "name": "LUKE TUCKWELL",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 7,
+            "name": "GIANNI VERMEERSCH",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 8,
+            "name": "FREDERIK WANDAHL",
+            "team": "RED BULL - BORA - HANSGROHE"
+          },
+          {
+            "bib": 11,
+            "name": "TADEJ POGACAR",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 12,
+            "name": "JOAO ALMEIDA",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 13,
+            "name": "DOMEN NOVAK",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 14,
+            "name": "IVO OLIVEIRA",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 15,
+            "name": "PAVEL SIVAKOV",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 16,
+            "name": "PABLO TORRES ARIAS",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 17,
+            "name": "KEVIN VERMAERKE",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 18,
+            "name": "JAY VINE",
+            "team": "UAE TEAM EMIRATES XRG"
+          },
+          {
+            "bib": 21,
+            "name": "ENRIC MAS",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 22,
+            "name": "JORGE ARCAS",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 23,
+            "name": "ORLUIS ALBERTO AULAR SANABRIA",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 24,
+            "name": "CARLOS CANAL BLANCO",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 25,
+            "name": "PABLO CASTRILLO",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 26,
+            "name": "RAUL GARCIA",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 27,
+            "name": "IVAN ROMEO ABAD",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 28,
+            "name": "CIAN UIJTDEBROEKS",
+            "team": "MOVISTAR TEAM"
+          },
+          {
+            "bib": 31,
+            "name": "WOUT VAN AERT",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 32,
+            "name": "BRUNO ARMIRAIL",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 33,
+            "name": "JAMES MATTHEW BRENNAN",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 34,
+            "name": "STEVEN KRUIJSWIJK",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 35,
+            "name": "SEPP KUSS",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 36,
+            "name": "CHRISTOPHE LAPORTE",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 37,
+            "name": "JØRGEN NORDHAGEN",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 38,
+            "name": "BEN TULETT",
+            "team": "TEAM VISMA | LEASE A BIKE"
+          },
+          {
+            "bib": 41,
+            "name": "FÉLIX GALL",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 42,
+            "name": "LÉO BISIAUX",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 43,
+            "name": "ANDREW OSCAR CHAMBERLAIN",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 44,
+            "name": "SANDER DE PESTEL",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 45,
+            "name": "JORDAN LABROSSE",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 46,
+            "name": "GREGOR Mühlberger",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 47,
+            "name": "MATTHEW RICCITELLO",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 48,
+            "name": "CALLUM SCOTSON",
+            "team": "DECATHLON CMA CGM TEAM"
+          },
+          {
+            "bib": 51,
+            "name": "DAVID DE LA CRUZ",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 52,
+            "name": "XABIER AZPARREN IRURZUN",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 53,
+            "name": "WALTER CALZONI",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 54,
+            "name": "MARCEL CAMPRUBI PIJUAN",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 55,
+            "name": "EDWARD DUNBAR",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 56,
+            "name": "THOMAS GLOAG",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 57,
+            "name": "DAVID GONZALEZ LOPEZ",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 58,
+            "name": "MILAN VADER",
+            "team": "PINARELLO-Q36.5 PRO CYCLING TEAM"
+          },
+          {
+            "bib": 61,
+            "name": "OSCAR ONLEY",
+            "team": "NETCOMPANY INEOS CYCLING TEAM"
+          },
+          {
+            "bib": 62,
+            "name": "JACK HAIG",
+            "team": "NETCOMPANY INEOS CYCLING TEAM"
+          },
+          {
+            "bib": 63,
+            "name": "LUCAS HAMILTON",
+            "team": "NETCOMPANY INEOS CYCLING TEAM"
+          },
+          {
+            "bib": 64,
+            "name": "AXEL LAURANCE",
+            "team": "NETCOMPANY INEOS CYCLING TEAM"
+          },
+          {
+            "bib": 65,
+            "name": "CARLOS RODRIGUEZ",
+            "team": "NETCOMPANY INEOS CYCLING TEAM"
+          },
+          {
+            "bib": 66,
+            "name": "EMBRET SVESTAD-BÅRDSENG",
+            "team": "NETCOMPANY INEOS CYCLING TEAM"
+          },
+          {
+            "bib": 67,
+            "name": "JOSHUA TARLING",
+            "team": "NETCOMPANY INEOS CYCLING TEAM"
+          },
+          {
+            "bib": 68,
+            "name": "BEN TURNER",
+            "team": "NETCOMPANY INEOS CYCLING TEAM"
+          },
+          {
+            "bib": 71,
+            "name": "PELLO BILBAO",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 72,
+            "name": "SANTIAGO BUITRAGO",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 73,
+            "name": "ROMAN ERMAKOV",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 74,
+            "name": "MATEVŽ GOVEKAR",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 75,
+            "name": "PAU MIQUEL DELGADO",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 76,
+            "name": "JAKOB OMRZEL",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 77,
+            "name": "MATHIJS PAASSCHENS",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 78,
+            "name": "ATTILA VALTER",
+            "team": "BAHRAIN VICTORIOUS"
+          },
+          {
+            "bib": 81,
+            "name": "MATTIAS SKJELMOSE",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 82,
+            "name": "JULIEN BERNARD",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 83,
+            "name": "LENNARD KÄMNA",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 84,
+            "name": "PATRICK KONRAD",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 85,
+            "name": "JACOPO MOSCA",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 86,
+            "name": "SUNEKÆR MATHIAS NORSGAARD",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 87,
+            "name": "THIBAU NYS",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 88,
+            "name": "MADS PEDERSEN",
+            "team": "LIDL-TREK"
+          },
+          {
+            "bib": 91,
+            "name": "CLÉMENT BERTHET",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 92,
+            "name": "OLIVIER LE GAC",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 93,
+            "name": "VALENTIN MADOUAS",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 94,
+            "name": "GUILLAUME MARTIN GUYONNET",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 95,
+            "name": "RUDY MOLARD",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 96,
+            "name": "ENZO PALENI",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 97,
+            "name": "RÉMY ROCHAS",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 98,
+            "name": "BASTIEN TRONCHON",
+            "team": "GROUPAMA-FDJ UNITED"
+          },
+          {
+            "bib": 101,
+            "name": "KADEN GROVES",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 102,
+            "name": "FRANCESCO BUSATTO",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 103,
+            "name": "RAMSES DEBRUYNE",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 104,
+            "name": "LINDSAY DE VYLDER",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 105,
+            "name": "GAL GLIVAR",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 106,
+            "name": "MICHAEL GOGL",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 107,
+            "name": "HUGO HOULE",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 108,
+            "name": "SENTE SENTJENS",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 111,
+            "name": "ALEXEY LUTSENKO",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 112,
+            "name": "GEORGE BENNETT",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 113,
+            "name": "JAN HIRT",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 114,
+            "name": "HUGO HOFSTETTER",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 115,
+            "name": "MORITZ KRETSCHY",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 116,
+            "name": "PAU MARTI SORIANO",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 117,
+            "name": "NICHOLAS SCHULTZ",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 118,
+            "name": "FLORIS VAN TRICHT",
+            "team": "NSN CYCLING TEAM"
+          },
+          {
+            "bib": 121,
+            "name": "MIKEL LANDA",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 122,
+            "name": "ALBERTO DAINESE",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 123,
+            "name": "GIANMARCO GAROFOLI",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 124,
+            "name": "ETHAN EDWARD HAYTER",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 125,
+            "name": "VALENTIN PARET PEINTRE",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 126,
+            "name": "FABIO VAN DEN BOSSCHE",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 127,
+            "name": "MAURI VANSEVENANT",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 128,
+            "name": "FILIPPO ZANA",
+            "team": "SOUDAL QUICK-STEP"
+          },
+          {
+            "bib": 131,
+            "name": "MAGNUS CORT NIELSEN",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 132,
+            "name": "SIMON DALBY",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 133,
+            "name": "FREDRIK DVERSNES",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 134,
+            "name": "TOBIAS JOHANNESSEN",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 135,
+            "name": "ANDREAS KRON",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 136,
+            "name": "ANDREAS LEKNESSUND",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 137,
+            "name": "RASMUS TILLER",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 138,
+            "name": "MARTIN TJØTTA",
+            "team": "UNO-X MOBILITY"
+          },
+          {
+            "bib": 141,
+            "name": "EMANUEL BUCHMANN",
+            "team": "COFIDIS"
+          },
+          {
+            "bib": 142,
+            "name": "BRYAN COQUARD",
+            "team": "COFIDIS"
+          },
+          {
+            "bib": 143,
+            "name": "ALEX KIRSCH",
+            "team": "COFIDIS"
+          },
+          {
+            "bib": 144,
+            "name": "SYLVAIN MONIQUET",
+            "team": "COFIDIS"
+          },
+          {
+            "bib": 145,
+            "name": "PAUL OURSELIN",
+            "team": "COFIDIS"
+          },
+          {
+            "bib": 146,
+            "name": "ALEXIS RENARD",
+            "team": "COFIDIS"
+          },
+          {
+            "bib": 147,
+            "name": "LOUIS ROULAND",
+            "team": "COFIDIS"
+          },
+          {
+            "bib": 148,
+            "name": "SERGIO SAMITIER SAMITIER",
+            "team": "COFIDIS"
+          },
+          {
+            "bib": 151,
+            "name": "ALESSANDRO COVI",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 152,
+            "name": "KOEN BOUWMAN",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 153,
+            "name": "PAUL DOUBLE",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 154,
+            "name": "ASBJØRN HELLEMOSE",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 155,
+            "name": "HAMISH MCKENZIE",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 156,
+            "name": "XAVIER FINLAY XAVIER PICKERING",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 157,
+            "name": "RUDY PORTER",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 158,
+            "name": "JASHA SÜTTERLIN",
+            "team": "TEAM JAYCO ALULA"
+          },
+          {
+            "bib": 161,
+            "name": "RICHARD CARAPAZ",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 162,
+            "name": "VINCENZO ALBANESE",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 163,
+            "name": "MARKEL BELOKI",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 164,
+            "name": "ALASTAIR MACKELLAR",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 165,
+            "name": "DARREN RAFFERTY",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 166,
+            "name": "JUAN FELIPE RODRIGUEZ CONTRERAS",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 167,
+            "name": "JAMES SHAW",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 168,
+            "name": "GEORG STEINHAUSER",
+            "team": "EF EDUCATION - EASYPOST"
+          },
+          {
+            "bib": 171,
+            "name": "MARCO BRENNER",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 172,
+            "name": "WILLIAM BARTA",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 173,
+            "name": "ARTHUR KLUCKERS",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 174,
+            "name": "STEFAN KÜNG",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 175,
+            "name": "ROLAND THALMANN",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 176,
+            "name": "LAWRENCE WARBASSE",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 177,
+            "name": "FABIAN WEISS",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 178,
+            "name": "HANNES WILKSCH",
+            "team": "TUDOR PRO CYCLING TEAM"
+          },
+          {
+            "bib": 181,
+            "name": "HAROLD TEJADA",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 182,
+            "name": "YEVGENIY FEDOROV",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 183,
+            "name": "LORENZO FORTUNATO",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 184,
+            "name": "VICTOR LANGELLOTTI",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 185,
+            "name": "HENOK MULUEBERHAN",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 186,
+            "name": "CRISTIAN RODRIGUEZ",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 187,
+            "name": "ALESSANDRO ROMELE",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 188,
+            "name": "DARREN VAN BEKKUM",
+            "team": "XDS ASTANA TEAM"
+          },
+          {
+            "bib": 191,
+            "name": "JESUS HERRADA",
+            "team": "BURGOS-BURPELLET-BH"
+          },
+          {
+            "bib": 192,
+            "name": "CLEMENT ALLENO",
+            "team": "BURGOS-BURPELLET-BH"
+          },
+          {
+            "bib": 193,
+            "name": "MARIO APARICIO MUÑOZ",
+            "team": "BURGOS-BURPELLET-BH"
+          },
+          {
+            "bib": 194,
+            "name": "SERGIO GEOVANI CHUMIL GONZALEZ",
+            "team": "BURGOS-BURPELLET-BH"
+          },
+          {
+            "bib": 195,
+            "name": "JOSE MANUEL DIAZ GALLEGO",
+            "team": "BURGOS-BURPELLET-BH"
+          },
+          {
+            "bib": 196,
+            "name": "JOSE LUIS FAURA ASENSIO",
+            "team": "BURGOS-BURPELLET-BH"
+          },
+          {
+            "bib": 197,
+            "name": "SINUHE FERNANDEZ RODRIGUEZ",
+            "team": "BURGOS-BURPELLET-BH"
+          },
+          {
+            "bib": 198,
+            "name": "CESAR MACIAS ESTRADA",
+            "team": "BURGOS-BURPELLET-BH"
+          },
+          {
+            "bib": 201,
+            "name": "JARNO WIDAR",
+            "team": "LOTTO INTERMARCHE"
+          },
+          {
+            "bib": 202,
+            "name": "VITO BRAET",
+            "team": "LOTTO INTERMARCHE"
+          },
+          {
+            "bib": 203,
+            "name": "LARS CRAPS",
+            "team": "LOTTO INTERMARCHE"
+          },
+          {
+            "bib": 204,
+            "name": "STEFFEN DE SCHUYTENEER",
+            "team": "LOTTO INTERMARCHE"
+          },
+          {
+            "bib": 205,
+            "name": "LORENZO ROTA",
+            "team": "LOTTO INTERMARCHE"
+          },
+          {
+            "bib": 206,
+            "name": "REUBEN THOMPSON",
+            "team": "LOTTO INTERMARCHE"
+          },
+          {
+            "bib": 207,
+            "name": "LUCA VAN BOVEN",
+            "team": "LOTTO INTERMARCHE"
+          },
+          {
+            "bib": 208,
+            "name": "ROEL VAN SINTMAARTENSDIJK",
+            "team": "LOTTO INTERMARCHE"
+          },
+          {
+            "bib": 211,
+            "name": "CHRISTOPHER HAMILTON",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 212,
+            "name": "TIMO DE JONG",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 213,
+            "name": "MATTIA GAFFURI",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 214,
+            "name": "GIJS LEEMREIZE",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 215,
+            "name": "GUILLERMO JUAN MARTINEZ HUERTAS",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 216,
+            "name": "OLIVER PEACE",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 217,
+            "name": "HENRI FRANÇOIS RENARD HAQUIN",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 218,
+            "name": "TIMO ROOSEN",
+            "team": "TEAM PICNIC POSTNL"
+          },
+          {
+            "bib": 221,
+            "name": "URKO BERRADE FERNANDEZ",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 222,
+            "name": "MARC BRUSTENGA MASAGUE",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 223,
+            "name": "IVAN COBO CAYON",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 224,
+            "name": "IÑIGO ELOSEGUI MOMEÑE",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 225,
+            "name": "IBON RUIZ SEDANO",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 226,
+            "name": "IVAN SOSA",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 227,
+            "name": "DIEGO URIARTE BELZUNEGI",
+            "team": "EQUIPO KERN PHARMA"
+          },
+          {
+            "bib": 228,
+            "name": "MATS WENZEL",
+            "team": "EQUIPO KERN PHARMA"
+          }
+        ],
+        "count": 184,
+        "method": "semantic_html",
+        "completeness": "archived_startlist_not_verified_final"
+      }
+    },
+    {
+      "id": "gp-montreal-2026",
+      "name": "Grand Prix Cycliste de Montréal",
+      "year": 2026,
+      "type": "one_day",
+      "start_date": "2026-09-13",
+      "website": "https://gpcqm.ca/en/",
+      "key": "gp-montreal",
+      "organiser_family": "independent",
+      "startlist": {
+        "status": "unavailable",
+        "riders": [],
+        "checked_at": "2026-10-29T19:37:36Z",
+        "warning": "No validated correct-edition 2026 start list found",
+        "count": 0
+      }
+    },
+    {
+      "id": "worlds-men-elite-itt-2026",
+      "name": "UCI World Championships — Men Elite Individual Time Trial",
+      "year": 2026,
+      "type": "championship_tt",
+      "start_date": "2026-09-20",
+      "website": "https://www.uci.org/competition-hub/2026-uci-road-world-championships/14QBdFX8GqbCHUPE234D0Q",
+      "key": "worlds-men-elite-itt",
+      "organiser_family": "uci",
+      "startlist": {
+        "status": "unavailable",
+        "riders": [],
+        "checked_at": "2026-10-29T19:37:37Z",
+        "warning": "No validated correct-edition 2026 start list found",
+        "count": 0
+      }
+    },
+    {
+      "id": "worlds-men-elite-rr-2026",
+      "name": "UCI World Championships — Men Elite Road Race",
+      "year": 2026,
+      "type": "one_day",
+      "start_date": "2026-09-27",
+      "website": "https://www.uci.org/competition-hub/2026-uci-road-world-championships/14QBdFX8GqbCHUPE234D0Q",
+      "key": "worlds-men-elite-rr",
+      "organiser_family": "uci",
+      "startlist": {
+        "status": "unavailable",
+        "riders": [],
+        "checked_at": "2026-10-29T19:37:41Z",
+        "warning": "No validated correct-edition 2026 start list found",
+        "count": 0
+      }
+    },
+    {
+      "id": "european-championships-me-rr-2026",
+      "name": "UEC European Championships — Men Elite Road Race",
+      "year": 2026,
+      "type": "one_day",
+      "start_date": "2026-10-04",
+      "website": "https://www.uec.ch/en/event/281/2026-uec-road-european-championships",
+      "key": "european-championships-me-rr",
+      "organiser_family": "uec",
+      "startlist": {
+        "status": "unavailable",
+        "riders": [],
+        "checked_at": "2026-10-29T19:37:41Z",
+        "warning": "No validated correct-edition 2026 start list found",
+        "count": 0
+      }
+    },
+    {
+      "id": "il-lombardia-2026",
+      "name": "Il Lombardia",
+      "year": 2026,
+      "type": "one_day",
+      "start_date": "2026-10-10",
+      "website": "https://www.ilombardia.it/en/",
+      "key": "il-lombardia",
+      "organiser_family": "rcs",
+      "startlist": {
+        "status": "unavailable",
+        "riders": [],
+        "checked_at": "2026-10-29T19:37:46Z",
+        "warning": "No validated correct-edition 2026 start list found",
+        "count": 0
+      }
+    }
+  ]
+}
