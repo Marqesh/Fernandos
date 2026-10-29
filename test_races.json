@@ -1,0 +1,22 @@
+{
+  "races": [
+    {
+      "id": "saitama-criterium-2026-test",
+      "name": "Tour de France Saitama Criterium (test only)",
+      "year": 2026,
+      "type": "one_day",
+      "start_date": "2026-11-15",
+      "date_format": "dmy",
+      "organiser": "Saitama Criterium Organising Committee / ASO",
+      "website": "https://saitama-criterium.jp/",
+      "startlist_urls": [
+        "https://saitama-criterium.jp/crtm2026/team/team-cyclist-fa/"
+      ],
+      "roster_adapter": "saitama",
+      "allow_missing_bib": true,
+      "provisional_roster": true,
+      "min_riders": 5,
+      "enabled": true
+    }
+  ]
+}
