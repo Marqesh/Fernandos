@@ -1,0 +1,718 @@
+{
+  "year": 2027,
+  "generated_at": "2026-10-30T15:19:53Z",
+  "races": [
+    {
+      "race_id": "figueira-champions-classic-2027",
+      "availability": "awaiting_2027_startlist",
+      "attempts": [
+        {
+          "url": "https://figueirachampionsclassic.com/",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:18:27Z",
+          "format": "html",
+          "bytes": 30667,
+          "final_url": "https://figueirachampionsclassic.com/",
+          "title": "Figueira Champions Classic — Casino Figueira",
+          "method": "embedded_json",
+          "edition_year": null,
+          "extracted_count": 0,
+          "validation": "rejected",
+          "reason": "Edition year unverified"
+        }
+      ]
+    },
+    {
+      "race_id": "uae-tour-2027",
+      "availability": "awaiting_2027_startlist",
+      "attempts": [
+        {
+          "url": "https://www.theuaetour.com/teams/",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:18:30Z",
+          "format": "html",
+          "bytes": 116235,
+          "final_url": "https://www.theuaetour.com/teams/",
+          "title": "Teams | THE UAE TOUR",
+          "method": "embedded_json",
+          "edition_year": null,
+          "extracted_count": 0,
+          "validation": "rejected",
+          "reason": "Edition year unverified"
+        },
+        {
+          "url": "https://www.theuaetour.com/teams/xds-astana-team-2/?lang=ar",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:18:30Z",
+          "format": "html",
+          "bytes": 71471,
+          "final_url": "https://www.theuaetour.com/teams/xds-astana-team-2/?lang=ar",
+          "title": "XDS Astana Team | THE UAE TOUR",
+          "method": "embedded_json",
+          "edition_year": null,
+          "extracted_count": 0,
+          "validation": "rejected",
+          "reason": "Edition year unverified"
+        }
+      ]
+    },
+    {
+      "race_id": "volta-ao-algarve-2027",
+      "availability": "awaiting_2027_startlist",
+      "attempts": [
+        {
+          "url": "https://voltaaoalgarve.com/",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:18:34Z",
+          "format": "html",
+          "bytes": 111501,
+          "final_url": "https://voltaaoalgarve.com/pt/inicio/",
+          "title": "Volta ao Algarve | 18 a 22 de Fevereiro 2026",
+          "method": "embedded_json",
+          "edition_year": null,
+          "extracted_count": 0,
+          "validation": "rejected",
+          "reason": "Edition year unverified"
+        }
+      ]
+    },
+    {
+      "race_id": "omloop-het-nieuwsblad-2027",
+      "availability": "page_not_available",
+      "attempts": [
+        {
+          "url": "https://www.omloophetnieuwsblad.be/en/race/men-elite/riders",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:18:38Z",
+          "validation": "error",
+          "reason": "HTTPError: 404 Client Error: Not Found for url: https://www.omloophetnieuwsblad.be/en/race/men-elite/riders"
+        }
+      ]
+    },
+    {
+      "race_id": "kuurne-brussel-kuurne-2027",
+      "availability": "awaiting_2027_startlist",
+      "attempts": [
+        {
+          "url": "https://www.kuurne-brussel-kuurne.be/",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:18:40Z",
+          "format": "html",
+          "bytes": 195399,
+          "final_url": "https://kuurne-brussel-kuurne.be/",
+          "title": "Kuurne-Brussel-Kuurne - 28 februari 2027",
+          "method": "embedded_json",
+          "edition_year": null,
+          "extracted_count": 0,
+          "validation": "rejected",
+          "reason": "Edition year unverified"
+        }
+      ]
+    },
+    {
+      "race_id": "strade-bianche-2027",
+      "availability": "page_not_available",
+      "attempts": [
+        {
+          "url": "https://www.strade-bianche.it/en/riders/",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:18:44Z",
+          "validation": "error",
+          "reason": "HTTPError: 404 Client Error: Not Found for url: https://www.strade-bianche.it/en/liveblog/riders-in-the-chasing-group/"
+        }
+      ]
+    },
+    {
+      "race_id": "paris-nice-2027",
+      "availability": "older_edition",
+      "attempts": [
+        {
+          "url": "https://www.paris-nice.fr/en/riders",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:18:49Z",
+          "format": "html",
+          "bytes": 138640,
+          "final_url": "https://www.paris-nice.fr/en/riders",
+          "title": "List of starters - Paris-Nice 2026",
+          "method": "semantic_html",
+          "edition_year": 2026,
+          "extracted_count": 154,
+          "validation": "rejected",
+          "reason": "Wrong edition 2026, expected 2027"
+        },
+        {
+          "url": "https://www.paris-nice.fr/fr/coureurs",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:18:49Z",
+          "format": "html",
+          "bytes": 140108,
+          "final_url": "https://www.paris-nice.fr/fr/coureurs",
+          "title": "La liste des coureurs partants - Paris-Nice 2026",
+          "method": "semantic_html",
+          "edition_year": 2026,
+          "extracted_count": 154,
+          "validation": "rejected",
+          "reason": "Wrong edition 2026, expected 2027"
+        }
+      ]
+    },
+    {
+      "race_id": "tirreno-adriatico-2027",
+      "availability": "page_not_available",
+      "attempts": [
+        {
+          "url": "https://www.tirrenoadriatico.it/en/riders/",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:18:53Z",
+          "validation": "error",
+          "reason": "HTTPError: 404 Client Error: Not Found for url: https://www.tirrenoadriatico.it/en/liveblog/riders-are-now-approaching-the-climb-towards-capodarco/"
+        }
+      ]
+    },
+    {
+      "race_id": "milano-sanremo-2027",
+      "availability": "page_not_available",
+      "attempts": [
+        {
+          "url": "https://www.milanosanremo.it/en/riders/",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:18:56Z",
+          "validation": "error",
+          "reason": "HTTPError: 404 Client Error: Not Found for url: https://www.milanosanremo.it/en/riders/"
+        }
+      ]
+    },
+    {
+      "race_id": "volta-a-catalunya-2027",
+      "availability": "older_edition",
+      "attempts": [
+        {
+          "url": "https://www.voltacatalunya.cat/en/riders",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:18:59Z",
+          "format": "html",
+          "bytes": 133883,
+          "final_url": "https://www.voltacatalunya.cat/en/riders",
+          "title": "List of starters - Volta Ciclista a Catalunya 2026",
+          "method": "semantic_html",
+          "edition_year": 2026,
+          "extracted_count": 161,
+          "validation": "rejected",
+          "reason": "Wrong edition 2026, expected 2027"
+        }
+      ]
+    },
+    {
+      "race_id": "e3-saxo-classic-2027",
+      "availability": "awaiting_2027_startlist",
+      "attempts": [
+        {
+          "url": "https://www.e3saxoclassic.be/en/",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:19:02Z",
+          "format": "html",
+          "bytes": 67987,
+          "final_url": "https://www.e3saxoclassic.be/",
+          "title": "E3 Saxo Classic - The world’s most thrilling cycling race — always rac",
+          "method": "embedded_json",
+          "edition_year": null,
+          "extracted_count": 0,
+          "validation": "rejected",
+          "reason": "Edition year unverified"
+        }
+      ]
+    },
+    {
+      "race_id": "ronde-van-vlaanderen-2027",
+      "availability": "page_not_available",
+      "attempts": [
+        {
+          "url": "https://www.rondevanvlaanderen.be/en/race/men-elite/participants",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:19:04Z",
+          "validation": "error",
+          "reason": "HTTPError: 404 Client Error: Not Found for url: https://www.rondevanvlaanderen.be/en/race/men-elite/participants"
+        }
+      ]
+    },
+    {
+      "race_id": "itzulia-basque-country-2027",
+      "availability": "page_not_available",
+      "attempts": [
+        {
+          "url": "https://itzulia.eus/en/teams-2027/",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:19:06Z",
+          "validation": "error",
+          "reason": "HTTPError: 404 Client Error: Not Found for url: https://itzulia.eus/en/teams-2027/"
+        }
+      ]
+    },
+    {
+      "race_id": "paris-roubaix-2027",
+      "availability": "older_edition",
+      "attempts": [
+        {
+          "url": "https://www.paris-roubaix.fr/en/riders",
+          "verification": "candidate_for_2027",
+          "checked_at": "2026-10-30T15:19:08Z",
+          "format": "html",
+          "bytes": 144365,
+          "final_url": "https://www.paris-roubaix.fr/en/riders",
+          "title": "Starters list Profil of - Paris Roubaix 2026",
+          "method": "semantic_html",
+          "edition_year": 2026,
+          "extracted_count": 175,
+          "validation": "rejected",
+          "reason": "Wrong edition 2026, expected 2027"
+        },
+        {
+          "url": "https://www.paris-roubaix.fr/fr/coureurs",
+          "verification": "candidate_for_2027",
+          "checked_at": "2026-10-30T15:19:08Z",
+          "format": "html",
+          "bytes": 146450,
+          "final_url": "https://www.paris-roubaix.fr/fr/coureurs",
+          "title": "Liste des coureurs partants - Paris Roubaix 2026",
+          "method": "semantic_html",
+          "edition_year": 2026,
+          "extracted_count": 175,
+          "validation": "rejected",
+          "reason": "Wrong edition 2026, expected 2027"
+        }
+      ]
+    },
+    {
+      "race_id": "amstel-gold-race-2027",
+      "availability": "awaiting_2027_startlist",
+      "attempts": [
+        {
+          "url": "https://www.amstelgoldrace.nl/",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:19:11Z",
+          "format": "html",
+          "bytes": 142493,
+          "final_url": "https://www.amstelgoldrace.nl/nl",
+          "title": "Amstel Gold Race",
+          "method": "embedded_json",
+          "edition_year": null,
+          "extracted_count": 0,
+          "validation": "rejected",
+          "reason": "Edition year unverified"
+        }
+      ]
+    },
+    {
+      "race_id": "la-fleche-wallonne-2027",
+      "availability": "source_error",
+      "attempts": [
+        {
+          "url": "https://www.fleche-wallonne.be/en/riders",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:19:13Z",
+          "validation": "error",
+          "reason": "ConnectionError: HTTPSConnectionPool(host='www.fleche-wallonne.be', port=443): Max retries exceeded with url: /en/riders (Caused by NameResolutionError(\"HTTPSConnectio"
+        }
+      ]
+    },
+    {
+      "race_id": "liege-bastogne-liege-2027",
+      "availability": "older_edition",
+      "attempts": [
+        {
+          "url": "https://www.liege-bastogne-liege.be/en/riders",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:19:14Z",
+          "format": "html",
+          "bytes": 145206,
+          "final_url": "https://www.liege-bastogne-liege.be/en/riders",
+          "title": "List of starters - Liège-Bastogne-Liège 2026",
+          "method": "semantic_html",
+          "edition_year": 2026,
+          "extracted_count": 175,
+          "validation": "rejected",
+          "reason": "Wrong edition 2026, expected 2027"
+        },
+        {
+          "url": "https://www.liege-bastogne-liege.be/fr/coureurs",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:19:14Z",
+          "format": "html",
+          "bytes": 149458,
+          "final_url": "https://www.liege-bastogne-liege.be/fr/coureurs",
+          "title": "La liste des coureurs partants - Liège-Bastogne-Liège 2026",
+          "method": "semantic_html",
+          "edition_year": 2026,
+          "extracted_count": 175,
+          "validation": "rejected",
+          "reason": "Wrong edition 2026, expected 2027"
+        }
+      ]
+    },
+    {
+      "race_id": "tour-de-romandie-2027",
+      "availability": "older_edition",
+      "attempts": [
+        {
+          "url": "https://www.tourderomandie.ch/en/",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:19:18Z",
+          "format": "html",
+          "bytes": 216380,
+          "final_url": "https://www.tourderomandie.ch/en/",
+          "title": "Tour de Romandie (TDR) - official website",
+          "method": "embedded_json",
+          "edition_year": null,
+          "extracted_count": 0,
+          "validation": "rejected",
+          "reason": "Edition year unverified"
+        },
+        {
+          "url": "https://www.tourderomandie.ch/en/the-riders/",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:19:18Z",
+          "format": "html",
+          "bytes": 155089,
+          "final_url": "https://www.tourderomandie.ch/en/the-riders/",
+          "title": "The Tour de France cyclists",
+          "method": "embedded_json",
+          "edition_year": 2026,
+          "extracted_count": 0,
+          "validation": "rejected",
+          "reason": "Wrong edition 2026, expected 2027"
+        }
+      ]
+    },
+    {
+      "race_id": "giro-ditalia-2027",
+      "availability": "page_not_available",
+      "attempts": [
+        {
+          "url": "https://www.giroditalia.it/en/riders/",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:19:24Z",
+          "validation": "error",
+          "reason": "HTTPError: 404 Client Error: Not Found for url: https://www.giroditalia.it/en/riders/"
+        }
+      ]
+    },
+    {
+      "race_id": "tour-auvergne-rhone-alpes-2027",
+      "availability": "source_error",
+      "attempts": [
+        {
+          "url": "https://www.tourauvergnerhonealpes.fr/en/riders",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:19:27Z",
+          "validation": "error",
+          "reason": "SSLError: HTTPSConnectionPool(host='www.tourauvergnerhonealpes.fr', port=443): Max retries exceeded with url: /en/riders (Caused by SSLError(SSLError(1, '[SSL: "
+        }
+      ]
+    },
+    {
+      "race_id": "tour-de-suisse-2027",
+      "availability": "awaiting_2027_startlist",
+      "attempts": [
+        {
+          "url": "https://www.tourdesuisse.ch/en/media/documents/",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:19:28Z",
+          "format": "html",
+          "bytes": 295766,
+          "final_url": "https://www.tourdesuisse.ch/en/media/documents/",
+          "title": "Documents | Tour de Suisse",
+          "method": "embedded_json",
+          "edition_year": null,
+          "extracted_count": 0,
+          "validation": "rejected",
+          "reason": "Edition year unverified"
+        },
+        {
+          "url": "https://www.tourdesuisse.ch/en/teams/",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:19:28Z",
+          "format": "html",
+          "bytes": 157487,
+          "final_url": "https://www.tourdesuisse.ch/en/teams/",
+          "title": "Teams | Tour de Suisse",
+          "method": "embedded_json",
+          "edition_year": null,
+          "extracted_count": 0,
+          "validation": "rejected",
+          "reason": "Edition year unverified"
+        },
+        {
+          "url": "https://www.tourdesuisse.ch/wp-content/uploads/01_TDS_Partants-Men.pdf",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:19:28Z",
+          "format": "pdf",
+          "bytes": 326802,
+          "final_url": "https://www.tourdesuisse.ch/wp-content/uploads/01_TDS_Partants-Men.pdf",
+          "method": "pdf_columns",
+          "edition_year": null,
+          "extracted_count": 0,
+          "pdf": {
+            "pages": 4,
+            "year_candidates": [
+              2026
+            ],
+            "line_samples": [
+              "STARTER",
+              "Sondrio -",
+              "WEDNESDAY 1",
+              "",
+              "Epreuve / Race: TOUR DE SUISSE",
+              "Organisateur / Organiser: Cycling Unlimited",
+              "",
+              "Bib Name",
+              "",
+              "UEX UAE TEAM EMIRATES XRG",
+              "1 POGACAR Tadej",
+              "2 WELLENS Tim",
+              "3 GROSSSCHARTNER Felix",
+              "4 MCNULTY Brandon",
+              "5 NOVAK Domen"
+            ],
+            "strategy_counts": {
+              "pdf_columns": 0,
+              "pdf_text": 0
+            }
+          },
+          "validation": "rejected",
+          "reason": "Edition year unverified"
+        },
+        {
+          "url": "https://www.tourdesuisse.ch/wp-content/uploads/Start-List-TdS-Men-4.pdf",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:19:28Z",
+          "format": "pdf",
+          "bytes": 341433,
+          "final_url": "https://www.tourdesuisse.ch/wp-content/uploads/Start-List-TdS-Men-4.pdf",
+          "method": "pdf_columns",
+          "edition_year": null,
+          "extracted_count": 0,
+          "pdf": {
+            "pages": 1,
+            "year_candidates": [
+              2026
+            ],
+            "line_samples": [
+              "START O",
+              "",
+              "",
+              "Aarburg - Aarburg",
+              "SATURDAY 20 JUNE 2026",
+              "",
+              "Individual T",
+              "Order Time Bib Name Tm Nat",
+              "1 14:57:00 191 *BRENNER Marco TUD GER",
+              "2 14:58:00 84 *ORN-KRISTOFF Felix LOI NOR",
+              "3 14:59:00 43 GRADEK Kamil TBV POL",
+              "4 15:00:00 193 HALLER Marco TUD AUT",
+              "5 15:01:00 35 *LAMPERTI Luke EFE USA",
+              "6 15:02:00 133 HELLEMOSE Asbjorn JAY DEN",
+              "7 15:03:00 83 GRIGNARD Sebastien LOI BEL"
+            ],
+            "strategy_counts": {
+              "pdf_columns": 0,
+              "pdf_text": 0
+            }
+          },
+          "validation": "rejected",
+          "reason": "Edition year unverified"
+        }
+      ]
+    },
+    {
+      "race_id": "tour-de-france-2027",
+      "availability": "awaiting_2027_startlist",
+      "attempts": [
+        {
+          "url": "https://www.letour.fr/en/riders",
+          "verification": "candidate_for_2027",
+          "checked_at": "2026-10-30T15:19:35Z",
+          "format": "html",
+          "bytes": 97064,
+          "final_url": "https://www.letour.fr/en/riders",
+          "title": "List of starters - Tour de France 2027",
+          "method": "embedded_json",
+          "edition_year": 2027,
+          "extracted_count": 0,
+          "validation": "rejected",
+          "reason": "Insufficient distinct teams"
+        },
+        {
+          "url": "https://www.letour.fr/en/riders#2026-edition",
+          "verification": "candidate_for_2027",
+          "checked_at": "2026-10-30T15:19:35Z",
+          "format": "html",
+          "bytes": 97064,
+          "final_url": "https://www.letour.fr/en/riders#2026-edition",
+          "title": "List of starters - Tour de France 2027",
+          "method": "embedded_json",
+          "edition_year": 2027,
+          "extracted_count": 0,
+          "validation": "rejected",
+          "reason": "Insufficient distinct teams"
+        },
+        {
+          "url": "https://www.letour.fr/en/riders#tour-culture",
+          "verification": "candidate_for_2027",
+          "checked_at": "2026-10-30T15:19:35Z",
+          "format": "html",
+          "bytes": 97064,
+          "final_url": "https://www.letour.fr/en/riders#tour-culture",
+          "title": "List of starters - Tour de France 2027",
+          "method": "embedded_json",
+          "edition_year": 2027,
+          "extracted_count": 0,
+          "validation": "rejected",
+          "reason": "Insufficient distinct teams"
+        }
+      ]
+    },
+    {
+      "race_id": "clasica-san-sebastian-2027",
+      "availability": "page_not_available",
+      "attempts": [
+        {
+          "url": "https://klasikoa.eus/es/equipos-2027/",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:19:38Z",
+          "validation": "error",
+          "reason": "HTTPError: 404 Client Error: Not Found for url: https://klasikoa.eus/es/equipos-2027/"
+        }
+      ]
+    },
+    {
+      "race_id": "tour-de-pologne-2027",
+      "availability": "awaiting_2027_startlist",
+      "attempts": [
+        {
+          "url": "https://www.tourdepologne.pl/en/",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:19:40Z",
+          "format": "html",
+          "bytes": 206221,
+          "final_url": "https://www.tourdepologne.pl/en/",
+          "title": "Home - Tour de Pologne",
+          "method": "embedded_json",
+          "edition_year": null,
+          "extracted_count": 0,
+          "validation": "rejected",
+          "reason": "Edition year unverified"
+        },
+        {
+          "url": "https://www.tourdepologne.pl/en/uci-world-tour-teams/",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:19:40Z",
+          "format": "html",
+          "bytes": 110819,
+          "final_url": "https://www.tourdepologne.pl/en/uci-world-tour-teams/",
+          "title": "UCI World Tour Teams - Tour de Pologne",
+          "method": "embedded_json",
+          "edition_year": null,
+          "extracted_count": 0,
+          "validation": "rejected",
+          "reason": "Edition year unverified"
+        }
+      ]
+    },
+    {
+      "race_id": "la-vuelta-2027",
+      "availability": "older_edition",
+      "attempts": [
+        {
+          "url": "https://www.lavuelta.es/en/riders",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:19:44Z",
+          "format": "html",
+          "bytes": 149119,
+          "final_url": "https://www.lavuelta.es/en/riders",
+          "title": "List of starters - La Vuelta 2026",
+          "method": "semantic_html",
+          "edition_year": 2026,
+          "extracted_count": 184,
+          "validation": "rejected",
+          "reason": "Wrong edition 2026, expected 2027"
+        },
+        {
+          "url": "https://www.lavuelta.es/en/riders#the-race",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:19:44Z",
+          "format": "html",
+          "bytes": 149119,
+          "final_url": "https://www.lavuelta.es/en/riders#the-race",
+          "title": "List of starters - La Vuelta 2026",
+          "method": "semantic_html",
+          "edition_year": 2026,
+          "extracted_count": 184,
+          "validation": "rejected",
+          "reason": "Wrong edition 2026, expected 2027"
+        },
+        {
+          "url": "https://www.lavuelta.es/fr/coureurs",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:19:44Z",
+          "format": "html",
+          "bytes": 149799,
+          "final_url": "https://www.lavuelta.es/fr/coureurs",
+          "title": "La liste des coureurs partants - La Vuelta 2026",
+          "method": "semantic_html",
+          "edition_year": 2026,
+          "extracted_count": 184,
+          "validation": "rejected",
+          "reason": "Wrong edition 2026, expected 2027"
+        }
+      ]
+    },
+    {
+      "race_id": "gp-montreal-2027",
+      "availability": "awaiting_2027_startlist",
+      "attempts": [
+        {
+          "url": "https://gpcqm.ca/en/",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:19:48Z",
+          "format": "html",
+          "bytes": 202801,
+          "final_url": "https://gpcqm.ca/en/",
+          "title": "Grands Prix Cyclistes | Québec et Montréal 2026 | UCI World Tour",
+          "method": "embedded_json",
+          "edition_year": null,
+          "extracted_count": 0,
+          "validation": "rejected",
+          "reason": "Edition year unverified"
+        }
+      ]
+    },
+    {
+      "race_id": "worlds-men-elite-itt-2027",
+      "availability": "event_page_pending",
+      "attempts": []
+    },
+    {
+      "race_id": "worlds-men-elite-rr-2027",
+      "availability": "event_page_pending",
+      "attempts": []
+    },
+    {
+      "race_id": "european-championships-me-rr-2027",
+      "availability": "event_page_pending",
+      "attempts": []
+    },
+    {
+      "race_id": "il-lombardia-2027",
+      "availability": "page_not_available",
+      "attempts": [
+        {
+          "url": "https://www.ilombardia.it/en/news/il-lombardia-2027-the-entry-list-has-been-announced/",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-10-30T15:19:50Z",
+          "validation": "error",
+          "reason": "HTTPError: 404 Client Error: Not Found for url: https://www.ilombardia.it/en/news/il-lombardia-2027-the-entry-list-has-been-announced/"
+        }
+      ]
+    }
+  ]
+}
