@@ -1,0 +1,1178 @@
+{
+  "schema_version": 1,
+  "feed_revision": 2,
+  "season": 2027,
+  "generated_at": "2026-10-31T17:28:47Z",
+  "import_mode": "read_only",
+  "source_generated_at": {
+    "production": "2026-10-31T13:44:58Z",
+    "watchlist": "2026-10-31T14:44:17Z"
+  },
+  "summary": {
+    "configured_races": 30,
+    "verified_startlists": 0,
+    "verified_dates": 2,
+    "published_stage_schedules": 1
+  },
+  "races": [
+    {
+      "id": "figueira-champions-classic-2027",
+      "key": "figueira-champions-classic",
+      "name": "Figueira Champions Classic",
+      "aliases": [
+        "Figueira Champions Classic",
+        "Volta a Figueira",
+        "Volta a Figueira Champions Classic"
+      ],
+      "year": 2027,
+      "type": "one_day",
+      "organiser_family": "independent",
+      "website": "https://figueirachampionsclassic.com/",
+      "start_date": null,
+      "end_date": null,
+      "date_status": "awaiting_2027_organiser_confirmation",
+      "race_days": [],
+      "startlist": {
+        "status": "not_published",
+        "edition_year": null,
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-10-31T14:42:46Z",
+        "warning": "The 2027 start list has not been verified"
+      },
+      "startlist_availability": "awaiting_2027_startlist",
+      "startlist_source": null,
+      "stages": [],
+      "stage_status": "not_published",
+      "watch_checked_at": "2026-10-31T14:42:46Z",
+      "production_checked_at": null,
+      "import_mode": "read_only"
+    },
+    {
+      "id": "uae-tour-2027",
+      "key": "uae-tour",
+      "name": "UAE Tour",
+      "aliases": [
+        "UAE Tour"
+      ],
+      "year": 2027,
+      "type": "stage_race",
+      "organiser_family": "rcs",
+      "website": "https://www.theuaetour.com/",
+      "start_date": null,
+      "end_date": null,
+      "date_status": "awaiting_2027_organiser_confirmation",
+      "race_days": [],
+      "startlist": {
+        "status": "not_published",
+        "edition_year": null,
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-10-31T14:42:49Z",
+        "warning": "The 2027 start list has not been verified"
+      },
+      "startlist_availability": "awaiting_2027_startlist",
+      "startlist_source": null,
+      "stages": [],
+      "stage_status": "not_published",
+      "watch_checked_at": "2026-10-31T14:42:49Z",
+      "production_checked_at": null,
+      "import_mode": "read_only"
+    },
+    {
+      "id": "volta-ao-algarve-2027",
+      "key": "volta-ao-algarve",
+      "name": "Volta ao Algarve",
+      "aliases": [
+        "Volta ao Algarve"
+      ],
+      "year": 2027,
+      "type": "stage_race",
+      "organiser_family": "fpc",
+      "website": "https://voltaaoalgarve.com/",
+      "start_date": null,
+      "end_date": null,
+      "date_status": "awaiting_2027_organiser_confirmation",
+      "race_days": [],
+      "startlist": {
+        "status": "not_published",
+        "edition_year": null,
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-10-31T14:42:57Z",
+        "warning": "The 2027 start list has not been verified"
+      },
+      "startlist_availability": "awaiting_2027_startlist",
+      "startlist_source": null,
+      "stages": [],
+      "stage_status": "not_published",
+      "watch_checked_at": "2026-10-31T14:42:57Z",
+      "production_checked_at": null,
+      "import_mode": "read_only"
+    },
+    {
+      "id": "omloop-het-nieuwsblad-2027",
+      "key": "omloop-het-nieuwsblad",
+      "name": "Omloop Het Nieuwsblad",
+      "aliases": [
+        "Omloop Het Nieuwsblad",
+        "Omloop"
+      ],
+      "year": 2027,
+      "type": "one_day",
+      "organiser_family": "flanders",
+      "website": "https://www.omloophetnieuwsblad.be/",
+      "start_date": null,
+      "end_date": null,
+      "date_status": "awaiting_2027_organiser_confirmation",
+      "race_days": [],
+      "startlist": {
+        "status": "not_published",
+        "edition_year": null,
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-10-31T14:42:59Z",
+        "warning": "The configured page is unavailable; no 2027 riders imported"
+      },
+      "startlist_availability": "page_not_available",
+      "startlist_source": null,
+      "stages": [],
+      "stage_status": "not_published",
+      "watch_checked_at": "2026-10-31T14:42:59Z",
+      "production_checked_at": null,
+      "import_mode": "read_only"
+    },
+    {
+      "id": "kuurne-brussel-kuurne-2027",
+      "key": "kuurne-brussel-kuurne",
+      "name": "Kuurne–Brussels–Kuurne",
+      "aliases": [
+        "Kuurne–Brussels–Kuurne",
+        "Kurne Brussels Kurne",
+        "Kuurne Brussels Kuurne"
+      ],
+      "year": 2027,
+      "type": "one_day",
+      "organiser_family": "independent",
+      "website": "https://www.kuurne-brussel-kuurne.be/",
+      "start_date": null,
+      "end_date": null,
+      "date_status": "awaiting_2027_organiser_confirmation",
+      "race_days": [],
+      "startlist": {
+        "status": "not_published",
+        "edition_year": null,
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-10-31T14:43:01Z",
+        "warning": "The 2027 start list has not been verified"
+      },
+      "startlist_availability": "awaiting_2027_startlist",
+      "startlist_source": null,
+      "stages": [],
+      "stage_status": "not_published",
+      "watch_checked_at": "2026-10-31T14:43:01Z",
+      "production_checked_at": null,
+      "import_mode": "read_only"
+    },
+    {
+      "id": "strade-bianche-2027",
+      "key": "strade-bianche",
+      "name": "Strade Bianche",
+      "aliases": [
+        "Strade Bianche"
+      ],
+      "year": 2027,
+      "type": "one_day",
+      "organiser_family": "rcs",
+      "website": "https://www.strade-bianche.it/en/",
+      "start_date": null,
+      "end_date": null,
+      "date_status": "awaiting_2027_organiser_confirmation",
+      "race_days": [],
+      "startlist": {
+        "status": "not_published",
+        "edition_year": null,
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-10-31T14:43:05Z",
+        "warning": "The configured page is unavailable; no 2027 riders imported"
+      },
+      "startlist_availability": "page_not_available",
+      "startlist_source": null,
+      "stages": [],
+      "stage_status": "not_published",
+      "watch_checked_at": "2026-10-31T14:43:05Z",
+      "production_checked_at": null,
+      "import_mode": "read_only"
+    },
+    {
+      "id": "paris-nice-2027",
+      "key": "paris-nice",
+      "name": "Paris–Nice",
+      "aliases": [
+        "Paris–Nice",
+        "Paris Nice"
+      ],
+      "year": 2027,
+      "type": "stage_race",
+      "organiser_family": "aso",
+      "website": "https://www.paris-nice.fr/en",
+      "start_date": null,
+      "end_date": null,
+      "date_status": "awaiting_2027_organiser_confirmation",
+      "race_days": [],
+      "startlist": {
+        "status": "not_published",
+        "edition_year": null,
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-10-31T14:43:08Z",
+        "warning": "The organiser still shows an older edition; no 2027 riders imported"
+      },
+      "startlist_availability": "older_edition",
+      "startlist_source": null,
+      "stages": [],
+      "stage_status": "not_published",
+      "watch_checked_at": "2026-10-31T14:43:08Z",
+      "production_checked_at": null,
+      "import_mode": "read_only"
+    },
+    {
+      "id": "tirreno-adriatico-2027",
+      "key": "tirreno-adriatico",
+      "name": "Tirreno–Adriatico",
+      "aliases": [
+        "Tirreno–Adriatico",
+        "Tirreno Adriatico"
+      ],
+      "year": 2027,
+      "type": "stage_race",
+      "organiser_family": "rcs",
+      "website": "https://www.tirrenoadriatico.it/en/",
+      "start_date": null,
+      "end_date": null,
+      "date_status": "awaiting_2027_organiser_confirmation",
+      "race_days": [],
+      "startlist": {
+        "status": "not_published",
+        "edition_year": null,
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-10-31T14:43:12Z",
+        "warning": "The configured page is unavailable; no 2027 riders imported"
+      },
+      "startlist_availability": "page_not_available",
+      "startlist_source": null,
+      "stages": [],
+      "stage_status": "not_published",
+      "watch_checked_at": "2026-10-31T14:43:12Z",
+      "production_checked_at": null,
+      "import_mode": "read_only"
+    },
+    {
+      "id": "milano-sanremo-2027",
+      "key": "milano-sanremo",
+      "name": "Milano–Sanremo",
+      "aliases": [
+        "Milano–Sanremo",
+        "Milano Sanremo",
+        "Milan San Remo"
+      ],
+      "year": 2027,
+      "type": "one_day",
+      "organiser_family": "rcs",
+      "website": "https://www.milanosanremo.it/en/",
+      "start_date": null,
+      "end_date": null,
+      "date_status": "awaiting_2027_organiser_confirmation",
+      "race_days": [],
+      "startlist": {
+        "status": "not_published",
+        "edition_year": null,
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-10-31T14:43:17Z",
+        "warning": "The configured page is unavailable; no 2027 riders imported"
+      },
+      "startlist_availability": "page_not_available",
+      "startlist_source": null,
+      "stages": [],
+      "stage_status": "not_published",
+      "watch_checked_at": "2026-10-31T14:43:17Z",
+      "production_checked_at": null,
+      "import_mode": "read_only"
+    },
+    {
+      "id": "volta-a-catalunya-2027",
+      "key": "volta-a-catalunya",
+      "name": "Volta a Catalunya",
+      "aliases": [
+        "Volta a Catalunya",
+        "Volta Catalunia"
+      ],
+      "year": 2027,
+      "type": "stage_race",
+      "organiser_family": "aso",
+      "website": "https://www.voltacatalunya.cat/en",
+      "start_date": null,
+      "end_date": null,
+      "date_status": "awaiting_2027_organiser_confirmation",
+      "race_days": [],
+      "startlist": {
+        "status": "not_published",
+        "edition_year": null,
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-10-31T14:43:20Z",
+        "warning": "The organiser still shows an older edition; no 2027 riders imported"
+      },
+      "startlist_availability": "older_edition",
+      "startlist_source": null,
+      "stages": [],
+      "stage_status": "not_published",
+      "watch_checked_at": "2026-10-31T14:43:20Z",
+      "production_checked_at": null,
+      "import_mode": "read_only"
+    },
+    {
+      "id": "e3-saxo-classic-2027",
+      "key": "e3-saxo-classic",
+      "name": "E3 Saxo Classic",
+      "aliases": [
+        "E3 Saxo Classic"
+      ],
+      "year": 2027,
+      "type": "one_day",
+      "organiser_family": "independent",
+      "website": "https://www.e3saxoclassic.be/en/",
+      "start_date": null,
+      "end_date": null,
+      "date_status": "awaiting_2027_organiser_confirmation",
+      "race_days": [],
+      "startlist": {
+        "status": "not_published",
+        "edition_year": null,
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-10-31T14:43:22Z",
+        "warning": "The 2027 start list has not been verified"
+      },
+      "startlist_availability": "awaiting_2027_startlist",
+      "startlist_source": null,
+      "stages": [],
+      "stage_status": "not_published",
+      "watch_checked_at": "2026-10-31T14:43:22Z",
+      "production_checked_at": null,
+      "import_mode": "read_only"
+    },
+    {
+      "id": "ronde-van-vlaanderen-2027",
+      "key": "ronde-van-vlaanderen",
+      "name": "Ronde van Vlaanderen",
+      "aliases": [
+        "Ronde van Vlaanderen",
+        "Ronde Van Vlanderen",
+        "Tour of Flanders"
+      ],
+      "year": 2027,
+      "type": "one_day",
+      "organiser_family": "flanders",
+      "website": "https://www.rondevanvlaanderen.be/en/",
+      "start_date": null,
+      "end_date": null,
+      "date_status": "awaiting_2027_organiser_confirmation",
+      "race_days": [],
+      "startlist": {
+        "status": "not_published",
+        "edition_year": null,
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-10-31T14:43:25Z",
+        "warning": "The configured page is unavailable; no 2027 riders imported"
+      },
+      "startlist_availability": "page_not_available",
+      "startlist_source": null,
+      "stages": [],
+      "stage_status": "not_published",
+      "watch_checked_at": "2026-10-31T14:43:25Z",
+      "production_checked_at": null,
+      "import_mode": "read_only"
+    },
+    {
+      "id": "itzulia-basque-country-2027",
+      "key": "itzulia-basque-country",
+      "name": "Itzulia Basque Country",
+      "aliases": [
+        "Itzulia Basque Country",
+        "Tour of the Basque Country"
+      ],
+      "year": 2027,
+      "type": "stage_race",
+      "organiser_family": "itzulia",
+      "website": "https://itzulia.eus/en/",
+      "start_date": null,
+      "end_date": null,
+      "date_status": "awaiting_2027_organiser_confirmation",
+      "race_days": [],
+      "startlist": {
+        "status": "not_published",
+        "edition_year": null,
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-10-31T14:43:27Z",
+        "warning": "The configured page is unavailable; no 2027 riders imported"
+      },
+      "startlist_availability": "page_not_available",
+      "startlist_source": null,
+      "stages": [],
+      "stage_status": "not_published",
+      "watch_checked_at": "2026-10-31T14:43:27Z",
+      "production_checked_at": null,
+      "import_mode": "read_only"
+    },
+    {
+      "id": "paris-roubaix-2027",
+      "key": "paris-roubaix",
+      "name": "Paris–Roubaix",
+      "aliases": [
+        "Paris–Roubaix",
+        "Paris Roubaix"
+      ],
+      "year": 2027,
+      "type": "one_day",
+      "organiser_family": "aso",
+      "website": "https://www.paris-roubaix.fr/en",
+      "start_date": "2027-04-11",
+      "end_date": null,
+      "date_status": "date_verified",
+      "race_days": [
+        "2027-04-11"
+      ],
+      "startlist": {
+        "status": "not_published",
+        "edition_year": null,
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-10-31T14:43:28Z",
+        "warning": "The organiser still shows an older edition; no 2027 riders imported"
+      },
+      "startlist_availability": "older_edition",
+      "startlist_source": null,
+      "stages": [],
+      "stage_status": "not_published",
+      "watch_checked_at": "2026-10-31T14:43:28Z",
+      "production_checked_at": "2026-10-28T20:28:12Z",
+      "import_mode": "read_only"
+    },
+    {
+      "id": "amstel-gold-race-2027",
+      "key": "amstel-gold-race",
+      "name": "Amstel Gold Race",
+      "aliases": [
+        "Amstel Gold Race",
+        "Ametel Gold Race"
+      ],
+      "year": 2027,
+      "type": "one_day",
+      "organiser_family": "independent",
+      "website": "https://www.amstelgoldrace.nl/",
+      "start_date": null,
+      "end_date": null,
+      "date_status": "awaiting_2027_organiser_confirmation",
+      "race_days": [],
+      "startlist": {
+        "status": "not_published",
+        "edition_year": null,
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-10-31T14:43:32Z",
+        "warning": "The 2027 start list has not been verified"
+      },
+      "startlist_availability": "awaiting_2027_startlist",
+      "startlist_source": null,
+      "stages": [],
+      "stage_status": "not_published",
+      "watch_checked_at": "2026-10-31T14:43:32Z",
+      "production_checked_at": null,
+      "import_mode": "read_only"
+    },
+    {
+      "id": "la-fleche-wallonne-2027",
+      "key": "la-fleche-wallonne",
+      "name": "La Flèche Wallonne",
+      "aliases": [
+        "La Flèche Wallonne",
+        "Fleche Wallonie",
+        "La Fleche Wallonne"
+      ],
+      "year": 2027,
+      "type": "one_day",
+      "organiser_family": "aso",
+      "website": "https://www.fleche-wallonne.be/en",
+      "start_date": null,
+      "end_date": null,
+      "date_status": "awaiting_2027_organiser_confirmation",
+      "race_days": [],
+      "startlist": {
+        "status": "not_published",
+        "edition_year": null,
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-10-31T14:43:34Z",
+        "warning": "The organiser could not be reached at the last check"
+      },
+      "startlist_availability": "source_error",
+      "startlist_source": null,
+      "stages": [],
+      "stage_status": "not_published",
+      "watch_checked_at": "2026-10-31T14:43:34Z",
+      "production_checked_at": null,
+      "import_mode": "read_only"
+    },
+    {
+      "id": "liege-bastogne-liege-2027",
+      "key": "liege-bastogne-liege",
+      "name": "Liège–Bastogne–Liège",
+      "aliases": [
+        "Liège–Bastogne–Liège",
+        "Liege Bastogne Liege"
+      ],
+      "year": 2027,
+      "type": "one_day",
+      "organiser_family": "aso",
+      "website": "https://www.liege-bastogne-liege.be/en",
+      "start_date": null,
+      "end_date": null,
+      "date_status": "awaiting_2027_organiser_confirmation",
+      "race_days": [],
+      "startlist": {
+        "status": "not_published",
+        "edition_year": null,
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-10-31T14:43:35Z",
+        "warning": "The organiser still shows an older edition; no 2027 riders imported"
+      },
+      "startlist_availability": "older_edition",
+      "startlist_source": null,
+      "stages": [],
+      "stage_status": "not_published",
+      "watch_checked_at": "2026-10-31T14:43:35Z",
+      "production_checked_at": null,
+      "import_mode": "read_only"
+    },
+    {
+      "id": "tour-de-romandie-2027",
+      "key": "tour-de-romandie",
+      "name": "Tour de Romandie",
+      "aliases": [
+        "Tour de Romandie",
+        "Volta Romandia"
+      ],
+      "year": 2027,
+      "type": "stage_race",
+      "organiser_family": "independent",
+      "website": "https://www.tourderomandie.ch/en/",
+      "start_date": null,
+      "end_date": null,
+      "date_status": "awaiting_2027_organiser_confirmation",
+      "race_days": [],
+      "startlist": {
+        "status": "not_published",
+        "edition_year": null,
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-10-31T14:43:38Z",
+        "warning": "The organiser still shows an older edition; no 2027 riders imported"
+      },
+      "startlist_availability": "older_edition",
+      "startlist_source": null,
+      "stages": [],
+      "stage_status": "not_published",
+      "watch_checked_at": "2026-10-31T14:43:38Z",
+      "production_checked_at": null,
+      "import_mode": "read_only"
+    },
+    {
+      "id": "giro-ditalia-2027",
+      "key": "giro-ditalia",
+      "name": "Giro d’Italia",
+      "aliases": [
+        "Giro d’Italia",
+        "Giro d Italia",
+        "Giro dItalia"
+      ],
+      "year": 2027,
+      "type": "grand_tour",
+      "organiser_family": "rcs",
+      "website": "https://www.giroditalia.it/en/",
+      "start_date": null,
+      "end_date": null,
+      "date_status": "awaiting_2027_organiser_confirmation",
+      "race_days": [],
+      "startlist": {
+        "status": "not_published",
+        "edition_year": null,
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-10-31T14:43:45Z",
+        "warning": "The configured page is unavailable; no 2027 riders imported"
+      },
+      "startlist_availability": "page_not_available",
+      "startlist_source": null,
+      "stages": [],
+      "stage_status": "not_published",
+      "watch_checked_at": "2026-10-31T14:43:45Z",
+      "production_checked_at": null,
+      "import_mode": "read_only"
+    },
+    {
+      "id": "tour-auvergne-rhone-alpes-2027",
+      "key": "tour-auvergne-rhone-alpes",
+      "name": "Tour Auvergne–Rhône–Alpes (formerly Critérium du Dauphiné)",
+      "aliases": [
+        "Tour Auvergne–Rhône–Alpes (formerly Critérium du Dauphiné)",
+        "Criterium Dauphine",
+        "Criterium du Dauphine",
+        "Tour Auvergne Rhone Alpes"
+      ],
+      "year": 2027,
+      "type": "stage_race",
+      "organiser_family": "aso",
+      "website": "https://www.tourauvergnerhonealpes.fr/en",
+      "start_date": null,
+      "end_date": null,
+      "date_status": "awaiting_2027_organiser_confirmation",
+      "race_days": [],
+      "startlist": {
+        "status": "not_published",
+        "edition_year": null,
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-10-31T14:43:47Z",
+        "warning": "The organiser could not be reached at the last check"
+      },
+      "startlist_availability": "source_error",
+      "startlist_source": null,
+      "stages": [],
+      "stage_status": "not_published",
+      "watch_checked_at": "2026-10-31T14:43:47Z",
+      "production_checked_at": null,
+      "import_mode": "read_only"
+    },
+    {
+      "id": "tour-de-suisse-2027",
+      "key": "tour-de-suisse",
+      "name": "Tour de Suisse",
+      "aliases": [
+        "Tour de Suisse"
+      ],
+      "year": 2027,
+      "type": "stage_race",
+      "organiser_family": "independent",
+      "website": "https://www.tourdesuisse.ch/en/",
+      "start_date": null,
+      "end_date": null,
+      "date_status": "awaiting_2027_organiser_confirmation",
+      "race_days": [],
+      "startlist": {
+        "status": "not_published",
+        "edition_year": null,
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-10-31T14:43:49Z",
+        "warning": "The 2027 start list has not been verified"
+      },
+      "startlist_availability": "awaiting_2027_startlist",
+      "startlist_source": null,
+      "stages": [],
+      "stage_status": "not_published",
+      "watch_checked_at": "2026-10-31T14:43:49Z",
+      "production_checked_at": null,
+      "import_mode": "read_only"
+    },
+    {
+      "id": "tour-de-france-2027",
+      "key": "tour-de-france",
+      "name": "Tour de France",
+      "aliases": [
+        "Tour de France"
+      ],
+      "year": 2027,
+      "type": "grand_tour",
+      "organiser_family": "aso",
+      "website": "https://www.letour.fr/en",
+      "start_date": "2027-07-02",
+      "end_date": "2027-07-25",
+      "date_status": "date_verified",
+      "race_days": [
+        "2027-07-02",
+        "2027-07-03",
+        "2027-07-04",
+        "2027-07-06",
+        "2027-07-07",
+        "2027-07-08",
+        "2027-07-09",
+        "2027-07-10",
+        "2027-07-11",
+        "2027-07-13",
+        "2027-07-14",
+        "2027-07-15",
+        "2027-07-16",
+        "2027-07-17",
+        "2027-07-18",
+        "2027-07-20",
+        "2027-07-21",
+        "2027-07-22",
+        "2027-07-23",
+        "2027-07-24",
+        "2027-07-25"
+      ],
+      "startlist": {
+        "status": "not_published",
+        "edition_year": null,
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-10-31T14:43:59Z",
+        "warning": "The 2027 start list has not been verified"
+      },
+      "startlist_availability": "awaiting_2027_startlist",
+      "startlist_source": null,
+      "stages": [
+        {
+          "kind": "stage",
+          "number": 1,
+          "date": "2027-07-02",
+          "profile": "Flat",
+          "route": "Édimbourg > Carlisle"
+        },
+        {
+          "kind": "stage",
+          "number": 2,
+          "date": "2027-07-03",
+          "profile": "Hilly",
+          "route": "Keswick > Liverpool"
+        },
+        {
+          "kind": "stage",
+          "number": 3,
+          "date": "2027-07-04",
+          "profile": "Hilly",
+          "route": "Welshpool > Cardiff"
+        },
+        {
+          "kind": "rest",
+          "number": null,
+          "date": "2027-07-05",
+          "profile": "Rest Day",
+          "route": "Cherbourg-en-Cotentin"
+        },
+        {
+          "kind": "stage",
+          "number": 4,
+          "date": "2027-07-06",
+          "profile": "Hilly",
+          "route": "Cherbourg-en-Cotentin > Cherbourg-en-Cotentin"
+        },
+        {
+          "kind": "stage",
+          "number": 5,
+          "date": "2027-07-07",
+          "profile": "Hilly",
+          "route": "Pontorson > Plumelec"
+        },
+        {
+          "kind": "stage",
+          "number": 6,
+          "date": "2027-07-08",
+          "profile": "Hilly",
+          "route": "Vannes > Angers"
+        },
+        {
+          "kind": "stage",
+          "number": 7,
+          "date": "2027-07-09",
+          "profile": "Individual time-trial",
+          "route": "Blois > Chambord"
+        },
+        {
+          "kind": "stage",
+          "number": 8,
+          "date": "2027-07-10",
+          "profile": "Hilly",
+          "route": "Bourges > Le Creusot"
+        },
+        {
+          "kind": "stage",
+          "number": 9,
+          "date": "2027-07-11",
+          "profile": "Mountain",
+          "route": "Villars-les-Dombes Parc des Oiseaux > Grand Colombier"
+        },
+        {
+          "kind": "rest",
+          "number": null,
+          "date": "2027-07-12",
+          "profile": "Rest Day",
+          "route": "Haute-savoie"
+        },
+        {
+          "kind": "stage",
+          "number": 10,
+          "date": "2027-07-13",
+          "profile": "Mountain",
+          "route": "Annecy > Sallanches"
+        },
+        {
+          "kind": "stage",
+          "number": 11,
+          "date": "2027-07-14",
+          "profile": "Mountain",
+          "route": "Cluses > Les Saisies"
+        },
+        {
+          "kind": "stage",
+          "number": 12,
+          "date": "2027-07-15",
+          "profile": "Flat",
+          "route": "Chambéry > Valence"
+        },
+        {
+          "kind": "stage",
+          "number": 13,
+          "date": "2027-07-16",
+          "profile": "Flat",
+          "route": "Aubenas > Montpellier"
+        },
+        {
+          "kind": "stage",
+          "number": 14,
+          "date": "2027-07-17",
+          "profile": "Mountain",
+          "route": "Montpellier > Mende"
+        },
+        {
+          "kind": "stage",
+          "number": 15,
+          "date": "2027-07-18",
+          "profile": "Hilly",
+          "route": "Rodez > Albi"
+        },
+        {
+          "kind": "rest",
+          "number": null,
+          "date": "2027-07-19",
+          "profile": "Rest Day",
+          "route": "Toulouse"
+        },
+        {
+          "kind": "stage",
+          "number": 16,
+          "date": "2027-07-20",
+          "profile": "Individual time-trial",
+          "route": "Toulouse > Toulouse"
+        },
+        {
+          "kind": "stage",
+          "number": 17,
+          "date": "2027-07-21",
+          "profile": "Flat",
+          "route": "Muret > Pau"
+        },
+        {
+          "kind": "stage",
+          "number": 18,
+          "date": "2027-07-22",
+          "profile": "Mountain",
+          "route": "Pau > Saint-Lary-Soulan Col du Portet"
+        },
+        {
+          "kind": "stage",
+          "number": 19,
+          "date": "2027-07-23",
+          "profile": "Mountain",
+          "route": "Hasparren > Laruns"
+        },
+        {
+          "kind": "stage",
+          "number": 20,
+          "date": "2027-07-24",
+          "profile": "Flat",
+          "route": "Maubourguet > Libourne"
+        },
+        {
+          "kind": "stage",
+          "number": 21,
+          "date": "2027-07-25",
+          "profile": "Flat",
+          "route": "Saint-Quentin-en-Yvelines > Paris Champs-Élysées"
+        }
+      ],
+      "stage_status": "published",
+      "watch_checked_at": "2026-10-31T14:43:59Z",
+      "production_checked_at": "2026-10-28T20:28:12Z",
+      "import_mode": "read_only"
+    },
+    {
+      "id": "clasica-san-sebastian-2027",
+      "key": "clasica-san-sebastian",
+      "name": "Donostia San Sebastián Klasikoa",
+      "aliases": [
+        "Donostia San Sebastián Klasikoa",
+        "Classica San Sebastian",
+        "Clasica San Sebastian"
+      ],
+      "year": 2027,
+      "type": "one_day",
+      "organiser_family": "itzulia",
+      "website": "https://klasikoa.eus/en/",
+      "start_date": null,
+      "end_date": null,
+      "date_status": "awaiting_2027_organiser_confirmation",
+      "race_days": [],
+      "startlist": {
+        "status": "not_published",
+        "edition_year": null,
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-10-31T14:44:03Z",
+        "warning": "The configured page is unavailable; no 2027 riders imported"
+      },
+      "startlist_availability": "page_not_available",
+      "startlist_source": null,
+      "stages": [],
+      "stage_status": "not_published",
+      "watch_checked_at": "2026-10-31T14:44:03Z",
+      "production_checked_at": null,
+      "import_mode": "read_only"
+    },
+    {
+      "id": "tour-de-pologne-2027",
+      "key": "tour-de-pologne",
+      "name": "Tour de Pologne",
+      "aliases": [
+        "Tour de Pologne"
+      ],
+      "year": 2027,
+      "type": "stage_race",
+      "organiser_family": "independent",
+      "website": "https://www.tourdepologne.pl/en/",
+      "start_date": null,
+      "end_date": null,
+      "date_status": "awaiting_2027_organiser_confirmation",
+      "race_days": [],
+      "startlist": {
+        "status": "not_published",
+        "edition_year": null,
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-10-31T14:44:05Z",
+        "warning": "The 2027 start list has not been verified"
+      },
+      "startlist_availability": "awaiting_2027_startlist",
+      "startlist_source": null,
+      "stages": [],
+      "stage_status": "not_published",
+      "watch_checked_at": "2026-10-31T14:44:05Z",
+      "production_checked_at": null,
+      "import_mode": "read_only"
+    },
+    {
+      "id": "la-vuelta-2027",
+      "key": "la-vuelta",
+      "name": "La Vuelta",
+      "aliases": [
+        "La Vuelta",
+        "Vuelta a Espana"
+      ],
+      "year": 2027,
+      "type": "grand_tour",
+      "organiser_family": "aso",
+      "website": "https://www.lavuelta.es/en",
+      "start_date": null,
+      "end_date": null,
+      "date_status": "awaiting_2027_organiser_confirmation",
+      "race_days": [],
+      "startlist": {
+        "status": "not_published",
+        "edition_year": null,
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-10-31T14:44:08Z",
+        "warning": "The organiser still shows an older edition; no 2027 riders imported"
+      },
+      "startlist_availability": "older_edition",
+      "startlist_source": null,
+      "stages": [],
+      "stage_status": "not_published",
+      "watch_checked_at": "2026-10-31T14:44:08Z",
+      "production_checked_at": null,
+      "import_mode": "read_only"
+    },
+    {
+      "id": "gp-montreal-2027",
+      "key": "gp-montreal",
+      "name": "Grand Prix Cycliste de Montréal",
+      "aliases": [
+        "Grand Prix Cycliste de Montréal",
+        "Grand Prix Cycliste de Montreal",
+        "GP Montreal"
+      ],
+      "year": 2027,
+      "type": "one_day",
+      "organiser_family": "independent",
+      "website": "https://gpcqm.ca/en/",
+      "start_date": null,
+      "end_date": null,
+      "date_status": "awaiting_2027_organiser_confirmation",
+      "race_days": [],
+      "startlist": {
+        "status": "not_published",
+        "edition_year": null,
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-10-31T14:44:13Z",
+        "warning": "The 2027 start list has not been verified"
+      },
+      "startlist_availability": "awaiting_2027_startlist",
+      "startlist_source": null,
+      "stages": [],
+      "stage_status": "not_published",
+      "watch_checked_at": "2026-10-31T14:44:13Z",
+      "production_checked_at": null,
+      "import_mode": "read_only"
+    },
+    {
+      "id": "worlds-men-elite-itt-2027",
+      "key": "worlds-men-elite-itt",
+      "name": "UCI World Championships — Men Elite Individual Time Trial",
+      "aliases": [
+        "UCI World Championships — Men Elite Individual Time Trial",
+        "Worlds TT ME",
+        "World Championships Time Trial Men Elite"
+      ],
+      "year": 2027,
+      "type": "championship_tt",
+      "organiser_family": "uci",
+      "website": "https://www.uci.org/",
+      "start_date": null,
+      "end_date": null,
+      "date_status": "awaiting_2027_organiser_confirmation",
+      "race_days": [],
+      "startlist": {
+        "status": "not_published",
+        "edition_year": null,
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-10-31T14:44:14Z",
+        "warning": "The organiser has not provided a verified 2027 event start-list page"
+      },
+      "startlist_availability": "event_page_pending",
+      "startlist_source": null,
+      "stages": [],
+      "stage_status": "not_published",
+      "watch_checked_at": "2026-10-31T14:44:14Z",
+      "production_checked_at": null,
+      "import_mode": "read_only"
+    },
+    {
+      "id": "worlds-men-elite-rr-2027",
+      "key": "worlds-men-elite-rr",
+      "name": "UCI World Championships — Men Elite Road Race",
+      "aliases": [
+        "UCI World Championships — Men Elite Road Race",
+        "Worlds Road Race",
+        "World Championships Men Elite Road Race"
+      ],
+      "year": 2027,
+      "type": "one_day",
+      "organiser_family": "uci",
+      "website": "https://www.uci.org/",
+      "start_date": null,
+      "end_date": null,
+      "date_status": "awaiting_2027_organiser_confirmation",
+      "race_days": [],
+      "startlist": {
+        "status": "not_published",
+        "edition_year": null,
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-10-31T14:44:14Z",
+        "warning": "The organiser has not provided a verified 2027 event start-list page"
+      },
+      "startlist_availability": "event_page_pending",
+      "startlist_source": null,
+      "stages": [],
+      "stage_status": "not_published",
+      "watch_checked_at": "2026-10-31T14:44:14Z",
+      "production_checked_at": null,
+      "import_mode": "read_only"
+    },
+    {
+      "id": "european-championships-me-rr-2027",
+      "key": "european-championships-me-rr",
+      "name": "UEC European Championships — Men Elite Road Race",
+      "aliases": [
+        "UEC European Championships — Men Elite Road Race",
+        "European Championships",
+        "European Championships ME Road Race"
+      ],
+      "year": 2027,
+      "type": "one_day",
+      "organiser_family": "uec",
+      "website": "https://www.uec.ch/",
+      "start_date": null,
+      "end_date": null,
+      "date_status": "awaiting_2027_organiser_confirmation",
+      "race_days": [],
+      "startlist": {
+        "status": "not_published",
+        "edition_year": null,
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-10-31T14:44:14Z",
+        "warning": "The organiser has not provided a verified 2027 event start-list page"
+      },
+      "startlist_availability": "event_page_pending",
+      "startlist_source": null,
+      "stages": [],
+      "stage_status": "not_published",
+      "watch_checked_at": "2026-10-31T14:44:14Z",
+      "production_checked_at": null,
+      "import_mode": "read_only"
+    },
+    {
+      "id": "il-lombardia-2027",
+      "key": "il-lombardia",
+      "name": "Il Lombardia",
+      "aliases": [
+        "Il Lombardia",
+        "Giro di Lombardia"
+      ],
+      "year": 2027,
+      "type": "one_day",
+      "organiser_family": "rcs",
+      "website": "https://www.ilombardia.it/en/",
+      "start_date": null,
+      "end_date": null,
+      "date_status": "awaiting_2027_organiser_confirmation",
+      "race_days": [],
+      "startlist": {
+        "status": "not_published",
+        "edition_year": null,
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-10-31T14:44:14Z",
+        "warning": "The configured page is unavailable; no 2027 riders imported"
+      },
+      "startlist_availability": "page_not_available",
+      "startlist_source": null,
+      "stages": [],
+      "stage_status": "not_published",
+      "watch_checked_at": "2026-10-31T14:44:14Z",
+      "production_checked_at": null,
+      "import_mode": "read_only"
+    }
+  ]
+}
