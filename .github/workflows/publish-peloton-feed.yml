@@ -1,0 +1,89 @@
+name: Peloton - Publish Site feed
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/publish-peloton-feed.yml'
+      - 'build_peloton_feed.py'
+      - 'site_integration.js'
+      - 'tests/test_build_peloton_feed.py'
+      - 'tests/site_integration.test.mjs'
+  workflow_run:
+    workflows:
+      - Peloton - Update official race data
+      - Peloton - Watch 2027 startlists
+    types: [completed]
+  schedule:
+    - cron: '12 10 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: peloton-site-feed
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Refresh upstream data from main
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run isolated feed builder tests
+        run: |
+          python -m pip install pytest
+          python -m pytest -q tests/test_build_peloton_feed.py
+      - name: Run read-only site adapter tests
+        run: node --test tests/site_integration.test.mjs
+      - name: Build canonical 30-race feed
+        run: |
+          python build_peloton_feed.py \
+            --targets races_2027_targets.json \
+            --watch data/watch-2027.json \
+            --production data/latest.json \
+            --output data/peloton-feed.json
+      - name: Verify scope and publish only validated year
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          f=json.loads(Path('data/peloton-feed.json').read_text(encoding='utf-8'))
+          assert f['schema_version']==1 and f['season']==2027
+          assert f['import_mode']=='read_only' and len(f['races'])==30
+          assert all(r['year']==2027 and
+                     (r['startlist']['status']!='published' or r['startlist']['edition_year']==2027)
+                     for r in f['races'])
+          assert not any(r['start_date'] and not r['start_date'].startswith('2027-')
+                         for r in f['races'])
+          print('Verified:',f['summary'])
+          PY
+      - name: Commit public Site feed (never league user data)
+        shell: bash
+        run: |
+          git config user.name 'peloton-data-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/peloton-feed.json
+          if git diff --cached --quiet; then
+            echo 'Feed unchanged'
+            exit 0
+          fi
+          git commit -m 'Refresh Peloton Site feed [skip ci]'
+          if ! git push; then
+            echo 'Upstream advanced; retrying feed-only commit'
+            git fetch origin main
+            git reset --mixed origin/main
+            git add data/peloton-feed.json
+            if ! git diff --cached --quiet; then
+              git commit -m 'Refresh Peloton Site feed [skip ci]'
+              git push
+            fi
+          fi
