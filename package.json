@@ -1,0 +1,7 @@
+{
+  "name": "peloton-race-feed",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"test:site": "node --test tests/site_integration.test.mjs"}
+}
