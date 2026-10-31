@@ -1,21 +1,60 @@
-Update my existing Peloton · Cycling League Site WITHOUT replacing or rebuilding it.
+Modify the EXISTING Peloton - Cycling League Site at:
+https://peloton-marcos-league.roy-lapa-6406.chatgpt.site
 
-We have an external free automatic cycling-data scraper hosted in a GitHub public repository. It runs twice a day and produces a static JSON file (not a paid cycling API) conforming to schema_version 1.
+Do NOT create a replacement site. Make the following small read-only integration
+with our existing race calendar and draft interfaces. Preserve authentication,
+all member records, draft picks and selections, standings, scoring, private
+Top 10 predictions, Velogames logic, notifications and existing deadlines.
 
-PUBLIC_FEED_URL = PASTE_MY_ACTUAL_GITHUB_RAW_JSON_URL_HERE
+PUBLIC RACE FEED (no API key):
+https://raw.githubusercontent.com/Marqesh/Fernandos/main/data/peloton-feed.json
 
-Please integrate this feed into the existing race calendar, start-list selection and administrator data status screen.
+The feed is JSON schema_version 1, season 2027, with 30 races. It updates in
+GitHub Actions after the official race scraper/watchlist runs. Each race has:
+id, key, name, aliases, year, type, start_date (often null), date_status,
+website, startlist { status, edition_year, riders[], count, checked_at, warning },
+startlist_availability, stages[], stage_status, race_days[], import_mode.
+Top-level fields include generated_at, source_generated_at, summary.
 
-Requirements:
-1. Fetch the public URL on load and refresh periodically while the race screen is open. Display the last successful sync timestamp and any warning or unavailable status.
-2. Match existing race records by exact id, or by normalised race name + year. Never duplicate existing races just because a new external record appears.
-3. For race start lists, only trust startlist.status === 'published' AND startlist.edition_year === race.year. Other statuses must show as pending, stale or unavailable, without inventing riders.
-4. Show each rider's name, bib and team. Riders become selectable in the existing draft when the correct edition is published.
-5. Do NOT delete any pick or change the draft order if a rider disappears from a new source snapshot. Flag those selections to the admin for review.
-6. If stage_status === 'published', display stages and rest days from the stages[] objects, and use race_days[] as the real race days. Do not create a stage for rest days.
-7. Do not auto-overwrite the site's manually confirmed draft deadline using date_candidate when date_status is 'change_requires_review'.
-8. When public feed is unavailable, keep the last verified race data stored in Peloton's existing database, or clearly label cached data as stale. Do not overwrite with an empty list.
-9. Add a per-race admin status row: official source URL, startlist status, source edition year, number of riders, last checked, last successful update, stage status and warning.
-10. Preserve ALL existing authentication, members, league standings, scoring, one-day snake draft, Velogames and Grand Tour top-10 logic.
+Implementation requirements:
+1. Add an asynchronous fetch of the public URL on initial race/calendar view
+   and when the official-data/admin screen is opened. Refresh it while a race
+   view is open (e.g. every 30 minutes). Do not require the user to refresh.
+   Handle network/CORS errors without breaking the existing app.
+2. Add an Official Race Data panel for the 2027 league season showing all 30
+   source races, validated date (or 'Date pending'), list status, rider count,
+   source link, checked timestamp, feed sync timestamp, warnings and stage info.
+3. Preview official data on existing race pages by matching external id/key
+   or normalized name plus year. Support aliases for our names and typos.
+   NEVER connect a 2026 local race to a 2027 source.
+4. Only display official selectable rider candidates when startlist.status is
+   'published' AND startlist.edition_year == 2027 AND riders array is nonempty.
+   Otherwise show 'Start list pending' or the source warning. Do not fabricate
+   rider names. For this initial rollout, keep the import READ-ONLY: do not
+   automatically write riders or edits to the Site's draft/player database.
+5. On the Tour de France display stages and rest days correctly: 21 stages,
+   3 rest days. Rest days must not appear as stage competitions.
+6. Do not create/duplicate races, alter draft order, alter draft deadlines,
+   change scoring or delete existing picks when the official list changes.
+   Dates marked 'change_requires_review' must be flagged to the admin only.
+7. Keep manually managed entries functional at all times. If the external feed
+   fails, display cached trusted data (marked stale) or a clear warning, never
+   overwrite trusted local values with empty arrays.
+8. Never publish or send any private user, member, score or authentication
+   information to the public GitHub repository or static feed.
+9. Add a small 'Last official data sync' indicator in the admin race overview.
 
-There is a working example of the JSON structure and a simple front-end adapter in the downloadable scraper package. Do not infer new database fields that do not exist; map to the current schema. Implement only necessary changes. Preview and test with both 2027 race records before publishing.
+Reference adapter for the UI/source matching functions:
+https://github.com/Marqesh/Fernandos/blob/main/site_integration.js
+
+Before publishing the Site, preview and confirm all of the following:
+- Login still works and all existing member records remain unchanged.
+- All 30 source races appear in the official-data panel.
+- Paris-Roubaix 2027 shows 11 April; Tour de France 2027 shows 2 July.
+- Unknown dates stay pending, not guessed from 2026.
+- 2026 riders from existing organiser pages are NOT inserted as 2027 riders.
+- Tour de France stages and rest days appear correctly.
+- Snake draft, saved selections, league scores and Top 10 remain unchanged.
+- The UI still works if the GitHub feed is temporarily unreachable.
+
+Implement as a minimal modification to the existing Site, not a redesign.
