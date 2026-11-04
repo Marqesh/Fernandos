@@ -61,7 +61,7 @@ def parse_pdf(blob,race,provisional=False):
  if not blob.startswith(b'%PDF') or len(blob)>12_000_000:return [],'unsupported_pdf',{}
  with fitz.open(stream=blob,filetype='pdf') as pdf:
   ok,reason=category_year(pdf,race)
-  if not ok:return [],reason,{'pages':len(pdf)}
+  if not ok:return [],reason,{'pages':len(pdf),'header':norm(' '.join(page.get_text('text') for page in pdf))[:420]}
   lines=list(pdf_lines(pdf));found=[]
   for line in lines:
    m=ROW.fullmatch(line)
@@ -76,7 +76,7 @@ def parse_pdf(blob,race,provisional=False):
    if r['uci_id'] in unique and r!=unique[r['uci_id']]:return [],'conflicting_riders',{}
    unique[r['uci_id']]=r
   riders=list(unique.values())
-  if len(riders)<race['min_riders']:return [],'parser_needed',{'parsed':len(riders),'samples':lines[:20]}
+  if len(riders)<race['min_riders']:return [],'parser_needed',{'parsed':len(riders),'samples':lines[:180]}
   return riders,('provisional' if provisional else 'published'),{'pages':len(pdf),'parsed':len(riders)}
 
 def parse_html(html,race):
