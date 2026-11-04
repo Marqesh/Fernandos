@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T20:21:41+00:00",
+  "generated_at": "2026-11-04T20:22:49+00:00",
   "attempts": [
     {
       "id": "cx-middelkerke-2026-me",
@@ -8,28 +8,32 @@
           "url": "https://www.superprestigecyclocross.be/storage/programs/file_participants/406/406.pdf?t=1793697616",
           "status": "wrong_category",
           "details": {
-            "pages": 2
+            "pages": 2,
+            "header": "Nr Naam UCI ID Nat Team U17 2e jaars 1 HENDRICKX Gabriel 10072145853 BEL ACROG-TORMANS 2 STEVENS Pippe 10110030013 BEL HOTOND SPORTHOTEL-LITUBRA PARKET-WT WAREGEM 3 MARTENS Kobe 10109999600 BEL AVIA-RUDYCO CYCLING TEAM 4 DEN BAES Yorben 10148263369 BEL TOMABEL-INOFEC CYCLINGTEAM 5 DEN BAES Xibe 10148263470 BEL TOMABEL-INOFEC CYCLINGTEAM 6 RONDELEZ Léon 10105951767 BEL CYCLING TEAM HOUTLAND-WESTKUST 7 BECQUÉ Mats 1011"
           }
         },
         {
           "url": "https://www.superprestigecyclocross.be/storage/programs/file_participants/407/407.pdf?t=1793697953",
           "status": "wrong_category",
           "details": {
-            "pages": 3
+            "pages": 3,
+            "header": "Nr Naam UCI ID Nat Club UCI Rank 1 PÅLSSON GUSTAFSSON Melvin 10097262587 SWE BAUHAUS CYCLING TEAM 19 2 WOOLISCROFT Joseph 10135511913 GBR SHIBDEN CC 46 3 SMITS Maxime 10108174380 BEL ACROG-TORMANS 48 4 GRAHAM Xander 10122919592 GBR 49 5 VAN HOECK Sam 10077885021 BEL WAC - PART OF MERCI POUPOU ACADEMY 50 6 WILLEMS Lars 10123163005 BEL WIELERCLUB \"ONDER - ONS PARIKE\" VZW 56 7 SKIKAS Lukas 10118884089 LTU PANEVĖŽIO M. M"
           }
         },
         {
           "url": "https://www.superprestigecyclocross.be/storage/programs/file_participants/409/409.pdf?t=1793697617",
           "status": "wrong_category",
           "details": {
-            "pages": 1
+            "pages": 1,
+            "header": "Nr Naam UCI ID Nat Club UCI Rank 1 FOUQUENET Amandine 10066772861 FRA PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT 3 2 VAN ALPHEN Aniek 10015541303 NED 777TV CX TEAM 4 3 VAN DER HEIJDEN Inge 10010592885 NED CRELAN-CORENDON 7 4 BENTVELD Leonie 10023336564 NED PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT 9 5 BETSEMA Denise 10007654694 NED DE CEUSTER BOUWKRANEN 12 6 BROUWERS Julie 10065009885 BEL CHARLES LIÉGEOIS CX TEAM 14 7 CLA"
           }
         },
         {
           "url": "https://www.superprestigecyclocross.be/storage/programs/file_participants/410/410.pdf?t=1793697617",
           "status": "wrong_category",
           "details": {
-            "pages": 1
+            "pages": 1,
+            "header": "Nr Naam UCI ID Nat Club UCI Rank 1 VANDEPUTTE Niels 10016327609 BEL ALPECIN-PREMIER TECH 1 2 VANTHOURENHOUT Michael 10007155651 BEL PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT 5 3 ORTS LLORET Felipe 10009004715 ESP EUSKALTEL - EUSKADI 7 4 WYSEURE Joran 10064921777 BEL CRELAN-CORENDON 9 5 SWEECK Laurens 10006912646 BEL CRELAN-CORENDON 10 6 HENDRIKX Mees 10016519484 NED TEAM BOMBA JOIN 12 7 KUYPERS Gerben 10016322757 BEL P"
           }
         }
       ]
@@ -62,7 +66,117 @@
               "KUYPERS Gerben",
               "MEEUSSEN Witse",
               "MICHELS Jente",
-              "NYS Thibau"
+              "NYS Thibau",
+              "SWEECK Laurens",
+              "VAN DE PUTTE Victor",
+              "VANDEBOSCH Toon",
+              "VANDEPUTTE Niels",
+              "VANTHOURENHOUT Michael",
+              "WYSEURE Joran",
+              "BOROŠ Michael",
+              "FIALA Matyáš",
+              "GROENENDAAL Bailey",
+              "DEBORD Romain",
+              "JOT Matéo",
+              "LELANDAIS Rémi",
+              "DEGENKOLB Hannes",
+              "HARTER Luca",
+              "HERRMANN Lukas",
+              "KUSCHLA Silas",
+              "KÖPSEL Jonas",
+              "MASON Cameron",
+              "MEIN Thomas",
+              "FOTEINOPOULOS Angelos",
+              "HARVEY Dean",
+              "BERTOLINI Gioele",
+              "CEOLIN Federico",
+              "FERRI Tommaso",
+              "LUKŠAS Dovydas",
+              "HENDRIKX Mees",
+              "KAMP Ryan",
+              "NIEUWENHUIS Joris",
+              "RONHAAR Pim",
+              "VAN LIEROP Danny",
+              "ULÍK Matej",
+              "CYCLO-CROSS",
+              "HAMPIONSHIPS",
+              "m (NED)",
+              "ember 2026",
+              "",
+              "",
+              "Men Elite",
+              "eserve riders)",
+              "",
+              "",
+              "",
+              "me UCI ID Nation",
+              "",
+              "",
+              "10065053638 Belgium",
+              "10064972095 Belgium",
+              "10016322757 Belgium",
+              "10064931679 Belgium",
+              "10065014333 Belgium",
+              "10065004835 Belgium",
+              "10006912646 Belgium",
+              "10064985940 Belgium",
+              "10010943604 Belgium",
+              "10016327609 Belgium",
+              "10007155651 Belgium",
+              "10064921777 Belgium",
+              "10006629326 Czechia",
+              "10092747542 Czechia",
+              "10022873085 Denmark",
+              "10072513948 France",
+              "10070323970 France",
+              "10067510566 France",
+              "10048529282 Germany",
+              "10036469556 Germany",
+              "10046134190 Germany",
+              "10036400848 Germany",
+              "10131361929 Germany",
+              "10023574923 Great Britain",
+              "10016225959 Great Britain",
+              "10127906507 Greece",
+              "10016653264 Ireland",
+              "10007946102 Italy",
+              "10011230055 Italy",
+              "10030718971 Italy",
+              "10036592525 Lithuania",
+              "10016519484 Netherlands",
+              "10023356166 Netherlands",
+              "10008705833 Netherlands",
+              "10023108212 Netherlands",
+              "10023320093 Netherlands",
+              "10009336737 Slovakia",
+              "2026 UEC C",
+              "EUROPEAN CH",
+              "Zeddam",
+              "7-8 Nove",
+              "",
+              "",
+              "DIAZ PEREZ Miguel",
+              "INGUANZO MACHO Gonzalo",
+              "JUNQUERA SAN MILLAN Mario",
+              "MIRA BONASTRE Raul",
+              "ORTS LLORET Felipe",
+              "RODRIGUEZ NOVOA Miguel",
+              "KUHN Kevin",
+              "SOMMER Lars",
+              "CYCLO-CROSS",
+              "HAMPIONSHIPS",
+              "m (NED)",
+              "ember 2026",
+              "",
+              "",
+              "10073185975 Spain",
+              "10042107478 Spain",
+              "10009371800 Spain",
+              "10040928425 Spain",
+              "10009004715 Spain",
+              "10039235874 Spain",
+              "10009746763 Switzerland",
+              "10034779534 Switzerland"
             ]
           }
         }
