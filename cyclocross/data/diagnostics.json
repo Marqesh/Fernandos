@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-11-04T20:21:41+00:00",
+  "attempts": [
+    {
+      "id": "cx-middelkerke-2026-me",
+      "attempts": [
+        {
+          "url": "https://www.superprestigecyclocross.be/storage/programs/file_participants/406/406.pdf?t=1793697616",
+          "status": "wrong_category",
+          "details": {
+            "pages": 2
+          }
+        },
+        {
+          "url": "https://www.superprestigecyclocross.be/storage/programs/file_participants/407/407.pdf?t=1793697953",
+          "status": "wrong_category",
+          "details": {
+            "pages": 3
+          }
+        },
+        {
+          "url": "https://www.superprestigecyclocross.be/storage/programs/file_participants/409/409.pdf?t=1793697617",
+          "status": "wrong_category",
+          "details": {
+            "pages": 1
+          }
+        },
+        {
+          "url": "https://www.superprestigecyclocross.be/storage/programs/file_participants/410/410.pdf?t=1793697617",
+          "status": "wrong_category",
+          "details": {
+            "pages": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "cx-zeddam-europeans-2026-me",
+      "attempts": [
+        {
+          "url": "https://www.uec.ch/resources/2026%20Events/ciclocross/liste/entry/entry_men_el.pdf",
+          "status": "parser_needed",
+          "details": {
+            "parsed": 0,
+            "samples": [
+              "2026 UEC C",
+              "EUROPEAN CH",
+              "Zeddam",
+              "7-8 Nove",
+              "",
+              "",
+              "Entry list",
+              "(including re",
+              "",
+              "",
+              "",
+              "Family name Given nam",
+              "",
+              "",
+              "DE BRUYCKERE Kay",
+              "JANSSEN Wout",
+              "KUYPERS Gerben",
+              "MEEUSSEN Witse",
+              "MICHELS Jente",
+              "NYS Thibau"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cx-niel-2026-me",
+      "attempts": [
+        {
+          "url": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/niel",
+          "status": "no_list_visible"
+        }
+      ]
+    },
+    {
+      "id": "cx-ostrava-worldcup-2026-me",
+      "attempts": [
+        {
+          "url": "https://www.ucicyclocrossworldcup.com/en/calendar",
+          "status": "no_list_visible"
+        }
+      ]
+    }
+  ]
+}

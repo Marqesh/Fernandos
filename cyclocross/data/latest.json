@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "season": "2026-2027",
+  "discipline": "cyclocross",
+  "generated_at": "2026-11-04T20:21:41+00:00",
+  "races": [
+    {
+      "id": "cx-middelkerke-2026-me",
+      "name": "Superprestige Middelkerke",
+      "date": "2026-11-05",
+      "year": 2026,
+      "discipline": "cyclocross",
+      "category": "Men Elite",
+      "series": "Superprestige",
+      "website": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/middelkerke",
+      "startlist": {
+        "status": "not_published",
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-11-04T20:21:38+00:00",
+        "warning": "No validated correct-date Men Elite start list"
+      }
+    },
+    {
+      "id": "cx-zeddam-europeans-2026-me",
+      "name": "European Cyclo-cross Championships Zeddam",
+      "date": "2026-11-08",
+      "year": 2026,
+      "discipline": "cyclocross",
+      "category": "Men Elite",
+      "series": "UEC European Championships",
+      "website": "https://www.uec.ch/en/event/282/2026-uec-cyclo-cross-european-championships",
+      "startlist": {
+        "status": "not_published",
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-11-04T20:21:40+00:00",
+        "warning": "No validated correct-date Men Elite start list"
+      }
+    },
+    {
+      "id": "cx-niel-2026-me",
+      "name": "Superprestige Niel",
+      "date": "2026-11-11",
+      "year": 2026,
+      "discipline": "cyclocross",
+      "category": "Men Elite",
+      "series": "Superprestige",
+      "website": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/niel",
+      "startlist": {
+        "status": "not_published",
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-11-04T20:21:41+00:00",
+        "warning": "No validated correct-date Men Elite start list"
+      }
+    },
+    {
+      "id": "cx-ostrava-worldcup-2026-me",
+      "name": "World Cup Ostrava",
+      "date": "2026-11-27",
+      "year": 2026,
+      "discipline": "cyclocross",
+      "category": "Men Elite",
+      "series": "UCI Cyclo-cross World Cup",
+      "website": "https://www.ucicyclocrossworldcup.com/en/calendar",
+      "startlist": {
+        "status": "not_published",
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-11-04T20:21:41+00:00",
+        "warning": "No validated correct-date Men Elite start list"
+      }
+    }
+  ]
+}
