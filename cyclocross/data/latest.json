@@ -2,7 +2,7 @@
   "schema_version": 1,
   "season": "2026-2027",
   "discipline": "cyclocross",
-  "generated_at": "2026-11-04T20:24:12+00:00",
+  "generated_at": "2026-11-04T20:25:25+00:00",
   "races": [
     {
       "id": "cx-middelkerke-2026-me",
@@ -17,7 +17,7 @@
         "status": "not_published",
         "riders": [],
         "count": 0,
-        "checked_at": "2026-11-04T20:24:08+00:00",
+        "checked_at": "2026-11-04T20:25:21+00:00",
         "warning": "No validated correct-date Men Elite start list"
       }
     },
@@ -31,11 +31,330 @@
       "series": "UEC European Championships",
       "website": "https://www.uec.ch/en/event/282/2026-uec-cyclo-cross-european-championships",
       "startlist": {
-        "status": "not_published",
-        "riders": [],
-        "count": 0,
-        "checked_at": "2026-11-04T20:24:11+00:00",
-        "warning": "No validated correct-date Men Elite start list"
+        "status": "provisional",
+        "edition_year": 2026,
+        "category": "Men Elite",
+        "riders": [
+          {
+            "bib": null,
+            "name": "DE BRUYCKERE Kay",
+            "uci_id": "10065053638",
+            "nationality": "Belgium",
+            "team": "Belgium"
+          },
+          {
+            "bib": null,
+            "name": "JANSSEN Wout",
+            "uci_id": "10064972095",
+            "nationality": "Belgium",
+            "team": "Belgium"
+          },
+          {
+            "bib": null,
+            "name": "KUYPERS Gerben",
+            "uci_id": "10016322757",
+            "nationality": "Belgium",
+            "team": "Belgium"
+          },
+          {
+            "bib": null,
+            "name": "MEEUSSEN Witse",
+            "uci_id": "10064931679",
+            "nationality": "Belgium",
+            "team": "Belgium"
+          },
+          {
+            "bib": null,
+            "name": "MICHELS Jente",
+            "uci_id": "10065014333",
+            "nationality": "Belgium",
+            "team": "Belgium"
+          },
+          {
+            "bib": null,
+            "name": "NYS Thibau",
+            "uci_id": "10065004835",
+            "nationality": "Belgium",
+            "team": "Belgium"
+          },
+          {
+            "bib": null,
+            "name": "SWEECK Laurens",
+            "uci_id": "10006912646",
+            "nationality": "Belgium",
+            "team": "Belgium"
+          },
+          {
+            "bib": null,
+            "name": "VAN DE PUTTE Victor",
+            "uci_id": "10064985940",
+            "nationality": "Belgium",
+            "team": "Belgium"
+          },
+          {
+            "bib": null,
+            "name": "VANDEBOSCH Toon",
+            "uci_id": "10010943604",
+            "nationality": "Belgium",
+            "team": "Belgium"
+          },
+          {
+            "bib": null,
+            "name": "VANDEPUTTE Niels",
+            "uci_id": "10016327609",
+            "nationality": "Belgium",
+            "team": "Belgium"
+          },
+          {
+            "bib": null,
+            "name": "VANTHOURENHOUT Michael",
+            "uci_id": "10007155651",
+            "nationality": "Belgium",
+            "team": "Belgium"
+          },
+          {
+            "bib": null,
+            "name": "WYSEURE Joran",
+            "uci_id": "10064921777",
+            "nationality": "Belgium",
+            "team": "Belgium"
+          },
+          {
+            "bib": null,
+            "name": "BOROŠ Michael",
+            "uci_id": "10006629326",
+            "nationality": "Czechia",
+            "team": "Czechia"
+          },
+          {
+            "bib": null,
+            "name": "FIALA Matyáš",
+            "uci_id": "10092747542",
+            "nationality": "Czechia",
+            "team": "Czechia"
+          },
+          {
+            "bib": null,
+            "name": "GROENENDAAL Bailey",
+            "uci_id": "10022873085",
+            "nationality": "Denmark",
+            "team": "Denmark"
+          },
+          {
+            "bib": null,
+            "name": "DEBORD Romain",
+            "uci_id": "10072513948",
+            "nationality": "France",
+            "team": "France"
+          },
+          {
+            "bib": null,
+            "name": "JOT Matéo",
+            "uci_id": "10070323970",
+            "nationality": "France",
+            "team": "France"
+          },
+          {
+            "bib": null,
+            "name": "LELANDAIS Rémi",
+            "uci_id": "10067510566",
+            "nationality": "France",
+            "team": "France"
+          },
+          {
+            "bib": null,
+            "name": "DEGENKOLB Hannes",
+            "uci_id": "10048529282",
+            "nationality": "Germany",
+            "team": "Germany"
+          },
+          {
+            "bib": null,
+            "name": "HARTER Luca",
+            "uci_id": "10036469556",
+            "nationality": "Germany",
+            "team": "Germany"
+          },
+          {
+            "bib": null,
+            "name": "HERRMANN Lukas",
+            "uci_id": "10046134190",
+            "nationality": "Germany",
+            "team": "Germany"
+          },
+          {
+            "bib": null,
+            "name": "KUSCHLA Silas",
+            "uci_id": "10036400848",
+            "nationality": "Germany",
+            "team": "Germany"
+          },
+          {
+            "bib": null,
+            "name": "KÖPSEL Jonas",
+            "uci_id": "10131361929",
+            "nationality": "Germany",
+            "team": "Germany"
+          },
+          {
+            "bib": null,
+            "name": "MASON Cameron",
+            "uci_id": "10023574923",
+            "nationality": "Great Britain",
+            "team": "Great Britain"
+          },
+          {
+            "bib": null,
+            "name": "MEIN Thomas",
+            "uci_id": "10016225959",
+            "nationality": "Great Britain",
+            "team": "Great Britain"
+          },
+          {
+            "bib": null,
+            "name": "FOTEINOPOULOS Angelos",
+            "uci_id": "10127906507",
+            "nationality": "Greece",
+            "team": "Greece"
+          },
+          {
+            "bib": null,
+            "name": "HARVEY Dean",
+            "uci_id": "10016653264",
+            "nationality": "Ireland",
+            "team": "Ireland"
+          },
+          {
+            "bib": null,
+            "name": "BERTOLINI Gioele",
+            "uci_id": "10007946102",
+            "nationality": "Italy",
+            "team": "Italy"
+          },
+          {
+            "bib": null,
+            "name": "CEOLIN Federico",
+            "uci_id": "10011230055",
+            "nationality": "Italy",
+            "team": "Italy"
+          },
+          {
+            "bib": null,
+            "name": "FERRI Tommaso",
+            "uci_id": "10030718971",
+            "nationality": "Italy",
+            "team": "Italy"
+          },
+          {
+            "bib": null,
+            "name": "LUKŠAS Dovydas",
+            "uci_id": "10036592525",
+            "nationality": "Lithuania",
+            "team": "Lithuania"
+          },
+          {
+            "bib": null,
+            "name": "HENDRIKX Mees",
+            "uci_id": "10016519484",
+            "nationality": "Netherlands",
+            "team": "Netherlands"
+          },
+          {
+            "bib": null,
+            "name": "KAMP Ryan",
+            "uci_id": "10023356166",
+            "nationality": "Netherlands",
+            "team": "Netherlands"
+          },
+          {
+            "bib": null,
+            "name": "NIEUWENHUIS Joris",
+            "uci_id": "10008705833",
+            "nationality": "Netherlands",
+            "team": "Netherlands"
+          },
+          {
+            "bib": null,
+            "name": "RONHAAR Pim",
+            "uci_id": "10023108212",
+            "nationality": "Netherlands",
+            "team": "Netherlands"
+          },
+          {
+            "bib": null,
+            "name": "VAN LIEROP Danny",
+            "uci_id": "10023320093",
+            "nationality": "Netherlands",
+            "team": "Netherlands"
+          },
+          {
+            "bib": null,
+            "name": "ULÍK Matej",
+            "uci_id": "10009336737",
+            "nationality": "Slovakia",
+            "team": "Slovakia"
+          },
+          {
+            "bib": null,
+            "name": "DIAZ PEREZ Miguel",
+            "uci_id": "10073185975",
+            "nationality": "Spain",
+            "team": "Spain"
+          },
+          {
+            "bib": null,
+            "name": "INGUANZO MACHO Gonzalo",
+            "uci_id": "10042107478",
+            "nationality": "Spain",
+            "team": "Spain"
+          },
+          {
+            "bib": null,
+            "name": "JUNQUERA SAN MILLAN Mario",
+            "uci_id": "10009371800",
+            "nationality": "Spain",
+            "team": "Spain"
+          },
+          {
+            "bib": null,
+            "name": "MIRA BONASTRE Raul",
+            "uci_id": "10040928425",
+            "nationality": "Spain",
+            "team": "Spain"
+          },
+          {
+            "bib": null,
+            "name": "ORTS LLORET Felipe",
+            "uci_id": "10009004715",
+            "nationality": "Spain",
+            "team": "Spain"
+          },
+          {
+            "bib": null,
+            "name": "RODRIGUEZ NOVOA Miguel",
+            "uci_id": "10039235874",
+            "nationality": "Spain",
+            "team": "Spain"
+          },
+          {
+            "bib": null,
+            "name": "KUHN Kevin",
+            "uci_id": "10009746763",
+            "nationality": "Switzerland",
+            "team": "Switzerland"
+          },
+          {
+            "bib": null,
+            "name": "SOMMER Lars",
+            "uci_id": "10034779534",
+            "nationality": "Switzerland",
+            "team": "Switzerland"
+          }
+        ],
+        "count": 45,
+        "source_url": "https://www.uec.ch/resources/2026%20Events/ciclocross/liste/entry/entry_men_el.pdf",
+        "checked_at": "2026-11-04T20:25:23+00:00",
+        "completeness": "entry_list"
       }
     },
     {
@@ -51,7 +370,7 @@
         "status": "not_published",
         "riders": [],
         "count": 0,
-        "checked_at": "2026-11-04T20:24:11+00:00",
+        "checked_at": "2026-11-04T20:25:24+00:00",
         "warning": "No validated correct-date Men Elite start list"
       }
     },
@@ -68,7 +387,7 @@
         "status": "not_published",
         "riders": [],
         "count": 0,
-        "checked_at": "2026-11-04T20:24:12+00:00",
+        "checked_at": "2026-11-04T20:25:25+00:00",
         "warning": "No validated correct-date Men Elite start list"
       }
     }

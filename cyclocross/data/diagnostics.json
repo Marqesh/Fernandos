@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T20:24:12+00:00",
+  "generated_at": "2026-11-04T20:25:25+00:00",
   "attempts": [
     {
       "id": "cx-middelkerke-2026-me",
@@ -48,39 +48,10 @@
         {
           "url": "https://www.uec.ch/resources/2026%20Events/ciclocross/liste/entry/entry_men_el.pdf",
           "label": "Entry list Men Elite",
-          "status": "uec_columns_misaligned",
+          "status": "provisional",
           "details": {
-            "names": 34,
-            "ids": 37,
-            "name_samples": [
-              "DE BRUYCKERE Kay",
-              "JANSSEN Wout",
-              "KUYPERS Gerben",
-              "MEEUSSEN Witse",
-              "MICHELS Jente"
-            ],
-            "id_samples": [
-              [
-                "10065053638",
-                "Belgium"
-              ],
-              [
-                "10064972095",
-                "Belgium"
-              ],
-              [
-                "10016322757",
-                "Belgium"
-              ],
-              [
-                "10064931679",
-                "Belgium"
-              ],
-              [
-                "10065014333",
-                "Belgium"
-              ]
-            ]
+            "parsed": 45,
+            "method": "uec_parallel_columns"
           }
         }
       ]
