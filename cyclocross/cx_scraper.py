@@ -32,10 +32,10 @@ def discover(html,base,race):
   if race['series'].startswith('UEC'):
    if not re.search(r'(?i)men\s+elite',context) or re.search(r'(?i)women|junior|under\s*23|\bu23\b',context):continue
   if urlparse(url).path.lower().endswith('.pdf') or LIST.search(url):
-   out.append({'url':url,'provisional':bool(re.search(r'(?i)entry\s*list',label))});seen.add(url)
+   out.append({'url':url,'label':context,'provisional':bool(re.search(r'(?i)entry\s*list',label))});seen.add(url)
  return out[:5]
 
-def category_year(pdf,race):
+def category_year(pdf,race,category_hint=''):
  text=norm(' '.join(page.get_text('text') for page in pdf))
  header=text[:1500]
  eventdate=race['start_date']
@@ -45,7 +45,7 @@ def category_year(pdf,race):
  # November Middelkerke vs the February 2026 Middelkerke MUST be different events.
  if (str(race['year']) not in header and not correct_date) or (race['series']=='Superprestige' and not correct_date):
   return False,'wrong_or_unverified_date'
- if not MEN.search(header):return False,'wrong_category'
+ if not (MEN.search(header) or (MEN.search(category_hint) and not re.search(r'(?i)women|junior|under\s*23',category_hint))):return False,'wrong_category'
  if race['series'].startswith('UEC') and not (correct_date or 'zeddam' in text.lower()):
   return False,'wrong_uec_event'
  if RESULT.search(header[:220]) and not LIST.search(header[:220]):return False,'results_rejected'
@@ -57,11 +57,33 @@ def pdf_lines(pdf):
   for rect in (fitz.Rect(0,0,mid,page.rect.height),fitz.Rect(mid,0,page.rect.width,page.rect.height)):
    yield from (norm(line) for line in page.get_text('text',clip=rect,sort=True).splitlines())
 
-def parse_pdf(blob,race,provisional=False):
+def parse_pdf(blob,race,provisional=False,category_hint=''):
  if not blob.startswith(b'%PDF') or len(blob)>12_000_000:return [],'unsupported_pdf',{}
  with fitz.open(stream=blob,filetype='pdf') as pdf:
-  ok,reason=category_year(pdf,race)
+  ok,reason=category_year(pdf,race,category_hint)
   if not ok:return [],reason,{'pages':len(pdf),'header':norm(' '.join(page.get_text('text') for page in pdf))[:420]}
+  # UEC Zeddam entry PDF: left column lists full names, right column has
+  # matching UCI ID and nation. Bib numbers are not published in this document.
+  if race['series'].startswith('UEC') and provisional:
+   entries=[]
+   for page in pdf:
+    mid=page.rect.width/2
+    left=[norm(x) for x in page.get_text('text',clip=fitz.Rect(0,0,mid,page.rect.height),sort=True).splitlines()]
+    right=[norm(x) for x in page.get_text('text',clip=fitz.Rect(mid,0,page.rect.width,page.rect.height),sort=True).splitlines()]
+    def is_rider_name(x):
+     parts=x.split()
+     return 2<=len(parts)<=8 and parts[0].isupper() and parts[-1].istitle() and bool(NAME.fullmatch(x))
+    names=[x for x in left if is_rider_name(x)]
+    identities=[]
+    for x in right:
+     m=re.fullmatch(r'(1\d{10})\s+([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ .-]{2,40})',x)
+     if m:identities.append((m[1],m[2]))
+    if len(names)!=len(identities):
+     return [],'uec_columns_misaligned',{'names':len(names),'ids':len(identities),'name_samples':names[:5],'id_samples':identities[:5]}
+    entries.extend({'bib':None,'name':name,'uci_id':uid,'nationality':nation,'team':nation} for name,(uid,nation) in zip(names,identities))
+   if len(entries)>=race['min_riders'] and len({x['uci_id'] for x in entries})==len(entries):
+    return entries,'provisional',{'parsed':len(entries),'method':'uec_parallel_columns'}
+   return [],'parser_needed',{'parsed':len(entries),'method':'uec_parallel_columns'}
   lines=list(pdf_lines(pdf));found=[]
   for line in lines:
    m=ROW.fullmatch(line)
@@ -132,11 +154,11 @@ def inspect(race,prev=None,session=None):
       res=session.get(url,headers=HEADERS,timeout=(8,22),allow_redirects=True)
       if not trusted(res.url,race['website']):raise ValueError('Offsite redirect')
       res.raise_for_status();blob=res.content
-     if blob.startswith(b'%PDF'):riders,status,meta=parse_pdf(blob,race,candidate['provisional'])
+     if blob.startswith(b'%PDF'):riders,status,meta=parse_pdf(blob,race,candidate['provisional'],candidate.get('label',''))
      else:
       riders,status=parse_html(blob.decode('utf-8','replace'),race);meta={'parsed':len(riders)}
       if status=='published' and candidate['provisional']:status='provisional'
-     attempts.append({'url':url,'status':status,'details':meta})
+     attempts.append({'url':url,'label':candidate.get('label',''),'status':status,'details':meta})
      if status in ('published','provisional'):
       chosen=(riders,status,url);break
     except (requests.RequestException,ValueError,fitz.FileDataError) as e:
