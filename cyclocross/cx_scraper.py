@@ -12,7 +12,7 @@ LIST=re.compile(r'(?i)start\s*list|entry\s*list|startlijst|file_participants|dee
 RESULT=re.compile(r'(?i)result|uitslag|ranking|classification|classement')
 MEN=re.compile(r'(?i)men\s*(?:elite|senior)|elite\s*men|mannen\s*elite|heren\s*elite|men\s*elite\s*/\s*u23')
 ROW=re.compile(r'^(\d{1,3})\s+(.+?)\s+(1\d{10})\s+([A-Z]{3})\s+(.+?)(?:\s+\d{1,4})?$')
-NAME=re.compile(r"^[A-Za-zÀ-ÿ'’ .-]{4,90}$")
+NAME=re.compile(r"^[^\W\d_][\w'’ .-]{3,89}$")
 
 def now(): return datetime.now(timezone.utc).isoformat(timespec='seconds')
 def norm(v): return ' '.join(str(v or '').replace('\xa0',' ').split())
@@ -72,7 +72,7 @@ def parse_pdf(blob,race,provisional=False,category_hint=''):
     right=[norm(x) for x in page.get_text('text',clip=fitz.Rect(mid,0,page.rect.width,page.rect.height),sort=True).splitlines()]
     def is_rider_name(x):
      parts=x.split()
-     return 2<=len(parts)<=8 and parts[0].isupper() and parts[-1].istitle() and bool(NAME.fullmatch(x))
+     return 2<=len(parts)<=8 and parts[0].isupper() and parts[-1].istitle() and bool(NAME.fullmatch(x)) and not re.search(r'\d',x)
     names=[x for x in left if is_rider_name(x)]
     identities=[]
     for x in right:
