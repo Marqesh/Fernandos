@@ -1,5 +1,5 @@
 name: Peloton - Cyclocross 2026-27 Trial
-# Live diagnostics: v2 - official UEC and Superprestige PDF layout
+# Live diagnostics: v3 - UEC parallel-column adapter and organiser-labelled PDFs
 on:
   workflow_dispatch:
   push:
