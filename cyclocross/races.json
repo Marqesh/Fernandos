@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "season": "2026-2027",
+  "discipline": "cyclocross",
+  "races": [
+    {
+      "id": "cx-middelkerke-2026-me",
+      "name": "Superprestige Middelkerke",
+      "start_date": "2026-11-05",
+      "year": 2026,
+      "category": "Men Elite",
+      "discipline": "cyclocross",
+      "series": "Superprestige",
+      "website": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/middelkerke",
+      "source_urls": [
+        "https://www.superprestigecyclocross.be/en/calendar/2026-2027/middelkerke"
+      ],
+      "min_riders": 8
+    },
+    {
+      "id": "cx-zeddam-europeans-2026-me",
+      "name": "European Cyclo-cross Championships Zeddam",
+      "start_date": "2026-11-08",
+      "year": 2026,
+      "category": "Men Elite",
+      "discipline": "cyclocross",
+      "series": "UEC European Championships",
+      "website": "https://www.uec.ch/en/event/282/2026-uec-cyclo-cross-european-championships",
+      "source_urls": [
+        "https://www.uec.ch/en/event/282/2026-uec-cyclo-cross-european-championships"
+      ],
+      "min_riders": 8
+    },
+    {
+      "id": "cx-niel-2026-me",
+      "name": "Superprestige Niel",
+      "start_date": "2026-11-11",
+      "year": 2026,
+      "category": "Men Elite",
+      "discipline": "cyclocross",
+      "series": "Superprestige",
+      "website": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/niel",
+      "source_urls": [
+        "https://www.superprestigecyclocross.be/en/calendar/2026-2027/niel"
+      ],
+      "min_riders": 8
+    },
+    {
+      "id": "cx-ostrava-worldcup-2026-me",
+      "name": "World Cup Ostrava",
+      "start_date": "2026-11-27",
+      "year": 2026,
+      "category": "Men Elite",
+      "discipline": "cyclocross",
+      "series": "UCI Cyclo-cross World Cup",
+      "website": "https://www.ucicyclocrossworldcup.com/en/calendar",
+      "source_urls": [
+        "https://www.ucicyclocrossworldcup.com/en/calendar"
+      ],
+      "min_riders": 8
+    }
+  ]
+}
