@@ -1,0 +1,64 @@
+name: Peloton - Cyclocross 2026-27 Trial
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/cyclocross-trial.yml'
+  schedule:
+    - cron: '17 7,19 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: peloton-cyclocross-feature-data
+  cancel-in-progress: false
+jobs:
+  cx-watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - name: Checkout isolated cyclocross GitHub branch
+        uses: actions/checkout@v4
+        with:
+          ref: feature/cyclocross-2026-27
+          fetch-depth: 0
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install cyclocross dependencies
+        run: python -m pip install -r cyclocross/requirements.txt
+      - name: Test cyclocross parser (not road scraper)
+        run: PYTHONPATH=cyclocross python -m pytest -q cyclocross/tests
+      - name: Read only public cyclocross startlist sources
+        run: python cyclocross/cx_scraper.py
+      - name: Report four test races
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          x=json.loads(Path('cyclocross/data/latest.json').read_text(encoding='utf-8'))
+          assert x['discipline']=='cyclocross'
+          assert len(x['races'])==4
+          assert all(r['year']==2026 and r['category']=='Men Elite' for r in x['races'])
+          rows=['# Peloton CX 2026-27 - official Men Elite start lists',
+                '',
+                '| Race | Date | Status | Riders |',
+                '|---|---|---|---:|']
+          for r in x['races']:
+            s=r['startlist']
+            rows.append(f"| {r['name']} | {r['date']} | {s['status']} | {s.get('count',0)} |")
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a',encoding='utf-8') as f:
+            f.write('\n'.join(rows)+'\n')
+          PY
+      - name: Commit ONLY cyclocross branch feed
+        run: |
+          git config user.name 'peloton-data-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git fetch origin feature/cyclocross-2026-27
+          git reset --mixed origin/feature/cyclocross-2026-27
+          git add cyclocross/data/latest.json cyclocross/data/diagnostics.json
+          if ! git diff --staged --quiet; then
+            git commit -m 'Update isolated cyclocross feed [skip ci]'
+            git push origin HEAD:feature/cyclocross-2026-27
+          fi
