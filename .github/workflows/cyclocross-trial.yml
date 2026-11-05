@@ -1,5 +1,5 @@
 # PDF 444 validation: full-width visual rows for bib, team and UCI IDs
-name: Peloton - Cyclocross 2026-27 Trial
+name: Peloton - Cyclocross 2026-27 Calendar and Startlists
 # Live diagnostics: v4 - UEC Unicode names and strict ID pairing
 on:
   workflow_dispatch:
@@ -17,7 +17,7 @@ concurrency:
 jobs:
   cx-watch:
     runs-on: ubuntu-latest
-    timeout-minutes: 18
+    timeout-minutes: 25
     steps:
       - name: Checkout isolated cyclocross GitHub branch
         uses: actions/checkout@v4
@@ -34,15 +34,16 @@ jobs:
         run: PYTHONPATH=cyclocross python -m pytest -q cyclocross/tests
       - name: Read only public cyclocross startlist sources
         run: python cyclocross/cx_scraper.py
-      - name: Report four test races
+      - name: Report full November-January calendar
         run: |
           python - <<'PY'
           import json,os
           from pathlib import Path
           x=json.loads(Path('cyclocross/data/latest.json').read_text(encoding='utf-8'))
           assert x['discipline']=='cyclocross'
-          assert len(x['races'])==4
-          assert all(r['year']==2026 and r['category']=='Men Elite' for r in x['races'])
+          assert len(x['races'])==26
+          assert all(r['year']==int(r['date'][:4]) and r['category']=='Men Elite' for r in x['races'])
+          assert x['races'][-1]['date']=='2027-01-31'
           rows=['# Peloton CX 2026-27 - official Men Elite start lists',
                 '',
                 '| Race | Date | Status | Riders |',
