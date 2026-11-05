@@ -12,9 +12,20 @@ def make_pdf(text):
  return pdf.tobytes()
 
 def test_calendar_pinned():
- assert [(r['start_date'],r['category']) for r in RACES]==[
-  ('2026-11-05','Men Elite'),('2026-11-08','Men Elite'),
-  ('2026-11-11','Men Elite'),('2026-11-27','Men Elite')]
+ assert len(RACES)==26
+ assert len({r['id'] for r in RACES})==26
+ assert RACES==sorted(RACES,key=lambda r:(r['start_date'],r['id']))
+ assert RACES[0]['start_date']=='2026-11-05'
+ assert RACES[-1]['start_date']=='2027-01-31'
+ assert {r['category'] for r in RACES}=={'Men Elite'}
+ assert {r['year'] for r in RACES}=={2026,2027}
+ assert all(r['year']==int(r['start_date'][:4]) for r in RACES)
+ assert all(r['id'].startswith('cx-') and r['start_date'][:4] in r['id'] for r in RACES)
+ assert sum(r['series']=='UCI Cyclo-cross World Cup' for r in RACES)==12
+ assert sum(r['series']=='Superprestige' for r in RACES)==7
+ assert sum(r['series']=='X²O Badkamers Trofee' for r in RACES)==5
+ assert sum(r['series'].endswith('Championships') for r in RACES)==2
+ assert RACES[0]['source_urls'][0].endswith('444.pdf?t=1793894883')
 
 def test_uec_selects_me_entry_list_exclusively():
  html='<table><tr><td>Women Elite</td><td><a href="/w.pdf">Entry list Women Elite</a></td></tr><tr><td>Men U23</td><td><a href="/u.pdf">Entry list Men U23</a></td></tr><tr><td>Men Elite</td><td><a href="/m.pdf">Entry list Men Elite</a></td><td><a href="/results.pdf">Results</a></td></tr></table>'
