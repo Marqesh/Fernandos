@@ -84,7 +84,18 @@ def parse_pdf(blob,race,provisional=False,category_hint=''):
    if len(entries)>=race['min_riders'] and len({x['uci_id'] for x in entries})==len(entries):
     return entries,'provisional',{'parsed':len(entries),'method':'uec_parallel_columns'}
    return [],'parser_needed',{'parsed':len(entries),'method':'uec_parallel_columns'}
-  lines=list(pdf_lines(pdf));found=[]
+  # Prefer complete visual rows for narrow, one-page Superprestige tables.
+  # Splitting such a page in half separates bib/name/ID from team and yields 0.
+  full_rows=[norm(line) for page in pdf for line in page.get_text('text',sort=True).splitlines()]
+  found=[]
+  for line in full_rows:
+   m=ROW.fullmatch(line)
+   if m and NAME.fullmatch(norm(m[2])) and len(m[2].split())>=2:
+    found.append({'bib':int(m[1]),'name':norm(m[2]),'uci_id':m[3],
+                  'nationality':m[4],'team':norm(m[5])})
+  # The fallback below is for different PDF layouts.
+  lines=list(pdf_lines(pdf))
+
   for line in lines:
    m=ROW.fullmatch(line)
    if m and NAME.fullmatch(norm(m[2])) and len(m[2].split())>=2:
