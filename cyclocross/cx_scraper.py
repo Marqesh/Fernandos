@@ -196,9 +196,25 @@ def run(config,output,diag):
  entries=[];report=[]
  with requests.Session() as session:
   for race in races:
-   entry,attempts=inspect(race,prev.get(race['id']),session)
+   delta=(datetime.strptime(race['start_date'],'%Y-%m-%d').date()-datetime.now(timezone.utc).date()).days
+   previous=prev.get(race['id'])
+   # Visit distant future startlists only when publication is plausible; retain
+   # already verified past races without repeatedly fetching retired web pages.
+   if delta>21 or delta< -3:
+    roster=(previous or {}).get('startlist',{})
+    if roster.get('edition_year')==race['year'] and roster.get('status') in ('published','provisional','stale') and roster.get('riders'):
+     entry=dict(previous)
+    else:
+     entry={'id':race['id'],'name':race['name'],'date':race['start_date'],
+            'year':race['year'],'discipline':'cyclocross','category':race['category'],
+            'series':race['series'],'website':race['website'],
+            'startlist':{'status':'not_published','count':0,'riders':[],
+             'checked_at':None,'warning':'Not within active startlist monitoring window'}}
+    attempts=[{'status':'monitoring_window_skipped','days_until_race':delta}]
+   else:
+    entry,attempts=inspect(race,previous,session)
    entries.append(entry);report.append({'id':race['id'],'attempts':attempts})
-   print(race['id'],entry['startlist']['status'],entry['startlist']['count'],flush=True)
+   print(race['id'],entry['startlist']['status'],entry['startlist'].get('count',0),flush=True)
  for path,payload in ((output,{'schema_version':1,'season':'2026-2027','discipline':'cyclocross','generated_at':now(),'races':entries}),(diag,{'generated_at':now(),'attempts':report})):
   path.parent.mkdir(parents=True,exist_ok=True)
   path.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
