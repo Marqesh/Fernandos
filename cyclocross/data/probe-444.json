@@ -1,0 +1,511 @@
+{
+  "checked_at": "2026-11-05T18:18:04.906587+00:00",
+  "source_url": "https://www.superprestigecyclocross.be/storage/programs/file_participants/444/444.pdf?t=1793894883",
+  "document_type": "men_elite_startlist_candidate",
+  "publication": "not_verified",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "bytes": 133310,
+  "final_url": "https://www.superprestigecyclocross.be/storage/programs/file_participants/444/444.pdf?t=1793894883",
+  "sha256": "46c2721d438e2c7358dccbdf7bbd928acc1dec1fbeca4aca2f464053e7f3a01a",
+  "pages": 1,
+  "header": "SUPERPRESTIGE NOORDZEECROSS MIDDELKERKE STARTLIST MEN ELITE 05/11/2026 Nr Naam UCI ID Nat Club UCI Rank 1 VANDEPUTTE Niels 10016327609 BEL ALPECIN-PREMIER TECH 1 2 VANTHOURENHOUT Michael 10007155651 BEL PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT 5 3 ORTS LLORET Felipe 10009004715 ESP EUSKALTEL - EUSKADI 7 4 WYSEURE Joran 10064921777 BEL CRELAN-CORENDON 9 5 SWEECK Laurens 10006912646 BEL CRELAN-CORENDON 10 6 HENDRIKX Mees 10016519484 NED TEAM BOMBA JOIN 12 7 KUYPERS Gerben 10016322757 BEL PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT 13 8 MASON Cameron 10023574923 GBR SEVEN RACING 14 9 MICHELS Jente 10065014333 BEL ALPECIN-PREMIER TECH DEVELOPMENT TEAM 15 10 KUHN Kevin 10009746763 SUI HEIZOMAT - CUBE 16 11 VANDEBOSCH Toon 10010943604 BEL CRELAN-CORENDON 20 12 MEEUSSEN Witse 10064931679 BEL CRELAN-CORENDON 26 13 VAN DE PUTTE Victor 10064985940 BEL C",
+  "date_mentions": [
+    "05/11/2026"
+  ],
+  "event_mentions": [
+    "MIDDELKERKE"
+  ],
+  "heading_lines": [
+    "                SUPERPRESTIGE NOORDZEECROSS MIDDELKERKE",
+    "                        STARTLIST MEN ELITE  05/11/2026",
+    "",
+    "Nr  Naam                       UCI ID      Nat  Club                                  UCI Rank",
+    " 1   VANDEPUTTE Niels              10016327609    BEL  ALPECIN-PREMIER TECH                           1",
+    " 2  VANTHOURENHOUT Michael      10007155651    BEL  PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT         5",
+    " 3   ORTS LLORET Felipe             10009004715    ESP  EUSKALTEL - EUSKADI                             7",
+    " 4  WYSEURE Joran                10064921777    BEL  CRELAN-CORENDON                              9",
+    " 5  SWEECK Laurens               10006912646    BEL  CRELAN-CORENDON                             10",
+    " 6   HENDRIKX Mees                10016519484   NED  TEAM BOMBA JOIN                                12",
+    " 7   KUYPERS Gerben               10016322757    BEL  PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT         13",
+    " 8  MASON Cameron               10023574923   GBR  SEVEN RACING                                  14",
+    " 9   MICHELS Jente                 10065014333    BEL  ALPECIN-PREMIER TECH DEVELOPMENT TEAM          15",
+    "10  KUHN Kevin                   10009746763    SUI  HEIZOMAT - CUBE                                16",
+    "11  VANDEBOSCH Toon             10010943604    BEL  CRELAN-CORENDON                             20",
+    "12  MEEUSSEN Witse               10064931679    BEL  CRELAN-CORENDON                             26",
+    "13  VAN DE PUTTE Victor            10064985940    BEL  CHARLES LIÉGEOIS CX TEAM                       41",
+    "14  JANSSEN Wout                 10064972095    BEL  CYCLIS - ROOFS FOR ENERGY - VAN DEN PLAS CT       46",
+    "15  VANDENBERGHE Viktor          10087960489    BEL  PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT         58",
+    "16  HORNY Clement               10016419858    BEL  BH-WALLONIE MTB TEAM                          62",
+    "17  DE BRUYCKERE Kay             10065053638    BEL  PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT         64",
+    "18  DE MOYER Kenay               10065066065    BEL  ATOM6-CYCLEUR DE LUXE-AUTOSTROO CONT. TEAM    65",
+    "19  FERDINANDE Anton             10016322656    BEL  PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT         91",
+    "20  JAMIN Antoine                 10064271877    BEL  AARCO                                        126",
+    "21  HUYBS Ward                  10065005542    BEL  RONDE VAN VLAAMS-BRABANT VZW                 163",
+    "22  KING Carden                  10065999083   USA  TRIPLE CROWN WORKSHOP                       172",
+    "23  LUKŠAS Dovydas               10036592525    LTU  COLIBRI CYCLING                               178",
+    "24  HERRMANN Lukas              10046134190   GER  HEIZOMAT - CUBE                                183",
+    "25  BAERS Arne                   10064979472    BEL  BALOISE VERZEKERINGEN - HET POETSBUREAU LION    196",
+    "26  VAN GRIEKEN Stan              10065097488    BEL  CYCLIS - ROOFS FOR ENERGY - VAN DEN PLAS CT       198",
+    "27  ANANIE Ugo                   10069167953    FRA  VCU SCHWENHEIM                              241",
+    "28  MARASCO Lorenzo              10023530059    FRA  SEBMOTOBIKES CX TEAM                          259",
+    "29  BOSSAERTS Senn               10065148719    BEL  CYCLIS - ROOFS FOR ENERGY - VAN DEN PLAS CT       291",
+    "30  CECCHI Filippo                10030196484     ITA   BIKE ACADEMY-MARCHINI COSTRUZIONI             300",
+    "31  PARENTI Nicola                10013694562     ITA   BIKE ACADEMY-MARCHINI COSTRUZIONI             338",
+    "32  DEPRAETERE Gust              10084695330    BEL  THE LEAD OUT CYCLING ACADEMY                  382",
+    "33  OLDHAM Declan               10121126510   GBR  HOPE FACTORY RACING                          387",
+    "34  NUYENS Wies                  10065092640    BEL  PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT        421",
+    "35  VANHOUDT Yoren              10065141039    BEL  CYCLIS - ROOFS FOR ENERGY - VAN DEN PLAS CT       539",
+    "36  GEENS Keano                  10065201057    BEL  WOUTIM CYCLING TEAM                          553",
+    "37  VANCOMPERNOLLE Tibo         10065134470    BEL  DL CHEMICALS - EXPERZA CYCLING TEAM             559",
+    "38  VAN LEE Jari                   10065219649    BEL  PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT        571",
+    "39  VANLAERE Loïc                10065197421    BEL  PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT        578",
+    "40  STEED Jacob                   10127988147   GBR  CLUB CYCLISTE VILLENEUVE ST GERMAIN AISNE       655",
+    "41  LEAERTS Yelle                 10009347346    BEL  VAN MOSSEL HEIST CYCLING TEAM",
+    "42  LEZARD William                10127163445   GBR  MAGSPEED RACING",
+    "43  BELLENS Jarno                 10016350241    BEL  BALOISE VERZEKERINGEN - HET POETSBUREAU LIONS",
+    "44  ROELS Dima                   10105306921    BEL  WIELERCLUB \"ONDER - ONS PARIKE\" VZW",
+    "45  MEDELINSKAS Martynas          10141319381    LTU  VZW WP DE MOLENSPURTERS MEULEBEKE",
+    "46  MAES Brent                   10125216573    BEL  CYCLOCROSS TEAM MJ WOOD"
+  ],
+  "pages_data": [
+    {
+      "page": 1,
+      "direct_hits": 46,
+      "visual_hits": 46,
+      "first_visual_rows": [
+        "SUPERPRESTIGE NOORDZEECROSS MIDDELKERKE",
+        "STARTLIST MEN ELITE 05/11/2026",
+        "Nr Naam UCI ID Nat Club UCI Rank",
+        "1 VANDEPUTTE Niels 10016327609 BEL ALPECIN-PREMIER TECH 1",
+        "2 VANTHOURENHOUT Michael 10007155651 BEL PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT 5",
+        "3 ORTS LLORET Felipe 10009004715 ESP EUSKALTEL - EUSKADI 7",
+        "4 WYSEURE Joran 10064921777 BEL CRELAN-CORENDON 9",
+        "5 SWEECK Laurens 10006912646 BEL CRELAN-CORENDON 10",
+        "6 HENDRIKX Mees 10016519484 NED TEAM BOMBA JOIN 12",
+        "7 KUYPERS Gerben 10016322757 BEL PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT 13",
+        "8 MASON Cameron 10023574923 GBR SEVEN RACING 14",
+        "9 MICHELS Jente 10065014333 BEL ALPECIN-PREMIER TECH DEVELOPMENT TEAM 15"
+      ],
+      "last_visual_rows": [
+        "42 LEZARD William 10127163445 GBR MAGSPEED RACING",
+        "43 BELLENS Jarno 10016350241 BEL BALOISE VERZEKERINGEN - HET POETSBUREAU LIONS",
+        "44 ROELS Dima 10105306921 BEL WIELERCLUB \"ONDER - ONS PARIKE\" VZW",
+        "45 MEDELINSKAS Martynas 10141319381 LTU VZW WP DE MOLENSPURTERS MEULEBEKE",
+        "46 MAES Brent 10125216573 BEL CYCLOCROSS TEAM MJ WOOD"
+      ]
+    }
+  ],
+  "parser_candidate_rows": 46,
+  "unique_uci_ids": 46,
+  "rider_examples": [
+    {
+      "bib": 1,
+      "name": "VANDEPUTTE Niels",
+      "uci_id": "10016327609",
+      "nationality": "BEL",
+      "team": "ALPECIN-PREMIER TECH"
+    },
+    {
+      "bib": 2,
+      "name": "VANTHOURENHOUT Michael",
+      "uci_id": "10007155651",
+      "nationality": "BEL",
+      "team": "PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT"
+    },
+    {
+      "bib": 3,
+      "name": "ORTS LLORET Felipe",
+      "uci_id": "10009004715",
+      "nationality": "ESP",
+      "team": "EUSKALTEL - EUSKADI"
+    },
+    {
+      "bib": 4,
+      "name": "WYSEURE Joran",
+      "uci_id": "10064921777",
+      "nationality": "BEL",
+      "team": "CRELAN-CORENDON"
+    },
+    {
+      "bib": 5,
+      "name": "SWEECK Laurens",
+      "uci_id": "10006912646",
+      "nationality": "BEL",
+      "team": "CRELAN-CORENDON"
+    },
+    {
+      "bib": 6,
+      "name": "HENDRIKX Mees",
+      "uci_id": "10016519484",
+      "nationality": "NED",
+      "team": "TEAM BOMBA JOIN"
+    },
+    {
+      "bib": 7,
+      "name": "KUYPERS Gerben",
+      "uci_id": "10016322757",
+      "nationality": "BEL",
+      "team": "PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT"
+    },
+    {
+      "bib": 8,
+      "name": "MASON Cameron",
+      "uci_id": "10023574923",
+      "nationality": "GBR",
+      "team": "SEVEN RACING"
+    },
+    {
+      "bib": 9,
+      "name": "MICHELS Jente",
+      "uci_id": "10065014333",
+      "nationality": "BEL",
+      "team": "ALPECIN-PREMIER TECH DEVELOPMENT TEAM"
+    },
+    {
+      "bib": 10,
+      "name": "KUHN Kevin",
+      "uci_id": "10009746763",
+      "nationality": "SUI",
+      "team": "HEIZOMAT - CUBE"
+    },
+    {
+      "bib": 11,
+      "name": "VANDEBOSCH Toon",
+      "uci_id": "10010943604",
+      "nationality": "BEL",
+      "team": "CRELAN-CORENDON"
+    },
+    {
+      "bib": 12,
+      "name": "MEEUSSEN Witse",
+      "uci_id": "10064931679",
+      "nationality": "BEL",
+      "team": "CRELAN-CORENDON"
+    }
+  ],
+  "candidate_riders": [
+    {
+      "bib": 1,
+      "name": "VANDEPUTTE Niels",
+      "uci_id": "10016327609",
+      "nationality": "BEL",
+      "team": "ALPECIN-PREMIER TECH"
+    },
+    {
+      "bib": 2,
+      "name": "VANTHOURENHOUT Michael",
+      "uci_id": "10007155651",
+      "nationality": "BEL",
+      "team": "PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT"
+    },
+    {
+      "bib": 3,
+      "name": "ORTS LLORET Felipe",
+      "uci_id": "10009004715",
+      "nationality": "ESP",
+      "team": "EUSKALTEL - EUSKADI"
+    },
+    {
+      "bib": 4,
+      "name": "WYSEURE Joran",
+      "uci_id": "10064921777",
+      "nationality": "BEL",
+      "team": "CRELAN-CORENDON"
+    },
+    {
+      "bib": 5,
+      "name": "SWEECK Laurens",
+      "uci_id": "10006912646",
+      "nationality": "BEL",
+      "team": "CRELAN-CORENDON"
+    },
+    {
+      "bib": 6,
+      "name": "HENDRIKX Mees",
+      "uci_id": "10016519484",
+      "nationality": "NED",
+      "team": "TEAM BOMBA JOIN"
+    },
+    {
+      "bib": 7,
+      "name": "KUYPERS Gerben",
+      "uci_id": "10016322757",
+      "nationality": "BEL",
+      "team": "PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT"
+    },
+    {
+      "bib": 8,
+      "name": "MASON Cameron",
+      "uci_id": "10023574923",
+      "nationality": "GBR",
+      "team": "SEVEN RACING"
+    },
+    {
+      "bib": 9,
+      "name": "MICHELS Jente",
+      "uci_id": "10065014333",
+      "nationality": "BEL",
+      "team": "ALPECIN-PREMIER TECH DEVELOPMENT TEAM"
+    },
+    {
+      "bib": 10,
+      "name": "KUHN Kevin",
+      "uci_id": "10009746763",
+      "nationality": "SUI",
+      "team": "HEIZOMAT - CUBE"
+    },
+    {
+      "bib": 11,
+      "name": "VANDEBOSCH Toon",
+      "uci_id": "10010943604",
+      "nationality": "BEL",
+      "team": "CRELAN-CORENDON"
+    },
+    {
+      "bib": 12,
+      "name": "MEEUSSEN Witse",
+      "uci_id": "10064931679",
+      "nationality": "BEL",
+      "team": "CRELAN-CORENDON"
+    },
+    {
+      "bib": 13,
+      "name": "VAN DE PUTTE Victor",
+      "uci_id": "10064985940",
+      "nationality": "BEL",
+      "team": "CHARLES LIÉGEOIS CX TEAM"
+    },
+    {
+      "bib": 14,
+      "name": "JANSSEN Wout",
+      "uci_id": "10064972095",
+      "nationality": "BEL",
+      "team": "CYCLIS - ROOFS FOR ENERGY - VAN DEN PLAS CT"
+    },
+    {
+      "bib": 15,
+      "name": "VANDENBERGHE Viktor",
+      "uci_id": "10087960489",
+      "nationality": "BEL",
+      "team": "PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT"
+    },
+    {
+      "bib": 16,
+      "name": "HORNY Clement",
+      "uci_id": "10016419858",
+      "nationality": "BEL",
+      "team": "BH-WALLONIE MTB TEAM"
+    },
+    {
+      "bib": 17,
+      "name": "DE BRUYCKERE Kay",
+      "uci_id": "10065053638",
+      "nationality": "BEL",
+      "team": "PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT"
+    },
+    {
+      "bib": 18,
+      "name": "DE MOYER Kenay",
+      "uci_id": "10065066065",
+      "nationality": "BEL",
+      "team": "ATOM6-CYCLEUR DE LUXE-AUTOSTROO CONT. TEAM"
+    },
+    {
+      "bib": 19,
+      "name": "FERDINANDE Anton",
+      "uci_id": "10016322656",
+      "nationality": "BEL",
+      "team": "PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT"
+    },
+    {
+      "bib": 20,
+      "name": "JAMIN Antoine",
+      "uci_id": "10064271877",
+      "nationality": "BEL",
+      "team": "AARCO"
+    },
+    {
+      "bib": 21,
+      "name": "HUYBS Ward",
+      "uci_id": "10065005542",
+      "nationality": "BEL",
+      "team": "RONDE VAN VLAAMS-BRABANT VZW"
+    },
+    {
+      "bib": 22,
+      "name": "KING Carden",
+      "uci_id": "10065999083",
+      "nationality": "USA",
+      "team": "TRIPLE CROWN WORKSHOP"
+    },
+    {
+      "bib": 23,
+      "name": "LUKŠAS Dovydas",
+      "uci_id": "10036592525",
+      "nationality": "LTU",
+      "team": "COLIBRI CYCLING"
+    },
+    {
+      "bib": 24,
+      "name": "HERRMANN Lukas",
+      "uci_id": "10046134190",
+      "nationality": "GER",
+      "team": "HEIZOMAT - CUBE"
+    },
+    {
+      "bib": 25,
+      "name": "BAERS Arne",
+      "uci_id": "10064979472",
+      "nationality": "BEL",
+      "team": "BALOISE VERZEKERINGEN - HET POETSBUREAU LION"
+    },
+    {
+      "bib": 26,
+      "name": "VAN GRIEKEN Stan",
+      "uci_id": "10065097488",
+      "nationality": "BEL",
+      "team": "CYCLIS - ROOFS FOR ENERGY - VAN DEN PLAS CT"
+    },
+    {
+      "bib": 27,
+      "name": "ANANIE Ugo",
+      "uci_id": "10069167953",
+      "nationality": "FRA",
+      "team": "VCU SCHWENHEIM"
+    },
+    {
+      "bib": 28,
+      "name": "MARASCO Lorenzo",
+      "uci_id": "10023530059",
+      "nationality": "FRA",
+      "team": "SEBMOTOBIKES CX TEAM"
+    },
+    {
+      "bib": 29,
+      "name": "BOSSAERTS Senn",
+      "uci_id": "10065148719",
+      "nationality": "BEL",
+      "team": "CYCLIS - ROOFS FOR ENERGY - VAN DEN PLAS CT"
+    },
+    {
+      "bib": 30,
+      "name": "CECCHI Filippo",
+      "uci_id": "10030196484",
+      "nationality": "ITA",
+      "team": "BIKE ACADEMY-MARCHINI COSTRUZIONI"
+    },
+    {
+      "bib": 31,
+      "name": "PARENTI Nicola",
+      "uci_id": "10013694562",
+      "nationality": "ITA",
+      "team": "BIKE ACADEMY-MARCHINI COSTRUZIONI"
+    },
+    {
+      "bib": 32,
+      "name": "DEPRAETERE Gust",
+      "uci_id": "10084695330",
+      "nationality": "BEL",
+      "team": "THE LEAD OUT CYCLING ACADEMY"
+    },
+    {
+      "bib": 33,
+      "name": "OLDHAM Declan",
+      "uci_id": "10121126510",
+      "nationality": "GBR",
+      "team": "HOPE FACTORY RACING"
+    },
+    {
+      "bib": 34,
+      "name": "NUYENS Wies",
+      "uci_id": "10065092640",
+      "nationality": "BEL",
+      "team": "PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT"
+    },
+    {
+      "bib": 35,
+      "name": "VANHOUDT Yoren",
+      "uci_id": "10065141039",
+      "nationality": "BEL",
+      "team": "CYCLIS - ROOFS FOR ENERGY - VAN DEN PLAS CT"
+    },
+    {
+      "bib": 36,
+      "name": "GEENS Keano",
+      "uci_id": "10065201057",
+      "nationality": "BEL",
+      "team": "WOUTIM CYCLING TEAM"
+    },
+    {
+      "bib": 37,
+      "name": "VANCOMPERNOLLE Tibo",
+      "uci_id": "10065134470",
+      "nationality": "BEL",
+      "team": "DL CHEMICALS - EXPERZA CYCLING TEAM"
+    },
+    {
+      "bib": 38,
+      "name": "VAN LEE Jari",
+      "uci_id": "10065219649",
+      "nationality": "BEL",
+      "team": "PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT"
+    },
+    {
+      "bib": 39,
+      "name": "VANLAERE Loïc",
+      "uci_id": "10065197421",
+      "nationality": "BEL",
+      "team": "PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT"
+    },
+    {
+      "bib": 40,
+      "name": "STEED Jacob",
+      "uci_id": "10127988147",
+      "nationality": "GBR",
+      "team": "CLUB CYCLISTE VILLENEUVE ST GERMAIN AISNE"
+    },
+    {
+      "bib": 41,
+      "name": "LEAERTS Yelle",
+      "uci_id": "10009347346",
+      "nationality": "BEL",
+      "team": "VAN MOSSEL HEIST CYCLING TEAM"
+    },
+    {
+      "bib": 42,
+      "name": "LEZARD William",
+      "uci_id": "10127163445",
+      "nationality": "GBR",
+      "team": "MAGSPEED RACING"
+    },
+    {
+      "bib": 43,
+      "name": "BELLENS Jarno",
+      "uci_id": "10016350241",
+      "nationality": "BEL",
+      "team": "BALOISE VERZEKERINGEN - HET POETSBUREAU LIONS"
+    },
+    {
+      "bib": 44,
+      "name": "ROELS Dima",
+      "uci_id": "10105306921",
+      "nationality": "BEL",
+      "team": "WIELERCLUB \"ONDER - ONS PARIKE\" VZW"
+    },
+    {
+      "bib": 45,
+      "name": "MEDELINSKAS Martynas",
+      "uci_id": "10141319381",
+      "nationality": "LTU",
+      "team": "VZW WP DE MOLENSPURTERS MEULEBEKE"
+    },
+    {
+      "bib": 46,
+      "name": "MAES Brent",
+      "uci_id": "10125216573",
+      "nationality": "BEL",
+      "team": "CYCLOCROSS TEAM MJ WOOD"
+    }
+  ]
+}
