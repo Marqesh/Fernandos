@@ -16,6 +16,8 @@ export function createPelotonClient(base = "") {
     me: () => call("/me").then(x => x.member),
     login: (username, password) => call("/login", "POST", { username, password }).then(x => x.member),
     logout: () => call("/logout", "POST"),
+    changePassword: (currentPassword, newPassword) =>
+      call("/change-password", "POST", { currentPassword, newPassword }).then(x => x.member),
     listUsers: () => call("/admin/users").then(x => x.users),
     createUser: (user) => call("/admin/users", "POST", user),
     updateUser: (id, changes) => call("/admin/users/" + encodeURIComponent(id), "PATCH", changes),
