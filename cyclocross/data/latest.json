@@ -2,7 +2,7 @@
   "schema_version": 1,
   "season": "2026-2027",
   "discipline": "cyclocross",
-  "generated_at": "2026-11-05T18:19:52+00:00",
+  "generated_at": "2026-11-05T18:20:39+00:00",
   "races": [
     {
       "id": "cx-middelkerke-2026-me",
@@ -14,11 +14,337 @@
       "series": "Superprestige",
       "website": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/middelkerke",
       "startlist": {
-        "status": "not_published",
-        "riders": [],
-        "count": 0,
-        "checked_at": "2026-11-05T18:19:48+00:00",
-        "warning": "No validated correct-date Men Elite start list"
+        "status": "published",
+        "edition_year": 2026,
+        "category": "Men Elite",
+        "riders": [
+          {
+            "bib": 1,
+            "name": "VANDEPUTTE Niels",
+            "uci_id": "10016327609",
+            "nationality": "BEL",
+            "team": "ALPECIN-PREMIER TECH"
+          },
+          {
+            "bib": 2,
+            "name": "VANTHOURENHOUT Michael",
+            "uci_id": "10007155651",
+            "nationality": "BEL",
+            "team": "PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT"
+          },
+          {
+            "bib": 3,
+            "name": "ORTS LLORET Felipe",
+            "uci_id": "10009004715",
+            "nationality": "ESP",
+            "team": "EUSKALTEL - EUSKADI"
+          },
+          {
+            "bib": 4,
+            "name": "WYSEURE Joran",
+            "uci_id": "10064921777",
+            "nationality": "BEL",
+            "team": "CRELAN-CORENDON"
+          },
+          {
+            "bib": 5,
+            "name": "SWEECK Laurens",
+            "uci_id": "10006912646",
+            "nationality": "BEL",
+            "team": "CRELAN-CORENDON"
+          },
+          {
+            "bib": 6,
+            "name": "HENDRIKX Mees",
+            "uci_id": "10016519484",
+            "nationality": "NED",
+            "team": "TEAM BOMBA JOIN"
+          },
+          {
+            "bib": 7,
+            "name": "KUYPERS Gerben",
+            "uci_id": "10016322757",
+            "nationality": "BEL",
+            "team": "PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT"
+          },
+          {
+            "bib": 8,
+            "name": "MASON Cameron",
+            "uci_id": "10023574923",
+            "nationality": "GBR",
+            "team": "SEVEN RACING"
+          },
+          {
+            "bib": 9,
+            "name": "MICHELS Jente",
+            "uci_id": "10065014333",
+            "nationality": "BEL",
+            "team": "ALPECIN-PREMIER TECH DEVELOPMENT TEAM"
+          },
+          {
+            "bib": 10,
+            "name": "KUHN Kevin",
+            "uci_id": "10009746763",
+            "nationality": "SUI",
+            "team": "HEIZOMAT - CUBE"
+          },
+          {
+            "bib": 11,
+            "name": "VANDEBOSCH Toon",
+            "uci_id": "10010943604",
+            "nationality": "BEL",
+            "team": "CRELAN-CORENDON"
+          },
+          {
+            "bib": 12,
+            "name": "MEEUSSEN Witse",
+            "uci_id": "10064931679",
+            "nationality": "BEL",
+            "team": "CRELAN-CORENDON"
+          },
+          {
+            "bib": 13,
+            "name": "VAN DE PUTTE Victor",
+            "uci_id": "10064985940",
+            "nationality": "BEL",
+            "team": "CHARLES LIÉGEOIS CX TEAM"
+          },
+          {
+            "bib": 14,
+            "name": "JANSSEN Wout",
+            "uci_id": "10064972095",
+            "nationality": "BEL",
+            "team": "CYCLIS - ROOFS FOR ENERGY - VAN DEN PLAS CT"
+          },
+          {
+            "bib": 15,
+            "name": "VANDENBERGHE Viktor",
+            "uci_id": "10087960489",
+            "nationality": "BEL",
+            "team": "PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT"
+          },
+          {
+            "bib": 16,
+            "name": "HORNY Clement",
+            "uci_id": "10016419858",
+            "nationality": "BEL",
+            "team": "BH-WALLONIE MTB TEAM"
+          },
+          {
+            "bib": 17,
+            "name": "DE BRUYCKERE Kay",
+            "uci_id": "10065053638",
+            "nationality": "BEL",
+            "team": "PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT"
+          },
+          {
+            "bib": 18,
+            "name": "DE MOYER Kenay",
+            "uci_id": "10065066065",
+            "nationality": "BEL",
+            "team": "ATOM6-CYCLEUR DE LUXE-AUTOSTROO CONT. TEAM"
+          },
+          {
+            "bib": 19,
+            "name": "FERDINANDE Anton",
+            "uci_id": "10016322656",
+            "nationality": "BEL",
+            "team": "PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT"
+          },
+          {
+            "bib": 20,
+            "name": "JAMIN Antoine",
+            "uci_id": "10064271877",
+            "nationality": "BEL",
+            "team": "AARCO"
+          },
+          {
+            "bib": 21,
+            "name": "HUYBS Ward",
+            "uci_id": "10065005542",
+            "nationality": "BEL",
+            "team": "RONDE VAN VLAAMS-BRABANT VZW"
+          },
+          {
+            "bib": 22,
+            "name": "KING Carden",
+            "uci_id": "10065999083",
+            "nationality": "USA",
+            "team": "TRIPLE CROWN WORKSHOP"
+          },
+          {
+            "bib": 23,
+            "name": "LUKŠAS Dovydas",
+            "uci_id": "10036592525",
+            "nationality": "LTU",
+            "team": "COLIBRI CYCLING"
+          },
+          {
+            "bib": 24,
+            "name": "HERRMANN Lukas",
+            "uci_id": "10046134190",
+            "nationality": "GER",
+            "team": "HEIZOMAT - CUBE"
+          },
+          {
+            "bib": 25,
+            "name": "BAERS Arne",
+            "uci_id": "10064979472",
+            "nationality": "BEL",
+            "team": "BALOISE VERZEKERINGEN - HET POETSBUREAU LION"
+          },
+          {
+            "bib": 26,
+            "name": "VAN GRIEKEN Stan",
+            "uci_id": "10065097488",
+            "nationality": "BEL",
+            "team": "CYCLIS - ROOFS FOR ENERGY - VAN DEN PLAS CT"
+          },
+          {
+            "bib": 27,
+            "name": "ANANIE Ugo",
+            "uci_id": "10069167953",
+            "nationality": "FRA",
+            "team": "VCU SCHWENHEIM"
+          },
+          {
+            "bib": 28,
+            "name": "MARASCO Lorenzo",
+            "uci_id": "10023530059",
+            "nationality": "FRA",
+            "team": "SEBMOTOBIKES CX TEAM"
+          },
+          {
+            "bib": 29,
+            "name": "BOSSAERTS Senn",
+            "uci_id": "10065148719",
+            "nationality": "BEL",
+            "team": "CYCLIS - ROOFS FOR ENERGY - VAN DEN PLAS CT"
+          },
+          {
+            "bib": 30,
+            "name": "CECCHI Filippo",
+            "uci_id": "10030196484",
+            "nationality": "ITA",
+            "team": "BIKE ACADEMY-MARCHINI COSTRUZIONI"
+          },
+          {
+            "bib": 31,
+            "name": "PARENTI Nicola",
+            "uci_id": "10013694562",
+            "nationality": "ITA",
+            "team": "BIKE ACADEMY-MARCHINI COSTRUZIONI"
+          },
+          {
+            "bib": 32,
+            "name": "DEPRAETERE Gust",
+            "uci_id": "10084695330",
+            "nationality": "BEL",
+            "team": "THE LEAD OUT CYCLING ACADEMY"
+          },
+          {
+            "bib": 33,
+            "name": "OLDHAM Declan",
+            "uci_id": "10121126510",
+            "nationality": "GBR",
+            "team": "HOPE FACTORY RACING"
+          },
+          {
+            "bib": 34,
+            "name": "NUYENS Wies",
+            "uci_id": "10065092640",
+            "nationality": "BEL",
+            "team": "PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT"
+          },
+          {
+            "bib": 35,
+            "name": "VANHOUDT Yoren",
+            "uci_id": "10065141039",
+            "nationality": "BEL",
+            "team": "CYCLIS - ROOFS FOR ENERGY - VAN DEN PLAS CT"
+          },
+          {
+            "bib": 36,
+            "name": "GEENS Keano",
+            "uci_id": "10065201057",
+            "nationality": "BEL",
+            "team": "WOUTIM CYCLING TEAM"
+          },
+          {
+            "bib": 37,
+            "name": "VANCOMPERNOLLE Tibo",
+            "uci_id": "10065134470",
+            "nationality": "BEL",
+            "team": "DL CHEMICALS - EXPERZA CYCLING TEAM"
+          },
+          {
+            "bib": 38,
+            "name": "VAN LEE Jari",
+            "uci_id": "10065219649",
+            "nationality": "BEL",
+            "team": "PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT"
+          },
+          {
+            "bib": 39,
+            "name": "VANLAERE Loïc",
+            "uci_id": "10065197421",
+            "nationality": "BEL",
+            "team": "PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT"
+          },
+          {
+            "bib": 40,
+            "name": "STEED Jacob",
+            "uci_id": "10127988147",
+            "nationality": "GBR",
+            "team": "CLUB CYCLISTE VILLENEUVE ST GERMAIN AISNE"
+          },
+          {
+            "bib": 41,
+            "name": "LEAERTS Yelle",
+            "uci_id": "10009347346",
+            "nationality": "BEL",
+            "team": "VAN MOSSEL HEIST CYCLING TEAM"
+          },
+          {
+            "bib": 42,
+            "name": "LEZARD William",
+            "uci_id": "10127163445",
+            "nationality": "GBR",
+            "team": "MAGSPEED RACING"
+          },
+          {
+            "bib": 43,
+            "name": "BELLENS Jarno",
+            "uci_id": "10016350241",
+            "nationality": "BEL",
+            "team": "BALOISE VERZEKERINGEN - HET POETSBUREAU LIONS"
+          },
+          {
+            "bib": 44,
+            "name": "ROELS Dima",
+            "uci_id": "10105306921",
+            "nationality": "BEL",
+            "team": "WIELERCLUB \"ONDER - ONS PARIKE\" VZW"
+          },
+          {
+            "bib": 45,
+            "name": "MEDELINSKAS Martynas",
+            "uci_id": "10141319381",
+            "nationality": "LTU",
+            "team": "VZW WP DE MOLENSPURTERS MEULEBEKE"
+          },
+          {
+            "bib": 46,
+            "name": "MAES Brent",
+            "uci_id": "10125216573",
+            "nationality": "BEL",
+            "team": "CYCLOCROSS TEAM MJ WOOD"
+          }
+        ],
+        "count": 46,
+        "source_url": "https://www.superprestigecyclocross.be/storage/programs/file_participants/444/444.pdf?t=1793894883",
+        "checked_at": "2026-11-05T18:20:35+00:00",
+        "completeness": "start_list"
       }
     },
     {
@@ -353,7 +679,7 @@
         ],
         "count": 45,
         "source_url": "https://www.uec.ch/resources/2026%20Events/ciclocross/liste/entry/entry_men_el.pdf",
-        "checked_at": "2026-11-05T18:19:51+00:00",
+        "checked_at": "2026-11-05T18:20:38+00:00",
         "completeness": "entry_list"
       }
     },
@@ -370,7 +696,7 @@
         "status": "not_published",
         "riders": [],
         "count": 0,
-        "checked_at": "2026-11-05T18:19:51+00:00",
+        "checked_at": "2026-11-05T18:20:38+00:00",
         "warning": "No validated correct-date Men Elite start list"
       }
     },
@@ -387,7 +713,7 @@
         "status": "not_published",
         "riders": [],
         "count": 0,
-        "checked_at": "2026-11-05T18:19:52+00:00",
+        "checked_at": "2026-11-05T18:20:39+00:00",
         "warning": "No validated correct-date Men Elite start list"
       }
     }
