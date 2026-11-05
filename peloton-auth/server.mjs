@@ -55,13 +55,20 @@ export function makeAuth({dbPath=process.env.PELOTON_AUTH_DB || "./private/pelot
     "hash TEXT NOT NULL, role TEXT NOT NULL DEFAULT 'player' CHECK(role IN ('admin','player')), "+
     "approved INTEGER NOT NULL DEFAULT 0 CHECK(approved IN (0,1)), "+
     "enabled INTEGER NOT NULL DEFAULT 1 CHECK(enabled IN (0,1)), "+
-    "road_player_id TEXT UNIQUE, cyclocross_player_id TEXT UNIQUE);"+
+    "road_player_id TEXT UNIQUE, cyclocross_player_id TEXT UNIQUE, "+
+    "must_change_password INTEGER NOT NULL DEFAULT 1 CHECK(must_change_password IN (0,1)));"+
     "CREATE TABLE IF NOT EXISTS sessions ("+
     "token_hash TEXT PRIMARY KEY, account_id TEXT NOT NULL REFERENCES accounts(id) ON DELETE CASCADE, "+
     "expires_at INTEGER NOT NULL); CREATE INDEX IF NOT EXISTS idx_sessions_user ON sessions(account_id);");
-  const fields="id,username,role,approved,enabled,road_player_id,cyclocross_player_id";
+  // Upgrade databases created before the first-login password-change requirement.
+  // Existing accounts are forced to choose their own private password once.
+  if(!db.prepare("PRAGMA table_info(accounts)").all().some(x=>x.name==="must_change_password")) {
+    db.exec("ALTER TABLE accounts ADD COLUMN must_change_password INTEGER NOT NULL DEFAULT 1 CHECK(must_change_password IN (0,1));");
+  }
+  const fields="id,username,role,approved,enabled,road_player_id,cyclocross_player_id,must_change_password";
   const safe = a => a && ({id:a.id,username:a.username,role:a.role,
-    roadPlayerId:a.road_player_id,cyclocrossPlayerId:a.cyclocross_player_id});
+    roadPlayerId:a.road_player_id,cyclocrossPlayerId:a.cyclocross_player_id,
+    mustChangePassword:!!a.must_change_password});
   const failures=new Map();
   function add({username,password,role="player",approved=false,roadPlayerId=null,cyclocrossPlayerId=null}) {
     if(!userOk(username)||!passOk(password)||!linkOk(roadPlayerId)||!linkOk(cyclocrossPlayerId))
@@ -130,6 +137,32 @@ export function makeAuth({dbPath=process.env.PELOTON_AUTH_DB || "./private/pelot
       if(path==="/api/auth/me" && req.method==="GET")
         return reply(res,200,{member:safe(me) || null});
       if(!me) return reply(res,401,{error:"Log in first."});
+      // A temporary password cannot be used to access the league or admin functions.
+      // This endpoint is the only action permitted until the owner sets a private one.
+      if(path==="/api/auth/change-password" && req.method==="POST") {
+        const {currentPassword,newPassword}=await readJson(req);
+        if(typeof currentPassword!=="string" || !passOk(newPassword))
+          return reply(res,400,{error:"Current password and a new password (10-128 characters) are required."});
+        if(!passwordMatches(currentPassword,me))
+          return reply(res,403,{error:"Current password is incorrect."});
+        if(passwordMatches(newPassword,me))
+          return reply(res,400,{error:"New password must differ from your temporary password."});
+        const next=passwordHash(newPassword);
+        // Revoke all old sessions and issue a new session after the password is changed.
+        const change=db.transaction(()=>{
+          db.prepare("UPDATE accounts SET salt=?, hash=?, must_change_password=0 WHERE id=?")
+            .run(next.salt,next.hash,me.id);
+          db.prepare("DELETE FROM sessions WHERE account_id=?").run(me.id);
+          const token=randomBytes(32).toString("base64url");
+          db.prepare("INSERT INTO sessions(token_hash,account_id,expires_at) VALUES(?,?,?)")
+            .run(sha256(token),me.id,Date.now()+TTL);
+          return token;
+        });
+        const token=change();
+        setCookie(res,token,Math.floor(TTL/1000));
+        return reply(res,200,{member:safe(db.prepare("SELECT * FROM accounts WHERE id=?").get(me.id))});
+      }
+      if(me.must_change_password) return reply(res,403,{error:"Password change required."});
       if(me.role!=="admin") return reply(res,403,{error:"Admin only."});
 
       if(path==="/api/auth/admin/users" && req.method==="GET") {
@@ -177,7 +210,7 @@ export function makeAuth({dbPath=process.env.PELOTON_AUTH_DB || "./private/pelot
         const body=await readJson(req);
         if(!passOk(body.password)) return reply(res,400,{error:"Password needs 10-128 characters."});
         const hash=passwordHash(body.password);
-        const done=db.prepare("UPDATE accounts SET salt=?, hash=? WHERE id=?")
+        const done=db.prepare("UPDATE accounts SET salt=?, hash=?, must_change_password=1 WHERE id=?")
           .run(hash.salt,hash.hash,pw[1]);
         if(!done.changes) return reply(res,404,{error:"User not found."});
         db.prepare("DELETE FROM sessions WHERE account_id=?").run(pw[1]);
