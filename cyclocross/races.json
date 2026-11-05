@@ -17,7 +17,9 @@
         "https://www.superprestigecyclocross.be/en/calendar/2026-2027/middelkerke"
       ],
       "min_riders": 8,
-      "source_note": "User-provided official startlist PDF, independently inspected: MIDDELKERKE MEN ELITE 05/11/2026, 46 unique UCI IDs"
+      "source_note": "User-provided official startlist PDF, independently inspected: MIDDELKERKE MEN ELITE 05/11/2026, 46 unique UCI IDs",
+      "venue": "Middelkerke",
+      "calendar_source": "https://www.superprestigecyclocross.be/en/news/discover-the-calendar-for-the-2026-2027-telenet-superprestige"
     },
     {
       "id": "cx-zeddam-europeans-2026-me",
@@ -31,7 +33,9 @@
       "source_urls": [
         "https://www.uec.ch/en/event/282/2026-uec-cyclo-cross-european-championships"
       ],
-      "min_riders": 8
+      "min_riders": 8,
+      "venue": "Zeddam",
+      "calendar_source": "https://www.uec.ch/en/event/282/2026-uec-cyclo-cross-european-championships"
     },
     {
       "id": "cx-niel-2026-me",
@@ -45,6 +49,56 @@
       "source_urls": [
         "https://www.superprestigecyclocross.be/en/calendar/2026-2027/niel"
       ],
+      "min_riders": 8,
+      "venue": "Niel",
+      "calendar_source": "https://www.superprestigecyclocross.be/en/news/discover-the-calendar-for-the-2026-2027-telenet-superprestige"
+    },
+    {
+      "id": "cx-merksplas-2026-me",
+      "name": "Superprestige Merksplas",
+      "start_date": "2026-11-14",
+      "year": 2026,
+      "category": "Men Elite",
+      "discipline": "cyclocross",
+      "series": "Superprestige",
+      "venue": "Merksplas",
+      "website": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/merksplas",
+      "source_urls": [
+        "https://www.superprestigecyclocross.be/en/calendar/2026-2027/merksplas"
+      ],
+      "calendar_source": "https://www.superprestigecyclocross.be/en/news/discover-the-calendar-for-the-2026-2027-telenet-superprestige",
+      "min_riders": 8
+    },
+    {
+      "id": "cx-hamme-zogge-2026-me",
+      "name": "X²O Bollekescross Hamme-Zogge",
+      "start_date": "2026-11-15",
+      "year": 2026,
+      "category": "Men Elite",
+      "discipline": "cyclocross",
+      "series": "X²O Badkamers Trofee",
+      "venue": "Hamme-Zogge",
+      "website": "https://x2otrofee.be/",
+      "source_urls": [
+        "https://x2otrofee.be/"
+      ],
+      "calendar_source": "https://x2otrofee.be/",
+      "min_riders": 8
+    },
+    {
+      "id": "cx-beringen-2026-me",
+      "name": "X²O Be-Mine Cross Beringen",
+      "start_date": "2026-11-22",
+      "year": 2026,
+      "category": "Men Elite",
+      "discipline": "cyclocross",
+      "series": "X²O Badkamers Trofee",
+      "venue": "Beringen",
+      "website": "https://x2otrofee.be/",
+      "source_urls": [
+        "https://x2otrofee.be/"
+      ],
+      "calendar_source": "https://x2otrofee.be/",
       "min_riders": 8
     },
     {
@@ -55,10 +109,316 @@
       "category": "Men Elite",
       "discipline": "cyclocross",
       "series": "UCI Cyclo-cross World Cup",
-      "website": "https://www.ucicyclocrossworldcup.com/en/calendar",
+      "website": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/ostrava",
       "source_urls": [
-        "https://www.ucicyclocrossworldcup.com/en/calendar"
+        "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/ostrava"
       ],
+      "min_riders": 8,
+      "venue": "Ostrava",
+      "calendar_source": "https://www.ucicyclocrossworldcup.com/en/news/discover-the-calendar-of-the-2026-2027-uci-cyclo-cross-world-cup"
+    },
+    {
+      "id": "cx-tabor-2026-me",
+      "name": "World Cup Tábor",
+      "start_date": "2026-11-29",
+      "year": 2026,
+      "category": "Men Elite",
+      "discipline": "cyclocross",
+      "series": "UCI Cyclo-cross World Cup",
+      "venue": "Tábor",
+      "website": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/tabor-5",
+      "source_urls": [
+        "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/tabor-5"
+      ],
+      "calendar_source": "https://www.ucicyclocrossworldcup.com/en/news/discover-the-calendar-of-the-2026-2027-uci-cyclo-cross-world-cup",
+      "min_riders": 8
+    },
+    {
+      "id": "cx-ruddervoorde-2026-me",
+      "name": "Superprestige Ruddervoorde",
+      "start_date": "2026-12-06",
+      "year": 2026,
+      "category": "Men Elite",
+      "discipline": "cyclocross",
+      "series": "Superprestige",
+      "venue": "Ruddervoorde",
+      "website": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/ruddervoorde",
+      "source_urls": [
+        "https://www.superprestigecyclocross.be/en/calendar/2026-2027/ruddervoorde"
+      ],
+      "calendar_source": "https://www.superprestigecyclocross.be/en/news/discover-the-calendar-for-the-2026-2027-telenet-superprestige",
+      "min_riders": 8
+    },
+    {
+      "id": "cx-glasgow-2026-me",
+      "name": "World Cup Glasgow",
+      "start_date": "2026-12-13",
+      "year": 2026,
+      "category": "Men Elite",
+      "discipline": "cyclocross",
+      "series": "UCI Cyclo-cross World Cup",
+      "venue": "Glasgow",
+      "website": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/glasgow",
+      "source_urls": [
+        "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/glasgow"
+      ],
+      "calendar_source": "https://www.ucicyclocrossworldcup.com/en/news/discover-the-calendar-of-the-2026-2027-uci-cyclo-cross-world-cup",
+      "min_riders": 8
+    },
+    {
+      "id": "cx-antwerpen-2026-me",
+      "name": "World Cup Antwerpen",
+      "start_date": "2026-12-19",
+      "year": 2026,
+      "category": "Men Elite",
+      "discipline": "cyclocross",
+      "series": "UCI Cyclo-cross World Cup",
+      "venue": "Antwerpen",
+      "website": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/antwerpen-2",
+      "source_urls": [
+        "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/antwerpen-2"
+      ],
+      "calendar_source": "https://www.ucicyclocrossworldcup.com/en/news/discover-the-calendar-of-the-2026-2027-uci-cyclo-cross-world-cup",
+      "min_riders": 8
+    },
+    {
+      "id": "cx-koksijde-2026-me",
+      "name": "World Cup Koksijde",
+      "start_date": "2026-12-20",
+      "year": 2026,
+      "category": "Men Elite",
+      "discipline": "cyclocross",
+      "series": "UCI Cyclo-cross World Cup",
+      "venue": "Koksijde",
+      "website": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/koksijde-3",
+      "source_urls": [
+        "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/koksijde-3"
+      ],
+      "calendar_source": "https://www.ucicyclocrossworldcup.com/en/news/discover-the-calendar-of-the-2026-2027-uci-cyclo-cross-world-cup",
+      "min_riders": 8
+    },
+    {
+      "id": "cx-hofstade-2026-me",
+      "name": "X²O Plage Cross Hofstade",
+      "start_date": "2026-12-22",
+      "year": 2026,
+      "category": "Men Elite",
+      "discipline": "cyclocross",
+      "series": "X²O Badkamers Trofee",
+      "venue": "Hofstade",
+      "website": "https://x2otrofee.be/",
+      "source_urls": [
+        "https://x2otrofee.be/"
+      ],
+      "calendar_source": "https://x2otrofee.be/",
+      "min_riders": 8
+    },
+    {
+      "id": "cx-loenhout-2026-me",
+      "name": "X²O Azencross Loenhout",
+      "start_date": "2026-12-23",
+      "year": 2026,
+      "category": "Men Elite",
+      "discipline": "cyclocross",
+      "series": "X²O Badkamers Trofee",
+      "venue": "Loenhout",
+      "website": "https://x2otrofee.be/",
+      "source_urls": [
+        "https://x2otrofee.be/"
+      ],
+      "calendar_source": "https://x2otrofee.be/",
+      "min_riders": 8
+    },
+    {
+      "id": "cx-heusden-zolder-2026-me",
+      "name": "Superprestige Heusden-Zolder",
+      "start_date": "2026-12-25",
+      "year": 2026,
+      "category": "Men Elite",
+      "discipline": "cyclocross",
+      "series": "Superprestige",
+      "venue": "Heusden-Zolder",
+      "website": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/heusden-zolder",
+      "source_urls": [
+        "https://www.superprestigecyclocross.be/en/calendar/2026-2027/heusden-zolder"
+      ],
+      "calendar_source": "https://www.superprestigecyclocross.be/en/news/discover-the-calendar-for-the-2026-2027-telenet-superprestige",
+      "min_riders": 8
+    },
+    {
+      "id": "cx-gavere-2026-me",
+      "name": "World Cup Gavere",
+      "start_date": "2026-12-26",
+      "year": 2026,
+      "category": "Men Elite",
+      "discipline": "cyclocross",
+      "series": "UCI Cyclo-cross World Cup",
+      "venue": "Gavere",
+      "website": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/gavere-4",
+      "source_urls": [
+        "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/gavere-4"
+      ],
+      "calendar_source": "https://www.ucicyclocrossworldcup.com/en/news/discover-the-calendar-of-the-2026-2027-uci-cyclo-cross-world-cup",
+      "min_riders": 8
+    },
+    {
+      "id": "cx-namur-2026-me",
+      "name": "World Cup Namur",
+      "start_date": "2026-12-27",
+      "year": 2026,
+      "category": "Men Elite",
+      "discipline": "cyclocross",
+      "series": "UCI Cyclo-cross World Cup",
+      "venue": "Namur",
+      "website": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/namur-7",
+      "source_urls": [
+        "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/namur-7"
+      ],
+      "calendar_source": "https://www.ucicyclocrossworldcup.com/en/news/discover-the-calendar-of-the-2026-2027-uci-cyclo-cross-world-cup",
+      "min_riders": 8
+    },
+    {
+      "id": "cx-besancon-2026-me",
+      "name": "World Cup Besançon",
+      "start_date": "2026-12-29",
+      "year": 2026,
+      "category": "Men Elite",
+      "discipline": "cyclocross",
+      "series": "UCI Cyclo-cross World Cup",
+      "venue": "Besançon",
+      "website": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/besancon-2",
+      "source_urls": [
+        "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/besancon-2"
+      ],
+      "calendar_source": "https://www.ucicyclocrossworldcup.com/en/news/discover-the-calendar-of-the-2026-2027-uci-cyclo-cross-world-cup",
+      "min_riders": 8
+    },
+    {
+      "id": "cx-diegem-2026-me",
+      "name": "Superprestige Diegem",
+      "start_date": "2026-12-30",
+      "year": 2026,
+      "category": "Men Elite",
+      "discipline": "cyclocross",
+      "series": "Superprestige",
+      "venue": "Diegem",
+      "website": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/diegem",
+      "source_urls": [
+        "https://www.superprestigecyclocross.be/en/calendar/2026-2027/diegem"
+      ],
+      "calendar_source": "https://www.superprestigecyclocross.be/en/news/discover-the-calendar-for-the-2026-2027-telenet-superprestige",
+      "min_riders": 8
+    },
+    {
+      "id": "cx-baal-2027-me",
+      "name": "X²O GP Sven Nys Baal",
+      "start_date": "2027-01-01",
+      "year": 2027,
+      "category": "Men Elite",
+      "discipline": "cyclocross",
+      "series": "X²O Badkamers Trofee",
+      "venue": "Baal",
+      "website": "https://x2otrofee.be/",
+      "source_urls": [
+        "https://x2otrofee.be/"
+      ],
+      "calendar_source": "https://x2otrofee.be/",
+      "min_riders": 8
+    },
+    {
+      "id": "cx-gullegem-2027-me",
+      "name": "Superprestige Gullegem",
+      "start_date": "2027-01-02",
+      "year": 2027,
+      "category": "Men Elite",
+      "discipline": "cyclocross",
+      "series": "Superprestige",
+      "venue": "Gullegem",
+      "website": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/Gullegem",
+      "source_urls": [
+        "https://www.superprestigecyclocross.be/en/calendar/2026-2027/Gullegem"
+      ],
+      "calendar_source": "https://www.superprestigecyclocross.be/en/news/discover-the-calendar-for-the-2026-2027-telenet-superprestige",
+      "min_riders": 8
+    },
+    {
+      "id": "cx-zonhoven-2027-me",
+      "name": "World Cup Zonhoven",
+      "start_date": "2027-01-03",
+      "year": 2027,
+      "category": "Men Elite",
+      "discipline": "cyclocross",
+      "series": "UCI Cyclo-cross World Cup",
+      "venue": "Zonhoven",
+      "website": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/zonhoven-4",
+      "source_urls": [
+        "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/zonhoven-4"
+      ],
+      "calendar_source": "https://www.ucicyclocrossworldcup.com/en/news/discover-the-calendar-of-the-2026-2027-uci-cyclo-cross-world-cup",
+      "min_riders": 8
+    },
+    {
+      "id": "cx-benidorm-2027-me",
+      "name": "World Cup Benidorm",
+      "start_date": "2027-01-17",
+      "year": 2027,
+      "category": "Men Elite",
+      "discipline": "cyclocross",
+      "series": "UCI Cyclo-cross World Cup",
+      "venue": "Benidorm",
+      "website": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/benidorm-4",
+      "source_urls": [
+        "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/benidorm-4"
+      ],
+      "calendar_source": "https://www.ucicyclocrossworldcup.com/en/news/discover-the-calendar-of-the-2026-2027-uci-cyclo-cross-world-cup",
+      "min_riders": 8
+    },
+    {
+      "id": "cx-hamme-worldcup-2027-me",
+      "name": "World Cup Hamme",
+      "start_date": "2027-01-23",
+      "year": 2027,
+      "category": "Men Elite",
+      "discipline": "cyclocross",
+      "series": "UCI Cyclo-cross World Cup",
+      "venue": "Hamme",
+      "website": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/hamme",
+      "source_urls": [
+        "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/hamme"
+      ],
+      "calendar_source": "https://www.ucicyclocrossworldcup.com/en/news/discover-the-calendar-of-the-2026-2027-uci-cyclo-cross-world-cup",
+      "min_riders": 8
+    },
+    {
+      "id": "cx-hoogerheide-2027-me",
+      "name": "World Cup Hoogerheide",
+      "start_date": "2027-01-24",
+      "year": 2027,
+      "category": "Men Elite",
+      "discipline": "cyclocross",
+      "series": "UCI Cyclo-cross World Cup",
+      "venue": "Hoogerheide",
+      "website": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/hoogerheide-6",
+      "source_urls": [
+        "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/hoogerheide-6"
+      ],
+      "calendar_source": "https://www.ucicyclocrossworldcup.com/en/news/discover-the-calendar-of-the-2026-2027-uci-cyclo-cross-world-cup",
+      "min_riders": 8
+    },
+    {
+      "id": "cx-ostend-worlds-2027-me",
+      "name": "World Championships Ostend — Men Elite",
+      "start_date": "2027-01-31",
+      "year": 2027,
+      "category": "Men Elite",
+      "discipline": "cyclocross",
+      "series": "UCI Cyclo-cross World Championships",
+      "venue": "Ostend",
+      "website": "https://www.ostend2027.com/en",
+      "source_urls": [
+        "https://www.ostend2027.com/en"
+      ],
+      "calendar_source": "https://www.ostend2027.com/en",
       "min_riders": 8
     }
   ]
