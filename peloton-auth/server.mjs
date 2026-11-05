@@ -149,16 +149,19 @@ export function makeAuth({dbPath=process.env.PELOTON_AUTH_DB || "./private/pelot
           return reply(res,400,{error:"New password must differ from your temporary password."});
         const next=passwordHash(newPassword);
         // Revoke all old sessions and issue a new session after the password is changed.
-        const change=db.transaction(()=>{
+        const token=randomBytes(32).toString("base64url");
+        db.exec("BEGIN IMMEDIATE");
+        try {
           db.prepare("UPDATE accounts SET salt=?, hash=?, must_change_password=0 WHERE id=?")
             .run(next.salt,next.hash,me.id);
           db.prepare("DELETE FROM sessions WHERE account_id=?").run(me.id);
-          const token=randomBytes(32).toString("base64url");
           db.prepare("INSERT INTO sessions(token_hash,account_id,expires_at) VALUES(?,?,?)")
             .run(sha256(token),me.id,Date.now()+TTL);
-          return token;
-        });
-        const token=change();
+          db.exec("COMMIT");
+        } catch(error) {
+          db.exec("ROLLBACK");
+          throw error;
+        }
         setCookie(res,token,Math.floor(TTL/1000));
         return reply(res,200,{member:safe(db.prepare("SELECT * FROM accounts WHERE id=?").get(me.id))});
       }
