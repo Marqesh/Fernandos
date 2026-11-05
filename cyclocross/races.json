@@ -13,9 +13,11 @@
       "series": "Superprestige",
       "website": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/middelkerke",
       "source_urls": [
+        "https://www.superprestigecyclocross.be/storage/programs/file_participants/444/444.pdf?t=1793894883",
         "https://www.superprestigecyclocross.be/en/calendar/2026-2027/middelkerke"
       ],
-      "min_riders": 8
+      "min_riders": 8,
+      "source_note": "User-provided official startlist PDF, independently inspected: MIDDELKERKE MEN ELITE 05/11/2026, 46 unique UCI IDs"
     },
     {
       "id": "cx-zeddam-europeans-2026-me",
