@@ -36,7 +36,7 @@ def discover(html,base,race):
  return out[:5]
 
 def category_year(pdf,race,category_hint=''):
- text=norm(' '.join(page.get_text('text') for page in pdf))
+ text=norm(' '.join(page.get_text('text',sort=True) for page in pdf))
  header=text[:1500]
  eventdate=race['start_date']
  dm=eventdate[8:]+'/'+eventdate[5:7]+'/'+eventdate[:4]
