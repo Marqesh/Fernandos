@@ -2,7 +2,7 @@
   "schema_version": 1,
   "season": "2026-2027",
   "discipline": "cyclocross",
-  "generated_at": "2026-11-05T18:20:39+00:00",
+  "generated_at": "2026-11-05T18:26:23+00:00",
   "races": [
     {
       "id": "cx-middelkerke-2026-me",
@@ -343,7 +343,7 @@
         ],
         "count": 46,
         "source_url": "https://www.superprestigecyclocross.be/storage/programs/file_participants/444/444.pdf?t=1793894883",
-        "checked_at": "2026-11-05T18:20:35+00:00",
+        "checked_at": "2026-11-05T18:26:12+00:00",
         "completeness": "start_list"
       }
     },
@@ -679,7 +679,7 @@
         ],
         "count": 45,
         "source_url": "https://www.uec.ch/resources/2026%20Events/ciclocross/liste/entry/entry_men_el.pdf",
-        "checked_at": "2026-11-05T18:20:38+00:00",
+        "checked_at": "2026-11-05T18:26:15+00:00",
         "completeness": "entry_list"
       }
     },
@@ -696,7 +696,58 @@
         "status": "not_published",
         "riders": [],
         "count": 0,
-        "checked_at": "2026-11-05T18:20:38+00:00",
+        "checked_at": "2026-11-05T18:26:16+00:00",
+        "warning": "No validated correct-date Men Elite start list"
+      }
+    },
+    {
+      "id": "cx-merksplas-2026-me",
+      "name": "Superprestige Merksplas",
+      "date": "2026-11-14",
+      "year": 2026,
+      "discipline": "cyclocross",
+      "category": "Men Elite",
+      "series": "Superprestige",
+      "website": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/merksplas",
+      "startlist": {
+        "status": "not_published",
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-11-05T18:26:16+00:00",
+        "warning": "No validated correct-date Men Elite start list"
+      }
+    },
+    {
+      "id": "cx-hamme-zogge-2026-me",
+      "name": "X²O Bollekescross Hamme-Zogge",
+      "date": "2026-11-15",
+      "year": 2026,
+      "discipline": "cyclocross",
+      "category": "Men Elite",
+      "series": "X²O Badkamers Trofee",
+      "website": "https://x2otrofee.be/",
+      "startlist": {
+        "status": "not_published",
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-11-05T18:26:17+00:00",
+        "warning": "No validated correct-date Men Elite start list"
+      }
+    },
+    {
+      "id": "cx-beringen-2026-me",
+      "name": "X²O Be-Mine Cross Beringen",
+      "date": "2026-11-22",
+      "year": 2026,
+      "discipline": "cyclocross",
+      "category": "Men Elite",
+      "series": "X²O Badkamers Trofee",
+      "website": "https://x2otrofee.be/",
+      "startlist": {
+        "status": "not_published",
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-11-05T18:26:17+00:00",
         "warning": "No validated correct-date Men Elite start list"
       }
     },
@@ -708,12 +759,335 @@
       "discipline": "cyclocross",
       "category": "Men Elite",
       "series": "UCI Cyclo-cross World Cup",
-      "website": "https://www.ucicyclocrossworldcup.com/en/calendar",
+      "website": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/ostrava",
       "startlist": {
         "status": "not_published",
         "riders": [],
         "count": 0,
-        "checked_at": "2026-11-05T18:20:39+00:00",
+        "checked_at": "2026-11-05T18:26:18+00:00",
+        "warning": "No validated correct-date Men Elite start list"
+      }
+    },
+    {
+      "id": "cx-tabor-2026-me",
+      "name": "World Cup Tábor",
+      "date": "2026-11-29",
+      "year": 2026,
+      "discipline": "cyclocross",
+      "category": "Men Elite",
+      "series": "UCI Cyclo-cross World Cup",
+      "website": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/tabor-5",
+      "startlist": {
+        "status": "not_published",
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-11-05T18:26:18+00:00",
+        "warning": "No validated correct-date Men Elite start list"
+      }
+    },
+    {
+      "id": "cx-ruddervoorde-2026-me",
+      "name": "Superprestige Ruddervoorde",
+      "date": "2026-12-06",
+      "year": 2026,
+      "discipline": "cyclocross",
+      "category": "Men Elite",
+      "series": "Superprestige",
+      "website": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/ruddervoorde",
+      "startlist": {
+        "status": "not_published",
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-11-05T18:26:19+00:00",
+        "warning": "No validated correct-date Men Elite start list"
+      }
+    },
+    {
+      "id": "cx-glasgow-2026-me",
+      "name": "World Cup Glasgow",
+      "date": "2026-12-13",
+      "year": 2026,
+      "discipline": "cyclocross",
+      "category": "Men Elite",
+      "series": "UCI Cyclo-cross World Cup",
+      "website": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/glasgow",
+      "startlist": {
+        "status": "not_published",
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-11-05T18:26:19+00:00",
+        "warning": "No validated correct-date Men Elite start list"
+      }
+    },
+    {
+      "id": "cx-antwerpen-2026-me",
+      "name": "World Cup Antwerpen",
+      "date": "2026-12-19",
+      "year": 2026,
+      "discipline": "cyclocross",
+      "category": "Men Elite",
+      "series": "UCI Cyclo-cross World Cup",
+      "website": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/antwerpen-2",
+      "startlist": {
+        "status": "not_published",
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-11-05T18:26:19+00:00",
+        "warning": "No validated correct-date Men Elite start list"
+      }
+    },
+    {
+      "id": "cx-koksijde-2026-me",
+      "name": "World Cup Koksijde",
+      "date": "2026-12-20",
+      "year": 2026,
+      "discipline": "cyclocross",
+      "category": "Men Elite",
+      "series": "UCI Cyclo-cross World Cup",
+      "website": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/koksijde-3",
+      "startlist": {
+        "status": "not_published",
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-11-05T18:26:19+00:00",
+        "warning": "No validated correct-date Men Elite start list"
+      }
+    },
+    {
+      "id": "cx-hofstade-2026-me",
+      "name": "X²O Plage Cross Hofstade",
+      "date": "2026-12-22",
+      "year": 2026,
+      "discipline": "cyclocross",
+      "category": "Men Elite",
+      "series": "X²O Badkamers Trofee",
+      "website": "https://x2otrofee.be/",
+      "startlist": {
+        "status": "not_published",
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-11-05T18:26:19+00:00",
+        "warning": "No validated correct-date Men Elite start list"
+      }
+    },
+    {
+      "id": "cx-loenhout-2026-me",
+      "name": "X²O Azencross Loenhout",
+      "date": "2026-12-23",
+      "year": 2026,
+      "discipline": "cyclocross",
+      "category": "Men Elite",
+      "series": "X²O Badkamers Trofee",
+      "website": "https://x2otrofee.be/",
+      "startlist": {
+        "status": "not_published",
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-11-05T18:26:19+00:00",
+        "warning": "No validated correct-date Men Elite start list"
+      }
+    },
+    {
+      "id": "cx-heusden-zolder-2026-me",
+      "name": "Superprestige Heusden-Zolder",
+      "date": "2026-12-25",
+      "year": 2026,
+      "discipline": "cyclocross",
+      "category": "Men Elite",
+      "series": "Superprestige",
+      "website": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/heusden-zolder",
+      "startlist": {
+        "status": "not_published",
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-11-05T18:26:20+00:00",
+        "warning": "No validated correct-date Men Elite start list"
+      }
+    },
+    {
+      "id": "cx-gavere-2026-me",
+      "name": "World Cup Gavere",
+      "date": "2026-12-26",
+      "year": 2026,
+      "discipline": "cyclocross",
+      "category": "Men Elite",
+      "series": "UCI Cyclo-cross World Cup",
+      "website": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/gavere-4",
+      "startlist": {
+        "status": "not_published",
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-11-05T18:26:20+00:00",
+        "warning": "No validated correct-date Men Elite start list"
+      }
+    },
+    {
+      "id": "cx-namur-2026-me",
+      "name": "World Cup Namur",
+      "date": "2026-12-27",
+      "year": 2026,
+      "discipline": "cyclocross",
+      "category": "Men Elite",
+      "series": "UCI Cyclo-cross World Cup",
+      "website": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/namur-7",
+      "startlist": {
+        "status": "not_published",
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-11-05T18:26:20+00:00",
+        "warning": "No validated correct-date Men Elite start list"
+      }
+    },
+    {
+      "id": "cx-besancon-2026-me",
+      "name": "World Cup Besançon",
+      "date": "2026-12-29",
+      "year": 2026,
+      "discipline": "cyclocross",
+      "category": "Men Elite",
+      "series": "UCI Cyclo-cross World Cup",
+      "website": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/besancon-2",
+      "startlist": {
+        "status": "not_published",
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-11-05T18:26:20+00:00",
+        "warning": "No validated correct-date Men Elite start list"
+      }
+    },
+    {
+      "id": "cx-diegem-2026-me",
+      "name": "Superprestige Diegem",
+      "date": "2026-12-30",
+      "year": 2026,
+      "discipline": "cyclocross",
+      "category": "Men Elite",
+      "series": "Superprestige",
+      "website": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/diegem",
+      "startlist": {
+        "status": "not_published",
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-11-05T18:26:21+00:00",
+        "warning": "No validated correct-date Men Elite start list"
+      }
+    },
+    {
+      "id": "cx-baal-2027-me",
+      "name": "X²O GP Sven Nys Baal",
+      "date": "2027-01-01",
+      "year": 2027,
+      "discipline": "cyclocross",
+      "category": "Men Elite",
+      "series": "X²O Badkamers Trofee",
+      "website": "https://x2otrofee.be/",
+      "startlist": {
+        "status": "not_published",
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-11-05T18:26:21+00:00",
+        "warning": "No validated correct-date Men Elite start list"
+      }
+    },
+    {
+      "id": "cx-gullegem-2027-me",
+      "name": "Superprestige Gullegem",
+      "date": "2027-01-02",
+      "year": 2027,
+      "discipline": "cyclocross",
+      "category": "Men Elite",
+      "series": "Superprestige",
+      "website": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/Gullegem",
+      "startlist": {
+        "status": "not_published",
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-11-05T18:26:21+00:00",
+        "warning": "No validated correct-date Men Elite start list"
+      }
+    },
+    {
+      "id": "cx-zonhoven-2027-me",
+      "name": "World Cup Zonhoven",
+      "date": "2027-01-03",
+      "year": 2027,
+      "discipline": "cyclocross",
+      "category": "Men Elite",
+      "series": "UCI Cyclo-cross World Cup",
+      "website": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/zonhoven-4",
+      "startlist": {
+        "status": "not_published",
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-11-05T18:26:21+00:00",
+        "warning": "No validated correct-date Men Elite start list"
+      }
+    },
+    {
+      "id": "cx-benidorm-2027-me",
+      "name": "World Cup Benidorm",
+      "date": "2027-01-17",
+      "year": 2027,
+      "discipline": "cyclocross",
+      "category": "Men Elite",
+      "series": "UCI Cyclo-cross World Cup",
+      "website": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/benidorm-4",
+      "startlist": {
+        "status": "not_published",
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-11-05T18:26:21+00:00",
+        "warning": "No validated correct-date Men Elite start list"
+      }
+    },
+    {
+      "id": "cx-hamme-worldcup-2027-me",
+      "name": "World Cup Hamme",
+      "date": "2027-01-23",
+      "year": 2027,
+      "discipline": "cyclocross",
+      "category": "Men Elite",
+      "series": "UCI Cyclo-cross World Cup",
+      "website": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/hamme",
+      "startlist": {
+        "status": "not_published",
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-11-05T18:26:22+00:00",
+        "warning": "No validated correct-date Men Elite start list"
+      }
+    },
+    {
+      "id": "cx-hoogerheide-2027-me",
+      "name": "World Cup Hoogerheide",
+      "date": "2027-01-24",
+      "year": 2027,
+      "discipline": "cyclocross",
+      "category": "Men Elite",
+      "series": "UCI Cyclo-cross World Cup",
+      "website": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/hoogerheide-6",
+      "startlist": {
+        "status": "not_published",
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-11-05T18:26:22+00:00",
+        "warning": "No validated correct-date Men Elite start list"
+      }
+    },
+    {
+      "id": "cx-ostend-worlds-2027-me",
+      "name": "World Championships Ostend — Men Elite",
+      "date": "2027-01-31",
+      "year": 2027,
+      "discipline": "cyclocross",
+      "category": "Men Elite",
+      "series": "UCI Cyclo-cross World Championships",
+      "website": "https://www.ostend2027.com/en",
+      "startlist": {
+        "status": "not_published",
+        "riders": [],
+        "count": 0,
+        "checked_at": "2026-11-05T18:26:23+00:00",
         "warning": "No validated correct-date Men Elite start list"
       }
     }

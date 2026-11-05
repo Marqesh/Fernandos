@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T18:20:39+00:00",
+  "generated_at": "2026-11-05T18:26:23+00:00",
   "attempts": [
     {
       "id": "cx-middelkerke-2026-me",
@@ -39,10 +39,208 @@
       ]
     },
     {
+      "id": "cx-merksplas-2026-me",
+      "attempts": [
+        {
+          "url": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/merksplas",
+          "status": "no_list_visible"
+        }
+      ]
+    },
+    {
+      "id": "cx-hamme-zogge-2026-me",
+      "attempts": [
+        {
+          "url": "https://x2otrofee.be/",
+          "status": "no_list_visible"
+        }
+      ]
+    },
+    {
+      "id": "cx-beringen-2026-me",
+      "attempts": [
+        {
+          "url": "https://x2otrofee.be/",
+          "status": "no_list_visible"
+        }
+      ]
+    },
+    {
       "id": "cx-ostrava-worldcup-2026-me",
       "attempts": [
         {
-          "url": "https://www.ucicyclocrossworldcup.com/en/calendar",
+          "url": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/ostrava",
+          "status": "no_list_visible"
+        }
+      ]
+    },
+    {
+      "id": "cx-tabor-2026-me",
+      "attempts": [
+        {
+          "url": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/tabor-5",
+          "status": "no_list_visible"
+        }
+      ]
+    },
+    {
+      "id": "cx-ruddervoorde-2026-me",
+      "attempts": [
+        {
+          "url": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/ruddervoorde",
+          "status": "no_list_visible"
+        }
+      ]
+    },
+    {
+      "id": "cx-glasgow-2026-me",
+      "attempts": [
+        {
+          "url": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/glasgow",
+          "status": "no_list_visible"
+        }
+      ]
+    },
+    {
+      "id": "cx-antwerpen-2026-me",
+      "attempts": [
+        {
+          "url": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/antwerpen-2",
+          "status": "no_list_visible"
+        }
+      ]
+    },
+    {
+      "id": "cx-koksijde-2026-me",
+      "attempts": [
+        {
+          "url": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/koksijde-3",
+          "status": "no_list_visible"
+        }
+      ]
+    },
+    {
+      "id": "cx-hofstade-2026-me",
+      "attempts": [
+        {
+          "url": "https://x2otrofee.be/",
+          "status": "no_list_visible"
+        }
+      ]
+    },
+    {
+      "id": "cx-loenhout-2026-me",
+      "attempts": [
+        {
+          "url": "https://x2otrofee.be/",
+          "status": "no_list_visible"
+        }
+      ]
+    },
+    {
+      "id": "cx-heusden-zolder-2026-me",
+      "attempts": [
+        {
+          "url": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/heusden-zolder",
+          "status": "no_list_visible"
+        }
+      ]
+    },
+    {
+      "id": "cx-gavere-2026-me",
+      "attempts": [
+        {
+          "url": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/gavere-4",
+          "status": "no_list_visible"
+        }
+      ]
+    },
+    {
+      "id": "cx-namur-2026-me",
+      "attempts": [
+        {
+          "url": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/namur-7",
+          "status": "no_list_visible"
+        }
+      ]
+    },
+    {
+      "id": "cx-besancon-2026-me",
+      "attempts": [
+        {
+          "url": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/besancon-2",
+          "status": "no_list_visible"
+        }
+      ]
+    },
+    {
+      "id": "cx-diegem-2026-me",
+      "attempts": [
+        {
+          "url": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/diegem",
+          "status": "no_list_visible"
+        }
+      ]
+    },
+    {
+      "id": "cx-baal-2027-me",
+      "attempts": [
+        {
+          "url": "https://x2otrofee.be/",
+          "status": "no_list_visible"
+        }
+      ]
+    },
+    {
+      "id": "cx-gullegem-2027-me",
+      "attempts": [
+        {
+          "url": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/Gullegem",
+          "status": "no_list_visible"
+        }
+      ]
+    },
+    {
+      "id": "cx-zonhoven-2027-me",
+      "attempts": [
+        {
+          "url": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/zonhoven-4",
+          "status": "no_list_visible"
+        }
+      ]
+    },
+    {
+      "id": "cx-benidorm-2027-me",
+      "attempts": [
+        {
+          "url": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/benidorm-4",
+          "status": "no_list_visible"
+        }
+      ]
+    },
+    {
+      "id": "cx-hamme-worldcup-2027-me",
+      "attempts": [
+        {
+          "url": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/hamme",
+          "status": "no_list_visible"
+        }
+      ]
+    },
+    {
+      "id": "cx-hoogerheide-2027-me",
+      "attempts": [
+        {
+          "url": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/hoogerheide-6",
+          "status": "no_list_visible"
+        }
+      ]
+    },
+    {
+      "id": "cx-ostend-worlds-2027-me",
+      "attempts": [
+        {
+          "url": "https://www.ostend2027.com/en",
           "status": "no_list_visible"
         }
       ]
