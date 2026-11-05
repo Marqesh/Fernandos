@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T18:26:23+00:00",
+  "generated_at": "2026-11-05T18:27:27+00:00",
   "attempts": [
     {
       "id": "cx-middelkerke-2026-me",
@@ -69,8 +69,8 @@
       "id": "cx-ostrava-worldcup-2026-me",
       "attempts": [
         {
-          "url": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/ostrava",
-          "status": "no_list_visible"
+          "status": "monitoring_window_skipped",
+          "days_until_race": 22
         }
       ]
     },
@@ -78,8 +78,8 @@
       "id": "cx-tabor-2026-me",
       "attempts": [
         {
-          "url": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/tabor-5",
-          "status": "no_list_visible"
+          "status": "monitoring_window_skipped",
+          "days_until_race": 24
         }
       ]
     },
@@ -87,8 +87,8 @@
       "id": "cx-ruddervoorde-2026-me",
       "attempts": [
         {
-          "url": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/ruddervoorde",
-          "status": "no_list_visible"
+          "status": "monitoring_window_skipped",
+          "days_until_race": 31
         }
       ]
     },
@@ -96,8 +96,8 @@
       "id": "cx-glasgow-2026-me",
       "attempts": [
         {
-          "url": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/glasgow",
-          "status": "no_list_visible"
+          "status": "monitoring_window_skipped",
+          "days_until_race": 38
         }
       ]
     },
@@ -105,8 +105,8 @@
       "id": "cx-antwerpen-2026-me",
       "attempts": [
         {
-          "url": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/antwerpen-2",
-          "status": "no_list_visible"
+          "status": "monitoring_window_skipped",
+          "days_until_race": 44
         }
       ]
     },
@@ -114,8 +114,8 @@
       "id": "cx-koksijde-2026-me",
       "attempts": [
         {
-          "url": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/koksijde-3",
-          "status": "no_list_visible"
+          "status": "monitoring_window_skipped",
+          "days_until_race": 45
         }
       ]
     },
@@ -123,8 +123,8 @@
       "id": "cx-hofstade-2026-me",
       "attempts": [
         {
-          "url": "https://x2otrofee.be/",
-          "status": "no_list_visible"
+          "status": "monitoring_window_skipped",
+          "days_until_race": 47
         }
       ]
     },
@@ -132,8 +132,8 @@
       "id": "cx-loenhout-2026-me",
       "attempts": [
         {
-          "url": "https://x2otrofee.be/",
-          "status": "no_list_visible"
+          "status": "monitoring_window_skipped",
+          "days_until_race": 48
         }
       ]
     },
@@ -141,8 +141,8 @@
       "id": "cx-heusden-zolder-2026-me",
       "attempts": [
         {
-          "url": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/heusden-zolder",
-          "status": "no_list_visible"
+          "status": "monitoring_window_skipped",
+          "days_until_race": 50
         }
       ]
     },
@@ -150,8 +150,8 @@
       "id": "cx-gavere-2026-me",
       "attempts": [
         {
-          "url": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/gavere-4",
-          "status": "no_list_visible"
+          "status": "monitoring_window_skipped",
+          "days_until_race": 51
         }
       ]
     },
@@ -159,8 +159,8 @@
       "id": "cx-namur-2026-me",
       "attempts": [
         {
-          "url": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/namur-7",
-          "status": "no_list_visible"
+          "status": "monitoring_window_skipped",
+          "days_until_race": 52
         }
       ]
     },
@@ -168,8 +168,8 @@
       "id": "cx-besancon-2026-me",
       "attempts": [
         {
-          "url": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/besancon-2",
-          "status": "no_list_visible"
+          "status": "monitoring_window_skipped",
+          "days_until_race": 54
         }
       ]
     },
@@ -177,8 +177,8 @@
       "id": "cx-diegem-2026-me",
       "attempts": [
         {
-          "url": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/diegem",
-          "status": "no_list_visible"
+          "status": "monitoring_window_skipped",
+          "days_until_race": 55
         }
       ]
     },
@@ -186,8 +186,8 @@
       "id": "cx-baal-2027-me",
       "attempts": [
         {
-          "url": "https://x2otrofee.be/",
-          "status": "no_list_visible"
+          "status": "monitoring_window_skipped",
+          "days_until_race": 57
         }
       ]
     },
@@ -195,8 +195,8 @@
       "id": "cx-gullegem-2027-me",
       "attempts": [
         {
-          "url": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/Gullegem",
-          "status": "no_list_visible"
+          "status": "monitoring_window_skipped",
+          "days_until_race": 58
         }
       ]
     },
@@ -204,8 +204,8 @@
       "id": "cx-zonhoven-2027-me",
       "attempts": [
         {
-          "url": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/zonhoven-4",
-          "status": "no_list_visible"
+          "status": "monitoring_window_skipped",
+          "days_until_race": 59
         }
       ]
     },
@@ -213,8 +213,8 @@
       "id": "cx-benidorm-2027-me",
       "attempts": [
         {
-          "url": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/benidorm-4",
-          "status": "no_list_visible"
+          "status": "monitoring_window_skipped",
+          "days_until_race": 73
         }
       ]
     },
@@ -222,8 +222,8 @@
       "id": "cx-hamme-worldcup-2027-me",
       "attempts": [
         {
-          "url": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/hamme",
-          "status": "no_list_visible"
+          "status": "monitoring_window_skipped",
+          "days_until_race": 79
         }
       ]
     },
@@ -231,8 +231,8 @@
       "id": "cx-hoogerheide-2027-me",
       "attempts": [
         {
-          "url": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/hoogerheide-6",
-          "status": "no_list_visible"
+          "status": "monitoring_window_skipped",
+          "days_until_race": 80
         }
       ]
     },
@@ -240,8 +240,8 @@
       "id": "cx-ostend-worlds-2027-me",
       "attempts": [
         {
-          "url": "https://www.ostend2027.com/en",
-          "status": "no_list_visible"
+          "status": "monitoring_window_skipped",
+          "days_until_race": 87
         }
       ]
     }
