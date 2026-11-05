@@ -1,48 +1,60 @@
-# Peloton independent account integration
+# Peloton: simple approved-player login
 
-Target: existing ChatGPT Site, NOT a replacement. Preview in a test branch; do not publish until migrated and tested.
+This folder provides **username + password + admin-approved whitelist** for the EXISTING Peloton site, without email, public registration, Supabase, or a third-party auth service.
 
-## Why
-The public GitHub repo currently stores cycling scrapers and public race feeds, **not the Site application source or its private records**. The included SQL and JavaScript provide a portable identity layer but cannot directly modify the private Site from GitHub.
+## What it does
+- An admin creates each account with a username and temporary password, and explicitly approves it.
+- One username is linked to the **existing** road and/or cyclocross player IDs. Do not create duplicate players.
+- Players log in independently on any device. The server issues a 7-day HttpOnly session cookie.
+- The admin can approve, disable, reassign a player link, or reset passwords. No public signup route.
+- Passwords are salted and scrypt-hashed, not stored in plaintext.
+- Identities, sessions, approval and role checks live in a **private SQLite database**, not the public GitHub race feed.
+- One shared login serves both road and cyclocross; picks and standings remain distinct.
 
-## Setup (admin)
-1. Create a Supabase project at https://supabase.com/dashboard. Protect admin access with MFA.
-2. In Supabase SQL Editor run `peloton-auth/schema.sql`. Inspect the SQL first. It does not create or change league picks.
-3. Under Authentication settings disable public sign-ups (invite-only), configure allowed site URLs/redirects, email confirmation, password recovery, and a production email SMTP provider before onboarding users.
-4. In Authentication > Users invite the five players. Once an account exists, inspect its auth UUID and insert a matching profile into `peloton_profiles`, then associate its **real existing** player identifier to road and/or cyclocross using `peloton_player_links`. Do not guess existing IDs. Use a controlled, audited admin workflow for future invitations.
-5. Make yourself admin by setting the admin role on your **verified** profile in trusted SQL/admin tooling only; do not permit client role editing.
-6. Expose only `SUPABASE_URL` and the **public publishable/anon key** in the browser environment. NEVER expose service-role/secret keys in the frontend or a public GitHub repo.
-7. Install/import `@supabase/supabase-js` in the Site code and call `createClient(url, publicKey)`, then `createPelotonAuth(client)` from `peloton-auth/client.mjs`.
-8. Replace the existing local user selector/login with a login form using `auth.signIn(email,password)`. On reload use `auth.restoreSession()`; on sign-out use `auth.signOut()`. Provide `auth.requestPasswordReset(email, redirectTo)` for the forgotten-password flow. Handle auth errors with generic messages and do not log passwords.
-9. Link `member.playerIds.road` and `member.playerIds.cyclocross` to the existing local league player records. Do not create another player or reset old records.
-10. Gate pages and buttons by session and profile. **Critical:** do not treat client checks as security. Protect every draft submission, Top 10 reveal, membership lookup, and admin action in the authoritative backend using validated identity and authorization. If currently persisted only in browser storage or private Site-managed data, design a deliberate server-side data migration before enabling multi-device play.
+## Files
+- `server.mjs`: minimal Node 24+ HTTP service built with Node's `node:sqlite`, no extra packages.
+- `client.mjs`: small browser fetch wrapper for the Site.
+- `SITE_EDITOR_PROMPT.md`: instructions to connect the existing Site without resetting user or draft data.
 
-## League business rules
-- One account = one player identity (possibly linked to both disciplines).
-- Players can only submit or change their own permitted draft picks / private predictions.
-- Administrator can manage races, deadlines, members and results; backend confirms admin role.
-- Public scoreboard may be shared if intended. Private predictions and unrevealed Top 10 must be unreadable by other players until the reveal policy allows them.
-- Preserve snake-draft order and saved choices across the migration.
-- Do not change scraper/GitHub public feed; no player information may enter that repository's `data/` feed.
-- Road and cyclocross use the same login, but maintain isolated competitions and season/race records.
+## Local setup
+1. Install Node.js 24 or newer on the future host.
+2. From the repository root, run `node peloton-auth/server.mjs bootstrap-admin admin` and enter a **unique** password with at least 10 characters (the password prompt is not masked; use a trusted terminal). The admin account can only be bootstrapped once.
+3. Set `NODE_ENV=production`, `APP_ORIGIN=https://your-real-domain`, `PELOTON_AUTH_DB=/private/persistent/path/peloton-auth.sqlite` and `PORT=3001`.
+4. Run `node peloton-auth/server.mjs` behind an HTTPS reverse proxy routing `/api/auth/*` to localhost:3001. The API and website must be same-origin (the browser should only see the public HTTPS domain).
+5. Use the site editor's actual frontend framework to build a sign-in screen, admin member list, approval and password reset UI calling `createPelotonClient()`. On app load, call `me()` to restore the user's login.
+6. Set strong passwords for all five users. Back up the private SQLite database and WAL consistently. Do not commit it, share it in the GitHub repo, or expose it via a static folder.
 
-## Site editor prompt (paste into the existing editor)
-Implement portable Supabase authentication for the existing Peloton Site. Follow the README and identity module in:
-https://github.com/Marqesh/Fernandos/tree/feature/peloton-independent-auth/peloton-auth
+## Critical integration requirement
+This standalone service establishes **who** is logged in, but it does not yet protect your existing draft endpoints. The actual Site source and private datastore are not included in this GitHub repo. When integrating the Site, backend draft/result handlers **must** consult the authenticated session and account-to-player mapping instead of accepting caller-supplied user IDs. Enforce race deadlines, current picker, uniqueness of rider picks, and secret Top-10 access on the server. Browser-side hiding alone does not enforce permissions.
 
-Preserve the existing player records, admin settings, picks, 1-day race snake draft, Velogames, Grand Tour secret Top 10, results, race feeds, 2027 road season and 2026-27 cyclocross. Do not replace or wipe private Site storage. Add sign in/out, remembered login, password recovery, invitation-only member accounts and two-discipline profile links. The signed-in account must map to the existing player record. **Do not claim accounts are independently secure until the authoritative draft and prediction writes are protected by server-side identity checks.** If this Site environment cannot call Supabase or export/migrate its private data, report the blocker instead of silently substituting browser localStorage. Do not deploy without administrator review.
+Until the Site is connected, **this is not a deployed working login**. If the ChatGPT Site editor cannot host a Node backend, keep this service for the future external deployment and do not pretend that a localStorage user selector provides independent authenticated accounts.
 
-## Acceptance tests
-- Two accounts on separate browsers, each consistently logs in as their own EXISTING player.
-- A refresh/new device keeps the correct identity.
-- A user cannot spoof another player ID or impersonate an admin by modifying browser state, requests or local storage.
-- Two devices see a committed pick; race deadlines and snake order enforced in backend; concurrent selection of the same rider cannot both succeed.
-- Secret Top 10 inaccessible to other members before reveal.
-- Road and cyclocross share identity but do not contaminate each other's picks or results.
-- Account disabled/removed -> no longer authorized (including an already logged-in session).
-- Existing picks, standings and administrator controls still function.
-- Login/logout/password-reset/expired-session flows work.
-- Existing public race scraper and GitHub workflows continue unchanged.
+## API
+- `POST /api/auth/login`: `{username,password}` -> member + secure cookie
+- `POST /api/auth/logout`: clears current session
+- `GET /api/auth/me`: returns logged-in member or null
+- `GET /api/auth/admin/users`: admin list
+- `POST /api/auth/admin/users`: admin creates whitelist entry; fields `username,password,approved,roadPlayerId,cyclocrossPlayerId`
+- `PATCH /api/auth/admin/users/:id`: admin approves/disables/links players
+- `POST /api/auth/admin/users/:id/password`: admin changes a user's password and revokes existing sessions
 
-## Status
-This branch is a **foundation**, not a deployed login. No live Supabase project or credentials have been configured. The private Site source and current user datastore are not accessible in this repository. Further integration and data authorization work is essential.
+Never expose the SQLite database, hashed passwords, or password values in public JavaScript. Admin users must be approved server-side. The service uses a small in-memory login attempt limiter; for production use a reverse-proxy or managed rate limiter across instances and ensure CSRF protections for any additional cookie-authenticated write routes. A single server process is the intended deployment.
+
+## Road and cyclocross mapping
+Example response from `/api/auth/me`:
+```json
+{
+  "member": {
+    "id": "server-generated-uuid",
+    "username": "player1",
+    "role": "player",
+    "roadPlayerId": "existing-road-player-id",
+    "cyclocrossPlayerId": "existing-cyclocross-player-id"
+  }
+}
+```
+
+## Verification
+Test with 2 separate browsers and 2 different users. Confirm sign-in/out, session restore on refresh, admin-only membership actions, account deactivation, old picks preserved, each user selecting only on their turn, no duplicate rider choices, no unauthorized pre-reveal Top 10 access, and shared identity across disciplines.
+
+No live site has been modified by these GitHub changes.
