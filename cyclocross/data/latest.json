@@ -2,7 +2,7 @@
   "schema_version": 1,
   "season": "2026-2027",
   "discipline": "cyclocross",
-  "generated_at": "2026-11-05T18:27:27+00:00",
+  "generated_at": "2026-11-06T00:14:16+00:00",
   "races": [
     {
       "id": "cx-middelkerke-2026-me",
@@ -14,7 +14,7 @@
       "series": "Superprestige",
       "website": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/middelkerke",
       "startlist": {
-        "status": "published",
+        "status": "stale",
         "edition_year": 2026,
         "category": "Men Elite",
         "riders": [
@@ -343,8 +343,9 @@
         ],
         "count": 46,
         "source_url": "https://www.superprestigecyclocross.be/storage/programs/file_participants/444/444.pdf?t=1793894883",
-        "checked_at": "2026-11-05T18:27:23+00:00",
-        "completeness": "start_list"
+        "checked_at": "2026-11-06T00:14:11+00:00",
+        "completeness": "start_list",
+        "warning": "Source unavailable; last verified snapshot retained"
       }
     },
     {
@@ -679,7 +680,7 @@
         ],
         "count": 45,
         "source_url": "https://www.uec.ch/resources/2026%20Events/ciclocross/liste/entry/entry_men_el.pdf",
-        "checked_at": "2026-11-05T18:27:26+00:00",
+        "checked_at": "2026-11-06T00:14:14+00:00",
         "completeness": "entry_list"
       }
     },
@@ -696,7 +697,7 @@
         "status": "not_published",
         "riders": [],
         "count": 0,
-        "checked_at": "2026-11-05T18:27:26+00:00",
+        "checked_at": "2026-11-06T00:14:14+00:00",
         "warning": "No validated correct-date Men Elite start list"
       }
     },
@@ -713,7 +714,7 @@
         "status": "not_published",
         "riders": [],
         "count": 0,
-        "checked_at": "2026-11-05T18:27:26+00:00",
+        "checked_at": "2026-11-06T00:14:14+00:00",
         "warning": "No validated correct-date Men Elite start list"
       }
     },
@@ -730,7 +731,7 @@
         "status": "not_published",
         "riders": [],
         "count": 0,
-        "checked_at": "2026-11-05T18:27:27+00:00",
+        "checked_at": "2026-11-06T00:14:15+00:00",
         "warning": "No validated correct-date Men Elite start list"
       }
     },
@@ -747,7 +748,7 @@
         "status": "not_published",
         "riders": [],
         "count": 0,
-        "checked_at": "2026-11-05T18:27:27+00:00",
+        "checked_at": "2026-11-06T00:14:16+00:00",
         "warning": "No validated correct-date Men Elite start list"
       }
     },
@@ -762,10 +763,10 @@
       "website": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/ostrava",
       "startlist": {
         "status": "not_published",
-        "count": 0,
         "riders": [],
-        "checked_at": null,
-        "warning": "Not within active startlist monitoring window"
+        "count": 0,
+        "checked_at": "2026-11-06T00:14:16+00:00",
+        "warning": "No validated correct-date Men Elite start list"
       }
     },
     {
