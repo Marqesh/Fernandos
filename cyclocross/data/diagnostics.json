@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T23:43:22+00:00",
+  "generated_at": "2026-11-07T13:59:03+00:00",
   "attempts": [
     {
       "id": "cx-middelkerke-2026-me",
@@ -229,7 +229,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 23
+          "days_until_race": 22
         }
       ]
     },
@@ -238,7 +238,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 30
+          "days_until_race": 29
         }
       ]
     },
@@ -247,7 +247,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 37
+          "days_until_race": 36
         }
       ]
     },
@@ -256,7 +256,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 43
+          "days_until_race": 42
         }
       ]
     },
@@ -265,7 +265,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 44
+          "days_until_race": 43
         }
       ]
     },
@@ -274,7 +274,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 46
+          "days_until_race": 45
         }
       ]
     },
@@ -283,7 +283,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 47
+          "days_until_race": 46
         }
       ]
     },
@@ -292,7 +292,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 49
+          "days_until_race": 48
         }
       ]
     },
@@ -301,7 +301,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 50
+          "days_until_race": 49
         }
       ]
     },
@@ -310,7 +310,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 51
+          "days_until_race": 50
         }
       ]
     },
@@ -319,7 +319,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 53
+          "days_until_race": 52
         }
       ]
     },
@@ -328,7 +328,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 54
+          "days_until_race": 53
         }
       ]
     },
@@ -337,7 +337,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 56
+          "days_until_race": 55
         }
       ]
     },
@@ -346,7 +346,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 57
+          "days_until_race": 56
         }
       ]
     },
@@ -355,7 +355,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 58
+          "days_until_race": 57
         }
       ]
     },
@@ -364,7 +364,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 72
+          "days_until_race": 71
         }
       ]
     },
@@ -373,7 +373,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 78
+          "days_until_race": 77
         }
       ]
     },
@@ -382,7 +382,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 79
+          "days_until_race": 78
         }
       ]
     },
@@ -391,7 +391,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 86
+          "days_until_race": 85
         }
       ]
     }
