@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T22:43:49+00:00",
+  "generated_at": "2026-11-08T14:16:46+00:00",
   "attempts": [
     {
       "id": "cx-middelkerke-2026-me",
@@ -228,8 +228,8 @@
       "id": "cx-tabor-2026-me",
       "attempts": [
         {
-          "status": "monitoring_window_skipped",
-          "days_until_race": 22
+          "url": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/tabor-5",
+          "status": "no_list_visible"
         }
       ]
     },
@@ -238,7 +238,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 29
+          "days_until_race": 28
         }
       ]
     },
@@ -247,7 +247,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 36
+          "days_until_race": 35
         }
       ]
     },
@@ -256,7 +256,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 42
+          "days_until_race": 41
         }
       ]
     },
@@ -265,7 +265,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 43
+          "days_until_race": 42
         }
       ]
     },
@@ -274,7 +274,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 45
+          "days_until_race": 44
         }
       ]
     },
@@ -283,7 +283,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 46
+          "days_until_race": 45
         }
       ]
     },
@@ -292,7 +292,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 48
+          "days_until_race": 47
         }
       ]
     },
@@ -301,7 +301,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 49
+          "days_until_race": 48
         }
       ]
     },
@@ -310,7 +310,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 50
+          "days_until_race": 49
         }
       ]
     },
@@ -319,7 +319,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 52
+          "days_until_race": 51
         }
       ]
     },
@@ -328,7 +328,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 53
+          "days_until_race": 52
         }
       ]
     },
@@ -337,7 +337,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 55
+          "days_until_race": 54
         }
       ]
     },
@@ -346,7 +346,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 56
+          "days_until_race": 55
         }
       ]
     },
@@ -355,7 +355,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 57
+          "days_until_race": 56
         }
       ]
     },
@@ -364,7 +364,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 71
+          "days_until_race": 70
         }
       ]
     },
@@ -373,7 +373,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 77
+          "days_until_race": 76
         }
       ]
     },
@@ -382,7 +382,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 78
+          "days_until_race": 77
         }
       ]
     },
@@ -391,7 +391,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 85
+          "days_until_race": 84
         }
       ]
     }
