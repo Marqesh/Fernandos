@@ -1,167 +1,12 @@
 {
-  "generated_at": "2026-11-08T22:52:25+00:00",
+  "generated_at": "2026-11-09T17:27:47+00:00",
   "attempts": [
     {
       "id": "cx-middelkerke-2026-me",
       "attempts": [
         {
-          "url": "https://www.superprestigecyclocross.be/storage/programs/file_participants/444/444.pdf?t=1793894883",
-          "label": "",
-          "status": "parser_needed",
-          "details": {
-            "parsed": 0,
-            "samples": [
-              "DEELNEMER",
-              "",
-              "TELENET SUPERPRESTIG",
-              "Veldrijden Klas 05/11/2026",
-              "Reeks 1 Hoofdree",
-              "Organisator: CYCLOCROSSCOMITE MIDDELKERKE VZW - Rondes of afstand niet ingegeven",
-              "",
-              "RUG Naam Nat Cat Club",
-              "1 VANDEPUTTE Niels BEL ME-CT-MC ALPECIN",
-              "2 VANTHOURENHOUT Michael BEL ME-PCX-MC PAUWEL",
-              "3 ORTS LLORET Felipe ESP ELITE MEN EUSKALT",
-              "4 WYSEURE Joran BEL ME-CX-MC CRELAN-",
-              "5 SWEECK Laurens BEL ME-CT-MC CRELAN-",
-              "6 HENDRIKX Mees NED ELITE MEN TEAM BO",
-              "7 KUYPERS Gerben BEL ME-PCX-MC PAUWEL",
-              "8 MASON Cameron GBR ELITE MEN SEVEN R",
-              "9 MICHELS Jente BEL ME-CT-MC ALPECIN",
-              "10 KUHN Kevin SUI ELITE MEN HEIZOMA",
-              "11 VANDEBOSCH Toon BEL ME-CX-MC CRELAN-",
-              "13 VAN DE PUTTE Victor BEL ME-CX-MC CHARLES",
-              "14 JANSSEN Wout BEL ME CYCLIS -",
-              "16 HORNY Clement BEL ME-MTB-ZC BH-WALL",
-              "17 DE BRUYCKERE Kay BEL MU-PCX-MC PAUWEL",
-              "18 DE MOYER Kenay BEL MU-CT-ZC ATOM6-C",
-              "19 FERDINANDE Anton BEL ME-PCX-ZC PAUWEL",
-              "21 HUYBS Ward BEL ME RONDE V",
-              "22 KING Carden USA U23 MEN TRIPLE C",
-              "23 LUKŠAS Dovydas LTU ELITE MEN COLIBRI",
-              "24 HERRMANN Lukas GER ELITE MEN HEIZOMA",
-              "25 BAERS Arne BEL ME-CT-ZC BALOISE",
-              "26 VAN GRIEKEN Stan BEL MU CYCLIS -",
-              "27 ANANIE Ugo FRA ELITE MEN VCU SCH",
-              "28 MARASCO Lorenzo FRA ELITE MEN SEBMOT",
-              "29 BOSSAERTS Senn BEL MU CYCLIS -",
-              "30 CECCHI Filippo ITA ELITE MEN BIKE ACA",
-              "31 PARENTI Nicola ITA ELITE MEN BIKE ACA",
-              "32 DEPRAETERE Gust BEL MU THE LEA",
-              "33 OLDHAM Declan GBR U23 MEN HOPE FA",
-              "35 VANHOUDT Yoren BEL MU CYCLIS -",
-              "36 GEENS Keano BEL MU WOUTIM",
-              "37 VANCOMPERNOLLE Tibo BEL MU DL CHEM",
-              "39 VANLAERE Loïc BEL MU-PCX-ZC PAUWEL",
-              "40 STEED Jacob GBR JUNIOR MEN CLUB CY",
-              "41 LEAERTS Yelle BEL ME VAN MOS",
-              "42 LEZARD William GBR ELITE MEN MAGSPE",
-              "43 BELLENS Jarno BEL ME-CT-ZC BALOISE",
-              "44 ROELS Dima BEL MJ WIELERC",
-              "45 MEDELINSKAS Martynas LTU JUNIOR MEN VZW WP",
-              "46 MAES Brent BEL MU CYCLOC",
-              "RSLIJST",
-              "",
-              "GE MIDDELKERKE -",
-              "sse 1 UCI",
-              "",
-              "eks Sleut 14812",
-              "#Dln: 41",
-              "",
-              "RUG Naam Nat Cat Club",
-              "N-PREMIER TECH",
-              "",
-              "LS SAUZEN - ALTEZ INDUSTR",
-              "",
-              "TEL - EUSKADI",
-              "",
-              "-CORENDON",
-              "",
-              "-CORENDON",
-              "",
-              "OMBA JOIN",
-              "",
-              "LS SAUZEN - ALTEZ INDUSTR",
-              "",
-              "RACING",
-              "",
-              "N-PREMIER TECH DEVELOPME",
-              "",
-              "AT - CUBE",
-              "",
-              "-CORENDON",
-              "",
-              "S LIÉGEOIS CX TEAM",
-              "",
-              "- ROOFS FOR ENERGY - VA",
-              "",
-              "LONIE MTB TEAM",
-              "",
-              "LS SAUZEN - ALTEZ INDUSTR",
-              "",
-              "CYCLEUR DE LUXE-AUTOSTRO",
-              "",
-              "LS SAUZEN - ALTEZ INDUSTR",
-              "",
-              "VAN VLAAMS-BRABANT VZW",
-              "",
-              "CROWN WORKSHOP",
-              "",
-              "CYCLING",
-              "",
-              "AT - CUBE",
-              "",
-              "E VERZEKERINGEN - HET PO",
-              "",
-              "- ROOFS FOR ENERGY - VA",
-              "",
-              "HWENHEIM",
-              "",
-              "TOBIKES CX TEAM",
-              "",
-              "- ROOFS FOR ENERGY - VA",
-              "",
-              "ADEMY-MARCHINI COSTRUZI",
-              "",
-              "ADEMY-MARCHINI COSTRUZI",
-              "",
-              "AD OUT CYCLING ACADEMY",
-              "",
-              "ACTORY RACING",
-              "",
-              "- ROOFS FOR ENERGY - VA",
-              "",
-              "CYCLING TEAM",
-              "",
-              "MICALS - EXPERZA CYCLING",
-              "",
-              "LS SAUZEN - ALTEZ INDUSTR",
-              "",
-              "YCLISTE VILLENEUVE ST GE",
-              "",
-              "SSEL HEIST CYCLING TEAM",
-              "",
-              "EED RACING",
-              "",
-              "E VERZEKERINGEN - HET PO",
-              "",
-              "CLUB \"ONDER - ONS PARIKE",
-              "",
-              "DE MOLENSPURTERS MEULEB",
-              "",
-              "ROSS TEAM MJ WOOD",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "05/11/2026 - 19:41:39 - 1 / 1"
-            ]
-          }
-        },
-        {
-          "url": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/middelkerke",
-          "status": "no_list_visible"
+          "status": "monitoring_window_skipped",
+          "days_until_race": -4
         }
       ]
     },
@@ -238,7 +83,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 28
+          "days_until_race": 27
         }
       ]
     },
@@ -247,7 +92,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 35
+          "days_until_race": 34
         }
       ]
     },
@@ -256,7 +101,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 41
+          "days_until_race": 40
         }
       ]
     },
@@ -265,7 +110,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 42
+          "days_until_race": 41
         }
       ]
     },
@@ -274,7 +119,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 44
+          "days_until_race": 43
         }
       ]
     },
@@ -283,7 +128,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 45
+          "days_until_race": 44
         }
       ]
     },
@@ -292,7 +137,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 47
+          "days_until_race": 46
         }
       ]
     },
@@ -301,7 +146,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 48
+          "days_until_race": 47
         }
       ]
     },
@@ -310,7 +155,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 49
+          "days_until_race": 48
         }
       ]
     },
@@ -319,7 +164,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 51
+          "days_until_race": 50
         }
       ]
     },
@@ -328,7 +173,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 52
+          "days_until_race": 51
         }
       ]
     },
@@ -337,7 +182,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 54
+          "days_until_race": 53
         }
       ]
     },
@@ -346,7 +191,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 55
+          "days_until_race": 54
         }
       ]
     },
@@ -355,7 +200,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 56
+          "days_until_race": 55
         }
       ]
     },
@@ -364,7 +209,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 70
+          "days_until_race": 69
         }
       ]
     },
@@ -373,7 +218,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 76
+          "days_until_race": 75
         }
       ]
     },
@@ -382,7 +227,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 77
+          "days_until_race": 76
         }
       ]
     },
@@ -391,7 +236,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 84
+          "days_until_race": 83
         }
       ]
     }
