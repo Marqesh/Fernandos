@@ -2,7 +2,7 @@
   "schema_version": 1,
   "season": "2026-2027",
   "discipline": "cyclocross",
-  "generated_at": "2026-11-10T02:05:24+00:00",
+  "generated_at": "2026-11-10T15:34:34+00:00",
   "races": [
     {
       "id": "cx-middelkerke-2026-me",
@@ -680,7 +680,7 @@
         ],
         "count": 45,
         "source_url": "https://www.uec.ch/resources/2026%20Events/ciclocross/liste/entry/entry_men_el.pdf",
-        "checked_at": "2026-11-10T02:05:21+00:00",
+        "checked_at": "2026-11-10T15:34:31+00:00",
         "completeness": "entry_list"
       }
     },
@@ -694,11 +694,253 @@
       "series": "Superprestige",
       "website": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/niel",
       "startlist": {
-        "status": "not_published",
-        "riders": [],
-        "count": 0,
-        "checked_at": "2026-11-10T02:05:22+00:00",
-        "warning": "No validated correct-date Men Elite start list"
+        "status": "published",
+        "edition_year": 2026,
+        "category": "Men Elite",
+        "riders": [
+          {
+            "bib": 1,
+            "name": "BRAND Lucinda",
+            "uci_id": "10006605680",
+            "nationality": "NED",
+            "team": "BALOISE VERZEKERINGEN - HET POETSBUREAU L"
+          },
+          {
+            "bib": 2,
+            "name": "ALVARADO Ceylin Del Carmen",
+            "uci_id": "10009857305",
+            "nationality": "NED",
+            "team": "FENIX-PREMIER TECH"
+          },
+          {
+            "bib": 3,
+            "name": "FOUQUENET Amandine",
+            "uci_id": "10066772861",
+            "nationality": "FRA",
+            "team": "PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT"
+          },
+          {
+            "bib": 4,
+            "name": "VAN ALPHEN Aniek",
+            "uci_id": "10015541303",
+            "nationality": "NED",
+            "team": "777TV CX TEAM"
+          },
+          {
+            "bib": 5,
+            "name": "BAKKER Manon",
+            "uci_id": "10009521643",
+            "nationality": "NED",
+            "team": "VELOSPORT VELUWE"
+          },
+          {
+            "bib": 6,
+            "name": "VAN DER HEIJDEN Inge",
+            "uci_id": "10010592885",
+            "nationality": "NED",
+            "team": "CRELAN-CORENDON"
+          },
+          {
+            "bib": 7,
+            "name": "BENTVELD Leonie",
+            "uci_id": "10023336564",
+            "nationality": "NED",
+            "team": "PAUWELS SAUZEN - ALTEZ INDUSTRIEBOUW CT"
+          },
+          {
+            "bib": 8,
+            "name": "BETSEMA Denise",
+            "uci_id": "10007654694",
+            "nationality": "NED",
+            "team": "DE CEUSTER BOUWKRANEN"
+          },
+          {
+            "bib": 9,
+            "name": "BROUWERS Julie",
+            "uci_id": "10065009885",
+            "nationality": "BEL",
+            "team": "CHARLES LIÉGEOIS CX TEAM"
+          },
+          {
+            "bib": 10,
+            "name": "CLAUZEL Hélène",
+            "uci_id": "10009876806",
+            "nationality": "FRA",
+            "team": "SEVEN RACING"
+          },
+          {
+            "bib": 11,
+            "name": "CASASOLA Sara",
+            "uci_id": "10010998972",
+            "nationality": "ITA",
+            "team": "CRELAN-CORENDON"
+          },
+          {
+            "bib": 12,
+            "name": "GARIBOLDI Rebecca",
+            "uci_id": "10009420704",
+            "nationality": "ITA",
+            "team": "DE CEUSTER BOUWKRANEN"
+          },
+          {
+            "bib": 13,
+            "name": "WORST Annemarie",
+            "uci_id": "10008082912",
+            "nationality": "NED",
+            "team": "BALOISE VERZEKERINGEN - HET POETSBUREAU L"
+          },
+          {
+            "bib": 14,
+            "name": "CREES Xan",
+            "uci_id": "10023505811",
+            "nationality": "GBR",
+            "team": "XC RACING"
+          },
+          {
+            "bib": 15,
+            "name": "MOLENGRAAF Lauren",
+            "uci_id": "10023352126",
+            "nationality": "NED",
+            "team": "D.O.S. VZW"
+          },
+          {
+            "bib": 16,
+            "name": "LAFORCE Oda",
+            "uci_id": "10019552756",
+            "nationality": "NOR",
+            "team": "IF FRØY"
+          },
+          {
+            "bib": 17,
+            "name": "PEETERS Zita",
+            "uci_id": "10065229450",
+            "nationality": "BEL",
+            "team": "DE CEUSTER BOUWKRANEN"
+          },
+          {
+            "bib": 18,
+            "name": "KAY Anna",
+            "uci_id": "10015470672",
+            "nationality": "GBR",
+            "team": "ESSEC CYCLING TEAM"
+          },
+          {
+            "bib": 19,
+            "name": "MOS Anniek",
+            "uci_id": "10085934203",
+            "nationality": "NED",
+            "team": "KDM-PACK CYCLING TEAM"
+          },
+          {
+            "bib": 20,
+            "name": "DEVIGNE Camille",
+            "uci_id": "10067517438",
+            "nationality": "FRA",
+            "team": "ESPOIR CYCLISTE WAMBRECHIES MARQUETTE"
+          },
+          {
+            "bib": 21,
+            "name": "DEFOUR Lara",
+            "uci_id": "10015518364",
+            "nationality": "BEL",
+            "team": "CYCLING TEAM JADE - LDL"
+          },
+          {
+            "bib": 22,
+            "name": "PERRYMAN Amy",
+            "uci_id": "10023876431",
+            "nationality": "GBR",
+            "team": "RAPHA CYCLING CLUB"
+          },
+          {
+            "bib": 23,
+            "name": "INGLIS Grace",
+            "uci_id": "10050878706",
+            "nationality": "GBR",
+            "team": "TEAM HUP"
+          },
+          {
+            "bib": 24,
+            "name": "BAKER Alderney",
+            "uci_id": "10023855516",
+            "nationality": "GBR",
+            "team": "TEAM EMPELLA"
+          },
+          {
+            "bib": 25,
+            "name": "HOEFMANS Pem",
+            "uci_id": "10023153375",
+            "nationality": "NED",
+            "team": "WV BREDA"
+          },
+          {
+            "bib": 26,
+            "name": "COLLING Alice",
+            "uci_id": "10121237452",
+            "nationality": "GBR",
+            "team": "SMURFIT WESTROCK CYCLING TEAM"
+          },
+          {
+            "bib": 27,
+            "name": "COPPENS Nette",
+            "uci_id": "10065082132",
+            "nationality": "BEL",
+            "team": "DE CEUSTER-ACROG"
+          },
+          {
+            "bib": 28,
+            "name": "ALLIK Ann-Christine",
+            "uci_id": "10129341804",
+            "nationality": "EST",
+            "team": "OP KOP CYCLING TEAM"
+          },
+          {
+            "bib": 29,
+            "name": "ROSSNER Larissa",
+            "uci_id": "10109635848",
+            "nationality": "SUI",
+            "team": "VC ESCHENBACH"
+          },
+          {
+            "bib": 30,
+            "name": "BAS Selena",
+            "uci_id": "10023192478",
+            "nationality": "NED",
+            "team": "ACROG-TORMANS"
+          },
+          {
+            "bib": 31,
+            "name": "MOEN Nynke",
+            "uci_id": "10150585612",
+            "nationality": "NED",
+            "team": "WV DE KANNIBAAL"
+          },
+          {
+            "bib": 32,
+            "name": "WILLEMS Meadow",
+            "uci_id": "10079467232",
+            "nationality": "NED",
+            "team": "WV BREDA"
+          },
+          {
+            "bib": 33,
+            "name": "RYSBJERG Kirstine",
+            "uci_id": "10097672819",
+            "nationality": "DEN",
+            "team": "NUCLI CC"
+          },
+          {
+            "bib": 34,
+            "name": "LENFERINK Femke",
+            "uci_id": "10107712622",
+            "nationality": "NED",
+            "team": "WV SCHIJNDEL"
+          }
+        ],
+        "count": 34,
+        "source_url": "https://www.superprestigecyclocross.be/storage/programs/file_participants/413/413.pdf?t=1794293838",
+        "checked_at": "2026-11-10T15:34:32+00:00",
+        "completeness": "start_list"
       }
     },
     {
@@ -714,7 +956,7 @@
         "status": "not_published",
         "riders": [],
         "count": 0,
-        "checked_at": "2026-11-10T02:05:22+00:00",
+        "checked_at": "2026-11-10T15:34:32+00:00",
         "warning": "No validated correct-date Men Elite start list"
       }
     },
@@ -731,7 +973,7 @@
         "status": "not_published",
         "riders": [],
         "count": 0,
-        "checked_at": "2026-11-10T02:05:23+00:00",
+        "checked_at": "2026-11-10T15:34:33+00:00",
         "warning": "No validated correct-date Men Elite start list"
       }
     },
@@ -748,7 +990,7 @@
         "status": "not_published",
         "riders": [],
         "count": 0,
-        "checked_at": "2026-11-10T02:05:23+00:00",
+        "checked_at": "2026-11-10T15:34:33+00:00",
         "warning": "No validated correct-date Men Elite start list"
       }
     },
@@ -765,7 +1007,7 @@
         "status": "not_published",
         "riders": [],
         "count": 0,
-        "checked_at": "2026-11-10T02:05:24+00:00",
+        "checked_at": "2026-11-10T15:34:33+00:00",
         "warning": "No validated correct-date Men Elite start list"
       }
     },
@@ -782,7 +1024,7 @@
         "status": "not_published",
         "riders": [],
         "count": 0,
-        "checked_at": "2026-11-10T02:05:24+00:00",
+        "checked_at": "2026-11-10T15:34:34+00:00",
         "warning": "No validated correct-date Men Elite start list"
       }
     },

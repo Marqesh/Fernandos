@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T02:05:24+00:00",
+  "generated_at": "2026-11-10T15:34:34+00:00",
   "attempts": [
     {
       "id": "cx-middelkerke-2026-me",
@@ -28,8 +28,31 @@
       "id": "cx-niel-2026-me",
       "attempts": [
         {
-          "url": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/niel",
-          "status": "no_list_visible"
+          "url": "https://www.superprestigecyclocross.be/storage/programs/file_participants/411/411.pdf?t=1794293837",
+          "label": "Participants",
+          "status": "wrong_category",
+          "details": {
+            "pages": 2,
+            "header": "Nr Naam UCI ID Nat Club UCI Rank 1 TRAFFORD Luke 10099672938 GBR SHIBDEN CC 4 2 TIELENS Mathiz 10064911976 BEL CRABBÉ-DSTNY 37 3 VAN HOECK Sam 10077885021 BEL WAC - PART OF MERCI POUPOU ACADEMY 53 4 WOOLISCROFT Joseph 10135511913 GBR SHIBDEN CC 54 5 VAN DONGEN Stijn 10113062473 NED JEGG - SKILL - DJR 55 6 LOND Niklas 10141093958 EST TIGERR CYCLING TEAM 60 7 SKIKAS Lukas 10118884089 LTU PANEVĖŽIO M. MERGINŲ DVIRAČIŲ S"
+          }
+        },
+        {
+          "url": "https://www.superprestigecyclocross.be/storage/programs/file_participants/412/412.pdf?t=1794293838",
+          "label": "Participants",
+          "status": "wrong_category",
+          "details": {
+            "pages": 2,
+            "header": "Nr Naam UCI ID Nat Club CI Rank 03/11/20 1 HUYS Lentel 10085982703 BEL TEAM KEMPEN CYCLING VZW 14 2 ALELIŪNAITĖ Irmantė 10119119721 LTU BERNATONIO DVIRACIU AKADEMIJA 36 3 HEESEMANS Lonneke 10023155702 NED TWC HET SNELLE WIEL 47 4 DE GENDT Itta 10070956288 BEL ACROG-TORMANS 64 5 VAN DEN BOGAARD Damy 10023189751 NED WSV DE PEDDELAARS 65 6 POOLE Olivia 10153264630 GBR SHIBDEN APEX RT 84 7 SELIAVAITĖ Elžbieta 10116180924"
+          }
+        },
+        {
+          "url": "https://www.superprestigecyclocross.be/storage/programs/file_participants/413/413.pdf?t=1794293838",
+          "label": "Participants",
+          "status": "published",
+          "details": {
+            "pages": 1,
+            "parsed": 34
+          }
         }
       ]
     },
