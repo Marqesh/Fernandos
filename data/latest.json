@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-11T15:27:34Z",
+  "generated_at": "2026-11-12T01:35:16Z",
   "races": [
     {
       "id": "paris-roubaix-2027",
@@ -13,10 +13,13 @@
         "2027-04-11"
       ],
       "website": "https://www.paris-roubaix.fr/en",
+      "date_source_checked_at": "2026-11-12T01:35:16Z",
+      "date_candidate": "2027-04-11",
+      "date_status": "confirmed_by_official_page",
       "startlist": {
         "status": "not_published",
         "riders": [],
-        "checked_at": "2026-11-05T00:27:01Z",
+        "checked_at": "2026-11-12T01:35:16Z",
         "warning": "https://www.paris-roubaix.fr/en/riders: Source contains 2026 riders, not 2027 | https://www.paris-roubaix.fr/fr/coureurs: Source contains 2026 riders, not 2027",
         "source_edition_year": 2026
       }
@@ -52,12 +55,8 @@
         "2027-07-25"
       ],
       "website": "https://www.letour.fr/en",
-      "startlist": {
-        "status": "not_published",
-        "riders": [],
-        "checked_at": "2026-11-05T00:27:01Z",
-        "warning": "https://www.letour.fr/en/riders: Roster edition not explicitly identified"
-      },
+      "date_source_checked_at": "2026-11-12T01:35:16Z",
+      "date_status": "retained_from_calendar",
       "stages": [
         {
           "kind": "stage",
@@ -228,8 +227,16 @@
           "route": "Saint-Quentin-en-Yvelines > Paris Champs-Élysées"
         }
       ],
+      "end_date": "2027-07-25",
       "stage_status": "published",
-      "end_date": "2027-07-25"
+      "stage_checked_at": "2026-11-12T01:35:16Z",
+      "stage_source_url": "https://www.letour.fr/en/overall-route",
+      "startlist": {
+        "status": "not_published",
+        "riders": [],
+        "checked_at": "2026-11-12T01:35:16Z",
+        "warning": "https://www.letour.fr/en/riders: Roster edition not explicitly identified"
+      }
     }
   ]
 }
