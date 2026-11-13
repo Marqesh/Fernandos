@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T00:19:28+00:00",
+  "generated_at": "2026-11-13T15:23:07+00:00",
   "attempts": [
     {
       "id": "cx-middelkerke-2026-me",
@@ -32,8 +32,31 @@
       "id": "cx-merksplas-2026-me",
       "attempts": [
         {
-          "url": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/merksplas",
-          "status": "no_list_visible"
+          "url": "https://www.superprestigecyclocross.be/storage/programs/file_participants/415/415.pdf?t=1794578144",
+          "label": "Participants",
+          "status": "wrong_category",
+          "details": {
+            "pages": 1,
+            "header": "Nr Naam UCI ID Nat Club UCI Rank 1 HEEREN Delano 10045767311 NED ACROG-TORMANS 1 2 VANDEN EYNDE Bas 10086550151 BEL ACROG-TORMANS 5 3 VAN DEN BIGGELAAR Jop 10084777576 NED WILLEBRORD WIL VOORUIT 11 4 TIELENS Mathiz 10064911976 BEL CRABBÉ-DSTNY 40 5 WILLEMS Lars 10123163005 BEL WIELERCLUB \"ONDER - ONS PARIKE\" VZW 48 6 VAN HOECK Sam 10077885021 BEL WAC - PART OF MERCI POUPOU ACADEMY 53 7 SMITS Maxime 10108174380 BEL AC"
+          }
+        },
+        {
+          "url": "https://www.superprestigecyclocross.be/storage/programs/file_participants/416/416.pdf?t=1794578145",
+          "label": "Participants",
+          "status": "wrong_category",
+          "details": {
+            "pages": 1,
+            "header": "Nr Naam UCI ID Nat Club UCI Rank 1 HUYS Lentel 10085982703 BEL TEAM KEMPEN CYCLING VZW 11 2 HUYBRECHTS Lotta 10084839921 BEL CRABBÉ-DSTNY 22 3 TAKKEN Maxime 10079223015 NED CC PAVÉ 76 32 4 HEESEMANS Lonneke 10023155702 NED TWC HET SNELLE WIEL 48 5 DE GENDT Itta 10070956288 BEL ACROG-TORMANS 53 6 BEUMER Britt 10116391795 NED OWC-AWV DE ZWALUWEN 57 7 VAN DEN BOGAARD Damy 10023189751 NED WSV DE PEDDELAARS 60 8 POOLE Oli"
+          }
+        },
+        {
+          "url": "https://www.superprestigecyclocross.be/storage/programs/file_participants/417/417.pdf?t=1794578145",
+          "label": "Participants",
+          "status": "published",
+          "details": {
+            "pages": 1,
+            "parsed": 40
+          }
         }
       ]
     },
