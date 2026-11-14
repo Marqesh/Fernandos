@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T14:07:52+00:00",
+  "generated_at": "2026-11-14T22:58:12+00:00",
   "attempts": [
     {
       "id": "cx-middelkerke-2026-me",
@@ -32,13 +32,8 @@
       "id": "cx-merksplas-2026-me",
       "attempts": [
         {
-          "url": "https://www.superprestigecyclocross.be/storage/programs/file_participants/418/418.pdf?t=1794578145",
-          "label": "Participants",
-          "status": "published",
-          "details": {
-            "pages": 1,
-            "parsed": 46
-          }
+          "url": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/merksplas",
+          "status": "no_list_visible"
         }
       ]
     },

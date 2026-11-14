@@ -2,7 +2,7 @@
   "schema_version": 1,
   "season": "2026-2027",
   "discipline": "cyclocross",
-  "generated_at": "2026-11-14T14:07:52+00:00",
+  "generated_at": "2026-11-14T22:58:12+00:00",
   "races": [
     {
       "id": "cx-middelkerke-2026-me",
@@ -1037,7 +1037,7 @@
         ],
         "count": 48,
         "source_url": "https://www.superprestigecyclocross.be/storage/programs/file_participants/414/414.pdf?t=1794293838",
-        "checked_at": "2026-11-14T14:07:49+00:00",
+        "checked_at": "2026-11-14T22:58:09+00:00",
         "completeness": "start_list",
         "warning": "Source unavailable; last verified snapshot retained"
       }
@@ -1052,7 +1052,7 @@
       "series": "Superprestige",
       "website": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/merksplas",
       "startlist": {
-        "status": "published",
+        "status": "stale",
         "edition_year": 2026,
         "category": "Men Elite",
         "riders": [
@@ -1381,8 +1381,9 @@
         ],
         "count": 46,
         "source_url": "https://www.superprestigecyclocross.be/storage/programs/file_participants/418/418.pdf?t=1794578145",
-        "checked_at": "2026-11-14T14:07:50+00:00",
-        "completeness": "start_list"
+        "checked_at": "2026-11-14T22:58:10+00:00",
+        "completeness": "start_list",
+        "warning": "Source unavailable; last verified snapshot retained"
       }
     },
     {
@@ -1398,7 +1399,7 @@
         "status": "not_published",
         "riders": [],
         "count": 0,
-        "checked_at": "2026-11-14T14:07:51+00:00",
+        "checked_at": "2026-11-14T22:58:11+00:00",
         "warning": "No validated correct-date Men Elite start list"
       }
     },
@@ -1415,7 +1416,7 @@
         "status": "not_published",
         "riders": [],
         "count": 0,
-        "checked_at": "2026-11-14T14:07:51+00:00",
+        "checked_at": "2026-11-14T22:58:11+00:00",
         "warning": "No validated correct-date Men Elite start list"
       }
     },
@@ -1432,7 +1433,7 @@
         "status": "not_published",
         "riders": [],
         "count": 0,
-        "checked_at": "2026-11-14T14:07:52+00:00",
+        "checked_at": "2026-11-14T22:58:12+00:00",
         "warning": "No validated correct-date Men Elite start list"
       }
     },
@@ -1449,7 +1450,7 @@
         "status": "not_published",
         "riders": [],
         "count": 0,
-        "checked_at": "2026-11-14T14:07:52+00:00",
+        "checked_at": "2026-11-14T22:58:12+00:00",
         "warning": "No validated correct-date Men Elite start list"
       }
     },
