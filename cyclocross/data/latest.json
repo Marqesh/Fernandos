@@ -2,7 +2,7 @@
   "schema_version": 1,
   "season": "2026-2027",
   "discipline": "cyclocross",
-  "generated_at": "2026-11-14T22:58:12+00:00",
+  "generated_at": "2026-11-15T14:44:26+00:00",
   "races": [
     {
       "id": "cx-middelkerke-2026-me",
@@ -1381,7 +1381,7 @@
         ],
         "count": 46,
         "source_url": "https://www.superprestigecyclocross.be/storage/programs/file_participants/418/418.pdf?t=1794578145",
-        "checked_at": "2026-11-14T22:58:10+00:00",
+        "checked_at": "2026-11-15T14:44:24+00:00",
         "completeness": "start_list",
         "warning": "Source unavailable; last verified snapshot retained"
       }
@@ -1399,7 +1399,7 @@
         "status": "not_published",
         "riders": [],
         "count": 0,
-        "checked_at": "2026-11-14T22:58:11+00:00",
+        "checked_at": "2026-11-15T14:44:24+00:00",
         "warning": "No validated correct-date Men Elite start list"
       }
     },
@@ -1416,7 +1416,7 @@
         "status": "not_published",
         "riders": [],
         "count": 0,
-        "checked_at": "2026-11-14T22:58:11+00:00",
+        "checked_at": "2026-11-15T14:44:24+00:00",
         "warning": "No validated correct-date Men Elite start list"
       }
     },
@@ -1433,7 +1433,7 @@
         "status": "not_published",
         "riders": [],
         "count": 0,
-        "checked_at": "2026-11-14T22:58:12+00:00",
+        "checked_at": "2026-11-15T14:44:25+00:00",
         "warning": "No validated correct-date Men Elite start list"
       }
     },
@@ -1450,7 +1450,7 @@
         "status": "not_published",
         "riders": [],
         "count": 0,
-        "checked_at": "2026-11-14T22:58:12+00:00",
+        "checked_at": "2026-11-15T14:44:25+00:00",
         "warning": "No validated correct-date Men Elite start list"
       }
     },
@@ -1465,10 +1465,10 @@
       "website": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/ruddervoorde",
       "startlist": {
         "status": "not_published",
-        "count": 0,
         "riders": [],
-        "checked_at": null,
-        "warning": "Not within active startlist monitoring window"
+        "count": 0,
+        "checked_at": "2026-11-15T14:44:26+00:00",
+        "warning": "No validated correct-date Men Elite start list"
       }
     },
     {

@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-14T22:58:12+00:00",
+  "generated_at": "2026-11-15T14:44:26+00:00",
   "attempts": [
     {
       "id": "cx-middelkerke-2026-me",
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": -9
+          "days_until_race": -10
         }
       ]
     },
@@ -15,7 +15,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": -6
+          "days_until_race": -7
         }
       ]
     },
@@ -23,8 +23,8 @@
       "id": "cx-niel-2026-me",
       "attempts": [
         {
-          "url": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/niel",
-          "status": "no_list_visible"
+          "status": "monitoring_window_skipped",
+          "days_until_race": -4
         }
       ]
     },
@@ -77,8 +77,8 @@
       "id": "cx-ruddervoorde-2026-me",
       "attempts": [
         {
-          "status": "monitoring_window_skipped",
-          "days_until_race": 22
+          "url": "https://www.superprestigecyclocross.be/en/calendar/2026-2027/ruddervoorde",
+          "status": "no_list_visible"
         }
       ]
     },
@@ -87,7 +87,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 29
+          "days_until_race": 28
         }
       ]
     },
@@ -96,7 +96,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 35
+          "days_until_race": 34
         }
       ]
     },
@@ -105,7 +105,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 36
+          "days_until_race": 35
         }
       ]
     },
@@ -114,7 +114,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 38
+          "days_until_race": 37
         }
       ]
     },
@@ -123,7 +123,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 39
+          "days_until_race": 38
         }
       ]
     },
@@ -132,7 +132,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 41
+          "days_until_race": 40
         }
       ]
     },
@@ -141,7 +141,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 42
+          "days_until_race": 41
         }
       ]
     },
@@ -150,7 +150,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 43
+          "days_until_race": 42
         }
       ]
     },
@@ -159,7 +159,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 45
+          "days_until_race": 44
         }
       ]
     },
@@ -168,7 +168,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 46
+          "days_until_race": 45
         }
       ]
     },
@@ -177,7 +177,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 48
+          "days_until_race": 47
         }
       ]
     },
@@ -186,7 +186,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 49
+          "days_until_race": 48
         }
       ]
     },
@@ -195,7 +195,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 50
+          "days_until_race": 49
         }
       ]
     },
@@ -204,7 +204,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 64
+          "days_until_race": 63
         }
       ]
     },
@@ -213,7 +213,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 70
+          "days_until_race": 69
         }
       ]
     },
@@ -222,7 +222,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 71
+          "days_until_race": 70
         }
       ]
     },
@@ -231,7 +231,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 78
+          "days_until_race": 77
         }
       ]
     }
