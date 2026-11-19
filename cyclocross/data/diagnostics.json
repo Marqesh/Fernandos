@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-18T16:26:42+00:00",
+  "generated_at": "2026-11-19T01:12:09+00:00",
   "attempts": [
     {
       "id": "cx-middelkerke-2026-me",
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": -13
+          "days_until_race": -14
         }
       ]
     },
@@ -15,7 +15,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": -10
+          "days_until_race": -11
         }
       ]
     },
@@ -24,7 +24,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": -7
+          "days_until_race": -8
         }
       ]
     },
@@ -33,7 +33,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": -4
+          "days_until_race": -5
         }
       ]
     },
@@ -41,8 +41,8 @@
       "id": "cx-hamme-zogge-2026-me",
       "attempts": [
         {
-          "url": "https://x2otrofee.be/",
-          "status": "no_list_visible"
+          "status": "monitoring_window_skipped",
+          "days_until_race": -4
         }
       ]
     },
@@ -87,7 +87,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 25
+          "days_until_race": 24
         }
       ]
     },
@@ -96,7 +96,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 31
+          "days_until_race": 30
         }
       ]
     },
@@ -105,7 +105,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 32
+          "days_until_race": 31
         }
       ]
     },
@@ -114,7 +114,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 34
+          "days_until_race": 33
         }
       ]
     },
@@ -123,7 +123,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 35
+          "days_until_race": 34
         }
       ]
     },
@@ -132,7 +132,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 37
+          "days_until_race": 36
         }
       ]
     },
@@ -141,7 +141,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 38
+          "days_until_race": 37
         }
       ]
     },
@@ -150,7 +150,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 39
+          "days_until_race": 38
         }
       ]
     },
@@ -159,7 +159,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 41
+          "days_until_race": 40
         }
       ]
     },
@@ -168,7 +168,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 42
+          "days_until_race": 41
         }
       ]
     },
@@ -177,7 +177,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 44
+          "days_until_race": 43
         }
       ]
     },
@@ -186,7 +186,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 45
+          "days_until_race": 44
         }
       ]
     },
@@ -195,7 +195,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 46
+          "days_until_race": 45
         }
       ]
     },
@@ -204,7 +204,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 60
+          "days_until_race": 59
         }
       ]
     },
@@ -213,7 +213,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 66
+          "days_until_race": 65
         }
       ]
     },
@@ -222,7 +222,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 67
+          "days_until_race": 66
         }
       ]
     },
@@ -231,7 +231,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 74
+          "days_until_race": 73
         }
       ]
     }
