@@ -1,6 +1,6 @@
 {
   "year": 2027,
-  "generated_at": "2026-11-19T17:38:44Z",
+  "generated_at": "2026-11-20T17:14:40Z",
   "races": [
     {
       "race_id": "figueira-champions-classic-2027",
@@ -9,7 +9,7 @@
         {
           "url": "https://figueirachampionsclassic.com/",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:37:09Z",
+          "checked_at": "2026-11-20T17:13:17Z",
           "format": "html",
           "bytes": 30735,
           "final_url": "https://figueirachampionsclassic.com/",
@@ -24,14 +24,35 @@
     },
     {
       "race_id": "uae-tour-2027",
-      "availability": "source_error",
+      "availability": "awaiting_2027_startlist",
       "attempts": [
         {
           "url": "https://www.theuaetour.com/teams/",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:37:12Z",
-          "validation": "error",
-          "reason": "ConnectTimeout: HTTPSConnectionPool(host='www.theuaetour.com', port=443): Max retries exceeded with url: /teams/ (Caused by ConnectTimeoutError(<HTTPSConnection(host="
+          "checked_at": "2026-11-20T17:13:20Z",
+          "format": "html",
+          "bytes": 116063,
+          "final_url": "https://www.theuaetour.com/teams/",
+          "title": "Teams | THE UAE TOUR",
+          "method": "embedded_json",
+          "edition_year": null,
+          "extracted_count": 0,
+          "validation": "rejected",
+          "reason": "Edition year unverified"
+        },
+        {
+          "url": "https://www.theuaetour.com/teams/xds-astana-team-2/?lang=ar",
+          "verification": "unverified_2027_candidate",
+          "checked_at": "2026-11-20T17:13:20Z",
+          "format": "html",
+          "bytes": 71471,
+          "final_url": "https://www.theuaetour.com/teams/xds-astana-team-2/?lang=ar",
+          "title": "XDS Astana Team | THE UAE TOUR",
+          "method": "embedded_json",
+          "edition_year": null,
+          "extracted_count": 0,
+          "validation": "rejected",
+          "reason": "Edition year unverified"
         }
       ]
     },
@@ -42,9 +63,9 @@
         {
           "url": "https://voltaaoalgarve.com/",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:37:22Z",
+          "checked_at": "2026-11-20T17:13:24Z",
           "format": "html",
-          "bytes": 111501,
+          "bytes": 111512,
           "final_url": "https://voltaaoalgarve.com/pt/inicio/",
           "title": "Volta ao Algarve | 18 a 22 de Fevereiro 2026",
           "method": "embedded_json",
@@ -62,7 +83,7 @@
         {
           "url": "https://www.omloophetnieuwsblad.be/en/race/men-elite/riders",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:37:24Z",
+          "checked_at": "2026-11-20T17:13:27Z",
           "validation": "error",
           "reason": "HTTPError: 404 Client Error: Not Found for url: https://www.omloophetnieuwsblad.be/en/race/men-elite/riders"
         }
@@ -75,7 +96,7 @@
         {
           "url": "https://www.kuurne-brussel-kuurne.be/",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:37:26Z",
+          "checked_at": "2026-11-20T17:13:28Z",
           "format": "html",
           "bytes": 195399,
           "final_url": "https://kuurne-brussel-kuurne.be/",
@@ -95,7 +116,7 @@
         {
           "url": "https://www.strade-bianche.it/en/riders/",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:37:30Z",
+          "checked_at": "2026-11-20T17:13:32Z",
           "validation": "error",
           "reason": "HTTPError: 404 Client Error: Not Found for url: https://www.strade-bianche.it/en/liveblog/riders-in-the-chasing-group/"
         }
@@ -108,7 +129,7 @@
         {
           "url": "https://www.paris-nice.fr/en/riders",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:37:34Z",
+          "checked_at": "2026-11-20T17:13:35Z",
           "format": "html",
           "bytes": 138640,
           "final_url": "https://www.paris-nice.fr/en/riders",
@@ -122,7 +143,7 @@
         {
           "url": "https://www.paris-nice.fr/fr/coureurs",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:37:34Z",
+          "checked_at": "2026-11-20T17:13:35Z",
           "format": "html",
           "bytes": 140108,
           "final_url": "https://www.paris-nice.fr/fr/coureurs",
@@ -142,7 +163,7 @@
         {
           "url": "https://www.tirrenoadriatico.it/en/riders/",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:37:37Z",
+          "checked_at": "2026-11-20T17:13:39Z",
           "validation": "error",
           "reason": "HTTPError: 404 Client Error: Not Found for url: https://www.tirrenoadriatico.it/en/liveblog/riders-are-now-approaching-the-climb-towards-capodarco/"
         }
@@ -155,7 +176,7 @@
         {
           "url": "https://www.milanosanremo.it/en/riders/",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:37:41Z",
+          "checked_at": "2026-11-20T17:13:42Z",
           "validation": "error",
           "reason": "HTTPError: 404 Client Error: Not Found for url: https://www.milanosanremo.it/en/riders/"
         }
@@ -168,7 +189,7 @@
         {
           "url": "https://www.voltacatalunya.cat/en/riders",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:37:43Z",
+          "checked_at": "2026-11-20T17:13:46Z",
           "format": "html",
           "bytes": 133883,
           "final_url": "https://www.voltacatalunya.cat/en/riders",
@@ -188,7 +209,7 @@
         {
           "url": "https://www.e3saxoclassic.be/en/",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:37:45Z",
+          "checked_at": "2026-11-20T17:13:48Z",
           "format": "html",
           "bytes": 70724,
           "final_url": "https://www.e3saxoclassic.be/",
@@ -208,7 +229,7 @@
         {
           "url": "https://www.rondevanvlaanderen.be/en/race/men-elite/participants",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:37:48Z",
+          "checked_at": "2026-11-20T17:13:50Z",
           "validation": "error",
           "reason": "HTTPError: 404 Client Error: Not Found for url: https://www.rondevanvlaanderen.be/en/race/men-elite/participants"
         }
@@ -221,7 +242,7 @@
         {
           "url": "https://itzulia.eus/en/teams-2027/",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:37:50Z",
+          "checked_at": "2026-11-20T17:13:52Z",
           "validation": "error",
           "reason": "HTTPError: 404 Client Error: Not Found for url: https://itzulia.eus/en/teams-2027/"
         }
@@ -234,7 +255,7 @@
         {
           "url": "https://www.paris-roubaix.fr/en/riders",
           "verification": "candidate_for_2027",
-          "checked_at": "2026-11-19T17:37:52Z",
+          "checked_at": "2026-11-20T17:13:54Z",
           "format": "html",
           "bytes": 144365,
           "final_url": "https://www.paris-roubaix.fr/en/riders",
@@ -248,7 +269,7 @@
         {
           "url": "https://www.paris-roubaix.fr/fr/coureurs",
           "verification": "candidate_for_2027",
-          "checked_at": "2026-11-19T17:37:52Z",
+          "checked_at": "2026-11-20T17:13:54Z",
           "format": "html",
           "bytes": 146450,
           "final_url": "https://www.paris-roubaix.fr/fr/coureurs",
@@ -268,7 +289,7 @@
         {
           "url": "https://www.amstelgoldrace.nl/",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:37:56Z",
+          "checked_at": "2026-11-20T17:13:57Z",
           "format": "html",
           "bytes": 142493,
           "final_url": "https://www.amstelgoldrace.nl/nl",
@@ -288,7 +309,7 @@
         {
           "url": "https://www.fleche-wallonne.be/en/riders",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:37:58Z",
+          "checked_at": "2026-11-20T17:13:59Z",
           "validation": "error",
           "reason": "ConnectionError: HTTPSConnectionPool(host='www.fleche-wallonne.be', port=443): Max retries exceeded with url: /en/riders (Caused by NameResolutionError(\"HTTPSConnectio"
         }
@@ -301,7 +322,7 @@
         {
           "url": "https://www.liege-bastogne-liege.be/en/riders",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:37:59Z",
+          "checked_at": "2026-11-20T17:14:00Z",
           "format": "html",
           "bytes": 145206,
           "final_url": "https://www.liege-bastogne-liege.be/en/riders",
@@ -315,7 +336,7 @@
         {
           "url": "https://www.liege-bastogne-liege.be/fr/coureurs",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:37:59Z",
+          "checked_at": "2026-11-20T17:14:00Z",
           "format": "html",
           "bytes": 149458,
           "final_url": "https://www.liege-bastogne-liege.be/fr/coureurs",
@@ -335,9 +356,9 @@
         {
           "url": "https://www.tourderomandie.ch/en/",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:38:02Z",
+          "checked_at": "2026-11-20T17:14:03Z",
           "format": "html",
-          "bytes": 199208,
+          "bytes": 199223,
           "final_url": "https://www.tourderomandie.ch/en/",
           "title": "Tour de Romandie (TDR) - official website",
           "method": "embedded_json",
@@ -349,7 +370,7 @@
         {
           "url": "https://www.tourderomandie.ch/en/the-riders/",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:38:02Z",
+          "checked_at": "2026-11-20T17:14:03Z",
           "format": "html",
           "bytes": 155664,
           "final_url": "https://www.tourderomandie.ch/en/the-riders/",
@@ -369,7 +390,7 @@
         {
           "url": "https://www.giroditalia.it/en/riders/",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:38:09Z",
+          "checked_at": "2026-11-20T17:14:10Z",
           "validation": "error",
           "reason": "HTTPError: 404 Client Error: Not Found for url: https://www.giroditalia.it/en/riders/"
         }
@@ -382,7 +403,7 @@
         {
           "url": "https://www.tourauvergnerhonealpes.fr/en/riders",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:38:11Z",
+          "checked_at": "2026-11-20T17:14:12Z",
           "validation": "error",
           "reason": "SSLError: HTTPSConnectionPool(host='www.tourauvergnerhonealpes.fr', port=443): Max retries exceeded with url: /en/riders (Caused by SSLError(SSLError(1, '[SSL: "
         }
@@ -395,9 +416,9 @@
         {
           "url": "https://www.tourdesuisse.ch/en/media/documents/",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:38:13Z",
+          "checked_at": "2026-11-20T17:14:13Z",
           "format": "html",
-          "bytes": 295803,
+          "bytes": 295793,
           "final_url": "https://www.tourdesuisse.ch/en/media/documents/",
           "title": "Documents | Tour de Suisse",
           "method": "embedded_json",
@@ -409,9 +430,9 @@
         {
           "url": "https://www.tourdesuisse.ch/en/teams/",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:38:13Z",
+          "checked_at": "2026-11-20T17:14:13Z",
           "format": "html",
-          "bytes": 157514,
+          "bytes": 157421,
           "final_url": "https://www.tourdesuisse.ch/en/teams/",
           "title": "Teams | Tour de Suisse",
           "method": "embedded_json",
@@ -423,7 +444,7 @@
         {
           "url": "https://www.tourdesuisse.ch/wp-content/uploads/01_TDS_Partants-Men.pdf",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:38:13Z",
+          "checked_at": "2026-11-20T17:14:13Z",
           "format": "pdf",
           "bytes": 326802,
           "final_url": "https://www.tourdesuisse.ch/wp-content/uploads/01_TDS_Partants-Men.pdf",
@@ -463,7 +484,7 @@
         {
           "url": "https://www.tourdesuisse.ch/wp-content/uploads/Start-List-TdS-Men-4.pdf",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:38:13Z",
+          "checked_at": "2026-11-20T17:14:13Z",
           "format": "pdf",
           "bytes": 341433,
           "final_url": "https://www.tourdesuisse.ch/wp-content/uploads/Start-List-TdS-Men-4.pdf",
@@ -509,7 +530,7 @@
         {
           "url": "https://www.letour.fr/en/riders",
           "verification": "candidate_for_2027",
-          "checked_at": "2026-11-19T17:38:25Z",
+          "checked_at": "2026-11-20T17:14:20Z",
           "format": "html",
           "bytes": 97064,
           "final_url": "https://www.letour.fr/en/riders",
@@ -523,7 +544,7 @@
         {
           "url": "https://www.letour.fr/en/riders#2026-edition",
           "verification": "candidate_for_2027",
-          "checked_at": "2026-11-19T17:38:25Z",
+          "checked_at": "2026-11-20T17:14:20Z",
           "format": "html",
           "bytes": 97064,
           "final_url": "https://www.letour.fr/en/riders#2026-edition",
@@ -537,7 +558,7 @@
         {
           "url": "https://www.letour.fr/en/riders#tour-culture",
           "verification": "candidate_for_2027",
-          "checked_at": "2026-11-19T17:38:25Z",
+          "checked_at": "2026-11-20T17:14:20Z",
           "format": "html",
           "bytes": 97064,
           "final_url": "https://www.letour.fr/en/riders#tour-culture",
@@ -557,7 +578,7 @@
         {
           "url": "https://klasikoa.eus/es/equipos-2027/",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:38:29Z",
+          "checked_at": "2026-11-20T17:14:24Z",
           "validation": "error",
           "reason": "HTTPError: 404 Client Error: Not Found for url: https://klasikoa.eus/es/equipos-2027/"
         }
@@ -570,7 +591,7 @@
         {
           "url": "https://www.tourdepologne.pl/en/",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:38:31Z",
+          "checked_at": "2026-11-20T17:14:26Z",
           "format": "html",
           "bytes": 203294,
           "final_url": "https://www.tourdepologne.pl/en/",
@@ -584,7 +605,7 @@
         {
           "url": "https://www.tourdepologne.pl/en/uci-world-tour-teams/",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:38:31Z",
+          "checked_at": "2026-11-20T17:14:26Z",
           "format": "html",
           "bytes": 108720,
           "final_url": "https://www.tourdepologne.pl/en/uci-world-tour-teams/",
@@ -604,7 +625,7 @@
         {
           "url": "https://www.lavuelta.es/en/riders",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:38:34Z",
+          "checked_at": "2026-11-20T17:14:29Z",
           "format": "html",
           "bytes": 149119,
           "final_url": "https://www.lavuelta.es/en/riders",
@@ -618,7 +639,7 @@
         {
           "url": "https://www.lavuelta.es/en/riders#the-race",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:38:34Z",
+          "checked_at": "2026-11-20T17:14:29Z",
           "format": "html",
           "bytes": 149119,
           "final_url": "https://www.lavuelta.es/en/riders#the-race",
@@ -632,7 +653,7 @@
         {
           "url": "https://www.lavuelta.es/fr/coureurs",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:38:34Z",
+          "checked_at": "2026-11-20T17:14:29Z",
           "format": "html",
           "bytes": 149799,
           "final_url": "https://www.lavuelta.es/fr/coureurs",
@@ -652,9 +673,9 @@
         {
           "url": "https://gpcqm.ca/en/",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:38:39Z",
+          "checked_at": "2026-11-20T17:14:33Z",
           "format": "html",
-          "bytes": 202795,
+          "bytes": 202797,
           "final_url": "https://gpcqm.ca/en/",
           "title": "Grands Prix Cyclistes | Québec et Montréal 2026 | UCI World Tour",
           "method": "embedded_json",
@@ -687,7 +708,7 @@
         {
           "url": "https://www.ilombardia.it/en/news/il-lombardia-2027-the-entry-list-has-been-announced/",
           "verification": "unverified_2027_candidate",
-          "checked_at": "2026-11-19T17:38:41Z",
+          "checked_at": "2026-11-20T17:14:36Z",
           "validation": "error",
           "reason": "HTTPError: 404 Client Error: Not Found for url: https://www.ilombardia.it/en/news/il-lombardia-2027-the-entry-list-has-been-announced/"
         }

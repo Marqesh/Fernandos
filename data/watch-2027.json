@@ -1,6 +1,6 @@
 {
   "year": 2027,
-  "generated_at": "2026-11-19T17:38:44Z",
+  "generated_at": "2026-11-20T17:14:40Z",
   "races": [
     {
       "id": "figueira-champions-classic-2027",
@@ -14,7 +14,7 @@
       "startlist": {
         "status": "not_published",
         "riders": [],
-        "checked_at": "2026-11-19T17:37:09Z",
+        "checked_at": "2026-11-20T17:13:17Z",
         "warning": "No validated correct-edition 2026 start list found",
         "count": 0
       },
@@ -30,13 +30,13 @@
       "key": "uae-tour",
       "organiser_family": "rcs",
       "startlist": {
-        "status": "unavailable",
+        "status": "not_published",
         "riders": [],
-        "checked_at": "2026-11-19T17:37:12Z",
+        "checked_at": "2026-11-20T17:13:20Z",
         "warning": "No validated correct-edition 2026 start list found",
         "count": 0
       },
-      "availability": "source_error"
+      "availability": "awaiting_2027_startlist"
     },
     {
       "id": "volta-ao-algarve-2027",
@@ -50,7 +50,7 @@
       "startlist": {
         "status": "not_published",
         "riders": [],
-        "checked_at": "2026-11-19T17:37:22Z",
+        "checked_at": "2026-11-20T17:13:24Z",
         "warning": "No validated correct-edition 2026 start list found",
         "count": 0
       },
@@ -68,7 +68,7 @@
       "startlist": {
         "status": "not_published",
         "riders": [],
-        "checked_at": "2026-11-19T17:37:24Z",
+        "checked_at": "2026-11-20T17:13:27Z",
         "warning": "No validated correct-edition 2026 start list found",
         "count": 0
       },
@@ -86,7 +86,7 @@
       "startlist": {
         "status": "not_published",
         "riders": [],
-        "checked_at": "2026-11-19T17:37:26Z",
+        "checked_at": "2026-11-20T17:13:28Z",
         "warning": "No validated correct-edition 2026 start list found",
         "count": 0
       },
@@ -104,7 +104,7 @@
       "startlist": {
         "status": "not_published",
         "riders": [],
-        "checked_at": "2026-11-19T17:37:30Z",
+        "checked_at": "2026-11-20T17:13:32Z",
         "warning": "No validated correct-edition 2026 start list found",
         "count": 0
       },
@@ -122,7 +122,7 @@
       "startlist": {
         "status": "not_published",
         "riders": [],
-        "checked_at": "2026-11-19T17:37:34Z",
+        "checked_at": "2026-11-20T17:13:35Z",
         "warning": "No validated correct-edition 2026 start list found",
         "count": 0
       },
@@ -140,7 +140,7 @@
       "startlist": {
         "status": "not_published",
         "riders": [],
-        "checked_at": "2026-11-19T17:37:37Z",
+        "checked_at": "2026-11-20T17:13:39Z",
         "warning": "No validated correct-edition 2026 start list found",
         "count": 0
       },
@@ -158,7 +158,7 @@
       "startlist": {
         "status": "not_published",
         "riders": [],
-        "checked_at": "2026-11-19T17:37:41Z",
+        "checked_at": "2026-11-20T17:13:42Z",
         "warning": "No validated correct-edition 2026 start list found",
         "count": 0
       },
@@ -176,7 +176,7 @@
       "startlist": {
         "status": "not_published",
         "riders": [],
-        "checked_at": "2026-11-19T17:37:43Z",
+        "checked_at": "2026-11-20T17:13:46Z",
         "warning": "No validated correct-edition 2026 start list found",
         "count": 0
       },
@@ -194,7 +194,7 @@
       "startlist": {
         "status": "not_published",
         "riders": [],
-        "checked_at": "2026-11-19T17:37:45Z",
+        "checked_at": "2026-11-20T17:13:48Z",
         "warning": "No validated correct-edition 2026 start list found",
         "count": 0
       },
@@ -212,7 +212,7 @@
       "startlist": {
         "status": "not_published",
         "riders": [],
-        "checked_at": "2026-11-19T17:37:48Z",
+        "checked_at": "2026-11-20T17:13:50Z",
         "warning": "No validated correct-edition 2026 start list found",
         "count": 0
       },
@@ -230,7 +230,7 @@
       "startlist": {
         "status": "not_published",
         "riders": [],
-        "checked_at": "2026-11-19T17:37:50Z",
+        "checked_at": "2026-11-20T17:13:52Z",
         "warning": "No validated correct-edition 2026 start list found",
         "count": 0
       },
@@ -248,7 +248,7 @@
       "startlist": {
         "status": "not_published",
         "riders": [],
-        "checked_at": "2026-11-19T17:37:52Z",
+        "checked_at": "2026-11-20T17:13:54Z",
         "warning": "No validated correct-edition 2026 start list found",
         "count": 0
       },
@@ -266,7 +266,7 @@
       "startlist": {
         "status": "not_published",
         "riders": [],
-        "checked_at": "2026-11-19T17:37:56Z",
+        "checked_at": "2026-11-20T17:13:57Z",
         "warning": "No validated correct-edition 2026 start list found",
         "count": 0
       },
@@ -284,7 +284,7 @@
       "startlist": {
         "status": "unavailable",
         "riders": [],
-        "checked_at": "2026-11-19T17:37:58Z",
+        "checked_at": "2026-11-20T17:13:59Z",
         "warning": "No validated correct-edition 2026 start list found",
         "count": 0
       },
@@ -302,7 +302,7 @@
       "startlist": {
         "status": "not_published",
         "riders": [],
-        "checked_at": "2026-11-19T17:37:59Z",
+        "checked_at": "2026-11-20T17:14:00Z",
         "warning": "No validated correct-edition 2026 start list found",
         "count": 0
       },
@@ -320,7 +320,7 @@
       "startlist": {
         "status": "not_published",
         "riders": [],
-        "checked_at": "2026-11-19T17:38:02Z",
+        "checked_at": "2026-11-20T17:14:03Z",
         "warning": "No validated correct-edition 2026 start list found",
         "count": 0
       },
@@ -338,7 +338,7 @@
       "startlist": {
         "status": "not_published",
         "riders": [],
-        "checked_at": "2026-11-19T17:38:09Z",
+        "checked_at": "2026-11-20T17:14:10Z",
         "warning": "No validated correct-edition 2026 start list found",
         "count": 0
       },
@@ -356,7 +356,7 @@
       "startlist": {
         "status": "unavailable",
         "riders": [],
-        "checked_at": "2026-11-19T17:38:11Z",
+        "checked_at": "2026-11-20T17:14:12Z",
         "warning": "No validated correct-edition 2026 start list found",
         "count": 0
       },
@@ -374,7 +374,7 @@
       "startlist": {
         "status": "not_published",
         "riders": [],
-        "checked_at": "2026-11-19T17:38:13Z",
+        "checked_at": "2026-11-20T17:14:13Z",
         "warning": "No validated correct-edition 2026 start list found",
         "count": 0
       },
@@ -392,7 +392,7 @@
       "startlist": {
         "status": "not_published",
         "riders": [],
-        "checked_at": "2026-11-19T17:38:25Z",
+        "checked_at": "2026-11-20T17:14:20Z",
         "warning": "No validated correct-edition 2026 start list found",
         "count": 0
       },
@@ -410,7 +410,7 @@
       "startlist": {
         "status": "not_published",
         "riders": [],
-        "checked_at": "2026-11-19T17:38:29Z",
+        "checked_at": "2026-11-20T17:14:24Z",
         "warning": "No validated correct-edition 2026 start list found",
         "count": 0
       },
@@ -428,7 +428,7 @@
       "startlist": {
         "status": "not_published",
         "riders": [],
-        "checked_at": "2026-11-19T17:38:31Z",
+        "checked_at": "2026-11-20T17:14:26Z",
         "warning": "No validated correct-edition 2026 start list found",
         "count": 0
       },
@@ -446,7 +446,7 @@
       "startlist": {
         "status": "not_published",
         "riders": [],
-        "checked_at": "2026-11-19T17:38:34Z",
+        "checked_at": "2026-11-20T17:14:29Z",
         "warning": "No validated correct-edition 2026 start list found",
         "count": 0
       },
@@ -464,7 +464,7 @@
       "startlist": {
         "status": "not_published",
         "riders": [],
-        "checked_at": "2026-11-19T17:38:39Z",
+        "checked_at": "2026-11-20T17:14:33Z",
         "warning": "No validated correct-edition 2026 start list found",
         "count": 0
       },
@@ -482,7 +482,7 @@
       "startlist": {
         "status": "not_published",
         "riders": [],
-        "checked_at": "2026-11-19T17:38:41Z",
+        "checked_at": "2026-11-20T17:14:36Z",
         "warning": "No validated correct-edition 2026 start list found",
         "count": 0
       },
@@ -500,7 +500,7 @@
       "startlist": {
         "status": "not_published",
         "riders": [],
-        "checked_at": "2026-11-19T17:38:41Z",
+        "checked_at": "2026-11-20T17:14:36Z",
         "warning": "No validated correct-edition 2026 start list found",
         "count": 0
       },
@@ -518,7 +518,7 @@
       "startlist": {
         "status": "not_published",
         "riders": [],
-        "checked_at": "2026-11-19T17:38:41Z",
+        "checked_at": "2026-11-20T17:14:36Z",
         "warning": "No validated correct-edition 2026 start list found",
         "count": 0
       },
@@ -536,7 +536,7 @@
       "startlist": {
         "status": "not_published",
         "riders": [],
-        "checked_at": "2026-11-19T17:38:41Z",
+        "checked_at": "2026-11-20T17:14:36Z",
         "warning": "No validated correct-edition 2026 start list found",
         "count": 0
       },
