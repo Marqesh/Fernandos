@@ -2,10 +2,10 @@
   "schema_version": 1,
   "feed_revision": 2,
   "season": 2027,
-  "generated_at": "2026-11-20T18:34:55Z",
+  "generated_at": "2026-11-21T00:52:39Z",
   "import_mode": "read_only",
   "source_generated_at": {
-    "production": "2026-11-20T16:15:56Z",
+    "production": "2026-11-21T00:52:21Z",
     "watchlist": "2026-11-20T17:14:40Z"
   },
   "summary": {
