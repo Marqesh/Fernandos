@@ -2,7 +2,7 @@
   "schema_version": 1,
   "season": "2026-2027",
   "discipline": "cyclocross",
-  "generated_at": "2026-11-24T04:17:51+00:00",
+  "generated_at": "2026-11-24T18:52:32+00:00",
   "races": [
     {
       "id": "cx-middelkerke-2026-me",
@@ -1416,7 +1416,7 @@
         "status": "not_published",
         "riders": [],
         "count": 0,
-        "checked_at": "2026-11-24T04:17:48+00:00",
+        "checked_at": "2026-11-24T18:52:28+00:00",
         "warning": "No validated correct-date Men Elite start list"
       }
     },
@@ -1433,7 +1433,7 @@
         "status": "not_published",
         "riders": [],
         "count": 0,
-        "checked_at": "2026-11-24T04:17:49+00:00",
+        "checked_at": "2026-11-24T18:52:30+00:00",
         "warning": "No validated correct-date Men Elite start list"
       }
     },
@@ -1450,7 +1450,7 @@
         "status": "not_published",
         "riders": [],
         "count": 0,
-        "checked_at": "2026-11-24T04:17:49+00:00",
+        "checked_at": "2026-11-24T18:52:31+00:00",
         "warning": "No validated correct-date Men Elite start list"
       }
     },
@@ -1467,7 +1467,7 @@
         "status": "not_published",
         "riders": [],
         "count": 0,
-        "checked_at": "2026-11-24T04:17:50+00:00",
+        "checked_at": "2026-11-24T18:52:32+00:00",
         "warning": "No validated correct-date Men Elite start list"
       }
     },
@@ -1484,7 +1484,7 @@
         "status": "not_published",
         "riders": [],
         "count": 0,
-        "checked_at": "2026-11-24T04:17:51+00:00",
+        "checked_at": "2026-11-24T18:52:32+00:00",
         "warning": "No validated correct-date Men Elite start list"
       }
     },
