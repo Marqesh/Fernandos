@@ -2,10 +2,10 @@
   "schema_version": 1,
   "feed_revision": 2,
   "season": 2027,
-  "generated_at": "2026-11-26T02:18:41Z",
+  "generated_at": "2026-11-26T17:48:49Z",
   "import_mode": "read_only",
   "source_generated_at": {
-    "production": "2026-11-26T02:18:11Z",
+    "production": "2026-11-26T17:48:32Z",
     "watchlist": "2026-11-25T18:50:59Z"
   },
   "summary": {
@@ -462,7 +462,7 @@
       "stages": [],
       "stage_status": "not_published",
       "watch_checked_at": "2026-11-25T18:50:11Z",
-      "production_checked_at": "2026-11-19T16:39:41Z",
+      "production_checked_at": "2026-11-26T17:48:32Z",
       "import_mode": "read_only"
     },
     {
@@ -911,7 +911,7 @@
       ],
       "stage_status": "published",
       "watch_checked_at": "2026-11-25T18:50:40Z",
-      "production_checked_at": "2026-11-19T16:39:41Z",
+      "production_checked_at": "2026-11-26T17:48:32Z",
       "import_mode": "read_only"
     },
     {
