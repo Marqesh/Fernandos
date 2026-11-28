@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-27T17:26:55+00:00",
+  "generated_at": "2026-11-28T01:57:19+00:00",
   "attempts": [
     {
       "id": "cx-middelkerke-2026-me",
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": -22
+          "days_until_race": -23
         }
       ]
     },
@@ -15,7 +15,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": -19
+          "days_until_race": -20
         }
       ]
     },
@@ -24,7 +24,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": -16
+          "days_until_race": -17
         }
       ]
     },
@@ -33,7 +33,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": -13
+          "days_until_race": -14
         }
       ]
     },
@@ -42,7 +42,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": -12
+          "days_until_race": -13
         }
       ]
     },
@@ -51,7 +51,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": -5
+          "days_until_race": -6
         }
       ]
     },
@@ -59,301 +59,8 @@
       "id": "cx-ostrava-worldcup-2026-me",
       "attempts": [
         {
-          "url": "https://www.ucicyclocrossworldcup.com/storage/programs/file_participants/560/560.pdf?t=1795790633",
-          "label": "Participants",
-          "status": "parser_needed",
-          "details": {
-            "parsed": 0,
-            "samples": [
-              "FRI 27 NOV 2026",
-              "Start time: 18:15",
-              "",
-              "Start O",
-              "",
-              "Line Nr Name / Team NAT WCS UCI",
-              "1 WCh1 BRANDBALOISE VERZEKERINGENLucinda - HET POETSBUREAU LIONS NED 1",
-              "1 NCh2 ALVARADOFENIX-PREMIERCeylinTECH del Carmen NED 2",
-              "1 15 FOUQUENETPAUWELS SAUZENAmandine- ALTEZ INDUSTRIEBOUW CYCLING TEAM FRA 3",
-              "1 3 VAN777tv CXALPHENTEAM Aniek NED 4",
-              "",
-              "1 4 BAKKER Manon NED 6",
-              "1 NCh32 ZEMANOVÁCRELAN-CORENDONKristýna CZE 7",
-              "1 5 VANCRELAN-CORENDONDER HEIJDEN Inge NED 8",
-              "1 6 *PAUWELSBENTVELDSAUZENLeonie- ALTEZ INDUSTRIEBOUW CYCLING TEAM NED 9",
-              "",
-              "2 7 VAN ANROOIJ Shirin NED 10",
-              "2 8 BETSEMADE CEUSTER BOUWKRANENDenise NED 11",
-              "2 NCh38 SCHREIBERTEAM SD WORX -MariePROTIME LUX 12",
-              "2 NCh24 MCGILL Sidney CAN 13",
-              "2 47 BROUWERSCHARLES LIEGEOISJulieCX TEAM BEL 16",
-              "2 54 BRAMATIFAS AIRPORTLuciaSERVICES - GUERCIOTTI ITA 17",
-              "2 16 CLAUZEL777tv CX TEAMHélène FRA 18",
-              "2 NCh55 CASASOLACRELAN-CORENDONSara ITA 19",
-              "3 NCh21 RODRIGUEZNESTA - MMR CYCLINGREVERTTEAMSofia ESP 20",
-              "3 40 VASLIDL-TREKBlanka HUN 21",
-              "3 56 GARIBOLDIDE CEUSTER BOUWKRANENRebecca ITA 23",
-              "3 48 *LIDL-TREKMOORS Fleur BEL 25",
-              "3 33 *FENIX-PREMIERBUKOVSKÁTECHBarbora CZE 26",
-              "3 30 *CANYON//SRAMBACKSTEDT Zoe GBR 27",
-              "3 NCh64 *TEAMCHLADONOVÁVISMA | LEASE A ViktóriaBIKE SVK 29",
-              "3 CCh25 *CXDSARKISOVTREK BIKES Alyssa USA 30",
-              "4 NCh42 KRZYSTALA Zuzanna POL 32",
-              "4 9 WORSTBALOISE VERZEKERINGENAnnemarie - HET POETSBUREAU LIONS NED 36",
-              "4 22 GONZALEZNESTA - MMR CYCLINGBLANCOTEAMLucia ESP 37",
-              "",
-              "4 31 CREES Xan GBR 38",
-              "4 NCh61 HEIGLKTM SPADANadjaPOWERED BY BRENTA BRAKES AUT 39",
-              "4 26 *CXDCUSACKTREK BIKESLidia USA 41",
-              "4 34 *BRILONHLADÍKOVÁRACING TEAMKaterinaMB CZE 42",
-              "4 27 *COMPETITIVEMUSGRAVEEDGEKayaRACING USA 43",
-              "",
-              "Entries / Nations: 63 (32 Under 23 *) / 16",
-              "",
-              "Legend:",
-              "NCh: National Champion WCL: World Cup Leader CCh: Continental Champ",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "Timing and results provided by ChronoRace Report created FRI 2",
-              "Women Elite",
-              "",
-              "Order",
-              "",
-              "Line Nr Name / Team NAT WCS UCI",
-              "",
-              "5 18 DURAFFOURG Lauriane FRA 48",
-              "5 28 *COMPETITIVEASELTINEEDGEMiaRACING USA 50",
-              "5 19 *TEAMHURTELOUPCX TPM Adèle FRA 54",
-              "5 49 VERVLOETCHARLES LIEGEOISSterreCX TEAM BEL 59",
-              "",
-              "5 50 FRANCK Alicia BEL 60",
-              "5 58 *ALEAZZETTICX TEAM Nicole ITA 61",
-              "5 20 *SEBMOTOBIKESLAMBERT ZélieCX TEAM FRA 65",
-              "5 10 *777tvMOLENGRAAFCX TEAM Lauren NED 66",
-              "",
-              "6 35 CZECZINKAROVÁ Jana CZE 69",
-              "6 NCh41 * BRUCHNER Regina HUN 72",
-              "6 39 *SEBMOTOBIKESWENZEL LivCX TEAM LUX 85",
-              "6 NCh59 KRAHL Judith GER 91",
-              "6 11 *HEIZOMATCABACA- CUBEMae NED 92",
-              "",
-              "6 43 BIALEK Antonina POL 94",
-              "6 51 *DEPEETERSCEUSTER BOUWKRANENZita BEL 95",
-              "",
-              "6 46 * NIELSEN Mille DEN 97",
-              "",
-              "7 36 DRBOHLAVOVÁ Eliška CZE 103",
-              "",
-              "7 23 * LOPEZ BURGOS Ana ESP 106",
-              "",
-              "7 13 * MOES Noï NED 148",
-              "",
-              "7 37 * STRÁNSKÁ Adéla CZE 153",
-              "7 65 *BRUDEKVOJTÍŠKOVÁDUKLA BRATISLAVADorota SVK 160",
-              "7 52 *CHARLESSEYNAVELIEGEOISIlkenCX TEAM BEL 184",
-              "7 14 VANSPECIALIZEDEMPELTMRWFem NED 190",
-              "",
-              "7 62 * DENK Rosalie AUT 192",
-              "",
-              "8 53 * DE BRUYCKERE Xenna BEL 196",
-              "",
-              "8 63 * FISCHER Nora AUT 211",
-              "",
-              "8 44 * AUGUSTYNIAK Aniela POL 234",
-              "",
-              "8 45 * DUTCZAK Rozalia POL 256",
-              "",
-              "8 60 * DWORATZEK Klara GER 288",
-              "8 29 *CXDBONDTREK BIKESJorja USA 625",
-              "",
-              "8 66 * JOZKOWICZ Maja POL 626",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "pion N: National Outfit NAT: Nation UCI: UCI Rank *: Under 23",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "27 NOV 2026 15:06 Page 4/8"
-            ]
-          }
-        },
-        {
-          "url": "https://www.ucicyclocrossworldcup.com/storage/programs/file_participants/583/583.pdf?t=1795790633",
-          "label": "Participants",
-          "status": "parser_needed",
-          "details": {
-            "parsed": 0,
-            "samples": [
-              "FRI 27 NOV 2026",
-              "Start time: 19:45",
-              "",
-              "Start O",
-              "",
-              "Line Nr Name / Team NAT WCS UCI",
-              "1 11 VANDEPUTTEALPECIN-PREMIER NielsTECH DEVELOPMENT TEAM BEL 2",
-              "1 CCh12 NYSBALOISEThibauVERZEKERINGEN - HET POETSBUREAU LIONS BEL 3",
-              "1 13 VANTHOURENHOUTPAUWELS SAUZEN - ALTEZ INDUSTRIEBOUWMichael CYCLING TEAM BEL 4",
-              "1 NCh2 DELALPECIN-PREMIERGROSSO TiborTECH NED 5",
-              "1 NCh30 ORTS LLORET Felipe ESP 6",
-              "1 14 WYSEURECRELAN-CORENDONJoran BEL 7",
-              "1 3 NIEUWENHUISHEIZOMAT - CUBE Joris NED 8",
-              "1 15 KUYPERSPAUWELS SAUZENGerben- ALTEZ INDUSTRIEBOUW CYCLING TEAM BEL 10",
-              "2 4 HENDRIKXTeam BOMBA JOINMees NED 11",
-              "2 NCh33 KUHNHEIZOMATKevin- CUBE SUI 12",
-              "2 NCh46 MASON777tv CX TEAMCameron GBR 13",
-              "2 16 MICHELSALPECIN-PREMIERJenteTECH DEVELOPMENT TEAM BEL 14",
-              "2 5 KAMPTEAM BOMBARyanJOIN NED 15",
-              "2 17 SWEECKCRELAN-CORENDONLaurens BEL 17",
-              "2 18 CORSUSPAUWELS SAUZENYordi - ALTEZ INDUSTRIEBOUW CYCLING TEAM BEL 20",
-              "2 48 BOROŠKASPER CRYPTO4MEMichael CZE 22",
-              "3 20 MEEUSSENCRELAN-CORENDONWitse BEL 25",
-              "3 25 GROSLAMBERTSEBMOTOBIKES CX TEAMMartin FRA 28",
-              "3 6 HAVERDINGSALPECIN-PREMIERDavidTECH DEVELOPMENT TEAM NED 29",
-              "",
-              "3 73 KONWA Marek POL 30",
-              "3 26 GABRIELTEAM CX TPMTimothé FRA 31",
-              "3 31 MIRANESTA -BONASTREMMR CYCLING TEAMRaul ESP 33",
-              "3 NCh49 BAŽANT Kryštof CZE 34",
-              "3 42 BERTOLINIALE CX TEAM Gioele ITA 36",
-              "",
-              "4 72 GROENENDAAL Bailey DEN 37",
-              "4 43 CEOLINFAS AIRPORTFedericoSERVICES - GUERCIOTTI ITA 38",
-              "4 7 VANHEIZOMATLIEROP- CUBEDanny NED 39",
-              "4 CCh60 BRUNNERCOMPETITIVE EricEDGE RACING USA 40",
-              "4 79 VASTEAM BarnabásUNITED SHIPPING HUN 41",
-              "",
-              "4 50 FIALA Matyáš CZE 43",
-              "4 21 VANCHARLESDE LIEGEOISPUTTE CXVictorTEAM BEL 45",
-              "4 44 VIEZZIALPECIN-PREMIERStefano TECH DEVELOPMENT TEAM ITA 46",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "Timing and results provided by ChronoRace Report created FRI 2",
-              "Men Elite",
-              "",
-              "Order",
-              "",
-              "Line Nr Name / Team NAT WCS UCI",
-              "5 62 MATTERNCXD TREK BIKESMiles USA 48",
-              "5 47 MEINHOPE FACTORYThomasRACING GBR 50",
-              "",
-              "5 34 SOMMER Lars SUI 54",
-              "5 63 ZAKRAJSEKCOMPETITIVE EDGEDylanRACING USA 56",
-              "5 8 VAN777tv CXDENTEAMEIJNDEN Guus NED 59",
-              "5 23 VANBALOISEDENVERZEKERINGENBOER Arthur- HET POETSBUREAU LIONS BEL 62",
-              "5 51 RÍMANATT INVESTMENTSJakub CZE 73",
-              "",
-              "5 64 CONAWAY Calvin USA 74",
-              "",
-              "6 NCh71 RISBERG David SWE 76",
-              "6 35 OERTZENRADSPORT NAGELMax CXHeinerTEAM GER 86",
-              "",
-              "6 65 FREDERICK Ben USA 88",
-              "",
-              "6 66 BROWN Ethan USA 91",
-              "",
-              "6 52 KERL Maximilian CZE 92",
-              "6 67 COOTETRINITY RACINGHenry USA 96",
-              "6 68 HAYNESCXD TREK BIKESDylan USA 102",
-              "6 36 DEGENKOLBHEIZOMAT - CUBE Hannes GER 106",
-              "",
-              "7 37 KUSCHLA Silas GER 113",
-              "",
-              "7 27 JOT Hugo FRA 116",
-              "",
-              "7 69 KING Carden USA 126",
-              "",
-              "7 53 LIENERT Patrik CZE 136",
-              "7 74 SWIDERJBG2 TEAM Brajan POL 138",
-              "",
-              "7 54 KRATOCHVÍL Václav CZE 142",
-              "7 NCh82 HARVEY Dean IRL 152",
-              "7 28 FERYTEAM CXFlorianTPM FRA 167",
-              "8 45 FABBROALE CX TEAMEttore ITA 168",
-              "8 75 DOPPKEWIBATECH LUBELSKIEKacper PERLA POLSKI POL 172",
-              "",
-              "8 70 JUNGE Frederick USA 174",
-              "",
-              "8 9 DELNOIJE Remon NED 178",
-              "",
-              "8 55 JINDRICH Pavel CZE 183",
-              "8 38 KÖPSELRADSPORT NAGELJonasCX TEAM GER 202",
-              "",
-              "8 76 PIETRZAK Piotr POL 204",
-              "8 32 FERNANDEZNESTA - MMR CYCLINGGARCIATEAMMartin ESP 206",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "27 NOV 2026 15:06 Page 7/8",
-              "FRI 27 NOV 2026",
-              "Start time: 19:45",
-              "",
-              "Start O",
-              "",
-              "Line Nr Name / Team NAT WCS UCI",
-              "",
-              "9 56 HAVEL Matej CZE 236",
-              "9 57 KRISTLBRILON RACINGLukášTEAM MB CZE 290",
-              "9 24 BELLENSBALOISE VERZEKERINGENJarno - HET POETSBUREAU LIONS BEL 291",
-              "",
-              "9 29 LEMARDELE Maxence FRA 296",
-              "",
-              "9 77 GDULA Krzysztof POL 431",
-              "9 58 JOHNBRILON RACINGAntonínTEAM MB CZE 440",
-              "",
-              "9 39 VAN DER LINDE Til GER 578",
-              "",
-              "9 59 JANOUT Jan CZE 580",
-              "10 78 KOCURTUFO - PARDUSFranciszekPROSTEJOV POL 637",
-              "10 40 WENDELBRUDEK DUKLATomBRATISLAVA GER 688",
-              "",
-              "10 41 KOBER Lukas GER",
-              "10 81 BRŠELBRUDEK DUKLASamuelBRATISLAVA SVK",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "Entries / Nations: 76 / 16",
-              "",
-              "Legend:",
-              "NCh: National Champion WCL: World Cup Leader CCh: Continental",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "Timing and results provided by ChronoRace Report created FRI 2",
-              "Men Elite",
-              "",
-              "Order",
-              "",
-              "Line Nr Name / Team NAT WCS UCI",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "Champion N: National Outfit NAT: Nation UCI: UCI Rank",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "27 NOV 2026 15:06 Page 8/8"
-            ]
-          }
+          "url": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/ostrava",
+          "status": "no_list_visible"
         }
       ]
     },
@@ -765,8 +472,8 @@
       "id": "cx-antwerpen-2026-me",
       "attempts": [
         {
-          "status": "monitoring_window_skipped",
-          "days_until_race": 22
+          "url": "https://www.ucicyclocrossworldcup.com/en/calendar/2026-2027/antwerpen-2",
+          "status": "no_list_visible"
         }
       ]
     },
@@ -775,7 +482,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 23
+          "days_until_race": 22
         }
       ]
     },
@@ -784,7 +491,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 25
+          "days_until_race": 24
         }
       ]
     },
@@ -793,7 +500,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 26
+          "days_until_race": 25
         }
       ]
     },
@@ -802,7 +509,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 28
+          "days_until_race": 27
         }
       ]
     },
@@ -811,7 +518,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 29
+          "days_until_race": 28
         }
       ]
     },
@@ -820,7 +527,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 30
+          "days_until_race": 29
         }
       ]
     },
@@ -829,7 +536,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 32
+          "days_until_race": 31
         }
       ]
     },
@@ -838,7 +545,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 33
+          "days_until_race": 32
         }
       ]
     },
@@ -847,7 +554,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 35
+          "days_until_race": 34
         }
       ]
     },
@@ -856,7 +563,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 36
+          "days_until_race": 35
         }
       ]
     },
@@ -865,7 +572,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 37
+          "days_until_race": 36
         }
       ]
     },
@@ -874,7 +581,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 51
+          "days_until_race": 50
         }
       ]
     },
@@ -883,7 +590,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 57
+          "days_until_race": 56
         }
       ]
     },
@@ -892,7 +599,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 58
+          "days_until_race": 57
         }
       ]
     },
@@ -901,7 +608,7 @@
       "attempts": [
         {
           "status": "monitoring_window_skipped",
-          "days_until_race": 65
+          "days_until_race": 64
         }
       ]
     }
